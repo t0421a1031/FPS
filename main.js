@@ -560,6 +560,7 @@ function renderGuideCards() {
         <div class="guide-item-links">
           <a href="${item.amazonUrl}" target="_blank" class="usage-link-btn amazon">Amazon</a>
           <a href="${item.rakutenUrl}" target="_blank" class="usage-link-btn rakuten">楽天</a>
+          ${item.yahooUrl ? `<a href="${item.yahooUrl}" target="_blank" class="usage-link-btn yahoo">Yahoo!</a>` : ''}
         </div>
       </div>
     `).join('');
