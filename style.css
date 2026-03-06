@@ -1,0 +1,1390 @@
+:root {
+  --primary: #ff4655;
+  --secondary: #00f2ff;
+  --bg: #0a0a0c;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --text: #ffffff;
+  --text-muted: #a0a0a8;
+  --glass: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+.logo {
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Header & Nav */
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(10, 10, 12, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.logo span {
+  color: var(--primary);
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter-btn {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+  box-shadow: 0 0 20px rgba(255, 70, 85, 0.3);
+}
+
+/* Hero */
+.hero {
+  padding: 160px 0 80px;
+  text-align: center;
+  background: radial-gradient(circle at center, rgba(255, 70, 85, 0.15) 0%, transparent 70%);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #fff, #a0a0a8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+}
+
+/* Video Card (YouTube Channel Style) */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 80px;
+}
+
+.channel-card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+  border-color: var(--secondary);
+}
+
+.channel-header {
+  height: 80px;
+  position: relative;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.channel-game-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 800;
+}
+
+.channel-body {
+  padding: 1.5rem;
+  padding-top: 50px;
+  position: relative;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.channel-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid var(--bg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.channel-card:hover .channel-avatar {
+  transform: translateX(-50%) scale(1.1);
+}
+
+.avatar-initial {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.channel-name {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: white;
+}
+
+.channel-platform {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.channel-platform svg {
+  opacity: 0.8;
+}
+
+.channel-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--text-muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: auto;
+}
+
+/* Footer */
+.footer {
+  padding: 40px 0;
+  border-top: 1px solid var(--glass-border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.video-card {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+/* Tag Filters */
+.tag-filters {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.tag-btn {
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tag-btn:hover,
+.tag-btn.active {
+  background: rgba(0, 242, 255, 0.15);
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+/* Video Tag Badge */
+.video-tag-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: var(--secondary);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  border: 1px solid var(--secondary);
+}
+
+.no-results {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 3rem;
+  grid-column: 1 / -1;
+}
+
+/* Gadget Tabs */
+.gadget-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.gadget-tab-btn {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  padding: 0.6rem 1.5rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.gadget-tab-btn:hover,
+.gadget-tab-btn.active {
+  background: var(--secondary);
+  color: #0a0a0c;
+  border-color: var(--secondary);
+  box-shadow: 0 0 20px rgba(0, 242, 255, 0.3);
+}
+
+/* Gadget Medal */
+.gadget-medal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.medal-icon {
+  font-size: 1.5rem;
+}
+
+.medal-label {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* Ranking Rows Animation */
+.ranking-row {
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0;
+}
+
+.player-name {
+  font-weight: 700;
+}
+
+.team-name {
+  color: var(--text-muted);
+}
+
+.game-title {
+  font-size: 0.85rem;
+  color: var(--secondary);
+}
+
+
+.hidden {
+  display: none !important;
+}
+
+.content-section {
+  padding: 40px 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text);
+}
+
+/* Nav Tabs */
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover,
+.nav-btn.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}
+
+/* Gadget Grid */
+.gadget-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.gadget-card {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.gadget-card:hover {
+  border-color: var(--secondary);
+  transform: translateY(-5px);
+}
+
+.gadget-rank {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--secondary);
+  margin-bottom: 0.5rem;
+}
+
+.gadget-img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.gadget-name {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.gadget-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.gadget-desc span {
+  display: inline-block;
+}
+
+.gadget-buy-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+/* Ranking Table */
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+}
+
+.ranking-table th,
+.ranking-table td {
+  padding: 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.ranking-table th {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.ranking-table tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.rank-num {
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.prize-amount {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+/* Gadget Sub-Tabs (ランキング / プロ使用率 切替) */
+.gadget-sub-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.gadget-sub-btn {
+  padding: 0.65rem 1.8rem;
+  border: 2px solid var(--glass-border);
+  border-radius: 50px;
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gadget-sub-btn:hover {
+  border-color: var(--secondary);
+  color: var(--text);
+}
+
+.gadget-sub-btn.active {
+  background: linear-gradient(135deg, var(--primary), #ff7a3d);
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 0 20px rgba(255, 70, 85, 0.3);
+}
+
+/* Section Subtitle */
+.section-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-top: -1rem;
+}
+
+/* ============================================================
+   PRO USAGE RATE SECTION
+   ============================================================ */
+.usage-tabs,
+.usage-game-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.usage-tab-btn,
+.usage-game-btn {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.usage-tab-btn:hover,
+.usage-tab-btn.active {
+  background: var(--secondary);
+  color: #0a0a0c;
+  border-color: var(--secondary);
+}
+
+.usage-game-btn:hover,
+.usage-game-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.usage-item {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 120px;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0;
+}
+
+.usage-item:hover {
+  border-color: var(--secondary);
+  transform: translateX(8px);
+}
+
+.usage-item-name {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.usage-item-price {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.usage-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.usage-bar-bg {
+  flex: 1;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.usage-bar-fill {
+  height: 100%;
+  border-radius: 5px;
+  background: linear-gradient(90deg, var(--secondary), #00d4ff);
+  transition: width 1s ease;
+}
+
+.usage-rate-text {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--secondary);
+  min-width: 50px;
+  text-align: right;
+}
+
+.usage-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.usage-link-btn {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.usage-link-btn.amazon {
+  background: #ff9900;
+  color: #000;
+}
+
+.usage-link-btn.amazon:hover {
+  background: #ffad33;
+  box-shadow: 0 0 15px rgba(255, 153, 0, 0.4);
+}
+
+.usage-link-btn.rakuten {
+  background: #bf0000;
+  color: #fff;
+}
+
+.usage-link-btn.rakuten:hover {
+  background: #e60000;
+  box-shadow: 0 0 15px rgba(191, 0, 0, 0.4);
+}
+
+.usage-link-btn.yahoo {
+  background: #ff0033;
+  color: #fff;
+}
+
+.usage-link-btn.yahoo:hover {
+  background: #ff3366;
+  box-shadow: 0 0 15px rgba(255, 0, 51, 0.4);
+}
+
+/* ============================================================
+   BUYING GUIDES SECTION
+   ============================================================ */
+.guide-filter-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.guide-filter-btn {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.guide-filter-btn:hover,
+.guide-filter-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.guides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+}
+
+.guide-card {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  animation: fadeIn 0.6s ease forwards;
+  opacity: 0;
+}
+
+.guide-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.guide-card-header {
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(255, 70, 85, 0.15), rgba(0, 242, 255, 0.08));
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.guide-card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.guide-card-category {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--secondary);
+  background: rgba(0, 242, 255, 0.12);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.guide-card-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.guide-card-body {
+  padding: 1.25rem 1.5rem;
+}
+
+.guide-card-summary {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.guide-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.guide-item:last-child {
+  border-bottom: none;
+}
+
+.guide-item-info {
+  flex: 1;
+}
+
+.guide-item-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.guide-item-point {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+.guide-item-stars {
+  color: #ffd700;
+  font-size: 0.8rem;
+  margin-top: 0.15rem;
+}
+
+.guide-item-price {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  color: var(--primary);
+  font-size: 1rem;
+  min-width: 80px;
+  text-align: right;
+}
+
+.guide-item-links {
+  display: flex;
+  gap: 0.4rem;
+  margin-left: 0.75rem;
+}
+
+/* ============================================================
+   SALE / POINT INFO SECTION
+   ============================================================ */
+.sale-banner {
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.sale-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(-45deg,
+      transparent,
+      transparent 10px,
+      rgba(255, 255, 255, 0.03) 10px,
+      rgba(255, 255, 255, 0.03) 20px);
+}
+
+.sale-banner-content {
+  position: relative;
+  z-index: 1;
+}
+
+.sale-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.sale-banner-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.sale-banner-period {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+}
+
+.sale-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.sale-item-card {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  transition: all 0.3s ease;
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0;
+  position: relative;
+}
+
+.sale-item-card:hover {
+  border-color: #ff9900;
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.sale-discount-badge {
+  position: absolute;
+  top: -8px;
+  right: 12px;
+  background: var(--primary);
+  color: white;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  box-shadow: 0 4px 12px rgba(255, 70, 85, 0.4);
+}
+
+.sale-item-tag {
+  font-size: 0.7rem;
+  color: var(--secondary);
+  background: rgba(0, 242, 255, 0.1);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.sale-item-name {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.sale-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.sale-original-price {
+  text-decoration: line-through;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.sale-current-price {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: var(--primary);
+}
+
+.sale-store-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.sale-store-badge.amazon {
+  background: #ff9900;
+  color: #000;
+}
+
+.sale-store-badge.rakuten {
+  background: #bf0000;
+  color: #fff;
+}
+
+.sale-buy-btn {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  background: linear-gradient(90deg, #ff9900, #ffad33);
+}
+
+.sale-buy-btn:hover {
+  box-shadow: 0 0 20px rgba(255, 153, 0, 0.5);
+  transform: scale(1.02);
+}
+
+.point-tips {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.point-tips-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffd700;
+}
+
+.point-tip {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.point-tip:last-child {
+  border-bottom: none;
+}
+
+.upcoming-sales {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.upcoming-sale-card {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.upcoming-sale-card:hover {
+  border-color: var(--glass-border);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.upcoming-sale-badge {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.upcoming-sale-name {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.upcoming-sale-period {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .header .container {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    gap: 1rem;
+  }
+
+  .filters {
+    margin-top: 1rem;
+    overflow-x: auto;
+    width: 100%;
+    padding-bottom: 0.5rem;
+  }
+}
+
+
+/* ============================================================
+   SPEC COMPARISON TABLE
+   ============================================================ */
+.spec-category-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.spec-table-wrapper {
+  overflow-x: auto;
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  background: rgba(255, 255, 255, 0.02);
+  -webkit-overflow-scrolling: touch;
+}
+
+.spec-compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.spec-compare-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.spec-compare-table th,
+.spec-compare-table td {
+  padding: 1rem 1.25rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Header: product columns */
+.spec-label-col {
+  width: 140px;
+  min-width: 120px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.spec-product-col {
+  background: linear-gradient(180deg, rgba(255, 70, 85, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 1.25rem 1rem;
+  min-width: 200px;
+}
+
+.spec-product-medal {
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.spec-product-name {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 0.92rem;
+  line-height: 1.3;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+}
+
+.spec-product-price {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--primary);
+}
+
+/* Body rows */
+.spec-row {
+  transition: background 0.2s ease;
+}
+
+.spec-row:hover {
+  background: rgba(0, 242, 255, 0.04) !important;
+}
+
+.spec-row-even {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.spec-label-cell {
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(255, 255, 255, 0.03);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  white-space: nowrap;
+}
+
+.spec-value-cell {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text);
+  border-left: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.spec-value-cell.spec-highlight {
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .spec-product-col {
+    min-width: 160px;
+    padding: 1rem 0.75rem;
+  }
+
+  .spec-product-name {
+    font-size: 0.8rem;
+  }
+
+  .spec-compare-table th,
+  .spec-compare-table td {
+    padding: 0.75rem 0.75rem;
+    font-size: 0.82rem;
+  }
+
+  .gadget-sub-tabs {
+    flex-wrap: wrap;
+  }
+
+  .gadget-sub-btn {
+    font-size: 0.82rem;
+    padding: 0.5rem 1.2rem;
+  }
+}
+
+
+/* ============================================================
+   VIDEO PLATFORM TABS (YouTube / SNS)
+   ============================================================ */
+.video-platform-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.video-platform-btn {
+  padding: 0.65rem 1.8rem;
+  border: 2px solid var(--glass-border);
+  border-radius: 50px;
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.video-platform-btn:hover {
+  border-color: var(--secondary);
+  color: var(--text);
+}
+
+.video-platform-btn.active {
+  background: linear-gradient(135deg, var(--primary), #ff7a3d);
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 0 20px rgba(255, 70, 85, 0.3);
+}
+
+
+/* ============================================================
+   YOUTUBE EMBED GRID
+   ============================================================ */
+.youtube-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 1.5rem;
+}
+
+.youtube-card {
+  background: var(--card-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.5s ease both;
+}
+
+.youtube-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(255, 70, 85, 0.15);
+}
+
+.youtube-thumb-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  background: #000;
+  overflow: hidden;
+}
+
+.youtube-thumb-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.youtube-card:hover .youtube-thumb-img {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.youtube-play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.25);
+  transition: background 0.3s ease;
+}
+
+.youtube-card:hover .youtube-play-overlay {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.youtube-play-icon {
+  width: 64px;
+  height: 44px;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+  transition: transform 0.3s ease;
+}
+
+.youtube-card:hover .youtube-play-icon {
+  transform: scale(1.15);
+}
+
+.youtube-card-info {
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+.youtube-card-badges {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.youtube-card-pro {
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--secondary);
+  margin-bottom: 0.25rem;
+}
+
+.youtube-card-title {
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .youtube-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .video-platform-tabs {
+    flex-wrap: wrap;
+  }
+
+  .video-platform-btn {
+    font-size: 0.82rem;
+    padding: 0.5rem 1.2rem;
+  }
+}

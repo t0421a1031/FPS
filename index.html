@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FPS Pro Video Hub | Fortnite & Apex Legends</title>
+  <meta name="description" content="フォートナイトやApex Legendsのトッププロゲーマーによる厳選された動画を集めたプレミアムハブ。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div id="app">
+    <header class="header">
+      <nav class="container">
+        <div class="logo">PRO<span>HUB</span> JP</div>
+        <div class="nav-links">
+          <button class="nav-btn active" data-section="videos">プレイ動画</button>
+          <button class="nav-btn" data-section="rankings">賞金ランキング</button>
+          <button class="nav-btn" data-section="gadgets">ガジェット</button>
+          <button class="nav-btn" data-section="guides">購入ガイド</button>
+          <button class="nav-btn" data-section="sales">セール情報</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Elite FPS Hub Japan</h1>
+          <p>日本国内のプロシーンと最新トレンドを凝縮。</p>
+        </div>
+      </section>
+
+      <!-- Play Videos Section -->
+      <section id="section-videos" class="content-section container">
+        <!-- Platform Sub-tabs -->
+        <div class="video-platform-tabs">
+          <button class="video-platform-btn active" data-vplatform="youtube">▶️ YouTube動画</button>
+          <button class="video-platform-btn" data-vplatform="sns">📱 SNS・配信</button>
+        </div>
+        <!-- Game & Tag Filters -->
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">ALL</button>
+          <button class="filter-btn" data-filter="fortnite">FORTNITE</button>
+          <button class="filter-btn" data-filter="apex">APEX LEGENDS</button>
+        </div>
+        <div class="tag-filters">
+          <button class="tag-btn active" data-tag="all">すべて</button>
+          <button class="tag-btn" data-tag="キル集">キル集</button>
+          <button class="tag-btn" data-tag="解説">解説</button>
+          <button class="tag-btn" data-tag="ハイライト">ハイライト</button>
+        </div>
+        <!-- YouTube Sub-view: embedded iframes -->
+        <div id="video-sub-youtube">
+          <div class="youtube-grid" id="youtube-grid"></div>
+        </div>
+        <!-- SNS Sub-view: card layout -->
+        <div id="video-sub-sns" style="display:none;">
+          <div class="video-grid" id="video-grid"></div>
+        </div>
+      </section>
+
+      <!-- Gadgets Section (ガジェット + プロ使用率 + スペック比較 統合) -->
+      <section id="section-gadgets" class="content-section container hidden">
+        <h2 class="section-title">🖱️ ガジェット・プロ使用率</h2>
+        <p class="section-subtitle">プロゲーマーが使用するデバイスのランキングと使用率データ</p>
+        <!-- Sub-tabs -->
+        <div class="gadget-sub-tabs" id="gadget-sub-tabs">
+          <button class="gadget-sub-btn active" data-sub="ranking">🏆 ランキング</button>
+          <button class="gadget-sub-btn" data-sub="usage">📊 プロ使用率</button>
+          <button class="gadget-sub-btn" data-sub="specs">📋 スペック比較</button>
+        </div>
+        <!-- Sub-view: ランキング -->
+        <div id="gadget-sub-ranking">
+          <div class="gadget-tabs" id="gadget-tabs"></div>
+          <div class="gadget-grid" id="gadget-grid"></div>
+        </div>
+        <!-- Sub-view: プロ使用率 -->
+        <div id="gadget-sub-usage" style="display:none;">
+          <div class="usage-tabs" id="usage-category-tabs"></div>
+          <div class="usage-game-tabs" id="usage-game-tabs"></div>
+          <div id="usage-content"></div>
+        </div>
+        <!-- Sub-view: スペック比較 -->
+        <div id="gadget-sub-specs" style="display:none;">
+          <div class="spec-category-tabs" id="spec-category-tabs"></div>
+          <div class="spec-table-wrapper" id="spec-table-wrapper"></div>
+        </div>
+      </section>
+
+
+      <!-- Rankings Section -->
+      <section id="section-rankings" class="content-section container hidden">
+        <h2 class="section-title">賞金獲得ランキング</h2>
+        <div class="ranking-container" id="ranking-container">
+          <!-- Rankings will be injected here -->
+        </div>
+      </section>
+
+      <!-- Buying Guides Section -->
+      <section id="section-guides" class="content-section container hidden">
+        <h2 class="section-title">📖 予算別・目的別ガイド</h2>
+        <p class="section-subtitle">購買意欲を刺激する厳選ガイド記事</p>
+        <div class="guide-filter-tabs" id="guide-filter-tabs"></div>
+        <div class="guides-grid" id="guides-grid"></div>
+      </section>
+
+      <!-- Sale Info Section -->
+      <section id="section-sales" class="content-section container hidden">
+        <h2 class="section-title">🛒 セール・ポイ活情報</h2>
+        <p class="section-subtitle">ゲーミングデバイスをお得に手に入れるチャンス</p>
+        <div id="sale-banner"></div>
+        <div id="sale-items-grid"></div>
+        <div id="point-tips"></div>
+        <div id="upcoming-sales"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 FPS Pro Video Hub. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

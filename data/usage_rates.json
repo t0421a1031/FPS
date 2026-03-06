@@ -1,0 +1,191 @@
+{
+    "mouse": {
+        "label": "マウス",
+        "icon": "🖱️",
+        "games": {
+            "VALORANT": [
+                {
+                    "name": "Logicool G PRO X SUPERLIGHT 2",
+                    "usageRate": 42,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/G+PRO+X+SUPERLIGHT+2/",
+                    "price": "¥23,980"
+                },
+                {
+                    "name": "Razer Viper V3 Pro",
+                    "usageRate": 18,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+Viper+V3+Pro",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+Viper+V3+Pro/",
+                    "price": "¥25,980"
+                },
+                {
+                    "name": "Razer DeathAdder V3",
+                    "usageRate": 12,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+DeathAdder+V3",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+DeathAdder+V3/",
+                    "price": "¥19,880"
+                },
+                {
+                    "name": "Finalmouse UltralightX",
+                    "usageRate": 8,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Finalmouse+UltralightX",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Finalmouse+UltralightX/",
+                    "price": "¥32,000"
+                },
+                {
+                    "name": "ZOWIE EC2-CW",
+                    "usageRate": 6,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=ZOWIE+EC2-CW",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ZOWIE+EC2-CW/",
+                    "price": "¥17,800"
+                }
+            ],
+            "Apex Legends": [
+                {
+                    "name": "Logicool G PRO X SUPERLIGHT 2",
+                    "usageRate": 38,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/G+PRO+X+SUPERLIGHT+2/",
+                    "price": "¥23,980"
+                },
+                {
+                    "name": "Razer Viper V3 Pro",
+                    "usageRate": 22,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+Viper+V3+Pro",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+Viper+V3+Pro/",
+                    "price": "¥25,980"
+                },
+                {
+                    "name": "Logicool G PRO X SUPERLIGHT",
+                    "usageRate": 15,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/G+PRO+X+SUPERLIGHT/",
+                    "price": "¥16,500"
+                },
+                {
+                    "name": "Razer DeathAdder V3 Pro",
+                    "usageRate": 10,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+DeathAdder+V3+Pro",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+DeathAdder+V3+Pro/",
+                    "price": "¥22,880"
+                },
+                {
+                    "name": "Pulsar X2V2",
+                    "usageRate": 7,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Pulsar+X2V2",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Pulsar+X2V2/",
+                    "price": "¥13,980"
+                }
+            ],
+            "Fortnite": [
+                {
+                    "name": "Finalmouse UltralightX",
+                    "usageRate": 30,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Finalmouse+UltralightX",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Finalmouse+UltralightX/",
+                    "price": "¥32,000"
+                },
+                {
+                    "name": "Logicool G PRO X SUPERLIGHT 2",
+                    "usageRate": 28,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/G+PRO+X+SUPERLIGHT+2/",
+                    "price": "¥23,980"
+                },
+                {
+                    "name": "Razer Viper V3 Pro",
+                    "usageRate": 16,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+Viper+V3+Pro",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+Viper+V3+Pro/",
+                    "price": "¥25,980"
+                },
+                {
+                    "name": "Razer Viper Mini Signature Edition",
+                    "usageRate": 12,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+Viper+Mini+Signature+Edition",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+Viper+Mini+Signature+Edition/",
+                    "price": "¥38,000"
+                },
+                {
+                    "name": "Pulsar X2V2 Mini",
+                    "usageRate": 5,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Pulsar+X2V2+Mini",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Pulsar+X2V2+Mini/",
+                    "price": "¥13,980"
+                }
+            ]
+        }
+    },
+    "keyboard": {
+        "label": "キーボード",
+        "icon": "⌨️",
+        "games": {
+            "VALORANT": [
+                {
+                    "name": "Wooting 60HE",
+                    "usageRate": 35,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Wooting+60HE",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Wooting+60HE/",
+                    "price": "¥28,000"
+                },
+                {
+                    "name": "Razer Huntsman V3 Pro",
+                    "usageRate": 20,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+Huntsman+V3+Pro",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+Huntsman+V3+Pro/",
+                    "price": "¥32,980"
+                },
+                {
+                    "name": "DrunkDeer A75",
+                    "usageRate": 12,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=DrunkDeer+A75",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/DrunkDeer+A75/",
+                    "price": "¥17,800"
+                },
+                {
+                    "name": "SteelSeries Apex Pro TKL",
+                    "usageRate": 10,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=SteelSeries+Apex+Pro+TKL",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/SteelSeries+Apex+Pro+TKL/",
+                    "price": "¥31,000"
+                },
+                {
+                    "name": "Logicool G PRO X TKL",
+                    "usageRate": 8,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+TKL",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Logicool+G+PRO+X+TKL/",
+                    "price": "¥18,700"
+                }
+            ]
+        }
+    },
+    "monitor": {
+        "label": "モニター",
+        "icon": "🖥️",
+        "games": {
+            "VALORANT": [
+                {
+                    "name": "BenQ ZOWIE XL2546K",
+                    "usageRate": 45,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2546K/",
+                    "price": "¥59,800"
+                },
+                {
+                    "name": "BenQ ZOWIE XL2566K",
+                    "usageRate": 20,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2566K",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2566K/",
+                    "price": "¥99,800"
+                },
+                {
+                    "name": "ASUS ROG Swift PG27AQN",
+                    "usageRate": 12,
+                    "amazonUrl": "https://www.amazon.co.jp/s?k=ASUS+ROG+Swift+PG27AQN",
+                    "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ASUS+ROG+Swift+PG27AQN/",
+                    "price": "¥148,000"
+                }
+            ]
+        }
+    }
+}

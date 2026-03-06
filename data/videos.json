@@ -1,0 +1,119 @@
+{
+    "videos": [
+        {
+            "id": "v1",
+            "title": "まうふぃん: フォートナイト×夜に駆ける キル集",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Ghot3aZzbrE",
+            "youtubeId": "Ghot3aZzbrE"
+        },
+        {
+            "id": "v2",
+            "title": "ネフライト: ソロ決勝0撃破でも賞金獲得!? 立ち回り解説",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=NrlaQk5jvfE",
+            "youtubeId": "NrlaQk5jvfE"
+        },
+        {
+            "id": "v3",
+            "title": "ぼぶくん: あの夢をなぞって キル集 Highlight",
+            "pro": "ぼぶくん",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=DwEsUZ6XYZQ",
+            "youtubeId": "DwEsUZ6XYZQ"
+        },
+        {
+            "id": "v4",
+            "title": "りむる: 世界大会アリーナハイライト",
+            "pro": "りむる",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "twitch",
+            "url": "https://www.twitch.tv/riddle_rimuru"
+        },
+        {
+            "id": "v5",
+            "title": "まうふぃん×ネフライト: あのデュオが戻ってきた",
+            "pro": "まうふぃん / ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Qc7X-wL-Ig0",
+            "youtubeId": "Qc7X-wL-Ig0"
+        },
+        {
+            "id": "v6",
+            "title": "Ras (CR): アジア1位のレイス キル集 | Apex Legends",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AKtkIqRbVy4",
+            "youtubeId": "AKtkIqRbVy4"
+        },
+        {
+            "id": "v7",
+            "title": "YukaF: Wingman Only チャレンジ | 神エイム",
+            "pro": "YukaF (Fnatic)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "twitch",
+            "url": "https://www.twitch.tv/yukaf_fps"
+        },
+        {
+            "id": "v8",
+            "title": "Selly: THE BEST AIM OF APEX LEGENDS | Best of Selly",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=CdOXCkZUs68",
+            "youtubeId": "CdOXCkZUs68"
+        },
+        {
+            "id": "v9",
+            "title": "ありさか: 7時間以上Apexやって適正ランクに気づいた",
+            "pro": "ありさか",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=0UnpxCdrFtU",
+            "youtubeId": "0UnpxCdrFtU"
+        },
+        {
+            "id": "v10",
+            "title": "CR Cup ハイライト: Apex Legends 最強決定戦",
+            "pro": "Crazy Raccoon",
+            "game": "apex",
+            "tag": "ハイライト",
+            "platform": "twitch",
+            "url": "https://www.twitch.tv/crazyraccoon_gg"
+        },
+        {
+            "id": "v11",
+            "title": "ZETA DIVISION Laz: Valorant VCT キル集",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "x",
+            "url": "https://x.com/and_Laz"
+        },
+        {
+            "id": "v12",
+            "title": "StylishNoob: 最新シーズン ランク戦 配信切り抜き",
+            "pro": "StylishNoob",
+            "game": "apex",
+            "tag": "ハイライト",
+            "platform": "twitch",
+            "url": "https://www.twitch.tv/stylishnoob4"
+        }
+    ]
+}

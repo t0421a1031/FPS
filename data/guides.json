@@ -1,0 +1,162 @@
+[
+    {
+        "id": "budget-mouse-10k",
+        "title": "1万円以下で買えるプロ級マウス5選",
+        "category": "予算別",
+        "tag": "マウス",
+        "icon": "🖱️",
+        "summary": "プロが実際に使用したモデルの廉価版を中心に、1万円以下で購入できるゲーミングマウスを厳選しました。",
+        "items": [
+            {
+                "name": "Logicool G304",
+                "price": "¥4,950",
+                "point": "HERO 12Kセンサー搭載の超コスパモデル。ワイヤレスで99g。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Logicool+G304",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Logicool+G304/",
+                "rating": 4.5
+            },
+            {
+                "name": "Razer DeathAdder Essential",
+                "price": "¥3,480",
+                "point": "人間工学デザインの入門機。6400DPIオプティカルセンサー。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+DeathAdder+Essential",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+DeathAdder+Essential/",
+                "rating": 4.3
+            },
+            {
+                "name": "Pulsar X2A Mini",
+                "price": "¥7,980",
+                "point": "48gの超軽量モデル。PAW3395センサー搭載でプロ仕様。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Pulsar+X2A+Mini",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Pulsar+X2A+Mini/",
+                "rating": 4.6
+            },
+            {
+                "name": "SteelSeries Rival 3",
+                "price": "¥4,380",
+                "point": "TrueMove Core搭載。軽量77gで初心者から上級者まで。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=SteelSeries+Rival+3",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/SteelSeries+Rival+3/",
+                "rating": 4.2
+            },
+            {
+                "name": "Lamzu Atlantis Mini",
+                "price": "¥8,980",
+                "point": "49gの超軽量。PAW3395搭載でプロ級の追従性能。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Lamzu+Atlantis+Mini",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Lamzu+Atlantis+Mini/",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": "budget-keyboard-15k",
+        "title": "1.5万円以下のラピッドトリガーキーボード",
+        "category": "予算別",
+        "tag": "キーボード",
+        "icon": "⌨️",
+        "summary": "最新のラピッドトリガー技術を搭載しながら1.5万円以下で購入可能なキーボードを比較。",
+        "items": [
+            {
+                "name": "DrunkDeer A75",
+                "price": "¥12,800",
+                "point": "磁気スイッチ搭載。0.1mm刻みのラピッドトリガー対応。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=DrunkDeer+A75",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/DrunkDeer+A75/",
+                "rating": 4.5
+            },
+            {
+                "name": "VXE ATK68",
+                "price": "¥9,980",
+                "point": "磁気ホールエフェクトスイッチ採用。コスパの鬼。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=VXE+ATK68",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/VXE+ATK68/",
+                "rating": 4.3
+            },
+            {
+                "name": "Razer Huntsman Mini Analog",
+                "price": "¥14,980",
+                "point": "アナログオプティカルスイッチ。60%コンパクト設計。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+Huntsman+Mini+Analog",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+Huntsman+Mini+Analog/",
+                "rating": 4.1
+            }
+        ]
+    },
+    {
+        "id": "240hz-monitor-compare",
+        "title": "240Hzモニター最安値比較ガイド",
+        "category": "目的別",
+        "tag": "モニター",
+        "icon": "🖥️",
+        "summary": "FPSに必須の240Hz以上のゲーミングモニターを価格帯別に徹底比較。",
+        "items": [
+            {
+                "name": "Acer Nitro XV252QF",
+                "price": "¥32,800",
+                "point": "24.5インチ/240Hz/IPS。この価格帯で最もバランスの取れた選択肢。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Acer+Nitro+XV252QF",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Acer+Nitro+XV252QF/",
+                "rating": 4.3
+            },
+            {
+                "name": "BenQ ZOWIE XL2411K",
+                "price": "¥29,800",
+                "point": "プロ御用達ブランド。DyAc技術で残像感を大幅軽減。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2411K",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2411K/",
+                "rating": 4.5
+            },
+            {
+                "name": "ASUS VG259QM",
+                "price": "¥39,800",
+                "point": "オーバークロックで280Hz対応。ELMB Sync搭載。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=ASUS+VG259QM",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ASUS+VG259QM/",
+                "rating": 4.4
+            },
+            {
+                "name": "BenQ ZOWIE XL2546K",
+                "price": "¥59,800",
+                "point": "240Hz/DyAc+。プロeスポーツ公式採用の鉄板モニター。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2546K/",
+                "rating": 4.8
+            }
+        ]
+    },
+    {
+        "id": "streaming-starter",
+        "title": "配信を始めるための最低限セット",
+        "category": "目的別",
+        "tag": "配信機材",
+        "icon": "📹",
+        "summary": "配信初心者に必要な最低限の機材を予算3万円以内で揃えるガイド。",
+        "items": [
+            {
+                "name": "Elgato Wave:1",
+                "price": "¥12,900",
+                "point": "USB接続の高品質マイク。デジタルミキシング対応。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Elgato+Wave+1",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Elgato+Wave+1/",
+                "rating": 4.4
+            },
+            {
+                "name": "Logicool C922n",
+                "price": "¥9,900",
+                "point": "1080p/30fps対応ウェブカメラ。背景除去機能付き。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Logicool+C922n",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Logicool+C922n/",
+                "rating": 4.3
+            },
+            {
+                "name": "Elgato Stream Deck Mini",
+                "price": "¥8,980",
+                "point": "6キーのストリーミングコントローラー。シーン切替に便利。",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Elgato+Stream+Deck+Mini",
+                "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Elgato+Stream+Deck+Mini/",
+                "rating": 4.6
+            }
+        ]
+    }
+]
