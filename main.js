@@ -708,12 +708,12 @@ tagButtons.forEach(btn => {
 async function init() {
   try {
     const [videoRes, gadgetRes, rankingRes, usageRes, guidesRes, salesRes] = await Promise.all([
-      fetch('/data/videos.json'),
-      fetch('/data/gadgets.json'),
-      fetch('/data/rankings.json'),
-      fetch('/data/usage_rates.json'),
-      fetch('/data/guides.json'),
-      fetch('/data/sales.json')
+      fetch('./data/videos.json'),
+      fetch('./data/gadgets.json'),
+      fetch('./data/rankings.json'),
+      fetch('./data/usage_rates.json'),
+      fetch('./data/guides.json'),
+      fetch('./data/sales.json')
     ]);
 
     if (videoRes.ok) {
