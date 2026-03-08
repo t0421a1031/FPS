@@ -30,11 +30,11 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: node scripts/youtube_fetcher.js
 
-      # NOTE: gadget_fetcher.js is disabled (mock implementation - would randomize prices)
-      # - name: Run Gadget Price Fetcher
-      #   env:
-      #     RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
-      #   run: node scripts/gadget_fetcher.js
+      - name: Run Gadget Price Fetcher
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+        run: node scripts/gadget_fetcher.js
 
       - name: Check for Changes and Commit
         run: |
