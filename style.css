@@ -1405,6 +1405,12 @@ h2,
   margin-bottom: 0.6rem;
 }
 
+.youtube-card-badges .channel-game-badge,
+.youtube-card-badges .video-tag-badge {
+  position: static;
+  display: inline-block;
+}
+
 .youtube-card-pro {
   font-weight: 700;
   font-size: 0.88rem;
