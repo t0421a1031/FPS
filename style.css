@@ -69,6 +69,7 @@ h2,
 .filters {
   display: flex;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .filter-btn {
