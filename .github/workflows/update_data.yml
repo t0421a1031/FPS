@@ -41,8 +41,8 @@ jobs:
           git config --local user.name "github-actions[bot]"
           
           # Check if data files have been modified
-          if [[ -n "$(git status --porcelain data/)" ]]; then
-            git add data/
+          if [[ -n "$(git status --porcelain public/data/)" ]]; then
+            git add public/data/
             git commit -m "chore(data): auto-update youtube and gadget data"
             git push
             echo "Data updated and pushed successfully."
