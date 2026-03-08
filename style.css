@@ -829,8 +829,8 @@ h2,
 
 .guide-item {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
   padding: 0.75rem 0;
   border-bottom: 1px solid var(--glass-border);
 }
@@ -852,6 +852,7 @@ h2,
   font-size: 0.78rem;
   color: var(--text-muted);
   margin-top: 0.15rem;
+  line-height: 1.5;
 }
 
 .guide-item-stars {
@@ -865,14 +866,18 @@ h2,
   font-weight: 800;
   color: var(--primary);
   font-size: 1rem;
-  min-width: 80px;
-  text-align: right;
 }
 
 .guide-item-links {
   display: flex;
   gap: 0.4rem;
-  margin-left: 0.75rem;
+  align-items: center;
+}
+
+.guide-item-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* ============================================================
