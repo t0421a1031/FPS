@@ -1,362 +1,362 @@
 {
-  "mouse": {
-    "label": "マウス",
-    "icon": "🖱️",
-    "specLabels": [
-      "重さ",
-      "センサー",
-      "DPI",
-      "接続",
-      "形状",
-      "クリック感",
-      "バッテリー"
-    ],
-    "items": [
-      {
-        "rank": 1,
-        "name": "Logicool G PRO X SUPERLIGHT 2",
-        "desc": "<span>63g超軽量。</span><span>国内プロ使用率No.1。</span><span>HERO 2センサー搭載。</span>",
-        "img": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&q=80&w=400",
-        "price": "¥24,739",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+SUPERLIGHT+2",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Logicool+G+PRO+X+SUPERLIGHT+2/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Logicool+G+PRO+X+SUPERLIGHT+2",
-        "specs": {
-          "重さ": "63g",
-          "センサー": "HERO 2",
-          "DPI": "32,000",
-          "接続": "LIGHTSPEED無線",
-          "形状": "左右対称",
-          "クリック感": "軽め・低遅延",
-          "バッテリー": "約95時間"
-        }
-      },
-      {
-        "rank": 2,
-        "name": "Razer Viper V3 Pro",
-        "desc": "<span>54gの超軽量設計。</span><span>Focus Pro 36Kセンサーで</span><span>追従性抜群。</span>",
-        "img": "https://images.unsplash.com/photo-1617343251257-b5d7099349e9?auto=format&fit=crop&q=80&w=400",
-        "price": "¥26,993",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+Viper+V3+Pro",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+Viper+V3+Pro/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Razer+Viper+V3+Pro",
-        "specs": {
-          "重さ": "54g",
-          "センサー": "Focus Pro 36K",
-          "DPI": "36,000",
-          "接続": "HyperSpeed無線",
-          "形状": "左右対称",
-          "クリック感": "光学式・超高速",
-          "バッテリー": "約90時間"
-        }
-      },
-      {
-        "rank": 3,
-        "name": "Finalmouse UltralightX",
-        "desc": "<span>重量わずか29g。</span><span>世界最軽量クラスの</span><span>ゲーミングマウス。</span>",
-        "img": "https://images.unsplash.com/photo-1615330368146-599f57849e63?auto=format&fit=crop&q=80&w=400",
-        "price": "¥32,561",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=Finalmouse+UltralightX",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Finalmouse+UltralightX/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Finalmouse+UltralightX",
-        "specs": {
-          "重さ": "29g",
-          "センサー": "Finalsensor",
-          "DPI": "30,000",
-          "接続": "2.4GHz無線",
-          "形状": "左右対称",
-          "クリック感": "メカニカル・軽い",
-          "バッテリー": "約160時間"
-        }
-      }
-    ]
-  },
-  "keyboard": {
-    "label": "キーボード",
-    "icon": "⌨️",
-    "specLabels": [
-      "重さ",
-      "スイッチ",
-      "ラピッドトリガー",
-      "レイアウト",
-      "接続",
-      "キーストローク",
-      "ポーリングレート"
-    ],
-    "items": [
-      {
-        "rank": 1,
-        "name": "Wooting 60HE",
-        "desc": "<span>ラピッドトリガー搭載。</span><span>アナログ入力で</span><span>圧倒的な応答速度。</span>",
-        "img": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&q=80&w=400",
-        "price": "¥27,664",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=Wooting+60HE",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Wooting+60HE/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Wooting+60HE",
-        "specs": {
-          "重さ": "680g",
-          "スイッチ": "Lekker (磁気ホール)",
-          "ラピッドトリガー": "✅ 0.1mm〜",
-          "レイアウト": "60%",
-          "接続": "USB-C 有線",
-          "キーストローク": "4.0mm",
-          "ポーリングレート": "1,000Hz"
-        }
-      },
-      {
-        "rank": 2,
-        "name": "Razer Huntsman V3 Pro",
-        "desc": "<span>第2世代アナログオプティカルスイッチ。</span><span>0.1mm作動で反応速度最速クラス。</span>",
-        "img": "https://images.unsplash.com/photo-1626956083933-283aca8cc49a?auto=format&fit=crop&q=80&w=400",
-        "price": "¥34,511",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+Huntsman+V3+Pro",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Razer+Huntsman+V3+Pro/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Razer+Huntsman+V3+Pro",
-        "specs": {
-          "重さ": "840g",
-          "スイッチ": "第2世代 光学式",
-          "ラピッドトリガー": "✅ 0.1mm〜",
-          "レイアウト": "TKL (テンキーレス)",
-          "接続": "USB-C 有線",
-          "キーストローク": "4.0mm",
-          "ポーリングレート": "8,000Hz"
-        }
-      },
-      {
-        "rank": 3,
-        "name": "DrunkDeer A75",
-        "desc": "<span>磁気スイッチ搭載の</span><span>ラピッドトリガー対応。</span><span>コスパ最強。</span>",
-        "img": "https://images.unsplash.com/photo-1647214343132-211f4bc0744c?auto=format&fit=crop&q=80&w=400",
-        "price": "¥17,129",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=DrunkDeer+A75",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/DrunkDeer+A75/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=DrunkDeer+A75",
-        "specs": {
-          "重さ": "750g",
-          "スイッチ": "磁気ホールセンサー",
-          "ラピッドトリガー": "✅ 0.2mm〜",
-          "レイアウト": "75%",
-          "接続": "USB-C 有線",
-          "キーストローク": "3.6mm",
-          "ポーリングレート": "1,000Hz"
-        }
-      }
-    ]
-  },
-  "monitor": {
-    "label": "モニター",
-    "icon": "🖥️",
-    "specLabels": [
-      "サイズ",
-      "リフレッシュレート",
-      "応答速度",
-      "パネル",
-      "解像度",
-      "残像低減",
-      "HDR"
-    ],
-    "items": [
-      {
-        "rank": 1,
-        "name": "BenQ ZOWIE XL2546K",
-        "desc": "<span>240Hz/DyAc+搭載。</span><span>プロeスポーツ</span><span>公式採用モニター。</span>",
-        "img": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=80&w=400",
-        "price": "¥59,990",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2546K/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=BenQ+ZOWIE+XL2546K",
-        "specs": {
-          "サイズ": "24.5インチ",
-          "リフレッシュレート": "240Hz",
-          "応答速度": "0.5ms (GtG)",
-          "パネル": "Fast TN",
-          "解像度": "1920×1080",
-          "残像低減": "DyAc+",
-          "HDR": "非対応"
-        }
-      },
-      {
-        "rank": 2,
-        "name": "ASUS ROG Swift PG27AQN",
-        "desc": "<span>360Hz/IPS。</span><span>27インチWQHDで</span><span>高解像度と高リフレッシュレートを両立。</span>",
-        "img": "https://images.unsplash.com/photo-1550745165-9bc0b2527233?auto=format&fit=crop&q=80&w=400",
-        "price": "¥147,679",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=ASUS+ROG+Swift+PG27AQN",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ASUS+ROG+Swift+PG27AQN/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=ASUS+ROG+Swift+PG27AQN",
-        "specs": {
-          "サイズ": "27インチ",
-          "リフレッシュレート": "360Hz",
-          "応答速度": "1ms (GtG)",
-          "パネル": "IPS",
-          "解像度": "2560×1440",
-          "残像低減": "ELMB Sync",
-          "HDR": "HDR600"
-        }
-      },
-      {
-        "rank": 3,
-        "name": "BenQ ZOWIE XL2566K",
-        "desc": "<span>360Hz/Fast TN。</span><span>残像感ゼロで</span><span>動体視力を最大化。</span>",
-        "img": "https://images.unsplash.com/photo-1547119957-630f9c47b93b?auto=format&fit=crop&q=80&w=400",
-        "price": "¥99,733",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2566K",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2566K/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=BenQ+ZOWIE+XL2566K",
-        "specs": {
-          "サイズ": "24.5インチ",
-          "リフレッシュレート": "360Hz",
-          "応答速度": "0.5ms (GtG)",
-          "パネル": "Fast TN",
-          "解像度": "1920×1080",
-          "残像低減": "DyAc⁺",
-          "HDR": "非対応"
-        }
-      }
-    ]
-  },
-  "mic": {
-    "label": "マイク",
-    "icon": "🎙️",
-    "specLabels": [
-      "タイプ",
-      "接続",
-      "指向性",
-      "サンプルレート",
-      "感度",
-      "ミュート",
-      "特徴"
-    ],
-    "items": [
-      {
-        "rank": 1,
-        "name": "Shure MV7+",
-        "desc": "<span>USB/XLR両対応。</span><span>配信からVC用途まで万能。</span><span>ノイズキャンセル搭載。</span>",
-        "img": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=400",
-        "price": "¥39,661",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=Shure+MV7%2B",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Shure+MV7%2B/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Shure+MV7%2B",
-        "specs": {
-          "タイプ": "ダイナミック",
-          "接続": "USB-C / XLR",
-          "指向性": "単一指向性",
-          "サンプルレート": "48kHz/24bit",
-          "感度": "-55dBV/Pa",
-          "ミュート": "タッチミュート",
-          "特徴": "オートレベル機能"
-        }
-      },
-      {
-        "rank": 2,
-        "name": "HyperX QuadCast S",
-        "desc": "<span>RGB搭載の</span><span>USBコンデンサーマイク。</span><span>タップミュート機能が便利。</span>",
-        "img": "https://images.unsplash.com/photo-1589311110433-e91040523e1a?auto=format&fit=crop&q=80&w=400",
-        "price": "¥19,526",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=HyperX+QuadCast+S",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/HyperX+QuadCast+S/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=HyperX+QuadCast+S",
-        "specs": {
-          "タイプ": "コンデンサー",
-          "接続": "USB-C",
-          "指向性": "4パターン切替",
-          "サンプルレート": "48kHz/16bit",
-          "感度": "-36dBV/Pa",
-          "ミュート": "タップミュート",
-          "特徴": "RGB搭載"
-        }
-      },
-      {
-        "rank": 3,
-        "name": "Elgato Wave:3",
-        "desc": "<span>デジタルミキシング対応。</span><span>Wave Linkソフトウェアで</span><span>音声管理が簡単。</span>",
-        "img": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=400",
-        "price": "¥21,196",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=Elgato+Wave+3",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Elgato+Wave+3/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Elgato+Wave+3",
-        "specs": {
-          "タイプ": "コンデンサー",
-          "接続": "USB-C",
-          "指向性": "単一指向性",
-          "サンプルレート": "96kHz/24bit",
-          "感度": "-25dBFS",
-          "ミュート": "Wave Linkソフト",
-          "特徴": "デジタルミキシング"
-        }
-      }
-    ]
-  },
-  "headset": {
-    "label": "ヘッドセット",
-    "icon": "🎧",
-    "specLabels": [
-      "重さ",
-      "ドライバー",
-      "接続",
-      "サラウンド",
-      "マイク",
-      "バッテリー",
-      "ノイキャン"
-    ],
-    "items": [
-      {
-        "rank": 1,
-        "name": "HyperX Cloud III Wireless",
-        "desc": "<span>軽量で長時間装着可能。</span><span>DTS Headphone:X対応で</span><span>定位感抜群。</span>",
-        "img": "https://images.unsplash.com/photo-1618366712277-7407bc46059c?auto=format&fit=crop&q=80&w=400",
-        "price": "¥22,746",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=HyperX+Cloud+III+Wireless",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/HyperX+Cloud+III+Wireless/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=HyperX+Cloud+III+Wireless",
-        "specs": {
-          "重さ": "330g",
-          "ドライバー": "53mm",
-          "接続": "2.4GHz無線",
-          "サラウンド": "DTS Headphone:X",
-          "マイク": "着脱式ブーム",
-          "バッテリー": "約120時間",
-          "ノイキャン": "パッシブ"
-        }
-      },
-      {
-        "rank": 2,
-        "name": "Logicool G PRO X 2 LIGHTSPEED",
-        "desc": "<span>グラフェンドライバーで高音質。</span><span>プロ仕様の</span><span>ワイヤレスヘッドセット。</span>",
-        "img": "https://images.unsplash.com/photo-1583333223166-9720ad115dc1?auto=format&fit=crop&q=80&w=400",
-        "price": "¥32,785",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+2+LIGHTSPEED",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Logicool+G+PRO+X+2+LIGHTSPEED/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Logicool+G+PRO+X+2+LIGHTSPEED",
-        "specs": {
-          "重さ": "345g",
-          "ドライバー": "50mm グラフェン",
-          "接続": "LIGHTSPEED / BT",
-          "サラウンド": "DTS Headphone:X 2.0",
-          "マイク": "着脱式 Blue VO!CE",
-          "バッテリー": "約50時間",
-          "ノイキャン": "パッシブ"
-        }
-      },
-      {
-        "rank": 3,
-        "name": "SteelSeries Arctis Nova Pro",
-        "desc": "<span>ハイレゾ対応。</span><span>ANCと外音取込を搭載した</span><span>最高峰モデル。</span>",
-        "img": "https://images.unsplash.com/photo-1613141411244-0e4ac259d217?auto=format&fit=crop&q=80&w=400",
-        "price": "¥49,246",
-        "amazonUrl": "https://www.amazon.co.jp/s?k=SteelSeries+Arctis+Nova+Pro",
-        "rakutenUrl": "https://search.rakuten.co.jp/search/mall/SteelSeries+Arctis+Nova+Pro/",
-        "yahooUrl": "https://shopping.yahoo.co.jp/search?p=SteelSeries+Arctis+Nova+Pro",
-        "specs": {
-          "重さ": "338g",
-          "ドライバー": "40mm ハイレゾ",
-          "接続": "2.4GHz / BT / 有線",
-          "サラウンド": "360° Spatial Audio",
-          "マイク": "格納式 ClearCast",
-          "バッテリー": "約44時間(2個付属)",
-          "ノイキャン": "ANC搭載"
-        }
-      }
-    ]
-  }
+    "mouse": {
+        "label": "マウス",
+        "icon": "🖱️",
+        "specLabels": [
+            "重さ",
+            "センサー",
+            "DPI",
+            "接続",
+            "形状",
+            "クリック感",
+            "バッテリー"
+        ],
+        "items": [
+            {
+                "rank": 1,
+                "name": "Logicool G PRO X SUPERLIGHT 2",
+                "desc": "<span>63g超軽量。</span><span>国内プロ使用率No.1。</span><span>HERO 2センサー搭載。</span>",
+                "img": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&q=80&w=400",
+                "price": "¥24,739",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+SUPERLIGHT+2",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLogicool%2BG%2BPRO%2BX%2BSUPERLIGHT%2B2%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Logicool+G+PRO+X+SUPERLIGHT+2",
+                "specs": {
+                    "重さ": "63g",
+                    "センサー": "HERO 2",
+                    "DPI": "32,000",
+                    "接続": "LIGHTSPEED無線",
+                    "形状": "左右対称",
+                    "クリック感": "軽め・低遅延",
+                    "バッテリー": "約95時間"
+                }
+            },
+            {
+                "rank": 2,
+                "name": "Razer Viper V3 Pro",
+                "desc": "<span>54gの超軽量設計。</span><span>Focus Pro 36Kセンサーで</span><span>追従性抜群。</span>",
+                "img": "https://images.unsplash.com/photo-1617343251257-b5d7099349e9?auto=format&fit=crop&q=80&w=400",
+                "price": "¥26,993",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+Viper+V3+Pro",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2BViper%2BV3%2BPro%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Razer+Viper+V3+Pro",
+                "specs": {
+                    "重さ": "54g",
+                    "センサー": "Focus Pro 36K",
+                    "DPI": "36,000",
+                    "接続": "HyperSpeed無線",
+                    "形状": "左右対称",
+                    "クリック感": "光学式・超高速",
+                    "バッテリー": "約90時間"
+                }
+            },
+            {
+                "rank": 3,
+                "name": "Finalmouse UltralightX",
+                "desc": "<span>重量わずか29g。</span><span>世界最軽量クラスの</span><span>ゲーミングマウス。</span>",
+                "img": "https://images.unsplash.com/photo-1615330368146-599f57849e63?auto=format&fit=crop&q=80&w=400",
+                "price": "¥32,561",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Finalmouse+UltralightX",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FFinalmouse%2BUltralightX%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Finalmouse+UltralightX",
+                "specs": {
+                    "重さ": "29g",
+                    "センサー": "Finalsensor",
+                    "DPI": "30,000",
+                    "接続": "2.4GHz無線",
+                    "形状": "左右対称",
+                    "クリック感": "メカニカル・軽い",
+                    "バッテリー": "約160時間"
+                }
+            }
+        ]
+    },
+    "keyboard": {
+        "label": "キーボード",
+        "icon": "⌨️",
+        "specLabels": [
+            "重さ",
+            "スイッチ",
+            "ラピッドトリガー",
+            "レイアウト",
+            "接続",
+            "キーストローク",
+            "ポーリングレート"
+        ],
+        "items": [
+            {
+                "rank": 1,
+                "name": "Wooting 60HE",
+                "desc": "<span>ラピッドトリガー搭載。</span><span>アナログ入力で</span><span>圧倒的な応答速度。</span>",
+                "img": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&q=80&w=400",
+                "price": "¥27,664",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Wooting+60HE",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FWooting%2B60HE%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Wooting+60HE",
+                "specs": {
+                    "重さ": "680g",
+                    "スイッチ": "Lekker (磁気ホール)",
+                    "ラピッドトリガー": "✅ 0.1mm〜",
+                    "レイアウト": "60%",
+                    "接続": "USB-C 有線",
+                    "キーストローク": "4.0mm",
+                    "ポーリングレート": "1,000Hz"
+                }
+            },
+            {
+                "rank": 2,
+                "name": "Razer Huntsman V3 Pro",
+                "desc": "<span>第2世代アナログオプティカルスイッチ。</span><span>0.1mm作動で反応速度最速クラス。</span>",
+                "img": "https://images.unsplash.com/photo-1626956083933-283aca8cc49a?auto=format&fit=crop&q=80&w=400",
+                "price": "¥34,511",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Razer+Huntsman+V3+Pro",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2BHuntsman%2BV3%2BPro%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Razer+Huntsman+V3+Pro",
+                "specs": {
+                    "重さ": "840g",
+                    "スイッチ": "第2世代 光学式",
+                    "ラピッドトリガー": "✅ 0.1mm〜",
+                    "レイアウト": "TKL (テンキーレス)",
+                    "接続": "USB-C 有線",
+                    "キーストローク": "4.0mm",
+                    "ポーリングレート": "8,000Hz"
+                }
+            },
+            {
+                "rank": 3,
+                "name": "DrunkDeer A75",
+                "desc": "<span>磁気スイッチ搭載の</span><span>ラピッドトリガー対応。</span><span>コスパ最強。</span>",
+                "img": "https://images.unsplash.com/photo-1647214343132-211f4bc0744c?auto=format&fit=crop&q=80&w=400",
+                "price": "¥17,129",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=DrunkDeer+A75",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FDrunkDeer%2BA75%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=DrunkDeer+A75",
+                "specs": {
+                    "重さ": "750g",
+                    "スイッチ": "磁気ホールセンサー",
+                    "ラピッドトリガー": "✅ 0.2mm〜",
+                    "レイアウト": "75%",
+                    "接続": "USB-C 有線",
+                    "キーストローク": "3.6mm",
+                    "ポーリングレート": "1,000Hz"
+                }
+            }
+        ]
+    },
+    "monitor": {
+        "label": "モニター",
+        "icon": "🖥️",
+        "specLabels": [
+            "サイズ",
+            "リフレッシュレート",
+            "応答速度",
+            "パネル",
+            "解像度",
+            "残像低減",
+            "HDR"
+        ],
+        "items": [
+            {
+                "rank": 1,
+                "name": "BenQ ZOWIE XL2546K",
+                "desc": "<span>240Hz/DyAc+搭載。</span><span>プロeスポーツ</span><span>公式採用モニター。</span>",
+                "img": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=80&w=400",
+                "price": "¥59,990",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FBenQ%2BZOWIE%2BXL2546K%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=BenQ+ZOWIE+XL2546K",
+                "specs": {
+                    "サイズ": "24.5インチ",
+                    "リフレッシュレート": "240Hz",
+                    "応答速度": "0.5ms (GtG)",
+                    "パネル": "Fast TN",
+                    "解像度": "1920×1080",
+                    "残像低減": "DyAc+",
+                    "HDR": "非対応"
+                }
+            },
+            {
+                "rank": 2,
+                "name": "ASUS ROG Swift PG27AQN",
+                "desc": "<span>360Hz/IPS。</span><span>27インチWQHDで</span><span>高解像度と高リフレッシュレートを両立。</span>",
+                "img": "https://images.unsplash.com/photo-1550745165-9bc0b2527233?auto=format&fit=crop&q=80&w=400",
+                "price": "¥147,679",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=ASUS+ROG+Swift+PG27AQN",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FASUS%2BROG%2BSwift%2BPG27AQN%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=ASUS+ROG+Swift+PG27AQN",
+                "specs": {
+                    "サイズ": "27インチ",
+                    "リフレッシュレート": "360Hz",
+                    "応答速度": "1ms (GtG)",
+                    "パネル": "IPS",
+                    "解像度": "2560×1440",
+                    "残像低減": "ELMB Sync",
+                    "HDR": "HDR600"
+                }
+            },
+            {
+                "rank": 3,
+                "name": "BenQ ZOWIE XL2566K",
+                "desc": "<span>360Hz/Fast TN。</span><span>残像感ゼロで</span><span>動体視力を最大化。</span>",
+                "img": "https://images.unsplash.com/photo-1547119957-630f9c47b93b?auto=format&fit=crop&q=80&w=400",
+                "price": "¥99,733",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2566K",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FBenQ%2BZOWIE%2BXL2566K%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=BenQ+ZOWIE+XL2566K",
+                "specs": {
+                    "サイズ": "24.5インチ",
+                    "リフレッシュレート": "360Hz",
+                    "応答速度": "0.5ms (GtG)",
+                    "パネル": "Fast TN",
+                    "解像度": "1920×1080",
+                    "残像低減": "DyAc⁺",
+                    "HDR": "非対応"
+                }
+            }
+        ]
+    },
+    "mic": {
+        "label": "マイク",
+        "icon": "🎙️",
+        "specLabels": [
+            "タイプ",
+            "接続",
+            "指向性",
+            "サンプルレート",
+            "感度",
+            "ミュート",
+            "特徴"
+        ],
+        "items": [
+            {
+                "rank": 1,
+                "name": "Shure MV7+",
+                "desc": "<span>USB/XLR両対応。</span><span>配信からVC用途まで万能。</span><span>ノイズキャンセル搭載。</span>",
+                "img": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=400",
+                "price": "¥39,661",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Shure+MV7%2B",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FShure%2BMV7%252B%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Shure+MV7%2B",
+                "specs": {
+                    "タイプ": "ダイナミック",
+                    "接続": "USB-C / XLR",
+                    "指向性": "単一指向性",
+                    "サンプルレート": "48kHz/24bit",
+                    "感度": "-55dBV/Pa",
+                    "ミュート": "タッチミュート",
+                    "特徴": "オートレベル機能"
+                }
+            },
+            {
+                "rank": 2,
+                "name": "HyperX QuadCast S",
+                "desc": "<span>RGB搭載の</span><span>USBコンデンサーマイク。</span><span>タップミュート機能が便利。</span>",
+                "img": "https://images.unsplash.com/photo-1589311110433-e91040523e1a?auto=format&fit=crop&q=80&w=400",
+                "price": "¥19,526",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=HyperX+QuadCast+S",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FHyperX%2BQuadCast%2BS%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=HyperX+QuadCast+S",
+                "specs": {
+                    "タイプ": "コンデンサー",
+                    "接続": "USB-C",
+                    "指向性": "4パターン切替",
+                    "サンプルレート": "48kHz/16bit",
+                    "感度": "-36dBV/Pa",
+                    "ミュート": "タップミュート",
+                    "特徴": "RGB搭載"
+                }
+            },
+            {
+                "rank": 3,
+                "name": "Elgato Wave:3",
+                "desc": "<span>デジタルミキシング対応。</span><span>Wave Linkソフトウェアで</span><span>音声管理が簡単。</span>",
+                "img": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=400",
+                "price": "¥21,196",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Elgato+Wave+3",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FElgato%2BWave%2B3%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Elgato+Wave+3",
+                "specs": {
+                    "タイプ": "コンデンサー",
+                    "接続": "USB-C",
+                    "指向性": "単一指向性",
+                    "サンプルレート": "96kHz/24bit",
+                    "感度": "-25dBFS",
+                    "ミュート": "Wave Linkソフト",
+                    "特徴": "デジタルミキシング"
+                }
+            }
+        ]
+    },
+    "headset": {
+        "label": "ヘッドセット",
+        "icon": "🎧",
+        "specLabels": [
+            "重さ",
+            "ドライバー",
+            "接続",
+            "サラウンド",
+            "マイク",
+            "バッテリー",
+            "ノイキャン"
+        ],
+        "items": [
+            {
+                "rank": 1,
+                "name": "HyperX Cloud III Wireless",
+                "desc": "<span>軽量で長時間装着可能。</span><span>DTS Headphone:X対応で</span><span>定位感抜群。</span>",
+                "img": "https://images.unsplash.com/photo-1618366712277-7407bc46059c?auto=format&fit=crop&q=80&w=400",
+                "price": "¥22,746",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=HyperX+Cloud+III+Wireless",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FHyperX%2BCloud%2BIII%2BWireless%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=HyperX+Cloud+III+Wireless",
+                "specs": {
+                    "重さ": "330g",
+                    "ドライバー": "53mm",
+                    "接続": "2.4GHz無線",
+                    "サラウンド": "DTS Headphone:X",
+                    "マイク": "着脱式ブーム",
+                    "バッテリー": "約120時間",
+                    "ノイキャン": "パッシブ"
+                }
+            },
+            {
+                "rank": 2,
+                "name": "Logicool G PRO X 2 LIGHTSPEED",
+                "desc": "<span>グラフェンドライバーで高音質。</span><span>プロ仕様の</span><span>ワイヤレスヘッドセット。</span>",
+                "img": "https://images.unsplash.com/photo-1583333223166-9720ad115dc1?auto=format&fit=crop&q=80&w=400",
+                "price": "¥32,785",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+2+LIGHTSPEED",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLogicool%2BG%2BPRO%2BX%2B2%2BLIGHTSPEED%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=Logicool+G+PRO+X+2+LIGHTSPEED",
+                "specs": {
+                    "重さ": "345g",
+                    "ドライバー": "50mm グラフェン",
+                    "接続": "LIGHTSPEED / BT",
+                    "サラウンド": "DTS Headphone:X 2.0",
+                    "マイク": "着脱式 Blue VO!CE",
+                    "バッテリー": "約50時間",
+                    "ノイキャン": "パッシブ"
+                }
+            },
+            {
+                "rank": 3,
+                "name": "SteelSeries Arctis Nova Pro",
+                "desc": "<span>ハイレゾ対応。</span><span>ANCと外音取込を搭載した</span><span>最高峰モデル。</span>",
+                "img": "https://images.unsplash.com/photo-1613141411244-0e4ac259d217?auto=format&fit=crop&q=80&w=400",
+                "price": "¥49,246",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=SteelSeries+Arctis+Nova+Pro",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSteelSeries%2BArctis%2BNova%2BPro%2F",
+                "yahooUrl": "https://shopping.yahoo.co.jp/search?p=SteelSeries+Arctis+Nova+Pro",
+                "specs": {
+                    "重さ": "338g",
+                    "ドライバー": "40mm ハイレゾ",
+                    "接続": "2.4GHz / BT / 有線",
+                    "サラウンド": "360° Spatial Audio",
+                    "マイク": "格納式 ClearCast",
+                    "バッテリー": "約44時間(2個付属)",
+                    "ノイキャン": "ANC搭載"
+                }
+            }
+        ]
+    }
 }
