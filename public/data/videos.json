@@ -643,6 +643,60 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=n9JO_ZlRDjg",
             "youtubeId": "n9JO_ZlRDjg"
+        },
+        {
+            "id": "v_sns_d1",
+            "title": "Ras: 新しいマウスに変えました！最高すぎる",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "x",
+            "url": "https://x.com/RasApex"
+        },
+        {
+            "id": "v_sns_d2",
+            "title": "Laz: ZETAのゲーミング環境を公開！デスク周り全部見せます",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "デバイス紹介",
+            "platform": "x",
+            "url": "https://x.com/and_Laz"
+        },
+        {
+            "id": "v_sns_d3",
+            "title": "まうふぃん: 新デバイス導入！マウスとキーボードを変えた結果",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "x",
+            "url": "https://x.com/mauffin_fn"
+        },
+        {
+            "id": "v_sns_d4",
+            "title": "Dep: 大会で使うデバイスセッティング配信",
+            "pro": "Dep (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "デバイス紹介",
+            "platform": "twitch",
+            "url": "https://www.twitch.tv/dep_ow"
+        },
+        {
+            "id": "v_sns_d5",
+            "title": "Selly: おすすめゲーミングマウス紹介配信",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "twitch",
+            "url": "https://www.twitch.tv/selly_fps"
+        },
+        {
+            "id": "v_sns_d6",
+            "title": "ぼぶくん: 最新ゲーミングデバイス開封＆レビュー",
+            "pro": "ぼぶくん",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "x",
+            "url": "https://x.com/BobkunFN"
         }
     ]
 }
