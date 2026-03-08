@@ -246,7 +246,7 @@ function renderGadgetItems() {
       <img src="${g.img}" alt="${g.name}" class="gadget-img" loading="lazy">
       <div class="gadget-name">${g.name}</div>
       <div class="gadget-desc">${g.desc}</div>
-      ${g.price ? `<div class="gadget-price" style="margin-top:0.75rem; font-weight:800; color:var(--primary);">${g.price}</div>` : ''}
+      ${g.price ? `<div class="gadget-price" style="margin-top:0.75rem; font-weight:800; color:var(--primary);">${g.price} <span style="font-size:0.65rem; font-weight:400; color:var(--text-muted);">参考価格</span></div>` : ''}
       <div class="gadget-buy-links">
         ${g.amazonUrl ? `<a href="${g.amazonUrl}" target="_blank" rel="noopener noreferrer" class="usage-link-btn amazon" onclick="event.stopPropagation()">Amazon</a>` : ''}
         ${g.rakutenUrl ? `<a href="${g.rakutenUrl}" target="_blank" rel="noopener noreferrer" class="usage-link-btn rakuten" onclick="event.stopPropagation()">楽天</a>` : ''}
