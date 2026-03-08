@@ -697,6 +697,36 @@
             "tag": "デバイス紹介",
             "platform": "x",
             "url": "https://x.com/BobkunFN"
+        },
+        {
+            "id": "v_auto_kAZDbZQQIF8",
+            "title": "Selly: 【APEX】最強と言ったらこの人,Sellyの感度,デバイスをご紹介!【キル集あり】",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=kAZDbZQQIF8",
+            "youtubeId": "kAZDbZQQIF8"
+        },
+        {
+            "id": "v_auto_6mODzdMCzw4",
+            "title": "Selly: 【1分で分かる】ImperialHalの使用デバイス紹介！【APEX LEGENDS】",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6mODzdMCzw4",
+            "youtubeId": "6mODzdMCzw4"
+        },
+        {
+            "id": "v_auto_g9_xF9AW1ro",
+            "title": "Selly: 【Selly切り抜き】Sellyが考える大事なデバイスとは...？【APEX】",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=g9_xF9AW1ro",
+            "youtubeId": "g9_xF9AW1ro"
         }
     ]
 }
