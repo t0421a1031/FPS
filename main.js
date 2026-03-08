@@ -88,7 +88,7 @@ function renderYouTubeVideos() {
     card.style.animationDelay = `${index * 0.08}s`;
     card.style.cursor = 'pointer';
 
-    const gameLabel = video.game === 'fortnite' ? 'FORTNITE' : 'APEX';
+    const gameLabel = video.game === 'fortnite' ? 'FORTNITE' : video.game === 'valorant' ? 'VALORANT' : 'APEX';
     const thumbUrl = `https://img.youtube.com/vi/${video.youtubeId}/mqdefault.jpg`;
 
     card.innerHTML = `
@@ -142,7 +142,7 @@ function renderSNSVideos() {
     const initial = getInitial(video.pro);
     const platformIcon = getPlatformSmallIcon(video.platform);
     const platformName = video.platform === 'twitch' ? 'Twitch' : 'X';
-    const gameLabel = video.game === 'fortnite' ? 'FORTNITE' : 'APEX';
+    const gameLabel = video.game === 'fortnite' ? 'FORTNITE' : video.game === 'valorant' ? 'VALORANT' : 'APEX';
     const platformColor = video.platform === 'twitch' ? '#9146FF' : '#e0e0e0';
 
     card.innerHTML = `
