@@ -1,0 +1,9 @@
+# FPS Pro Hub Japan - robots.txt
+# https://fps-prohub.net/
+
+User-agent: *
+Allow: /
+Disallow: /admin.html
+
+# Sitemap
+Sitemap: https://fps-prohub.net/sitemap.xml
