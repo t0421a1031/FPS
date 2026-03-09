@@ -46,6 +46,7 @@
         <div class="video-platform-tabs">
           <button class="video-platform-btn active" data-vplatform="youtube">▶️ YouTube動画</button>
           <button class="video-platform-btn" data-vplatform="sns">📱 SNS・配信</button>
+          <button class="video-platform-btn" data-vplatform="live">🔴 LIVE配信</button>
         </div>
         <!-- Game & Tag Filters -->
         <div class="filters">
@@ -61,13 +62,17 @@
           <button class="tag-btn" data-tag="ハイライト">ハイライト</button>
           <button class="tag-btn" data-tag="デバイス紹介">デバイス紹介</button>
         </div>
-        <!-- YouTube Sub-view: embedded iframes -->
+        <!-- YouTube Sub-view -->
         <div id="video-sub-youtube">
           <div class="youtube-grid" id="youtube-grid"></div>
         </div>
-        <!-- SNS Sub-view: card layout -->
+        <!-- SNS Sub-view -->
         <div id="video-sub-sns" style="display:none;">
           <div class="video-grid" id="video-grid"></div>
+        </div>
+        <!-- LIVE Sub-view -->
+        <div id="video-sub-live" style="display:none;">
+          <div class="live-grid" id="live-grid"></div>
         </div>
       </section>
 
@@ -103,7 +108,8 @@
 
       <!-- Rankings Section -->
       <section id="section-rankings" class="content-section container hidden">
-        <h2 class="section-title">賞金獲得ランキング</h2>
+        <h2 class="section-title">🏆 賞金獲得ランキング</h2>
+        <div class="ranking-game-tabs" id="ranking-game-tabs"></div>
         <div class="ranking-container" id="ranking-container">
           <!-- Rankings will be injected here -->
         </div>

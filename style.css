@@ -503,6 +503,63 @@ h2,
   margin-top: 1rem;
 }
 
+/* Ranking Game Tabs */
+.ranking-game-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.ranking-game-btn {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.ranking-game-btn:hover {
+  border-color: var(--secondary);
+  color: var(--text);
+}
+
+.ranking-game-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+  box-shadow: 0 0 20px rgba(255, 70, 85, 0.3);
+}
+
+/* Ranking Device Badge */
+.ranking-device-badge {
+  display: inline-block;
+  background: rgba(0, 242, 255, 0.12);
+  color: var(--secondary);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 242, 255, 0.25);
+  text-decoration: none;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.ranking-device-badge:hover {
+  background: rgba(0, 242, 255, 0.25);
+  border-color: var(--secondary);
+  box-shadow: 0 0 12px rgba(0, 242, 255, 0.3);
+  transform: scale(1.05);
+}
+
 /* Ranking Table */
 .ranking-table {
   width: 100%;
@@ -1439,4 +1496,301 @@ h2,
     font-size: 0.82rem;
     padding: 0.5rem 1.2rem;
   }
+
+  .live-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   LIVE STREAMER CARDS
+   ============================================================ */
+.live-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.live-streamer-card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 0.5s ease both;
+}
+
+.live-streamer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  border-color: rgba(145, 70, 255, 0.3);
+}
+
+.live-card-preview {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.live-card-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.live-card-initial {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #9146FF, #6441a5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+}
+
+.live-card-checking {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.live-preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.live-preview-embed {
+  width: 100%;
+  height: 100%;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.live-card-info {
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+.live-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+
+.live-card-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+.live-card-team {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.live-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.live-card-platform {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.75rem;
+  color: #9146FF;
+  font-weight: 600;
+}
+
+/* LIVE Badge Styles */
+.live-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.live-badge-checking {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+}
+
+.live-badge-on {
+  background: rgba(255, 0, 0, 0.2);
+  color: #ff4444;
+  animation: livePulse 2s ease-in-out infinite;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.live-badge-off {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-muted);
+}
+
+@keyframes livePulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+}
+
+/* Card glow when LIVE */
+.live-streamer-card:has(.live-badge-on) {
+  border-color: rgba(255, 0, 0, 0.25);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.08);
+}
+
+.live-streamer-card:has(.live-badge-on):hover {
+  box-shadow: 0 12px 40px rgba(255, 0, 0, 0.15);
+  border-color: rgba(255, 0, 0, 0.4);
+}
+
+/* LIVE indicator dot on tab button */
+.video-platform-btn {
+  position: relative;
+}
+
+.live-indicator-dot {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ff0000;
+  border: 2px solid var(--bg);
+  animation: liveIndicatorPulse 1.5s ease-in-out infinite;
+  z-index: 2;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.live-indicator-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ff0000, #ff4444);
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--bg);
+  animation: liveIndicatorPulse 1.5s ease-in-out infinite;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  padding: 0 4px;
+}
+
+@keyframes liveIndicatorPulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+  }
+
+  50% {
+    transform: scale(1.15);
+    box-shadow: 0 0 14px rgba(255, 0, 0, 0.8);
+  }
+}
+
+/* Live now banner on card */
+.live-now-banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+  color: white;
+  padding: 2rem 0.75rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  z-index: 2;
+}
+
+.live-now-banner::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff0000;
+  animation: liveIndicatorPulse 1.5s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+/* LIVE streamer card sort order - live cards first */
+.live-streamer-card.is-live {
+  order: -1;
+}
+
+.live-streamer-card.is-offline {
+  order: 1;
+  opacity: 0.7;
+}
+
+.live-streamer-card.is-offline:hover {
+  opacity: 1;
+}
+
+/* Live count summary bar */
+.live-status-summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  margin-bottom: 1.25rem;
+  border-radius: 12px;
+  background: rgba(255, 0, 0, 0.08);
+  border: 1px solid rgba(255, 0, 0, 0.15);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.live-status-summary .live-count-highlight {
+  color: #ff4444;
+  font-weight: 800;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
+}
+
+.live-status-summary.no-live {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: var(--glass-border);
+  color: var(--text-muted);
 }

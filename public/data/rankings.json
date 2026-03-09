@@ -1,72 +1,184 @@
 [
   {
     "rank": 1,
-    "name": "Bugha",
-    "team": "Sentinels",
+    "name": "Maufin (まうふぃん)",
+    "team": "Riddle (クリエイター)",
     "game": "Fortnite",
-    "prize": "$3,600,000"
+    "prize": "約2,080万円 ($139,055)"
   },
   {
     "rank": 2,
-    "name": "ImperialHal",
-    "team": "TSM",
-    "game": "Apex Legends",
-    "prize": "$700,000+"
+    "name": "Shelom (しぇろん)",
+    "team": "-",
+    "game": "Fortnite",
+    "prize": "約2,030万円 ($135,286)"
   },
   {
     "rank": 3,
-    "name": "Laz",
-    "team": "ZETA DIVISION",
-    "game": "VALORANT",
-    "prize": "¥31,000,000+"
+    "name": "Russ",
+    "team": "-",
+    "game": "Fortnite",
+    "prize": "約1,690万円 ($112,600)"
   },
   {
     "rank": 4,
-    "name": "Ras",
-    "team": "Crazy Raccoon",
-    "game": "Apex Legends",
-    "prize": "¥26,000,000+"
+    "name": "Melius",
+    "team": "-",
+    "game": "Fortnite",
+    "prize": "約1,670万円 ($111,316)"
   },
   {
     "rank": 5,
-    "name": "まうふぃん",
-    "team": "Riddle",
+    "name": "Zagou",
+    "team": "EDGE",
     "game": "Fortnite",
-    "prize": "¥16,000,000+"
+    "prize": "約1,560万円 ($104,160)"
   },
   {
     "rank": 6,
-    "name": "Dep",
+    "name": "Koyota (こよた)",
     "team": "ZETA DIVISION",
-    "game": "VALORANT",
-    "prize": "¥13,000,000+"
+    "game": "Fortnite",
+    "prize": "約1,520万円 ($101,402)"
   },
   {
     "rank": 7,
-    "name": "Selly",
-    "team": "元 APAC North",
-    "game": "Apex Legends",
-    "prize": "¥11,000,000+"
+    "name": "Runa",
+    "team": "-",
+    "game": "Fortnite",
+    "prize": "約1,400万円 ($93,215)"
   },
   {
     "rank": 8,
-    "name": "YukaF",
-    "team": "Fnatic",
-    "game": "Apex Legends",
-    "prize": "¥9,000,000+"
+    "name": "Qjac",
+    "team": "Crazy Raccoon",
+    "game": "Fortnite",
+    "prize": "約1,390万円 ($92,418)"
   },
   {
     "rank": 9,
-    "name": "ネフライト",
-    "team": "配信者",
+    "name": "Ruri",
+    "team": "Crazy Raccoon",
     "game": "Fortnite",
-    "prize": "¥6,000,000+"
+    "prize": "約1,370万円 ($91,188)"
   },
   {
     "rank": 10,
+    "name": "Alice",
+    "team": "Crazy Raccoon",
+    "game": "Fortnite",
+    "prize": "約1,340万円 ($89,358)"
+  },
+  {
+    "rank": 1,
+    "name": "YukaF",
+    "team": "ZETA DIVISION",
+    "game": "Apex Legends",
+    "prize": "約2,830万円 ($188,975)"
+  },
+  {
+    "rank": 2,
+    "name": "Meltstera",
+    "team": "-",
+    "game": "Apex Legends",
+    "prize": "約1,740万円 ($115,827)"
+  },
+  {
+    "rank": 3,
+    "name": "MatsuTasu",
+    "team": "-",
+    "game": "Apex Legends",
+    "prize": "約1,370万円 ($91,571)"
+  },
+  {
+    "rank": 4,
+    "name": "Ftyan",
+    "team": "-",
+    "game": "Apex Legends",
+    "prize": "約1,270万円 ($84,675)"
+  },
+  {
+    "rank": 5,
+    "name": "Lykq",
+    "team": "-",
+    "game": "Apex Legends",
+    "prize": "約1,250万円 ($83,007)"
+  },
+  {
+    "rank": 6,
+    "name": "saku",
+    "team": "-",
+    "game": "Apex Legends",
+    "prize": "約1,160万円 ($77,179)"
+  },
+  {
+    "rank": 7,
+    "name": "satuki",
+    "team": "-",
+    "game": "Apex Legends",
+    "prize": "約1,070万円 ($71,583)"
+  },
+  {
+    "rank": 8,
+    "name": "Lejetta",
+    "team": "-",
+    "game": "Apex Legends",
+    "prize": "約980万円 ($65,592)"
+  },
+  {
+    "rank": 1,
+    "name": "Laz",
+    "team": "ZETA DIVISION",
+    "game": "VALORANT",
+    "prize": "約920万円 ($61,247)"
+  },
+  {
+    "rank": 2,
     "name": "crow",
     "team": "ZETA DIVISION",
     "game": "VALORANT",
-    "prize": "¥6,000,000+"
+    "prize": "約860万円 ($57,594)"
+  },
+  {
+    "rank": 3,
+    "name": "Dep",
+    "team": "REJECT",
+    "game": "VALORANT",
+    "prize": "約530万円 ($35,601)"
+  },
+  {
+    "rank": 4,
+    "name": "TENNN",
+    "team": "-",
+    "game": "VALORANT",
+    "prize": "約500万円 ($33,382)"
+  },
+  {
+    "rank": 5,
+    "name": "SugarZ3ro",
+    "team": "ZETA DIVISION",
+    "game": "VALORANT",
+    "prize": "約480万円 ($32,231)"
+  },
+  {
+    "rank": 6,
+    "name": "Reita",
+    "team": "-",
+    "game": "VALORANT",
+    "prize": "約410万円 ($27,091)"
+  },
+  {
+    "rank": 7,
+    "name": "takej",
+    "team": "-",
+    "game": "VALORANT",
+    "prize": "約400万円 ($26,827)"
+  },
+  {
+    "rank": 8,
+    "name": "barce",
+    "team": "-",
+    "game": "VALORANT",
+    "prize": "約360万円 ($24,217)"
   }
 ]

@@ -1,0 +1,112 @@
+{
+    "streamers": [
+        {
+            "name": "Ras",
+            "team": "Crazy Raccoon",
+            "game": "apex",
+            "platform": "twitch",
+            "channelId": "ras_sama",
+            "url": "https://www.twitch.tv/ras_sama",
+            "icon": "🎯"
+        },
+        {
+            "name": "StylishNoob",
+            "team": "",
+            "game": "apex",
+            "platform": "twitch",
+            "channelId": "stylishnoob4",
+            "url": "https://www.twitch.tv/stylishnoob4",
+            "icon": "🎯"
+        },
+        {
+            "name": "YukaF",
+            "team": "ZETA DIVISION",
+            "game": "apex",
+            "platform": "twitch",
+            "channelId": "iq200yukaf",
+            "url": "https://www.twitch.tv/iq200yukaf",
+            "icon": "🎯"
+        },
+        {
+            "name": "Selly",
+            "team": "",
+            "game": "apex",
+            "platform": "twitch",
+            "channelId": "selly55",
+            "url": "https://www.twitch.tv/selly55",
+            "icon": "🎯"
+        },
+        {
+            "name": "ネフライト",
+            "team": "DFM クリエイター",
+            "game": "fortnite",
+            "platform": "twitch",
+            "channelId": "nephrite_2",
+            "url": "https://www.twitch.tv/nephrite_2",
+            "icon": "🔫"
+        },
+        {
+            "name": "まうふぃん",
+            "team": "Riddle",
+            "game": "fortnite",
+            "platform": "twitch",
+            "channelId": "maufinvl",
+            "url": "https://www.twitch.tv/maufinvl",
+            "icon": "🔫"
+        },
+        {
+            "name": "りむる",
+            "team": "",
+            "game": "fortnite",
+            "platform": "twitch",
+            "channelId": "rimr_fn",
+            "url": "https://www.twitch.tv/rimr_fn",
+            "icon": "🔫"
+        },
+        {
+            "name": "ぼぶくん",
+            "team": "",
+            "game": "fortnite",
+            "platform": "twitch",
+            "channelId": "riddle_bob",
+            "url": "https://www.twitch.tv/riddle_bob",
+            "icon": "🔫"
+        },
+        {
+            "name": "Laz",
+            "team": "ZETA DIVISION",
+            "game": "valorant",
+            "platform": "twitch",
+            "channelId": "lazvell",
+            "url": "https://www.twitch.tv/lazvell",
+            "icon": "💜"
+        },
+        {
+            "name": "Dep",
+            "team": "REJECT",
+            "game": "valorant",
+            "platform": "twitch",
+            "channelId": "dep_ow",
+            "url": "https://www.twitch.tv/dep_ow",
+            "icon": "💜"
+        },
+        {
+            "name": "SugarZ3ro",
+            "team": "ZETA DIVISION",
+            "game": "valorant",
+            "platform": "twitch",
+            "channelId": "sugarz3ro",
+            "url": "https://www.twitch.tv/sugarz3ro",
+            "icon": "💜"
+        },
+        {
+            "name": "Meiy",
+            "team": "DetonatioN FocusMe",
+            "game": "valorant",
+            "platform": "twitch",
+            "channelId": "meiy_vl",
+            "url": "https://www.twitch.tv/meiy_vl",
+            "icon": "💜"
+        }
+    ]
+}

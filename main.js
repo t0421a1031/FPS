@@ -170,8 +170,10 @@ function renderSNSVideos() {
 function renderVideos() {
   if (currentVideoPlatform === 'youtube') {
     renderYouTubeVideos();
-  } else {
+  } else if (currentVideoPlatform === 'sns') {
     renderSNSVideos();
+  } else if (currentVideoPlatform === 'live') {
+    renderLiveStreamers();
   }
 }
 
@@ -186,12 +188,18 @@ function initVideoPlatformTabs() {
 
       const ytView = document.getElementById('video-sub-youtube');
       const snsView = document.getElementById('video-sub-sns');
+      const liveView = document.getElementById('video-sub-live');
+      ytView.style.display = 'none';
+      snsView.style.display = 'none';
+      liveView.style.display = 'none';
+
       if (currentVideoPlatform === 'youtube') {
         ytView.style.display = 'block';
-        snsView.style.display = 'none';
-      } else {
-        ytView.style.display = 'none';
+      } else if (currentVideoPlatform === 'sns') {
         snsView.style.display = 'block';
+      } else if (currentVideoPlatform === 'live') {
+        liveView.style.display = 'block';
+        renderLiveStreamers();
       }
       renderVideos();
     });
@@ -199,6 +207,307 @@ function initVideoPlatformTabs() {
 }
 
 
+// ============================================================
+// RENDER: LIVE STREAMERS
+// ============================================================
+let streamersData = [];
+let liveStreamersRendered = false;
+let liveChannelSet = new Set(); // 現在LIVE中のチャンネルIDを追跡
+
+async function loadStreamers() {
+  try {
+    const res = await fetch('./data/streamers.json');
+    const data = await res.json();
+    streamersData = data.streamers || [];
+  } catch (e) {
+    console.warn('Failed to load streamers data:', e);
+  }
+}
+
+function renderLiveStreamers() {
+  const grid = document.getElementById('live-grid');
+  if (!grid) return;
+
+  const currentFilter = document.querySelector('.filter-btn.active')?.getAttribute('data-filter') || 'all';
+
+  let filtered = streamersData;
+  if (currentFilter !== 'all') {
+    filtered = streamersData.filter(s => s.game === currentFilter);
+  }
+
+  grid.innerHTML = '';
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '<p style="text-align:center; color:var(--text-muted); padding:2rem;">配信者が見つかりません</p>';
+    return;
+  }
+
+  // ライブステータスサマリーバナー
+  const liveCount = filtered.filter(s => liveChannelSet.has(s.channelId)).length;
+  const summaryDiv = document.createElement('div');
+  summaryDiv.style.gridColumn = '1 / -1';
+  if (liveCount > 0) {
+    summaryDiv.className = 'live-status-summary';
+    summaryDiv.innerHTML = `🔴 現在 <span class="live-count-highlight">${liveCount}名</span> が配信中！`;
+  } else {
+    summaryDiv.className = 'live-status-summary no-live';
+    summaryDiv.innerHTML = `⏳ 配信状況を確認中...`;
+  }
+  grid.appendChild(summaryDiv);
+
+  // LIVE中のストリーマーを先頭にソート
+  const sorted = [...filtered].sort((a, b) => {
+    const aLive = liveChannelSet.has(a.channelId) ? 0 : 1;
+    const bLive = liveChannelSet.has(b.channelId) ? 0 : 1;
+    return aLive - bLive;
+  });
+
+  sorted.forEach((streamer, index) => {
+    const card = document.createElement('div');
+    const isLive = liveChannelSet.has(streamer.channelId);
+    card.className = `live-streamer-card${isLive ? ' is-live' : ''}`;
+    card.style.animationDelay = `${index * 0.08}s`;
+    card.setAttribute('data-channel-id', streamer.channelId);
+
+    const gameLabel = streamer.game === 'fortnite' ? 'FORTNITE' : streamer.game === 'valorant' ? 'VALORANT' : 'APEX';
+    const gameColor = streamer.game === 'fortnite' ? '#00d4ff' : streamer.game === 'valorant' ? '#ff4655' : '#ff3d3d';
+    const initial = streamer.name.charAt(0).toUpperCase();
+
+    // Twitch preview image (auto-detects live status)
+    const previewUrl = `https://static-cdn.jtvnw.net/previews-ttv/live_user_${streamer.channelId}-440x248.jpg`;
+    const statusId = `live-status-${streamer.channelId}`;
+    const previewId = `live-preview-${streamer.channelId}`;
+
+    card.innerHTML = `
+      <div class="live-card-preview" id="${previewId}">
+        <div class="live-card-placeholder">
+          <div class="live-card-initial">${initial}</div>
+          <div class="live-card-checking">配信状況を確認中...</div>
+        </div>
+      </div>
+      <div class="live-card-info">
+        <div class="live-card-header">
+          <span class="live-card-name">${streamer.name}</span>
+          <span id="${statusId}" class="live-badge live-badge-checking">確認中</span>
+        </div>
+        ${streamer.team ? `<div class="live-card-team">${streamer.team}</div>` : ''}
+        <div class="live-card-meta">
+          <span class="channel-game-badge" style="background:${gameColor};">${gameLabel}</span>
+          <span class="live-card-platform">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#9146FF"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0L1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143l-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z"/></svg>
+            Twitch
+          </span>
+        </div>
+      </div>
+    `;
+
+    card.addEventListener('click', (e) => {
+      const embed = card.querySelector('.live-preview-embed');
+      if (embed && embed.style.pointerEvents !== 'auto') {
+        // 1回目のクリック: 埋め込みプレイヤーを操作可能に
+        embed.style.pointerEvents = 'auto';
+        card.style.cursor = 'default';
+        e.stopPropagation();
+      } else if (!embed) {
+        // オフラインの場合はTwitchページを開く
+        window.open(streamer.url, '_blank');
+      }
+    });
+    card.style.cursor = 'pointer';
+
+    grid.appendChild(card);
+
+    // Check live status via Twitch preview image
+    checkTwitchLive(streamer.channelId, statusId, previewId, previewUrl, card);
+  });
+}
+
+function checkTwitchLive(channelId, statusId, previewId, previewUrl, cardEl) {
+  const img = new Image();
+  img.crossOrigin = 'anonymous';
+  const cacheBuster = Date.now();
+  img.src = `${previewUrl}?cb=${cacheBuster}`;
+
+  img.onload = function () {
+    const statusEl = document.getElementById(statusId);
+    const previewEl = document.getElementById(previewId);
+
+    if (img.naturalWidth > 1 && img.naturalHeight > 1) {
+      // Canvas で画像を解析し、プレースホルダー（カメラアイコン）かリアルプレビューか判別
+      let isRealPreview = true;
+      try {
+        const canvas = document.createElement('canvas');
+        canvas.width = img.naturalWidth;
+        canvas.height = img.naturalHeight;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0);
+        // 複数地点のピクセルをサンプリング（プレースホルダーは単色背景）
+        const samples = [
+          ctx.getImageData(10, 10, 1, 1).data,
+          ctx.getImageData(img.naturalWidth - 10, 10, 1, 1).data,
+          ctx.getImageData(10, img.naturalHeight - 10, 1, 1).data,
+          ctx.getImageData(img.naturalWidth - 10, img.naturalHeight - 10, 1, 1).data,
+          ctx.getImageData(Math.floor(img.naturalWidth / 4), 10, 1, 1).data
+        ];
+        // 全サンプルが同じ色（差が小さい）ならプレースホルダーの可能性が高い
+        const ref = samples[0];
+        const allSame = samples.every(s =>
+          Math.abs(s[0] - ref[0]) < 15 &&
+          Math.abs(s[1] - ref[1]) < 15 &&
+          Math.abs(s[2] - ref[2]) < 15
+        );
+        if (allSame) isRealPreview = false;
+      } catch (e) {
+        // CORS等でCanvas取得できない場合はリアルプレビューとして扱う
+        isRealPreview = true;
+      }
+
+      if (!isRealPreview) {
+        // プレースホルダー画像 = オフライン
+        if (cardEl) cardEl.style.display = 'none';
+        liveChannelSet.delete(channelId);
+        updateLiveTabIndicator();
+        updateLiveSummary();
+        return;
+      }
+
+      // ストリーマーはLIVE中
+      if (statusEl) {
+        statusEl.textContent = '🔴 LIVE';
+        statusEl.className = 'live-badge live-badge-on';
+      }
+      if (previewEl) {
+        // Twitch埋め込みプレイヤーを表示（ミュート・自動再生）
+        const hostname = window.location.hostname || 'localhost';
+        previewEl.innerHTML = `
+          <iframe
+            src="https://player.twitch.tv/?channel=${channelId}&parent=${hostname}&muted=true&autoplay=true"
+            class="live-preview-embed"
+            allowfullscreen
+            frameborder="0">
+          </iframe>
+          <div class="live-now-banner">配信中</div>
+        `;
+      }
+      // カードにLIVEクラスを追加
+      if (cardEl) {
+        cardEl.classList.add('is-live');
+        cardEl.classList.remove('is-offline');
+      }
+      // グローバルLIVEセットに追加
+      liveChannelSet.add(channelId);
+      updateLiveTabIndicator();
+      updateLiveSummary();
+    }
+  };
+
+  img.onerror = function () {
+    // オフラインのカードを非表示にする
+    if (cardEl) {
+      cardEl.style.display = 'none';
+    }
+    liveChannelSet.delete(channelId);
+    updateLiveTabIndicator();
+    updateLiveSummary();
+  };
+
+  // Timeout fallback - チェック中のままのカードも非表示にする
+  setTimeout(() => {
+    const statusEl = document.getElementById(statusId);
+    if (statusEl && statusEl.classList.contains('live-badge-checking')) {
+      if (cardEl) {
+        cardEl.style.display = 'none';
+      }
+      updateLiveSummary();
+    }
+  }, 5000);
+}
+
+// LIVEタブボタンのインジケーターを更新
+function updateLiveTabIndicator() {
+  const liveBtn = document.querySelector('.video-platform-btn[data-vplatform="live"]');
+  if (!liveBtn) return;
+
+  // 既存のインジケーターを削除
+  const existingIndicator = liveBtn.querySelector('.live-indicator-dot, .live-indicator-count');
+  if (existingIndicator) existingIndicator.remove();
+
+  const count = liveChannelSet.size;
+  if (count > 0) {
+    const indicator = document.createElement('span');
+    indicator.className = 'live-indicator-count';
+    indicator.textContent = count;
+    liveBtn.appendChild(indicator);
+
+    // ヘッダーのプレイ動画ボタンにもインジケーターを追加
+    const videoNavBtn = document.querySelector('.nav-btn[data-section="videos"]');
+    if (videoNavBtn) {
+      let navIndicator = videoNavBtn.querySelector('.live-indicator-dot');
+      if (!navIndicator) {
+        navIndicator = document.createElement('span');
+        navIndicator.className = 'live-indicator-dot';
+        videoNavBtn.style.position = 'relative';
+        videoNavBtn.appendChild(navIndicator);
+      }
+    }
+  } else {
+    // ヘッダーからもインジケーターを削除
+    const videoNavBtn = document.querySelector('.nav-btn[data-section="videos"]');
+    if (videoNavBtn) {
+      const navIndicator = videoNavBtn.querySelector('.live-indicator-dot');
+      if (navIndicator) navIndicator.remove();
+    }
+  }
+}
+
+// ライブサマリーバナーを更新
+function updateLiveSummary() {
+  const summary = document.querySelector('.live-status-summary');
+  if (!summary) return;
+
+  const currentFilter = document.querySelector('.filter-btn.active')?.getAttribute('data-filter') || 'all';
+  let filtered = streamersData;
+  if (currentFilter !== 'all') {
+    filtered = streamersData.filter(s => s.game === currentFilter);
+  }
+  const liveCount = filtered.filter(s => liveChannelSet.has(s.channelId)).length;
+
+  if (liveCount > 0) {
+    summary.className = 'live-status-summary';
+    summary.innerHTML = `🔴 現在 <span class="live-count-highlight">${liveCount}名</span> が配信中！`;
+  } else {
+    summary.className = 'live-status-summary no-live';
+    summary.innerHTML = `配信中のストリーマーはいません`;
+  }
+}
+
+// バックグラウンドでLIVEチェック（初回ページ読み込み時用）
+function backgroundLiveCheck() {
+  if (streamersData.length === 0) return;
+
+  streamersData.forEach(streamer => {
+    const previewUrl = `https://static-cdn.jtvnw.net/previews-ttv/live_user_${streamer.channelId}-440x248.jpg`;
+    const img = new Image();
+    const cacheBuster = Date.now();
+    img.src = `${previewUrl}?cb=${cacheBuster}`;
+
+    img.onload = function () {
+      if (img.naturalWidth > 1 && img.naturalHeight > 1) {
+        liveChannelSet.add(streamer.channelId);
+        updateLiveTabIndicator();
+      }
+    };
+
+    img.onerror = function () {
+      liveChannelSet.delete(streamer.channelId);
+    };
+  });
+
+  // タイムアウト後にインジケーターを更新
+  setTimeout(() => {
+    updateLiveTabIndicator();
+  }, 6000);
+}
 
 // ============================================================
 // RENDER: GADGETS (Tabbed by category)
@@ -248,9 +557,9 @@ function renderGadgetItems() {
       <div class="gadget-desc">${g.desc}</div>
       ${g.price ? `<div class="gadget-price" style="margin-top:0.75rem; font-weight:800; color:var(--primary);">${g.price} <span style="font-size:0.65rem; font-weight:400; color:var(--text-muted);">参考価格</span></div>` : ''}
       <div class="gadget-buy-links">
-        ${g.amazonUrl ? `<a href="${g.amazonUrl}" target="_blank" rel="noopener noreferrer" class="usage-link-btn amazon" onclick="event.stopPropagation()">Amazon</a>` : ''}
-        ${g.rakutenUrl ? `<a href="${g.rakutenUrl}" target="_blank" rel="noopener noreferrer" class="usage-link-btn rakuten" onclick="event.stopPropagation()">楽天</a>` : ''}
-        ${g.yahooUrl ? `<a href="${g.yahooUrl}" target="_blank" rel="noopener noreferrer" class="usage-link-btn yahoo" onclick="event.stopPropagation()">Yahoo!</a>` : ''}
+        ${g.amazonUrl ? `<a href="${g.amazonUrl}" target="_blank" rel="nofollow noopener noreferrer" class="usage-link-btn amazon" onclick="event.stopPropagation()">Amazon</a>` : ''}
+        ${g.rakutenUrl ? `<a href="${g.rakutenUrl}" target="_blank" rel="nofollow noopener noreferrer" class="usage-link-btn rakuten" onclick="event.stopPropagation()">楽天</a>` : ''}
+        ${g.yahooUrl ? `<a href="${g.yahooUrl}" target="_blank" rel="nofollow noopener noreferrer" class="usage-link-btn yahoo" onclick="event.stopPropagation()">Yahoo!</a>` : ''}
       </div>
     `;
     grid.appendChild(card);
@@ -376,9 +685,91 @@ function renderSpecComparison() {
 // ============================================================
 // RENDER: RANKINGS
 // ============================================================
+let currentRankingGame = 'all';
+
+const rankingGameMap = {
+  'all': { label: 'ALL', icon: '🏆' },
+  'Fortnite': { label: 'FORTNITE', icon: '🔫' },
+  'Apex Legends': { label: 'APEX LEGENDS', icon: '🎯' },
+  'VALORANT': { label: 'VALORANT', icon: '💜' }
+};
+
+function renderRankingGameTabs() {
+  const container = document.getElementById('ranking-game-tabs');
+  if (!container) return;
+  container.innerHTML = '';
+
+  Object.keys(rankingGameMap).forEach(key => {
+    const btn = document.createElement('button');
+    btn.className = `ranking-game-btn${key === currentRankingGame ? ' active' : ''}`;
+    btn.textContent = `${rankingGameMap[key].icon} ${rankingGameMap[key].label}`;
+    btn.addEventListener('click', () => {
+      currentRankingGame = key;
+      renderRankings();
+    });
+    container.appendChild(btn);
+  });
+}
+
 function renderRankings() {
+  renderRankingGameTabs();
+
   const container = document.getElementById('ranking-container');
   if (!container) return;
+
+  // フィルタリング
+  let filtered = [...rankings];
+  if (currentRankingGame !== 'all') {
+    filtered = rankings.filter(r => r.game === currentRankingGame);
+  } else {
+    // ALL表示時は賞金額で降順ソート（ドル額を抽出）
+    filtered.sort((a, b) => {
+      const getAmount = (prize) => {
+        const dollarMatch = prize.match(/\$([0-9,]+)/);
+        if (dollarMatch) return parseInt(dollarMatch[1].replace(/,/g, ''), 10);
+        const yenMatch = prize.match(/約([0-9,]+)万円/);
+        if (yenMatch) return parseInt(yenMatch[1].replace(/,/g, ''), 10);
+        return 0;
+      };
+      return getAmount(b) - getAmount(a);
+    });
+  }
+
+  // デバイス紹介動画があるプレイヤーのマップを構築
+  const deviceVideoMap = {};
+  if (videos && videos.length > 0) {
+    videos.filter(v => v.tag === 'デバイス紹介').forEach(v => {
+      // プロ名からキーワードを抽出（括弧内を除く短い名前）
+      const proName = v.pro;
+      deviceVideoMap[proName] = v.url;
+    });
+  }
+
+  // ランキングプレイヤー名とデバイス動画のマッチング関数
+  function findDeviceVideo(playerName) {
+    for (const [proName, url] of Object.entries(deviceVideoMap)) {
+      // プレイヤー名がプロ名に含まれるか、プロ名がプレイヤー名に含まれるかチェック
+      const cleanPlayer = playerName.replace(/[（()）]/g, '').toLowerCase();
+      const cleanPro = proName.replace(/[（()）]/g, '').toLowerCase();
+      // 部分一致チェック（各単語で照合）
+      const playerParts = cleanPlayer.split(/[\s,/]+/);
+      const proParts = cleanPro.split(/[\s,/]+/);
+      for (const pp of playerParts) {
+        if (pp.length < 2) continue;
+        for (const pr of proParts) {
+          if (pr.length < 2) continue;
+          if (pp.includes(pr) || pr.includes(pp)) {
+            return url;
+          }
+        }
+      }
+    }
+    return null;
+  }
+
+  // ゲーム別選択時はゲーム列を非表示
+  const showGameCol = currentRankingGame === 'all';
+
   container.innerHTML = `
     <table class="ranking-table">
       <thead>
@@ -386,7 +777,7 @@ function renderRankings() {
           <th>順位</th>
           <th>プレイヤー</th>
           <th>チーム</th>
-          <th>メインタイトル</th>
+          ${showGameCol ? '<th>メインタイトル</th>' : ''}
           <th>概算獲得賞金</th>
         </tr>
       </thead>
@@ -395,21 +786,38 @@ function renderRankings() {
   `;
 
   const tbody = document.getElementById('ranking-body');
-  rankings.forEach((r, i) => {
+
+  if (filtered.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; color:var(--text-muted); padding:2rem;">該当するデータがありません</td></tr>';
+    return;
+  }
+
+  filtered.forEach((r, i) => {
     const tr = document.createElement('tr');
     tr.style.animationDelay = `${i * 0.05}s`;
     tr.className = 'ranking-row';
 
-    let rankDisplay = r.rank;
-    if (r.rank === 1) rankDisplay = '🥇';
-    else if (r.rank === 2) rankDisplay = '🥈';
-    else if (r.rank === 3) rankDisplay = '🥉';
+    // ゲーム別の場合はデータのrank、ALL表示では通し番号
+    const displayRank = currentRankingGame === 'all' ? i + 1 : r.rank;
+    let rankDisplay = displayRank;
+    if (displayRank === 1) rankDisplay = '🥇';
+    else if (displayRank === 2) rankDisplay = '🥈';
+    else if (displayRank === 3) rankDisplay = '🥉';
+
+    // ゲーム名に応じた色
+    const gameColor = r.game === 'Fortnite' ? '#00d4ff' : r.game === 'VALORANT' ? '#ff4655' : '#ff3d3d';
+
+    // デバイス紹介動画があるかチェック
+    const deviceUrl = findDeviceVideo(r.name);
+    const deviceBadge = deviceUrl
+      ? `<a href="${deviceUrl}" target="_blank" rel="noopener" class="ranking-device-badge" title="デバイス紹介動画を見る" onclick="event.stopPropagation()">🖱️ デバイス</a>`
+      : '';
 
     tr.innerHTML = `
       <td class="rank-num">${rankDisplay}</td>
-      <td class="player-name">${r.name}</td>
+      <td class="player-name">${r.name} ${deviceBadge}</td>
       <td class="team-name">${r.team}</td>
-      <td class="game-title">${r.game}</td>
+      ${showGameCol ? `<td class="game-title" style="color:${gameColor}">${r.game}</td>` : ''}
       <td class="prize-amount">${r.prize}</td>
     `;
     tbody.appendChild(tr);
@@ -561,7 +969,7 @@ function renderGuideCards() {
           <div class="guide-item-links">
             <a href="${item.amazonUrl}" target="_blank" class="usage-link-btn amazon">Amazon</a>
             <a href="${item.rakutenUrl}" target="_blank" class="usage-link-btn rakuten">楽天</a>
-            ${item.yahooUrl ? `<a href="${item.yahooUrl}" target="_blank" class="usage-link-btn yahoo">Yahoo!</a>` : ''}
+            ${item.yahooUrl ? `<a href="${item.yahooUrl}" target="_blank" rel="nofollow noopener noreferrer" class="usage-link-btn yahoo">Yahoo!</a>` : ''}
           </div>
         </div>
       </div>
@@ -710,13 +1118,14 @@ tagButtons.forEach(btn => {
 // ============================================================
 async function init() {
   try {
-    const [videoRes, gadgetRes, rankingRes, usageRes, guidesRes, salesRes] = await Promise.all([
+    const [videoRes, gadgetRes, rankingRes, usageRes, guidesRes, salesRes, streamerRes] = await Promise.all([
       fetch('./data/videos.json'),
       fetch('./data/gadgets.json'),
       fetch('./data/rankings.json'),
       fetch('./data/usage_rates.json'),
       fetch('./data/guides.json'),
-      fetch('./data/sales.json')
+      fetch('./data/sales.json'),
+      fetch('./data/streamers.json')
     ]);
 
     if (videoRes.ok) {
@@ -744,6 +1153,11 @@ async function init() {
       salesData = await salesRes.json();
     }
 
+    if (streamerRes.ok) {
+      const sData = await streamerRes.json();
+      streamersData = sData.streamers || [];
+    }
+
   } catch (err) {
     console.error('Error fetching dynamic data:', err);
   }
@@ -751,6 +1165,9 @@ async function init() {
   // Initial renders
   initVideoPlatformTabs();
   renderVideos();
+
+  // バックグラウンドでLIVE配信チェック（タブにインジケーターを表示するため）
+  backgroundLiveCheck();
 }
 
 init();
