@@ -1066,6 +1066,27 @@ function renderSales() {
 
 
 // ============================================================
+// HAMBURGER MENU TOGGLE
+// ============================================================
+const menuToggle = document.getElementById('menu-toggle');
+const navLinksEl = document.getElementById('nav-links');
+
+if (menuToggle && navLinksEl) {
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    navLinksEl.classList.toggle('open');
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!menuToggle.contains(e.target) && !navLinksEl.contains(e.target)) {
+      menuToggle.classList.remove('active');
+      navLinksEl.classList.remove('open');
+    }
+  });
+}
+
+// ============================================================
 // SECTION SWITCHING
 // ============================================================
 const navButtons = document.querySelectorAll('.nav-btn');
@@ -1078,6 +1099,12 @@ navButtons.forEach(btn => {
 
     document.querySelectorAll('.content-section').forEach(s => s.classList.add('hidden'));
     document.getElementById(`section-${section}`).classList.remove('hidden');
+
+    // Close mobile menu after selection
+    if (menuToggle && navLinksEl) {
+      menuToggle.classList.remove('active');
+      navLinksEl.classList.remove('open');
+    }
 
     if (section === 'videos') renderVideos();
     if (section === 'gadgets') renderGadgets();

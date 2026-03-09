@@ -822,11 +822,7 @@ h2,
   gap: 2rem;
 }
 
-@media (max-width: 768px) {
-  .guides-grid {
-    grid-template-columns: 1fr;
-  }
-}
+
 
 .guide-card {
   background: var(--card-bg);
@@ -1178,30 +1174,7 @@ h2,
   color: var(--text-muted);
 }
 
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.5rem;
-  }
 
-  .header .container {
-    flex-direction: column;
-    height: auto;
-    padding: 1rem;
-  }
-
-  .nav-links {
-    margin-top: 1rem;
-    font-size: 0.9rem;
-    gap: 1rem;
-  }
-
-  .filters {
-    margin-top: 1rem;
-    overflow-x: auto;
-    width: 100%;
-    padding-bottom: 0.5rem;
-  }
-}
 
 
 /* ============================================================
@@ -1314,32 +1287,7 @@ h2,
   font-weight: 700;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .spec-product-col {
-    min-width: 160px;
-    padding: 1rem 0.75rem;
-  }
 
-  .spec-product-name {
-    font-size: 0.8rem;
-  }
-
-  .spec-compare-table th,
-  .spec-compare-table td {
-    padding: 0.75rem 0.75rem;
-    font-size: 0.82rem;
-  }
-
-  .gadget-sub-tabs {
-    flex-wrap: wrap;
-  }
-
-  .gadget-sub-btn {
-    font-size: 0.82rem;
-    padding: 0.5rem 1.2rem;
-  }
-}
 
 
 /* ============================================================
@@ -1483,24 +1431,7 @@ h2,
   line-height: 1.4;
 }
 
-@media (max-width: 768px) {
-  .youtube-grid {
-    grid-template-columns: 1fr;
-  }
 
-  .video-platform-tabs {
-    flex-wrap: wrap;
-  }
-
-  .video-platform-btn {
-    font-size: 0.82rem;
-    padding: 0.5rem 1.2rem;
-  }
-
-  .live-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 /* ============================================================
    LIVE STREAMER CARDS
@@ -1793,4 +1724,534 @@ h2,
   background: rgba(255, 255, 255, 0.03);
   border-color: var(--glass-border);
   color: var(--text-muted);
+}
+
+/* ============================================================
+   HAMBURGER MENU
+   ============================================================ */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 1002;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text);
+  margin: 5px 0;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* ============================================================
+   COMPREHENSIVE MOBILE RESPONSIVE
+   ============================================================ */
+
+/* --- Tablet (max-width: 768px) --- */
+@media (max-width: 768px) {
+
+  /* Container */
+  .container {
+    padding: 0 1rem;
+  }
+
+  /* Header & Nav */
+  .header {
+    height: auto;
+    min-height: 60px;
+    padding: 0.5rem 0;
+  }
+
+  .header nav {
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    background: rgba(10, 10, 12, 0.98);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--glass-border);
+    z-index: 1001;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-btn {
+    padding: 0.85rem 1.5rem;
+    text-align: left;
+    font-size: 0.95rem;
+    border-bottom: none;
+    border-left: 3px solid transparent;
+    width: 100%;
+  }
+
+  .nav-btn:hover,
+  .nav-btn.active {
+    border-bottom: none;
+    border-left-color: var(--primary);
+    background: rgba(255, 70, 85, 0.08);
+  }
+
+  /* Hero */
+  .hero {
+    padding: 100px 0 50px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  /* Section Title */
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.85rem;
+  }
+
+  /* Video Platform Tabs */
+  .video-platform-tabs {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .video-platform-btn {
+    font-size: 0.78rem;
+    padding: 0.45rem 1rem;
+  }
+
+  /* Filters - horizontal scroll */
+  .filters {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-btn {
+    flex-shrink: 0;
+    font-size: 0.78rem;
+    padding: 0.4rem 1rem;
+  }
+
+  /* Tag Filters - horizontal scroll */
+  .tag-filters {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .tag-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tag-btn {
+    flex-shrink: 0;
+    font-size: 0.75rem;
+    padding: 0.35rem 0.8rem;
+  }
+
+  /* YouTube Grid */
+  .youtube-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* SNS Video Grid */
+  .video-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  /* LIVE Grid */
+  .live-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* Gadget Sub-Tabs */
+  .gadget-sub-tabs {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .gadget-sub-btn {
+    font-size: 0.82rem;
+    padding: 0.5rem 1.2rem;
+  }
+
+  /* Gadget Tabs */
+  .gadget-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .gadget-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gadget-tab-btn {
+    flex-shrink: 0;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Gadget Grid */
+  .gadget-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+  }
+
+  .gadget-card {
+    padding: 1rem;
+  }
+
+  .gadget-buy-links {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .usage-link-btn {
+    font-size: 0.7rem;
+    padding: 0.35rem 0.6rem;
+  }
+
+  /* Usage Rate Items */
+  .usage-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .usage-bar-container {
+    order: 2;
+  }
+
+  .usage-links {
+    order: 3;
+    justify-content: flex-start;
+  }
+
+  /* Usage Tabs */
+  .usage-tabs,
+  .usage-game-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0.4rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .usage-tabs::-webkit-scrollbar,
+  .usage-game-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .usage-tab-btn,
+  .usage-game-btn {
+    flex-shrink: 0;
+    font-size: 0.78rem;
+    padding: 0.4rem 1rem;
+  }
+
+  /* Ranking Table */
+  .ranking-table th,
+  .ranking-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.82rem;
+  }
+
+  .ranking-game-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0.4rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .ranking-game-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ranking-game-btn {
+    flex-shrink: 0;
+  }
+
+  .ranking-device-badge {
+    display: none;
+  }
+
+  /* Spec Comparison */
+  .spec-category-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0.4rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .spec-category-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .spec-product-col {
+    min-width: 140px;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .spec-product-name {
+    font-size: 0.75rem;
+  }
+
+  .spec-compare-table th,
+  .spec-compare-table td {
+    padding: 0.6rem 0.5rem;
+    font-size: 0.78rem;
+  }
+
+  /* Guide Cards */
+  .guides-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .guide-card-header {
+    padding: 1rem;
+  }
+
+  .guide-card-title {
+    font-size: 1.05rem;
+  }
+
+  .guide-card-body {
+    padding: 1rem;
+  }
+
+  .guide-item-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .guide-item-links {
+    flex-wrap: wrap;
+  }
+
+  .guide-filter-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 0.4rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .guide-filter-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .guide-filter-btn {
+    flex-shrink: 0;
+  }
+
+  /* Sale Section */
+  .sale-banner {
+    padding: 1.25rem 1rem;
+    border-radius: 12px;
+  }
+
+  .sale-banner-title {
+    font-size: 1.3rem;
+  }
+
+  .sale-banner-period {
+    font-size: 0.85rem;
+  }
+
+  .sale-items-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .sale-item-card {
+    padding: 1rem;
+  }
+
+  .sale-current-price {
+    font-size: 1.1rem;
+  }
+
+  .upcoming-sales {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .point-tips {
+    padding: 1rem;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 25px 0;
+    font-size: 0.8rem;
+  }
+
+  .footer-disclaimer {
+    font-size: 0.68rem;
+  }
+
+  /* PR Disclosure */
+  .pr-disclosure-banner {
+    font-size: 0.65rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  /* Content Section Padding */
+  .content-section {
+    padding: 25px 0;
+  }
+
+  /* Live Status Summary */
+  .live-status-summary {
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem;
+  }
+}
+
+/* --- Small Mobile (max-width: 480px) --- */
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero p {
+    font-size: 0.88rem;
+  }
+
+  .hero {
+    padding: 90px 0 35px;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  /* Video Grid - Single Column */
+  .video-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .channel-card {
+    border-radius: 12px;
+  }
+
+  /* Gadget Grid */
+  .gadget-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .gadget-img {
+    height: 120px;
+  }
+
+  /* Ranking Table - Compact */
+  .ranking-table th,
+  .ranking-table td {
+    padding: 0.6rem 0.35rem;
+    font-size: 0.75rem;
+  }
+
+  .rank-num {
+    font-size: 0.85rem;
+  }
+
+  /* Sale Cards */
+  .sale-price-row {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  /* Live Cards */
+  .live-card-info {
+    padding: 0.75rem 1rem 1rem;
+  }
+
+  .live-card-name {
+    font-size: 0.95rem;
+  }
+
+  /* YouTube Cards */
+  .youtube-card-info {
+    padding: 0.75rem 1rem 1rem;
+  }
+
+  .youtube-card-title {
+    font-size: 0.85rem;
+  }
 }
