@@ -697,6 +697,26 @@
             "tag": "デバイス紹介",
             "platform": "x",
             "url": "https://x.com/Bob_FN_"
+        },
+        {
+            "id": "v_auto_nGBHuXX2MFY",
+            "title": "Laz (ZETA DIVISION): 【超人】トロント同様、生き残りを懸けたリベンジマッチ。実況を泣かせる化け物じみた個人技【Masters Santiago 2026  Swiss Stage Day4 - G2 vs XLG】",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=nGBHuXX2MFY",
+            "youtubeId": "nGBHuXX2MFY"
+        },
+        {
+            "id": "v_auto_V53n8oZtBLo",
+            "title": "Dep (ZETA DIVISION): 매일 노력하는 Dep #1",
+            "pro": "Dep (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=V53n8oZtBLo",
+            "youtubeId": "V53n8oZtBLo"
         }
     ]
 }
