@@ -301,17 +301,9 @@ function renderLiveStreamers() {
       </div>
     `;
 
-    card.addEventListener('click', (e) => {
-      const embed = card.querySelector('.live-preview-embed');
-      if (embed && embed.style.pointerEvents !== 'auto') {
-        // 1回目のクリック: 埋め込みプレイヤーを操作可能に
-        embed.style.pointerEvents = 'auto';
-        card.style.cursor = 'default';
-        e.stopPropagation();
-      } else if (!embed) {
-        // オフラインの場合はTwitchページを開く
-        window.open(streamer.url, '_blank');
-      }
+    card.addEventListener('click', () => {
+      // 配信中・オフラインに関わらず、クリックで直接Twitchページを開く
+      window.open(streamer.url, '_blank');
     });
     card.style.cursor = 'pointer';
 
