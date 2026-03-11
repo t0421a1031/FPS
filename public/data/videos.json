@@ -116,36 +116,6 @@
             "url": "https://www.twitch.tv/stylishnoob4"
         },
         {
-            "id": "v13",
-            "title": "Dep: 日本最強ジェット使い キル集 | VALORANT",
-            "pro": "Dep (ZETA DIVISION)",
-            "game": "valorant",
-            "tag": "キル集",
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch?v=3ZqHOPmJlJM",
-            "youtubeId": "3ZqHOPmJlJM"
-        },
-        {
-            "id": "v14",
-            "title": "Laz: VCT Pacific 神クラッチ集 | VALORANT",
-            "pro": "Laz (ZETA DIVISION)",
-            "game": "valorant",
-            "tag": "ハイライト",
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch?v=QfM3JJzKZ5o",
-            "youtubeId": "QfM3JJzKZ5o"
-        },
-        {
-            "id": "v15",
-            "title": "SugarZ3ro: スモーク使いの極意 解説 | VALORANT",
-            "pro": "SugarZ3ro (ZETA DIVISION)",
-            "game": "valorant",
-            "tag": "解説",
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch?v=gO9GYJ2TdJo",
-            "youtubeId": "gO9GYJ2TdJo"
-        },
-        {
             "id": "v16",
             "title": "CR: VCT Japan ハイライト | VALORANT大会",
             "pro": "Crazy Raccoon",
@@ -153,76 +123,6 @@
             "tag": "ハイライト",
             "platform": "twitch",
             "url": "https://www.twitch.tv/crazyraccoon_gg"
-        },
-        {
-            "id": "v17",
-            "title": "something: 世界が認めたエイム | VALORANT キル集",
-            "pro": "something (DRX)",
-            "game": "valorant",
-            "tag": "キル集",
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch?v=LdY0p_yODIA",
-            "youtubeId": "LdY0p_yODIA"
-        },
-        {
-            "id": "v18",
-            "title": "ネフライト: 2025年最新デバイス紹介 | マウス・キーボード全部見せます",
-            "pro": "ネフライト",
-            "game": "fortnite",
-            "tag": "デバイス紹介",
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch?v=5jKXp7E7X18",
-            "youtubeId": "5jKXp7E7X18"
-        },
-        {
-            "id": "v19",
-            "title": "まうふぃん: プロが選ぶゲーミングマウスTOP3 | デスク環境紹介",
-            "pro": "まうふぃん (Riddle)",
-            "game": "fortnite",
-            "tag": "デバイス紹介",
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch?v=tRwQ7jGLfVs",
-            "youtubeId": "tRwQ7jGLfVs"
-        },
-        {
-            "id": "v20",
-            "title": "Ras: 最新ゲーミングデバイス全公開 | Apex Legends設定も紹介",
-            "pro": "Ras (Crazy Raccoon)",
-            "game": "apex",
-            "tag": "デバイス紹介",
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch?v=RPhOUEdjvyE",
-            "youtubeId": "RPhOUEdjvyE"
-        },
-        {
-            "id": "v21",
-            "title": "Selly: プロゲーマーのデスクツアー＆デバイス紹介 | Apex",
-            "pro": "Selly",
-            "game": "apex",
-            "tag": "デバイス紹介",
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch?v=xTWAh-c39Xc",
-            "youtubeId": "xTWAh-c39Xc"
-        },
-        {
-            "id": "v22",
-            "title": "Laz: ZETA選手のゲーミング環境紹介 | VALORANT設定公開",
-            "pro": "Laz (ZETA DIVISION)",
-            "game": "valorant",
-            "tag": "デバイス紹介",
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch?v=VTnlYZnJiDE",
-            "youtubeId": "VTnlYZnJiDE"
-        },
-        {
-            "id": "v23",
-            "title": "Dep: プロが使うデバイス全部紹介 | マウス感度・クロスヘア設定",
-            "pro": "Dep (ZETA DIVISION)",
-            "game": "valorant",
-            "tag": "デバイス紹介",
-            "platform": "youtube",
-            "url": "https://www.youtube.com/watch?v=HsK5xdJfJr4",
-            "youtubeId": "HsK5xdJfJr4"
         },
         {
             "id": "v_auto_ugheK6sLw5Y",
