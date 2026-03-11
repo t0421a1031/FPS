@@ -999,20 +999,22 @@ function renderGuides() {
 // RENDER: SALE / POINT INFO
 // ============================================================
 function renderSales() {
-  if (!salesData.activeSale) return;
-
   // Banner
   const bannerEl = document.getElementById('sale-banner');
   if (bannerEl) {
-    bannerEl.innerHTML = `
-      <div class="sale-banner" style="background: ${salesData.activeSale.bannerGradient}">
-        <div class="sale-banner-content">
-          <div class="sale-badge">${salesData.activeSale.badge}</div>
-          <div class="sale-banner-title">${salesData.activeSale.name}</div>
-          <div class="sale-banner-period">${salesData.activeSale.period}</div>
+    if (salesData.activeSale) {
+      bannerEl.innerHTML = `
+        <div class="sale-banner" style="background: ${salesData.activeSale.bannerGradient}">
+          <div class="sale-banner-content">
+            <div class="sale-badge">${salesData.activeSale.badge}</div>
+            <div class="sale-banner-title">${salesData.activeSale.name}</div>
+            <div class="sale-banner-period">${salesData.activeSale.period}</div>
+          </div>
         </div>
-      </div>
-    `;
+      `;
+    } else {
+      bannerEl.innerHTML = ''; // 開催中の特別セールがない場合はバナーを非表示
+    }
   }
 
   // Sale Items

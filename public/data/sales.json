@@ -1,28 +1,28 @@
 {
-    "activeSale": {
-        "name": "Amazonスプリングセール 2026",
-        "period": "2026年3月7日 〜 3月11日",
-        "badge": "🔥 開催中",
-        "bannerGradient": "linear-gradient(135deg, #ff9900 0%, #ff6600 50%, #e65100 100%)"
-    },
+    "activeSale": null,
     "upcomingSales": [
         {
-            "name": "楽天スーパーSALE",
-            "period": "2026年3月予定",
-            "badge": "📅 近日開催"
+            "name": "Amazon 新生活セール Final",
+            "period": "2026年3月末〜4月上旬予定",
+            "badge": "📅 次回開催"
+        },
+        {
+            "name": "楽天 お買い物マラソン",
+            "period": "2026年3月下旬予定",
+            "badge": "🛒 毎月開催"
         },
         {
             "name": "Amazonプライムデー",
             "period": "2026年7月予定",
-            "badge": "🗓️ 次回予定"
+            "badge": "🗓️ 夏の祭典"
         }
     ],
     "saleItems": [
         {
             "name": "Logicool G PRO X SUPERLIGHT 2",
             "originalPrice": "¥23,980",
-            "salePrice": "¥18,800",
-            "discount": "22%OFF",
+            "salePrice": "¥20,469",
+            "discount": "15%OFF",
             "store": "Amazon",
             "url": "https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2&tag=fpsprohub22-22",
             "tag": "マウス",
@@ -31,8 +31,8 @@
         {
             "name": "Razer Huntsman V3 Pro",
             "originalPrice": "¥32,980",
-            "salePrice": "¥26,380",
-            "discount": "20%OFF",
+            "salePrice": "¥32,980",
+            "discount": "ポイント還元",
             "store": "Amazon",
             "url": "https://www.amazon.co.jp/s?k=Razer+Huntsman+V3+Pro&tag=fpsprohub22-22",
             "tag": "キーボード",
@@ -41,8 +41,8 @@
         {
             "name": "BenQ ZOWIE XL2546K",
             "originalPrice": "¥59,800",
-            "salePrice": "¥47,800",
-            "discount": "20%OFF",
+            "salePrice": "¥59,800",
+            "discount": "通常価格",
             "store": "Amazon",
             "url": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K&tag=fpsprohub22-22",
             "tag": "モニター",
@@ -51,8 +51,8 @@
         {
             "name": "HyperX Cloud III Wireless",
             "originalPrice": "¥21,980",
-            "salePrice": "¥16,480",
-            "discount": "25%OFF",
+            "salePrice": "¥21,980",
+            "discount": "通常価格",
             "store": "Amazon",
             "url": "https://www.amazon.co.jp/s?k=HyperX+Cloud+III+Wireless&tag=fpsprohub22-22",
             "tag": "ヘッドセット",
@@ -61,7 +61,7 @@
         {
             "name": "Wooting 60HE",
             "originalPrice": "¥28,000",
-            "salePrice": "¥24,500",
+            "salePrice": "¥28,000",
             "discount": "ポイント10倍",
             "store": "楽天",
             "url": "https://search.rakuten.co.jp/search/mall/Wooting+60HE/",
@@ -71,8 +71,8 @@
         {
             "name": "Shure MV7+",
             "originalPrice": "¥38,500",
-            "salePrice": "¥30,800",
-            "discount": "20%OFF",
+            "salePrice": "¥38,500",
+            "discount": "通常価格",
             "store": "Amazon",
             "url": "https://www.amazon.co.jp/s?k=Shure+MV7+Plus&tag=fpsprohub22-22",
             "tag": "マイク",
@@ -80,8 +80,8 @@
         }
     ],
     "pointTips": [
-        "💡 楽天スーパーSALE中は「お買い物マラソン」と併用でポイント最大44倍！",
-        "💡 Amazonタイムセール祭りでは、事前に「ウォッチリスト」に登録しておくと通知が届きます。",
+        "💡 現在は大型セール期間外ですが、楽天のお買い物マラソン等でポイント還元を狙うのがおすすめです。",
+        "💡 Amazonでは次回の「新生活セール Final」に向けて、ほしい物リストへの追加をしておきましょう。",
         "💡 楽天カード＋SPU条件の達成で、常時ポイント+5倍のベースアップが可能です。",
         "💡 Amazon Prime会員なら、先行タイムセールに30分早くアクセスできます。"
     ]
