@@ -749,13 +749,14 @@ function renderRankings() {
     // ALL表示時は賞金額で降順ソート（ドル額を抽出）
     filtered.sort((a, b) => {
       const getAmount = (prize) => {
+        if (!prize) return 0;
         const dollarMatch = prize.match(/\$([0-9,]+)/);
         if (dollarMatch) return parseInt(dollarMatch[1].replace(/,/g, ''), 10);
         const yenMatch = prize.match(/約([0-9,]+)万円/);
         if (yenMatch) return parseInt(yenMatch[1].replace(/,/g, ''), 10);
         return 0;
       };
-      return getAmount(b) - getAmount(a);
+      return getAmount(b.prize) - getAmount(a.prize);
     });
   }
 
