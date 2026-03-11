@@ -480,13 +480,45 @@ function backgroundLiveCheck() {
   streamersData.forEach(streamer => {
     const previewUrl = `https://static-cdn.jtvnw.net/previews-ttv/live_user_${streamer.channelId}-440x248.jpg`;
     const img = new Image();
+    img.crossOrigin = 'anonymous'; // ピクセル解析のために必須
     const cacheBuster = Date.now();
     img.src = `${previewUrl}?cb=${cacheBuster}`;
 
     img.onload = function () {
       if (img.naturalWidth > 1 && img.naturalHeight > 1) {
-        liveChannelSet.add(streamer.channelId);
-        updateLiveTabIndicator();
+        let isRealPreview = true;
+        try {
+          const canvas = document.createElement('canvas');
+          canvas.width = img.naturalWidth;
+          canvas.height = img.naturalHeight;
+          const ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0);
+
+          const samples = [
+            ctx.getImageData(10, 10, 1, 1).data,
+            ctx.getImageData(img.naturalWidth - 10, 10, 1, 1).data,
+            ctx.getImageData(10, img.naturalHeight - 10, 1, 1).data,
+            ctx.getImageData(img.naturalWidth - 10, img.naturalHeight - 10, 1, 1).data,
+            ctx.getImageData(Math.floor(img.naturalWidth / 4), 10, 1, 1).data
+          ];
+
+          const ref = samples[0];
+          const allSame = samples.every(s =>
+            Math.abs(s[0] - ref[0]) < 15 &&
+            Math.abs(s[1] - ref[1]) < 15 &&
+            Math.abs(s[2] - ref[2]) < 15
+          );
+          if (allSame) isRealPreview = false;
+        } catch (e) {
+          isRealPreview = true; // Canvas取得エラー時はリアルとみなす
+        }
+
+        if (isRealPreview) {
+          liveChannelSet.add(streamer.channelId);
+          updateLiveTabIndicator();
+        } else {
+          liveChannelSet.delete(streamer.channelId);
+        }
       }
     };
 
