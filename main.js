@@ -750,10 +750,18 @@ function renderRankings() {
     filtered.sort((a, b) => {
       const getAmount = (prize) => {
         if (!prize) return 0;
-        const dollarMatch = prize.match(/\$([0-9,]+)/);
-        if (dollarMatch) return parseInt(dollarMatch[1].replace(/,/g, ''), 10);
-        const yenMatch = prize.match(/約([0-9,]+)万円/);
-        if (yenMatch) return parseInt(yenMatch[1].replace(/,/g, ''), 10);
+        try {
+          const strPrize = String(prize);
+          const dollarMatch = strPrize.match(/\$([0-9,]+)/);
+          if (dollarMatch) return parseInt(dollarMatch[1].replace(/,/g, ''), 10);
+          const yenMatch = strPrize.match(/約([0-9,]+)万円/);
+          if (yenMatch) return parseInt(yenMatch[1].replace(/,/g, ''), 10);
+          // 数字のみの場合など
+          const numMatch = strPrize.replace(/[^0-9]/g, '');
+          if (numMatch) return parseInt(numMatch, 10);
+        } catch (e) {
+          console.error(e);
+        }
         return 0;
       };
       return getAmount(b.prize) - getAmount(a.prize);
