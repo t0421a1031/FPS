@@ -80,6 +80,7 @@
         </button>
         <div class="nav-links" id="nav-links">
           <button class="nav-btn active" data-section="videos">プレイ動画</button>
+          <button class="nav-btn" data-section="updates">アップデート情報</button>
           <button class="nav-btn" data-section="rankings">賞金ランキング</button>
           <button class="nav-btn" data-section="gadgets">ガジェット</button>
           <button class="nav-btn" data-section="guides">購入ガイド</button>
@@ -131,6 +132,90 @@
           <div class="live-grid" id="live-grid"></div>
         </div>
       </section>
+
+      <!-- Updates Section -->
+      <section id="section-updates" class="content-section container hidden">
+        <h2 class="section-title">🔄 最新アップデート情報</h2>
+        <p class="section-subtitle">各タイトルの最新パッチノートと次回アップデート時期</p>
+        
+        <div class="updates-grid">
+          <!-- Fortnite -->
+          <div class="update-card">
+            <div class="update-card-header" style="background: linear-gradient(135deg, #1a0533, #6c3bbf);">
+              <h3>FORTNITE</h3>
+              <span class="version-badge">v29.10</span>
+            </div>
+            <div class="update-card-body">
+              <div class="next-update-box">
+                <span class="next-label">次回アップデート予定</span>
+                <span class="next-date">2026年3月下旬</span>
+              </div>
+              <h4>📝 最新アップデート内容</h4>
+              <ul class="update-list">
+                <li>新武器「タクティカルアサルトライフル(Mythic)」追加</li>
+                <li>新エリア「シャドー・ベース」の実装</li>
+                <li>パフォーマンス改善と各種バグ修正</li>
+                <li>ランクモードのポイント計算調整</li>
+              </ul>
+              <a href="https://www.fortnite.com/news" target="_blank" rel="noopener noreferrer" class="official-update-btn">
+                公式パッチノートを見る
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+            </div>
+          </div>
+          
+          <!-- APEX LEGENDS -->
+          <div class="update-card">
+            <div class="update-card-header" style="background: linear-gradient(135deg, #4a0404, #cc2828);">
+              <h3>APEX LEGENDS</h3>
+              <span class="version-badge">Season 22 パッチ</span>
+            </div>
+            <div class="update-card-body">
+              <div class="next-update-box">
+                <span class="next-label">次回アップデート予定</span>
+                <span class="next-date">2026年4月上旬 (新シーズン)</span>
+              </div>
+              <h4>📝 最新アップデート内容</h4>
+              <ul class="update-list">
+                <li>レジェンド調整: パスファインダー、レイスのバランス調整</li>
+                <li>武器調整: R-301の反動増加、ネメシスのダメージ低下</li>
+                <li>ランクシステムのスコア算出方法の見直し</li>
+                <li>オーディオ最適化パッチ適用</li>
+              </ul>
+              <a href="https://www.ea.com/ja-jp/games/apex-legends/news" target="_blank" rel="noopener noreferrer" class="official-update-btn">
+                公式パッチノートを見る
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- VALORANT -->
+          <div class="update-card">
+            <div class="update-card-header" style="background: linear-gradient(135deg, #38112e, #ff4655);">
+              <h3>VALORANT</h3>
+              <span class="version-badge">パッチ 8.05</span>
+            </div>
+            <div class="update-card-body">
+              <div class="next-update-box">
+                <span class="next-label">次回アップデート予定</span>
+                <span class="next-date">2026年3月25日頃</span>
+              </div>
+              <h4>📝 最新アップデート内容</h4>
+              <ul class="update-list">
+                <li>新エージェント「クローヴ」関連のバグ修正</li>
+                <li>プレミアモードのUI改善と申請期間の調整</li>
+                <li>デスマッチのスポーン位置の最適化</li>
+                <li>サーバーティックレートの安定性向上</li>
+              </ul>
+              <a href="https://playvalorant.com/ja-jp/news/tags/patch-notes/" target="_blank" rel="noopener noreferrer" class="official-update-btn">
+                公式パッチノートを見る
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       <!-- Gadgets Section (ガジェット + プロ使用率 + スペック比較 統合) -->
       <section id="section-gadgets" class="content-section container hidden">
