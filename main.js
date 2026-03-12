@@ -1233,3 +1233,24 @@ async function init() {
 }
 
 init();
+
+// アクセスカウンター処理
+function updateAccessCounter() {
+  const counterEl = document.getElementById('access-count');
+  if (!counterEl) return;
+
+  fetch('https://api.counterapi.dev/v1/fps-prohub.net/visits/up')
+    .then(res => res.json())
+    .then(data => {
+      if (data && data.count) {
+        counterEl.textContent = data.count.toLocaleString();
+      } else {
+        counterEl.textContent = '---';
+      }
+    })
+    .catch(err => {
+      console.error('アクセスカウンターの取得に失敗しました:', err);
+      counterEl.textContent = '---';
+    });
+}
+updateAccessCounter();

@@ -275,6 +275,34 @@ h2,
   font-size: 0.9rem;
 }
 
+.access-counter {
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+}
+
+.counter-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.counter-number {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #00d4ff;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+  letter-spacing: 2px;
+}
+
 /* Animations */
 @keyframes fadeIn {
   from {
