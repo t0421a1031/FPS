@@ -120,7 +120,7 @@ function renderSNSVideos() {
   if (!grid) return;
   grid.innerHTML = '';
 
-  let filtered = videos.filter(v => v.platform !== 'youtube');
+  let filtered = videos.filter(v => v.platform !== 'youtube' || (v.platform === 'youtube' && !v.youtubeId));
   if (currentVideoFilter !== 'all') {
     filtered = filtered.filter(v => v.game === currentVideoFilter);
   }
@@ -141,9 +141,9 @@ function renderSNSVideos() {
     const colors = getAvatarColor(video.pro);
     const initial = getInitial(video.pro);
     const platformIcon = getPlatformSmallIcon(video.platform);
-    const platformName = video.platform === 'twitch' ? 'Twitch' : 'X';
+    const platformName = video.platform === 'twitch' ? 'Twitch' : video.platform === 'youtube' ? 'YouTube' : 'X';
     const gameLabel = video.game === 'fortnite' ? 'FORTNITE' : video.game === 'valorant' ? 'VALORANT' : 'APEX';
-    const platformColor = video.platform === 'twitch' ? '#9146FF' : '#e0e0e0';
+    const platformColor = video.platform === 'twitch' ? '#9146FF' : video.platform === 'youtube' ? '#FF0000' : '#e0e0e0';
 
     card.innerHTML = `
       <div class="channel-header" style="background: linear-gradient(135deg, ${colors.dark}, ${colors.bg})">
@@ -932,6 +932,7 @@ function renderUsageContent() {
       <div class="usage-links">
         <a href="${item.amazonUrl}" target="_blank" class="usage-link-btn amazon">Amazon</a>
         <a href="${item.rakutenUrl}" target="_blank" class="usage-link-btn rakuten">楽天</a>
+        ${item.yahooUrl ? `<a href="${item.yahooUrl}" target="_blank" rel="nofollow noopener noreferrer" class="usage-link-btn yahoo">Yahoo!</a>` : ''}
       </div>
     `;
     container.appendChild(div);
@@ -1059,7 +1060,8 @@ function renderSales() {
       const card = document.createElement('div');
       card.className = 'sale-item-card';
       card.style.animationDelay = `${i * 0.08}s`;
-      const storeClass = item.store.toLowerCase() === 'amazon' ? 'amazon' : 'rakuten';
+      const lowerStore = item.store.toLowerCase();
+      const storeClass = lowerStore === 'amazon' ? 'amazon' : lowerStore.includes('yahoo') ? 'yahoo' : 'rakuten';
       card.innerHTML = `
         <div class="sale-discount-badge">${item.discount}</div>
         <span class="sale-item-tag">${item.tag}</span>
@@ -1149,6 +1151,43 @@ navButtons.forEach(btn => {
   });
 });
 
+const siteLogo = document.getElementById('site-logo');
+if (siteLogo) {
+  siteLogo.addEventListener('click', (e) => {
+    e.preventDefault(); // href="#"のデフォルト挙動をキャンセル
+
+    // ▼ 動画タブ以外にいれば動画タブに切り替える
+    const videoBtn = document.querySelector('.nav-btn[data-section="videos"]');
+    if (videoBtn) videoBtn.click();
+
+    // ▼ プラットフォームタブをYouTubeにリセット
+    const ytBtn = document.querySelector('.video-platform-btn[data-vplatform="youtube"]');
+    if (ytBtn) ytBtn.click();
+
+    // ▼ ゲームフィルターをALLにリセット
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    filterBtns.forEach(b => b.classList.remove('active'));
+    const allFilter = document.querySelector('.filter-btn[data-filter="all"]');
+    if (allFilter) allFilter.classList.add('active');
+    currentVideoFilter = 'all';
+
+    // ▼ 動画タグをALLにリセット
+    const tagBtns = document.querySelectorAll('.tag-btn');
+    tagBtns.forEach(b => b.classList.remove('active'));
+    const allTag = document.querySelector('.tag-btn[data-tag="all"]');
+    if (allTag) allTag.classList.add('active');
+    currentVideoTag = 'all';
+
+    // ▼ 表示を再描画
+    if (typeof renderVideos === 'function') {
+      renderVideos();
+    }
+
+    // ▼ トップへスクロール
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
 
 // ============================================================
 // VIDEO FILTER BUTTONS
@@ -1192,7 +1231,7 @@ async function init() {
 
     if (videoRes.ok) {
       const data = await videoRes.json();
-      videos = data.videos || [];
+      videos = data.videos ? data.videos.reverse() : [];
     }
 
     if (gadgetRes.ok) {

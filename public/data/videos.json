@@ -95,7 +95,7 @@
             "game": "apex",
             "tag": "ハイライト",
             "platform": "twitch",
-            "url": "https://www.twitch.tv/crazyraccoon_gg"
+            "url": "https://www.twitch.tv/crazyraccoon406"
         },
         {
             "id": "v11",
@@ -103,8 +103,8 @@
             "pro": "Laz (ZETA DIVISION)",
             "game": "valorant",
             "tag": "キル集",
-            "platform": "x",
-            "url": "https://x.com/lazvell"
+            "platform": "youtube",
+            "url": "https://www.youtube.com/@lazvell"
         },
         {
             "id": "v12",
@@ -112,8 +112,8 @@
             "pro": "StylishNoob",
             "game": "apex",
             "tag": "ハイライト",
-            "platform": "twitch",
-            "url": "https://www.twitch.tv/stylishnoob4"
+            "platform": "youtube",
+            "url": "https://www.youtube.com/@StylishNoob4"
         },
         {
             "id": "v16",
@@ -122,7 +122,7 @@
             "game": "valorant",
             "tag": "ハイライト",
             "platform": "twitch",
-            "url": "https://www.twitch.tv/crazyraccoon_gg"
+            "url": "https://www.twitch.tv/crazyraccoon406"
         },
         {
             "id": "v_auto_ugheK6sLw5Y",
@@ -551,7 +551,7 @@
             "game": "apex",
             "tag": "デバイス紹介",
             "platform": "x",
-            "url": "https://x.com/ras_and420"
+            "url": "https://x.com/Ras9915"
         },
         {
             "id": "v_sns_d2",
@@ -559,8 +559,8 @@
             "pro": "Laz (ZETA DIVISION)",
             "game": "valorant",
             "tag": "デバイス紹介",
-            "platform": "x",
-            "url": "https://x.com/lazvell"
+            "platform": "youtube",
+            "url": "https://www.youtube.com/@lazvell"
         },
         {
             "id": "v_sns_d3",
@@ -570,15 +570,6 @@
             "tag": "デバイス紹介",
             "platform": "x",
             "url": "https://x.com/Maufinfn"
-        },
-        {
-            "id": "v_sns_d4",
-            "title": "Dep: 大会で使うデバイスセッティング配信",
-            "pro": "Dep (ZETA DIVISION)",
-            "game": "valorant",
-            "tag": "デバイス紹介",
-            "platform": "twitch",
-            "url": "https://www.twitch.tv/dep_ow"
         },
         {
             "id": "v_sns_d5",
