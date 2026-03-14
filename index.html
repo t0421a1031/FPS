@@ -85,6 +85,7 @@
           <button class="nav-btn" data-section="gadgets">ガジェット</button>
           <button class="nav-btn" data-section="guides">購入ガイド</button>
           <button class="nav-btn" data-section="sales">セール情報</button>
+          <button class="nav-btn" data-section="community">コミュニティ</button>
         </div>
       </nav>
     </header>
@@ -271,6 +272,43 @@
         <div id="sale-items-grid"></div>
         <div id="point-tips"></div>
         <div id="upcoming-sales"></div>
+      </section>
+
+      <!-- Community Section -->
+      <section id="section-community" class="content-section container hidden">
+        <h2 class="section-title">💬 コミュニティ</h2>
+        <p class="section-subtitle">オリジナルコンテンツや公式SNSで繋がろう</p>
+        
+        <div style="display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); margin-bottom: 2rem;">
+          
+          <!-- LINE Sticker -->
+          <div style="background: var(--card-bg); border: 1px solid var(--glass-border); border-radius: 12px; padding: 2.5rem 1.5rem; text-align: center; transition: all 0.3s ease;">
+            <div style="font-size: 3.5rem; margin-bottom: 1rem;">📱</div>
+            <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 1rem; color: #06C755;">オリジナルLINEスタンプ</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem; line-height: 1.6;">私たちが制作したFPSプレイヤー向けの使いやすいLINEスタンプが販売中です！<br>ゲーム仲間とのやり取りにぜひ活用してください。</p>
+            <a href="https://store.line.me/" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #06C755; color: #fff; text-decoration: none; padding: 0.8rem 2.5rem; border-radius: 50px; font-weight: 800; font-size: 1rem; transition: transform 0.3s ease, box-shadow 0.3s ease; box-shadow: 0 4px 15px rgba(6, 199, 85, 0.3);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 25px rgba(6, 199, 85, 0.4)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(6, 199, 85, 0.3)';">
+              LINEストアをチェック
+            </a>
+          </div>
+
+          <!-- SNS Network -->
+          <div style="background: var(--card-bg); border: 1px solid var(--glass-border); border-radius: 12px; padding: 2.5rem 1.5rem; text-align: center; transition: all 0.3s ease;">
+            <div style="font-size: 3.5rem; margin-bottom: 1rem;">🌐</div>
+            <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 1rem; color: var(--secondary);">公式SNSネットワーク</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem; line-height: 1.6;">最新情報の発信やフォロワー参加型の企画も開催中！<br>ぜひフォローして一緒にコミュニティを盛り上げましょう。</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+              <a href="https://x.com/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.05); color: #fff; text-decoration: none; padding: 0.6rem 1.5rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem; border: 1px solid var(--glass-border); transition: all 0.3s ease;" onmouseover="this.style.background='#000'; this.style.color='#fff'; this.style.borderColor='var(--glass-border)';" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='var(--glass-border)';">
+                <!-- X icon -->
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.005 4.137H5.03z"/></svg>
+                X (Twitter)
+              </a>
+              <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.05); color: #fff; text-decoration: none; padding: 0.6rem 1.5rem; border-radius: 50px; font-weight: 700; font-size: 0.9rem; border: 1px solid var(--glass-border); transition: all 0.3s ease;" onmouseover="this.style.background='#FF0000'; this.style.color='#fff'; this.style.borderColor='#FF0000';" onmouseout="this.style.background='rgba(255,255,255,0.05)'; this.style.borderColor='var(--glass-border)';">
+                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                 YouTube
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
