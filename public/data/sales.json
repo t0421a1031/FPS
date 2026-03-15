@@ -1,5 +1,10 @@
 {
-    "activeSale": null,
+    "activeSale": {
+        "name": "Yahoo! 超PayPay祭",
+        "period": "2026年3月3日〜3月30日（グランドフィナーレ 3/21〜3/22）",
+        "badge": "🔥 開催中",
+        "bannerGradient": "linear-gradient(135deg, #ff0033 0%, #ff4d4d 100%)"
+    },
     "upcomingSales": [
         {
             "name": "Amazon 新生活セール Final",
@@ -32,21 +37,21 @@
             "name": "Razer Huntsman V3 Pro",
             "originalPrice": "¥32,980",
             "salePrice": "¥32,980",
-            "discount": "ポイント還元",
-            "store": "Amazon",
-            "url": "https://www.amazon.co.jp/s?k=Razer+Huntsman+V3+Pro&tag=fpsprohub22-22",
+            "discount": "最大32%還元",
+            "store": "Yahoo!",
+            "url": "https://shopping.yahoo.co.jp/search?p=Razer+Huntsman+V3+Pro",
             "tag": "キーボード",
-            "isPrime": true
+            "isPrime": false
         },
         {
             "name": "BenQ ZOWIE XL2546K",
             "originalPrice": "¥59,800",
             "salePrice": "¥59,800",
-            "discount": "通常価格",
-            "store": "Amazon",
-            "url": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K&tag=fpsprohub22-22",
+            "discount": "最大25.5%還元",
+            "store": "Yahoo!",
+            "url": "https://shopping.yahoo.co.jp/search?p=BenQ+ZOWIE+XL2546K",
             "tag": "モニター",
-            "isPrime": true
+            "isPrime": false
         },
         {
             "name": "HyperX Cloud III Wireless",
@@ -80,7 +85,7 @@
         }
     ],
     "pointTips": [
-        "💡 現在は大型セール期間外ですが、楽天のお買い物マラソン等でポイント還元を狙うのがおすすめです。",
+        "💡 Yahoo!ショッピング超PayPay祭（3/3〜3/30）開催中！3/21〜3/22のグランドフィナーレは最大32%還元も狙えます。",
         "💡 Amazonでは次回の「新生活セール Final」に向けて、ほしい物リストへの追加をしておきましょう。",
         "💡 楽天カード＋SPU条件の達成で、常時ポイント+5倍のベースアップが可能です。",
         "💡 Amazon Prime会員なら、先行タイムセールに30分早くアクセスできます。"
