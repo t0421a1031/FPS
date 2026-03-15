@@ -1293,3 +1293,52 @@ function updateAccessCounter() {
     });
 }
 updateAccessCounter();
+
+// ============================================================
+// STAMP REQUEST FORM LOGIC
+// ============================================================
+const stampForm = document.getElementById('stampRequestForm');
+const successModal = document.getElementById('successModal');
+const closeModalBtn = document.getElementById('closeModalBtn');
+
+// 開発者のX（Twitter）ユーザーID
+// @Gravity5_T の実際の数値IDを設定する必要があります。
+// 取得できない場合は、スクリーンネームを利用した汎用URLを使います。
+const TWITTER_SCREEN_NAME = 'Gravity5_T';
+
+if (stampForm) {
+  stampForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // 入力値の取得
+    const usageObj = document.querySelector('input[name="stamp_usage"]:checked');
+    const usage = usageObj ? usageObj.value : '未選択';
+    const serifu = document.getElementById('stamp_serifu').value;
+    const character = document.getElementById('stamp_character').value;
+    const xid = document.getElementById('stamp_xid').value;
+
+    // 送信テキストの作成
+    const text = `【LINEスタンプ制作リクエスト】\n\n■どんな時に使うスタンプ？\n${usage}\n\n■入れてほしい「セリフ」\n${serifu}\n\n■キャラクターのイメージ\n${character}\n\n■X ID (任意)\n${xid || 'なし'}\n\n※参考画像がある場合は、このメッセージに続けて画像を添付してください！`;
+    
+    const encodedText = encodeURIComponent(text);
+    
+    // XのDM送信画面URLを作成 (https://twitter.com/messages/compose?recipient_id=ユーザーID&text=メッセージ)
+    // 相手の数値IDが不明なため汎用のcomposeリンクを使用し、ユーザー自身で宛先を入力してもらうかテキストだけセットするかになりますが、
+    // PC/モバイルでの挙動が安定する direct messages 作成URLを利用します。
+    // https://x.com/messages/compose?text=内容
+    const dmUrl = `https://x.com/messages/compose?recipient_id=2027722227903500288&text=${encodedText}`;
+    
+    window.open(dmUrl, '_blank');
+    
+    // モーダルを表示してフォームをリセット
+    if(successModal) successModal.classList.add('active');
+  });
+}
+
+if (closeModalBtn) {
+  closeModalBtn.addEventListener('click', function() {
+      if(successModal) successModal.classList.remove('active');
+      if(stampForm) stampForm.reset();
+  });
+}
+
