@@ -1300,45 +1300,93 @@ updateAccessCounter();
 const stampForm = document.getElementById('stampRequestForm');
 const successModal = document.getElementById('successModal');
 const closeModalBtn = document.getElementById('closeModalBtn');
-
-// 開発者のX（Twitter）ユーザーID
-// @Gravity5_T の実際の数値IDを設定する必要があります。
-// 取得できない場合は、スクリーンネームを利用した汎用URLを使います。
-const TWITTER_SCREEN_NAME = 'Gravity5_T';
+const submitBtn = document.getElementById('submitBtn');
+const imageUpload = document.getElementById('imageUpload');
+const imagePreview = document.getElementById('imagePreview');
+const previewImg = document.getElementById('previewImg');
+const removeImageBtn = document.getElementById('removeImageBtn');
+const uploadText = document.getElementById('uploadText');
 
 if (stampForm) {
-  stampForm.addEventListener('submit', function(e) {
+  stampForm.addEventListener('submit', async function(e) {
     e.preventDefault();
     
-    // 入力値の取得
-    const usageObj = document.querySelector('input[name="stamp_usage"]:checked');
-    const usage = usageObj ? usageObj.value : '未選択';
-    const serifu = document.getElementById('stamp_serifu').value;
-    const character = document.getElementById('stamp_character').value;
-    const xid = document.getElementById('stamp_xid').value;
+    // Prevent double submission
+    if(submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = '送信中...';
+    }
 
-    // 送信テキストの作成
-    const text = `【LINEスタンプ制作リクエスト】\n\n■どんな時に使うスタンプ？\n${usage}\n\n■入れてほしい「セリフ」\n${serifu}\n\n■キャラクターのイメージ\n${character}\n\n■X ID (任意)\n${xid || 'なし'}\n\n※参考画像がある場合は、このメッセージに続けて画像を添付してください！`;
-    
-    const encodedText = encodeURIComponent(text);
-    
-    // XのDM送信画面URLを作成 (https://twitter.com/messages/compose?recipient_id=ユーザーID&text=メッセージ)
-    // 相手の数値IDが不明なため汎用のcomposeリンクを使用し、ユーザー自身で宛先を入力してもらうかテキストだけセットするかになりますが、
-    // PC/モバイルでの挙動が安定する direct messages 作成URLを利用します。
-    // https://x.com/messages/compose?text=内容
-    const dmUrl = `https://x.com/messages/compose?recipient_id=2027722227903500288&text=${encodedText}`;
-    
-    window.open(dmUrl, '_blank');
-    
-    // モーダルを表示してフォームをリセット
-    if(successModal) successModal.classList.add('active');
+    const data = new FormData(stampForm);
+    const actionUrl = stampForm.getAttribute('action');
+
+    try {
+      // 実際にはaction URLが YOUR_FORM_ID から設定された時にのみ動くようにする
+      if(!actionUrl || actionUrl.includes('YOUR_FORM_ID')) {
+        alert("送信先(Formspree等のURL)が設定されていません。\nデモとして送信完了画面を表示します。");
+        // モーダルを表示
+        if(successModal) successModal.classList.add('active');
+        stampForm.reset();
+        resetImagePreview();
+        return;
+      }
+
+      const response = await fetch(actionUrl, {
+        method: 'POST',
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      });
+      
+      if (response.ok) {
+        if(successModal) successModal.classList.add('active');
+        stampForm.reset();
+        resetImagePreview();
+      } else {
+        alert("エラーが発生しました。もう一度お試しください。");
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      alert("エラーが発生しました。ネットワーク接続を確認してください。");
+    } finally {
+      if(submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'リクエストを送信する';
+      }
+    }
   });
+}
+
+function resetImagePreview() {
+    if(imageUpload) imageUpload.value = '';
+    if(previewImg) previewImg.src = '';
+    if(imagePreview) imagePreview.style.display = 'none';
+    if(uploadText) uploadText.textContent = '画像を選択（参考画像など）';
+}
+
+if (imageUpload) {
+  imageUpload.addEventListener('change', function() {
+    const file = this.files[0];
+    if (file && file.type.startsWith('image/')) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            previewImg.src = e.target.result;
+            imagePreview.style.display = 'block';
+            uploadText.textContent = file.name;
+        }
+        reader.readAsDataURL(file);
+    }
+  });
+}
+
+if (removeImageBtn) {
+  removeImageBtn.addEventListener('click', resetImagePreview);
 }
 
 if (closeModalBtn) {
   closeModalBtn.addEventListener('click', function() {
       if(successModal) successModal.classList.remove('active');
-      if(stampForm) stampForm.reset();
   });
 }
 

@@ -314,7 +314,8 @@
           <!-- LINE Stamp Form -->
           <div class="form-container">
             <h3 class="form-title">LINEスタンプ制作リクエスト</h3>
-            <form id="stampRequestForm">
+            <!-- action="https://formspree.io/f/YOUR_FORM_ID" の YOUR_FORM_ID を取得後に書き換えてください -->
+            <form id="stampRequestForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
               <!-- 1. どんな時に使うスタンプ？ -->
               <div class="form-group">
                 <label class="form-label">どんな時に使うスタンプ？<span class="form-label-required">必須</span></label>
@@ -330,32 +331,38 @@
               <!-- 2. 入れてほしい「セリフ」 -->
               <div class="form-group">
                 <label class="form-label">入れてほしい「セリフ」<span class="form-label-required">必須</span></label>
-                <input type="text" id="stamp_serifu" class="form-input" placeholder="例：エイムが行方不明、ガチ解除いけます" required>
+                <input type="text" name="serifu" id="stamp_serifu" class="form-input" placeholder="例：エイムが行方不明、ガチ解除いけます" required>
               </div>
 
               <!-- 3. キャラクターのイメージ -->
               <div class="form-group">
                 <label class="form-label">キャラクターのイメージ<span class="form-label-required">必須</span></label>
-                <textarea id="stamp_character" class="form-textarea" placeholder="例：泣きそうな顔の猫、真顔の初心者" name="character_image" required></textarea>
+                <textarea name="character_image" id="stamp_character" class="form-textarea" placeholder="例：泣きそうな顔の猫、真顔の初心者" required></textarea>
                 <span class="form-hint form-warning">注意：実在のプロ選手やゲームの公式キャラクターは<br>著作権上お受けできません。オリジナルでご指定ください。</span>
               </div>
 
               <!-- 画像アップロード -->
               <div class="form-group">
                 <label class="form-label">イメージ画像<span class="form-label-optional">任意</span></label>
-                <!-- DM送信の場合、直接画像を添付できない旨を記載 -->
-                <span class="form-hint" style="margin-bottom:0.5rem; display:block; color:#aaa;">※画像はX(旧Twitter)のDM画面で直接添付してください。</span>
+                <input type="file" name="attachment" id="imageUpload" class="file-input" accept="image/*">
+                <label for="imageUpload" class="file-upload-label">
+                  <span class="upload-icon">📷</span>
+                  <span id="uploadText" class="upload-text">画像を選択（参考画像など）</span>
+                </label>
+                <div id="imagePreview" class="image-preview-container">
+                  <img id="previewImg" src="" alt="Preview">
+                  <button type="button" class="remove-image-btn" id="removeImageBtn">✕</button>
+                </div>
               </div>
 
               <!-- 4. あなたのX（旧Twitter）ID -->
               <div class="form-group">
                 <label class="form-label">あなたのX（旧Twitter）ID<span class="form-label-optional">任意</span></label>
-                <input type="text" id="stamp_xid" class="form-input" placeholder="例：@your_id">
+                <input type="text" name="x_id" id="stamp_xid" class="form-input" placeholder="例：@your_id">
                 <span class="form-hint">採用された場合、メンションでお知らせします！</span>
               </div>
 
-              <button type="submit" class="submit-btn" id="submitBtn">X(旧Twitter)のDMでリクエストを送信する</button>
-              <span class="form-hint" style="display:block; text-align:center; margin-top:0.5rem; color:var(--text-muted);">※自動送信はされません。Xの画面が開いたらご自身で「送信」ボタンを押してください。</span>
+              <button type="submit" class="submit-btn" id="submitBtn">リクエストを送信する</button>
             </form>
           </div>
         </div>
