@@ -1,93 +1,93 @@
 {
-    "activeSale": {
-        "name": "Yahoo! 超PayPay祭",
-        "period": "2026年3月3日〜3月30日（グランドフィナーレ 3/21〜3/22）",
-        "badge": "🔥 開催中",
-        "bannerGradient": "linear-gradient(135deg, #ff0033 0%, #ff4d4d 100%)"
+  "activeSale": {
+    "name": "Yahoo! 超PayPay祭",
+    "period": "2026年3月3日〜3月30日（グランドフィナーレ 3/21〜3/22）",
+    "badge": "🔥 開催中",
+    "bannerGradient": "linear-gradient(135deg, #ff0033 0%, #ff4d4d 100%)"
+  },
+  "upcomingSales": [
+    {
+      "name": "Amazon 新生活セール Final",
+      "period": "2026年3月末〜4月上旬予定",
+      "badge": "📅 次回開催"
     },
-    "upcomingSales": [
-        {
-            "name": "Amazon 新生活セール Final",
-            "period": "2026年3月末〜4月上旬予定",
-            "badge": "📅 次回開催"
-        },
-        {
-            "name": "楽天 お買い物マラソン",
-            "period": "2026年3月下旬予定",
-            "badge": "🛒 毎月開催"
-        },
-        {
-            "name": "Amazonプライムデー",
-            "period": "2026年7月予定",
-            "badge": "🗓️ 夏の祭典"
-        }
-    ],
-    "saleItems": [
-        {
-            "name": "Logicool G PRO X SUPERLIGHT 2",
-            "originalPrice": "¥23,980",
-            "salePrice": "¥20,469",
-            "discount": "15%OFF",
-            "store": "Amazon",
-            "url": "https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2&tag=fpsprohub22-22",
-            "tag": "マウス",
-            "isPrime": true
-        },
-        {
-            "name": "Razer Huntsman V3 Pro",
-            "originalPrice": "¥32,980",
-            "salePrice": "¥32,980",
-            "discount": "最大32%還元",
-            "store": "Yahoo!",
-            "url": "https://shopping.yahoo.co.jp/search?p=Razer+Huntsman+V3+Pro",
-            "tag": "キーボード",
-            "isPrime": false
-        },
-        {
-            "name": "BenQ ZOWIE XL2546K",
-            "originalPrice": "¥59,800",
-            "salePrice": "¥59,800",
-            "discount": "最大25.5%還元",
-            "store": "Yahoo!",
-            "url": "https://shopping.yahoo.co.jp/search?p=BenQ+ZOWIE+XL2546K",
-            "tag": "モニター",
-            "isPrime": false
-        },
-        {
-            "name": "HyperX Cloud III Wireless",
-            "originalPrice": "¥21,980",
-            "salePrice": "¥21,980",
-            "discount": "通常価格",
-            "store": "Amazon",
-            "url": "https://www.amazon.co.jp/s?k=HyperX+Cloud+III+Wireless&tag=fpsprohub22-22",
-            "tag": "ヘッドセット",
-            "isPrime": true
-        },
-        {
-            "name": "Wooting 60HE",
-            "originalPrice": "¥28,000",
-            "salePrice": "¥28,000",
-            "discount": "ポイント10倍",
-            "store": "楽天",
-            "url": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FWooting%2B60HE%2F",
-            "tag": "キーボード",
-            "isPrime": false
-        },
-        {
-            "name": "Shure MV7+",
-            "originalPrice": "¥38,500",
-            "salePrice": "¥38,500",
-            "discount": "通常価格",
-            "store": "Amazon",
-            "url": "https://www.amazon.co.jp/s?k=Shure+MV7+Plus&tag=fpsprohub22-22",
-            "tag": "マイク",
-            "isPrime": true
-        }
-    ],
-    "pointTips": [
-        "💡 Yahoo!ショッピング超PayPay祭（3/3〜3/30）開催中！3/21〜3/22のグランドフィナーレは最大32%還元も狙えます。",
-        "💡 Amazonでは次回の「新生活セール Final」に向けて、ほしい物リストへの追加をしておきましょう。",
-        "💡 楽天カード＋SPU条件の達成で、常時ポイント+5倍のベースアップが可能です。",
-        "💡 Amazon Prime会員なら、先行タイムセールに30分早くアクセスできます。"
-    ]
+    {
+      "name": "楽天 お買い物マラソン",
+      "period": "2026年3月下旬予定",
+      "badge": "🛒 毎月開催"
+    },
+    {
+      "name": "Amazonプライムデー",
+      "period": "2026年7月予定",
+      "badge": "🗓️ 夏の祭典"
+    }
+  ],
+  "saleItems": [
+    {
+      "name": "Logicool G PRO X SUPERLIGHT 2",
+      "originalPrice": "¥23,980",
+      "salePrice": "¥20,469",
+      "discount": "15%OFF",
+      "store": "Amazon",
+      "url": "https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2&tag=fpsprohub22-22",
+      "tag": "マウス",
+      "isPrime": true
+    },
+    {
+      "name": "Razer Huntsman V3 Pro",
+      "originalPrice": "¥32,980",
+      "salePrice": "¥32,980",
+      "discount": "最大32%還元",
+      "store": "Yahoo!",
+      "url": "https://shopping.yahoo.co.jp/search?p=Razer+Huntsman+V3+Pro",
+      "tag": "キーボード",
+      "isPrime": false
+    },
+    {
+      "name": "BenQ ZOWIE XL2546K",
+      "originalPrice": "¥59,800",
+      "salePrice": "¥59,800",
+      "discount": "最大25.5%還元",
+      "store": "Yahoo!",
+      "url": "https://shopping.yahoo.co.jp/search?p=BenQ+ZOWIE+XL2546K",
+      "tag": "モニター",
+      "isPrime": false
+    },
+    {
+      "name": "HyperX Cloud III Wireless",
+      "originalPrice": "¥21,980",
+      "salePrice": "¥21,980",
+      "discount": "通常価格",
+      "store": "Amazon",
+      "url": "https://www.amazon.co.jp/s?k=HyperX+Cloud+III+Wireless&tag=fpsprohub22-22",
+      "tag": "ヘッドセット",
+      "isPrime": true
+    },
+    {
+      "name": "Wooting 60HE",
+      "originalPrice": "¥28,000",
+      "salePrice": "¥28,000",
+      "discount": "ポイント10倍",
+      "store": "楽天",
+      "url": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FWooting%2B60HE%2F",
+      "tag": "キーボード",
+      "isPrime": false
+    },
+    {
+      "name": "Shure MV7+",
+      "originalPrice": "¥38,500",
+      "salePrice": "¥38,500",
+      "discount": "通常価格",
+      "store": "Amazon",
+      "url": "https://www.amazon.co.jp/s?k=Shure+MV7+Plus&tag=fpsprohub22-22",
+      "tag": "マイク",
+      "isPrime": true
+    }
+  ],
+  "pointTips": [
+    "💡 Yahoo!ショッピング超PayPay祭（3/3〜3/30）開催中！3/21〜3/22のグランドフィナーレは最大32%還元も狙えます。",
+    "💡 Amazonでは次回の「新生活セール Final」に向けて、ほしい物リストへの追加をしておきましょう。",
+    "💡 楽天カード＋SPU条件の達成で、常時ポイント+5倍のベースアップが可能です。",
+    "💡 Amazon Prime会員なら、先行タイムセールに30分早くアクセスできます。"
+  ]
 }
