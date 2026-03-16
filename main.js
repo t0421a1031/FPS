@@ -1,4 +1,86 @@
 // ============================================================
+// USER ANALYTICS TRACKING SYSTEM
+// ============================================================
+(function initAnalyticsTracker() {
+  const STORAGE_KEY_ACCESS = 'prohub_access_logs';
+  const STORAGE_KEY_NAV = 'prohub_nav_logs';
+  const MAX_LOGS = 500;
+
+  // Generate or retrieve session ID
+  function getSessionId() {
+    let sid = sessionStorage.getItem('prohub_session_id');
+    if (!sid) {
+      sid = 'sess_' + Date.now() + '_' + Math.random().toString(36).substr(2, 8);
+      sessionStorage.setItem('prohub_session_id', sid);
+    }
+    return sid;
+  }
+
+  // Get basic browser/device info
+  function getDeviceInfo() {
+    const ua = navigator.userAgent;
+    let browser = 'Unknown';
+    let os = 'Unknown';
+    let device = 'Desktop';
+
+    if (/Chrome/.test(ua) && !/Edge|OPR/.test(ua)) browser = 'Chrome';
+    else if (/Firefox/.test(ua)) browser = 'Firefox';
+    else if (/Safari/.test(ua) && !/Chrome/.test(ua)) browser = 'Safari';
+    else if (/Edge/.test(ua)) browser = 'Edge';
+    else if (/OPR|Opera/.test(ua)) browser = 'Opera';
+
+    if (/Windows/.test(ua)) os = 'Windows';
+    else if (/Mac/.test(ua)) os = 'macOS';
+    else if (/Android/.test(ua)) { os = 'Android'; device = 'Mobile'; }
+    else if (/iPhone|iPad/.test(ua)) { os = 'iOS'; device = 'Mobile'; }
+    else if (/Linux/.test(ua)) os = 'Linux';
+
+    if (/Mobile|Android/.test(ua) && !/iPad/.test(ua)) device = 'Mobile';
+    else if (/iPad|Tablet/.test(ua)) device = 'Tablet';
+
+    return { browser, os, device, screenWidth: screen.width, screenHeight: screen.height };
+  }
+
+  // Save log with rotation
+  function saveLog(key, entry) {
+    try {
+      let logs = JSON.parse(localStorage.getItem(key) || '[]');
+      logs.push(entry);
+      if (logs.length > MAX_LOGS) {
+        logs = logs.slice(logs.length - MAX_LOGS);
+      }
+      localStorage.setItem(key, JSON.stringify(logs));
+    } catch (e) {
+      console.warn('Analytics save error:', e);
+    }
+  }
+
+  // Record page access
+  const sessionId = getSessionId();
+  const deviceInfo = getDeviceInfo();
+  const accessEntry = {
+    sessionId,
+    timestamp: new Date().toISOString(),
+    page: window.location.pathname,
+    referrer: document.referrer || 'direct',
+    ...deviceInfo
+  };
+  saveLog(STORAGE_KEY_ACCESS, accessEntry);
+
+  // Expose navigation logger globally
+  window.prohubTrackNav = function(fromSection, toSection) {
+    const navEntry = {
+      sessionId,
+      timestamp: new Date().toISOString(),
+      from: fromSection,
+      to: toSection,
+      ...deviceInfo
+    };
+    saveLog(STORAGE_KEY_NAV, navEntry);
+  };
+})();
+
+// ============================================================
 // Platform SVG Icons (Generic, copyright-safe)
 // ============================================================
 const platformIcons = {
@@ -1127,9 +1209,16 @@ if (menuToggle && navLinksEl) {
 // SECTION SWITCHING
 // ============================================================
 const navButtons = document.querySelectorAll('.nav-btn');
+let currentActiveSection = 'videos'; // track current section for analytics
 navButtons.forEach(btn => {
   btn.addEventListener('click', () => {
     const section = btn.getAttribute('data-section');
+
+    // Track navigation
+    if (window.prohubTrackNav && section !== currentActiveSection) {
+      window.prohubTrackNav(currentActiveSection, section);
+    }
+    currentActiveSection = section;
 
     navButtons.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');

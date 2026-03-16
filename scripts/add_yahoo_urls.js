@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const YAHOO_BASE = 'https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892563175&vc_url=';
+const YAHOO_BASE = 'https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=';
 
 function createYahooUrl(name) {
     const searchUrl = 'https://shopping.yahoo.co.jp/search?p=' + name.replace(/ /g, '+');

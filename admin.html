@@ -460,10 +460,72 @@
         .back-link:hover {
             color: var(--text);
         }
+
+        /* Login Screen */
+        .login-overlay {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: var(--bg);
+            z-index: 9999;
+            display: flex; justify-content: center; align-items: center;
+        }
+        .login-overlay.hidden { display: none; }
+        .login-box {
+            background: var(--sidebar-bg); border: 1px solid var(--border);
+            border-radius: 16px; padding: 3rem; width: 400px; max-width: 90vw;
+            text-align: center; box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+        }
+        .login-box h1 { font-family: 'Outfit', sans-serif; font-size: 1.8rem; margin-bottom: 0.5rem; }
+        .login-box h1 span { color: var(--primary); }
+        .login-box p { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 2rem; }
+        .login-box input {
+            width: 100%; padding: 0.8rem 1rem; background: var(--input-bg);
+            border: 1px solid var(--border); border-radius: 8px; color: var(--text);
+            font-size: 1rem; margin-bottom: 1rem; font-family: 'Inter', sans-serif;
+        }
+        .login-box input:focus { border-color: var(--secondary); outline: none; }
+        .login-error { color: var(--danger); font-size: 0.82rem; margin-bottom: 1rem; display: none; }
+        .chart-bar-container { display: flex; align-items: flex-end; gap: 4px; height: 120px; margin: 1rem 0; }
+        .chart-bar {
+            flex: 1; background: linear-gradient(to top, var(--primary), var(--secondary));
+            border-radius: 4px 4px 0 0; min-width: 20px; position: relative; transition: height 0.3s;
+        }
+        .chart-bar:hover { opacity: 0.8; }
+        .chart-bar .chart-label {
+            position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%);
+            font-size: 0.6rem; color: var(--text-muted); white-space: nowrap;
+        }
+        .chart-bar .chart-value {
+            position: absolute; top: -18px; left: 50%; transform: translateX(-50%);
+            font-size: 0.65rem; color: var(--secondary); font-weight: 700;
+        }
+        .popular-list { list-style: none; padding: 0; }
+        .popular-list li {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 0.6rem 0.8rem; border-bottom: 1px solid var(--border); font-size: 0.88rem;
+        }
+        .popular-list li:last-child { border-bottom: none; }
+        .popular-count { color: var(--secondary); font-weight: 700; font-family: 'Outfit', sans-serif; }
+        .filter-row { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
+        .filter-row label { color: var(--text-muted); font-size: 0.78rem; font-weight: 600; }
+        .filter-row select {
+            padding: 0.4rem 0.7rem; background: var(--input-bg); border: 1px solid var(--border);
+            border-radius: 6px; color: var(--text); font-size: 0.82rem;
+        }
     </style>
 </head>
 
 <body>
+
+    <!-- Login Overlay -->
+    <div class="login-overlay" id="login-overlay">
+        <div class="login-box">
+            <h1>PRO<span>HUB</span> JP</h1>
+            <p>管理画面にアクセスするにはパスワードを入力してください</p>
+            <div class="login-error" id="login-error">パスワードが正しくありません</div>
+            <input type="password" id="login-password" placeholder="パスワードを入力" autofocus>
+            <button class="btn btn-primary" style="width:100%; padding:0.8rem;" onclick="attemptLogin()">ログイン</button>
+        </div>
+    </div>
 
     <!-- Sidebar -->
     <aside class="sidebar">
@@ -476,10 +538,14 @@
         <button class="sidebar-btn" data-panel="usage"><span class="icon">📈</span> プロ使用率</button>
         <button class="sidebar-btn" data-panel="guides"><span class="icon">📖</span> 購入ガイド</button>
         <button class="sidebar-btn" data-panel="sales"><span class="icon">🛒</span> セール情報</button>
+        <div class="sidebar-section" style="margin-top:1rem;">分析</div>
+        <button class="sidebar-btn" data-panel="analytics"><span class="icon">👥</span> アクセス分析</button>
+        <button class="sidebar-btn" data-panel="navigation"><span class="icon">🔄</span> 画面遷移履歴</button>
         <div class="sidebar-section" style="margin-top:1rem;">ツール</div>
         <button class="sidebar-btn" data-panel="json-editor"><span class="icon">📝</span> JSON直接編集</button>
         <div style="padding: 1.5rem; margin-top: auto; border-top: 1px solid var(--border);">
             <a href="/" class="back-link">← サイトに戻る</a>
+            <button class="btn btn-danger btn-sm" style="margin-top:0.75rem; width:100%;" onclick="logout()">🔓 ログアウト</button>
         </div>
     </aside>
 
@@ -646,6 +712,70 @@
                 </select>
             </div>
             <textarea id="json-editor-textarea" class="json-editor" spellcheck="false"></textarea>
+        </div>
+
+        <!-- Analytics Panel -->
+        <div id="panel-analytics" class="panel">
+            <div class="main-header">
+                <div><h1>👥 アクセス分析</h1><p>ユーザーのログイン情報とアクセス履歴</p></div>
+                <button class="btn btn-danger btn-sm" onclick="clearAccessLogs()">🗑️ ログをクリア</button>
+            </div>
+            <div class="stats-grid" id="analytics-stats"></div>
+            <h3 style="margin-bottom:0.75rem;">📊 日別アクセス数（直近7日間）</h3>
+            <div style="background:var(--card-bg); border:1px solid var(--border); border-radius:12px; padding:1.25rem; margin-bottom:1.5rem;">
+                <div class="chart-bar-container" id="daily-chart"></div>
+            </div>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1.5rem;">
+                <div style="background:var(--card-bg); border:1px solid var(--border); border-radius:12px; padding:1.25rem;">
+                    <h4 style="margin-bottom:0.75rem; font-size:0.9rem;">🌐 ブラウザ別</h4>
+                    <ul class="popular-list" id="browser-stats"></ul>
+                </div>
+                <div style="background:var(--card-bg); border:1px solid var(--border); border-radius:12px; padding:1.25rem;">
+                    <h4 style="margin-bottom:0.75rem; font-size:0.9rem;">📱 デバイス別</h4>
+                    <ul class="popular-list" id="device-stats"></ul>
+                </div>
+            </div>
+            <h3 style="margin-bottom:0.75rem;">📋 アクセスログ一覧</h3>
+            <div class="filter-row">
+                <label>表示件数:</label>
+                <select id="access-log-limit" onchange="renderAccessTable()">
+                    <option value="50">50件</option><option value="100">100件</option><option value="all">すべて</option>
+                </select>
+            </div>
+            <table class="data-table">
+                <thead><tr><th>日時</th><th>セッションID</th><th>ブラウザ</th><th>OS</th><th>デバイス</th><th>画面サイズ</th><th>リファラー</th></tr></thead>
+                <tbody id="access-log-body"></tbody>
+            </table>
+        </div>
+
+        <!-- Navigation History Panel -->
+        <div id="panel-navigation" class="panel">
+            <div class="main-header">
+                <div><h1>🔄 画面遷移履歴</h1><p>ユーザーのセクション間の移動履歴</p></div>
+                <button class="btn btn-danger btn-sm" onclick="clearNavLogs()">🗑️ ログをクリア</button>
+            </div>
+            <div class="stats-grid" id="nav-stats"></div>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1.5rem;">
+                <div style="background:var(--card-bg); border:1px solid var(--border); border-radius:12px; padding:1.25rem;">
+                    <h4 style="margin-bottom:0.75rem; font-size:0.9rem;">🏆 人気セクション（遷移先）</h4>
+                    <ul class="popular-list" id="popular-sections"></ul>
+                </div>
+                <div style="background:var(--card-bg); border:1px solid var(--border); border-radius:12px; padding:1.25rem;">
+                    <h4 style="margin-bottom:0.75rem; font-size:0.9rem;">🔗 よくある遷移パターン</h4>
+                    <ul class="popular-list" id="popular-routes"></ul>
+                </div>
+            </div>
+            <h3 style="margin-bottom:0.75rem;">📋 遷移ログ一覧</h3>
+            <div class="filter-row">
+                <label>表示件数:</label>
+                <select id="nav-log-limit" onchange="renderNavTable()">
+                    <option value="50">50件</option><option value="100">100件</option><option value="all">すべて</option>
+                </select>
+            </div>
+            <table class="data-table">
+                <thead><tr><th>日時</th><th>セッションID</th><th>遷移元</th><th>→</th><th>遷移先</th><th>ブラウザ</th><th>デバイス</th></tr></thead>
+                <tbody id="nav-log-body"></tbody>
+            </table>
         </div>
 
     </div>
@@ -991,8 +1121,195 @@
         }
 
         // ============================================================
+        // LOGIN AUTHENTICATION
+        // ============================================================
+        const ADMIN_PASS = 'prohub2026';
+
+        function checkLogin() {
+            if (sessionStorage.getItem('prohub_admin_auth') === 'true') {
+                document.getElementById('login-overlay').classList.add('hidden');
+                return true;
+            }
+            return false;
+        }
+
+        function attemptLogin() {
+            const pw = document.getElementById('login-password').value;
+            if (pw === ADMIN_PASS) {
+                sessionStorage.setItem('prohub_admin_auth', 'true');
+                document.getElementById('login-overlay').classList.add('hidden');
+                document.getElementById('login-error').style.display = 'none';
+            } else {
+                document.getElementById('login-error').style.display = 'block';
+                document.getElementById('login-password').value = '';
+            }
+        }
+
+        document.getElementById('login-password').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') attemptLogin();
+        });
+
+        function logout() {
+            sessionStorage.removeItem('prohub_admin_auth');
+            document.getElementById('login-overlay').classList.remove('hidden');
+        }
+
+        // ============================================================
+        // ANALYTICS RENDERING
+        // ============================================================
+        function getAccessLogs() {
+            try { return JSON.parse(localStorage.getItem('prohub_access_logs') || '[]'); }
+            catch { return []; }
+        }
+        function getNavLogs() {
+            try { return JSON.parse(localStorage.getItem('prohub_nav_logs') || '[]'); }
+            catch { return []; }
+        }
+
+        function formatTimestamp(ts) {
+            const d = new Date(ts);
+            return d.toLocaleString('ja-JP', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit' });
+        }
+
+        function shortSessionId(sid) {
+            if (!sid) return '-';
+            return sid.length > 16 ? sid.substring(0, 16) + '...' : sid;
+        }
+
+        function countBy(arr, key) {
+            const map = {};
+            arr.forEach(item => { const v = item[key] || 'Unknown'; map[v] = (map[v] || 0) + 1; });
+            return Object.entries(map).sort((a,b) => b[1] - a[1]);
+        }
+
+        function renderAnalytics() {
+            const logs = getAccessLogs();
+            const statsGrid = document.getElementById('analytics-stats');
+            const uniqueSessions = new Set(logs.map(l => l.sessionId)).size;
+            const today = new Date().toISOString().split('T')[0];
+            const todayLogs = logs.filter(l => l.timestamp && l.timestamp.startsWith(today));
+
+            statsGrid.innerHTML = `
+                <div class="stat-card"><div class="stat-icon">📊</div><div class="stat-value">${logs.length}</div><div class="stat-label">総アクセス数</div></div>
+                <div class="stat-card"><div class="stat-icon">👤</div><div class="stat-value">${uniqueSessions}</div><div class="stat-label">ユニークセッション</div></div>
+                <div class="stat-card"><div class="stat-icon">📅</div><div class="stat-value">${todayLogs.length}</div><div class="stat-label">今日のアクセス</div></div>
+            `;
+
+            // Daily chart (last 7 days)
+            const dailyMap = {};
+            for (let i = 6; i >= 0; i--) {
+                const d = new Date(); d.setDate(d.getDate() - i);
+                const key = d.toISOString().split('T')[0];
+                dailyMap[key] = 0;
+            }
+            logs.forEach(l => { if (l.timestamp) { const day = l.timestamp.split('T')[0]; if (dailyMap[day] !== undefined) dailyMap[day]++; }});
+            const maxVal = Math.max(...Object.values(dailyMap), 1);
+            const chartEl = document.getElementById('daily-chart');
+            chartEl.innerHTML = Object.entries(dailyMap).map(([day, count]) => {
+                const h = Math.max((count / maxVal) * 100, 4);
+                const label = day.substring(5);
+                return `<div class="chart-bar" style="height:${h}%" title="${day}: ${count}件"><span class="chart-value">${count}</span><span class="chart-label">${label}</span></div>`;
+            }).join('');
+
+            // Browser & Device stats
+            document.getElementById('browser-stats').innerHTML = countBy(logs, 'browser').map(([k,v]) => `<li><span>${k}</span><span class="popular-count">${v}</span></li>`).join('');
+            document.getElementById('device-stats').innerHTML = countBy(logs, 'device').map(([k,v]) => `<li><span>${k}</span><span class="popular-count">${v}</span></li>`).join('');
+
+            renderAccessTable();
+        }
+
+        function renderAccessTable() {
+            const logs = getAccessLogs().reverse();
+            const limitSel = document.getElementById('access-log-limit');
+            const limit = limitSel.value === 'all' ? logs.length : parseInt(limitSel.value);
+            const shown = logs.slice(0, limit);
+            document.getElementById('access-log-body').innerHTML = shown.map(l => `
+                <tr>
+                    <td style="font-size:0.8rem;">${formatTimestamp(l.timestamp)}</td>
+                    <td style="font-size:0.75rem; color:var(--text-muted);" title="${l.sessionId}">${shortSessionId(l.sessionId)}</td>
+                    <td><span class="badge badge-cyan">${l.browser || '-'}</span></td>
+                    <td>${l.os || '-'}</td>
+                    <td>${l.device || '-'}</td>
+                    <td style="font-size:0.8rem;">${l.screenWidth || '?'}×${l.screenHeight || '?'}</td>
+                    <td style="font-size:0.75rem; color:var(--text-muted); max-width:150px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" title="${l.referrer || ''}">${l.referrer || '-'}</td>
+                </tr>
+            `).join('');
+        }
+
+        function renderNavigation() {
+            const logs = getNavLogs();
+            const statsGrid = document.getElementById('nav-stats');
+            const uniqueSessions = new Set(logs.map(l => l.sessionId)).size;
+            statsGrid.innerHTML = `
+                <div class="stat-card"><div class="stat-icon">🔄</div><div class="stat-value">${logs.length}</div><div class="stat-label">総遷移回数</div></div>
+                <div class="stat-card"><div class="stat-icon">👤</div><div class="stat-value">${uniqueSessions}</div><div class="stat-label">セッション数</div></div>
+            `;
+
+            // Popular sections
+            const sectionMap = {};
+            logs.forEach(l => { sectionMap[l.to] = (sectionMap[l.to] || 0) + 1; });
+            const sectionLabels = { videos:'プレイ動画', updates:'アップデート', rankings:'賞金ランキング', gadgets:'ガジェット', guides:'購入ガイド', sales:'セール情報', community:'コミュニティ' };
+            document.getElementById('popular-sections').innerHTML = Object.entries(sectionMap)
+                .sort((a,b) => b[1] - a[1])
+                .map(([k,v]) => `<li><span>${sectionLabels[k] || k}</span><span class="popular-count">${v}</span></li>`)
+                .join('');
+
+            // Popular routes
+            const routeMap = {};
+            logs.forEach(l => { const route = `${sectionLabels[l.from] || l.from} → ${sectionLabels[l.to] || l.to}`; routeMap[route] = (routeMap[route] || 0) + 1; });
+            document.getElementById('popular-routes').innerHTML = Object.entries(routeMap)
+                .sort((a,b) => b[1] - a[1]).slice(0, 8)
+                .map(([k,v]) => `<li><span style="font-size:0.82rem;">${k}</span><span class="popular-count">${v}</span></li>`)
+                .join('');
+
+            renderNavTable();
+        }
+
+        function renderNavTable() {
+            const logs = getNavLogs().reverse();
+            const limitSel = document.getElementById('nav-log-limit');
+            const limit = limitSel.value === 'all' ? logs.length : parseInt(limitSel.value);
+            const sectionLabels = { videos:'プレイ動画', updates:'アップデート', rankings:'賞金ランキング', gadgets:'ガジェット', guides:'購入ガイド', sales:'セール情報', community:'コミュニティ' };
+            const shown = logs.slice(0, limit);
+            document.getElementById('nav-log-body').innerHTML = shown.map(l => `
+                <tr>
+                    <td style="font-size:0.8rem;">${formatTimestamp(l.timestamp)}</td>
+                    <td style="font-size:0.75rem; color:var(--text-muted);" title="${l.sessionId}">${shortSessionId(l.sessionId)}</td>
+                    <td><span class="badge badge-red">${sectionLabels[l.from] || l.from}</span></td>
+                    <td>→</td>
+                    <td><span class="badge badge-cyan">${sectionLabels[l.to] || l.to}</span></td>
+                    <td>${l.browser || '-'}</td>
+                    <td>${l.device || '-'}</td>
+                </tr>
+            `).join('');
+        }
+
+        function clearAccessLogs() {
+            if (!confirm('アクセスログをすべて削除しますか？')) return;
+            localStorage.removeItem('prohub_access_logs');
+            renderAnalytics();
+            showToast('アクセスログをクリアしました', 'success');
+        }
+
+        function clearNavLogs() {
+            if (!confirm('遷移ログをすべて削除しますか？')) return;
+            localStorage.removeItem('prohub_nav_logs');
+            renderNavigation();
+            showToast('遷移ログをクリアしました', 'success');
+        }
+
+        // Override switchPanel to also render analytics
+        const origSwitchPanel = switchPanel;
+        switchPanel = function(name) {
+            origSwitchPanel(name);
+            if (name === 'analytics') renderAnalytics();
+            if (name === 'navigation') renderNavigation();
+        };
+
+        // ============================================================
         // INIT
         // ============================================================
+        checkLogin();
         init();
     </script>
 </body>
