@@ -543,6 +543,7 @@
         <button class="sidebar-btn" data-panel="navigation"><span class="icon">🔄</span> 画面遷移履歴</button>
         <div class="sidebar-section" style="margin-top:1rem;">ツール</div>
         <button class="sidebar-btn" data-panel="json-editor"><span class="icon">📝</span> JSON直接編集</button>
+        <button class="sidebar-btn" data-panel="github-settings"><span class="icon">⚙️</span> GitHub設定</button>
         <div style="padding: 1.5rem; margin-top: auto; border-top: 1px solid var(--border);">
             <a href="/" class="back-link">← サイトに戻る</a>
             <button class="btn btn-danger btn-sm" style="margin-top:0.75rem; width:100%;" onclick="logout()">🔓 ログアウト</button>
@@ -567,7 +568,44 @@
                 <button class="btn btn-primary" onclick="switchPanel('gadgets')">🖱️ ガジェットを管理</button>
                 <button class="btn btn-primary" onclick="switchPanel('sales')">🛒 セール情報を更新</button>
                 <button class="btn btn-secondary" onclick="exportAllData()">📦 全データをエクスポート</button>
+                <button class="btn btn-success" onclick="pushAllToGitHub()">🚀 GitHubにプッシュ</button>
             </div>
+            <div id="github-push-status" style="margin-top:1rem;"></div>
+        </div>
+
+        <!-- GitHub Settings Panel -->
+        <div id="panel-github-settings" class="panel">
+            <div class="main-header">
+                <div><h1>⚙️ GitHub API 設定</h1><p>GitHubに直接プッシュするための設定</p></div>
+            </div>
+            <div style="background:var(--card-bg); border:1px solid var(--border); border-radius:12px; padding:1.5rem; margin-bottom:1.5rem;">
+                <h4 style="margin-bottom:1rem; color:var(--secondary);">📖 トークンの取得方法</h4>
+                <ol style="color:var(--text-muted); font-size:0.88rem; line-height:1.8; padding-left:1.2rem;">
+                    <li><a href="https://github.com/settings/tokens?type=beta" target="_blank" style="color:var(--secondary);">GitHub Fine-grained tokens</a> を開く</li>
+                    <li>「Generate new token」をクリック</li>
+                    <li>Token name: <code>prohub-admin</code> など任意の名前</li>
+                    <li>Repository access: 「Only select repositories」→ <code>FPS</code> を選択</li>
+                    <li>Permissions → Repository permissions → <strong>Contents: Read and write</strong></li>
+                    <li>「Generate token」で作成し、トークンをコピー</li>
+                </ol>
+            </div>
+            <div class="form-group">
+                <label>GitHub Personal Access Token</label>
+                <input type="password" id="github-token" placeholder="github_pat_xxxx..." value="">
+            </div>
+            <div class="form-group">
+                <label>リポジトリオーナー</label>
+                <input type="text" id="github-owner" placeholder="t0421a1031" value="t0421a1031">
+            </div>
+            <div class="form-group">
+                <label>リポジトリ名</label>
+                <input type="text" id="github-repo" placeholder="FPS" value="FPS">
+            </div>
+            <div style="display:flex; gap:0.75rem; margin-top:1rem;">
+                <button class="btn btn-primary" onclick="saveGitHubSettings()">💾 設定を保存</button>
+                <button class="btn btn-secondary" onclick="testGitHubConnection()">🔍 接続テスト</button>
+            </div>
+            <div id="github-test-result" style="margin-top:1rem;"></div>
         </div>
 
         <!-- Videos Panel -->
@@ -1298,12 +1336,143 @@
             showToast('遷移ログをクリアしました', 'success');
         }
 
+        // ============================================================
+        // GITHUB API INTEGRATION
+        // ============================================================
+        function loadGitHubSettings() {
+            try {
+                const s = JSON.parse(localStorage.getItem('prohub_github_settings') || '{}');
+                if (s.token) document.getElementById('github-token').value = s.token;
+                if (s.owner) document.getElementById('github-owner').value = s.owner;
+                if (s.repo) document.getElementById('github-repo').value = s.repo;
+            } catch (e) {}
+        }
+
+        function saveGitHubSettings() {
+            const settings = {
+                token: document.getElementById('github-token').value.trim(),
+                owner: document.getElementById('github-owner').value.trim(),
+                repo: document.getElementById('github-repo').value.trim()
+            };
+            localStorage.setItem('prohub_github_settings', JSON.stringify(settings));
+            showToast('GitHub設定を保存しました ✅', 'success');
+        }
+
+        function getGitHubSettings() {
+            try { return JSON.parse(localStorage.getItem('prohub_github_settings') || '{}'); }
+            catch { return {}; }
+        }
+
+        async function testGitHubConnection() {
+            const s = getGitHubSettings();
+            const resultEl = document.getElementById('github-test-result');
+            if (!s.token || !s.owner || !s.repo) {
+                resultEl.innerHTML = '<span style="color:var(--danger);">❌ 設定が不完全です。すべての項目を入力してください。</span>';
+                return;
+            }
+            resultEl.innerHTML = '<span style="color:var(--text-muted);">🔄 接続テスト中...</span>';
+            try {
+                const res = await fetch(`https://api.github.com/repos/${s.owner}/${s.repo}`, {
+                    headers: { 'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github+json' }
+                });
+                if (res.ok) {
+                    const data = await res.json();
+                    resultEl.innerHTML = `<span style="color:var(--success);">✅ 接続成功！リポジトリ: ${data.full_name}</span>`;
+                } else {
+                    resultEl.innerHTML = `<span style="color:var(--danger);">❌ エラー (${res.status}): トークンまたはリポジトリ情報を確認してください。</span>`;
+                }
+            } catch (e) {
+                resultEl.innerHTML = `<span style="color:var(--danger);">❌ 接続失敗: ${e.message}</span>`;
+            }
+        }
+
+        async function pushFileToGitHub(filePath, content, commitMessage) {
+            const s = getGitHubSettings();
+            const apiUrl = `https://api.github.com/repos/${s.owner}/${s.repo}/contents/${filePath}`;
+
+            // Get current file SHA
+            const getRes = await fetch(apiUrl, {
+                headers: { 'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github+json' }
+            });
+            let sha = null;
+            if (getRes.ok) {
+                const existing = await getRes.json();
+                sha = existing.sha;
+            }
+
+            // Update file
+            const body = {
+                message: commitMessage,
+                content: btoa(unescape(encodeURIComponent(content))),
+                branch: 'main'
+            };
+            if (sha) body.sha = sha;
+
+            const putRes = await fetch(apiUrl, {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `Bearer ${s.token}`,
+                    'Accept': 'application/vnd.github+json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(body)
+            });
+
+            if (!putRes.ok) {
+                const err = await putRes.json();
+                throw new Error(`${filePath}: ${err.message || putRes.statusText}`);
+            }
+            return await putRes.json();
+        }
+
+        async function pushAllToGitHub() {
+            const s = getGitHubSettings();
+            const statusEl = document.getElementById('github-push-status');
+            if (!s.token || !s.owner || !s.repo) {
+                statusEl.innerHTML = '<span style="color:var(--danger);">❌ GitHub設定が未完了です。サイドバーの「⚙️ GitHub設定」から設定してください。</span>';
+                return;
+            }
+
+            const files = [
+                { key: 'videos', path: 'public/data/videos.json' },
+                { key: 'gadgets', path: 'public/data/gadgets.json' },
+                { key: 'rankings', path: 'public/data/rankings.json' },
+                { key: 'usage_rates', path: 'public/data/usage_rates.json' },
+                { key: 'guides', path: 'public/data/guides.json' },
+                { key: 'sales', path: 'public/data/sales.json' }
+            ];
+
+            statusEl.innerHTML = '<span style="color:var(--text-muted);">🚀 プッシュ中...</span>';
+            let successCount = 0;
+            let errors = [];
+
+            for (const file of files) {
+                try {
+                    statusEl.innerHTML = `<span style="color:var(--text-muted);">🔄 ${file.key}.json をアップロード中... (${successCount + 1}/${files.length})</span>`;
+                    const content = JSON.stringify(allData[file.key], null, 2);
+                    await pushFileToGitHub(file.path, content, `update: ${file.key}.json を管理画面から更新`);
+                    successCount++;
+                } catch (e) {
+                    errors.push(e.message);
+                }
+            }
+
+            if (errors.length === 0) {
+                statusEl.innerHTML = `<span style="color:var(--success);">✅ 全${successCount}ファイルをGitHubにプッシュしました！ビルド完了後にサイトに反映されます。</span>`;
+                showToast('GitHubにプッシュ完了 🚀', 'success');
+            } else {
+                statusEl.innerHTML = `<span style="color:var(--warning);">⚠️ ${successCount}件成功 / ${errors.length}件失敗<br>${errors.join('<br>')}</span>`;
+                showToast('一部ファイルのプッシュに失敗しました', 'error');
+            }
+        }
+
         // Override switchPanel to also render analytics
         const origSwitchPanel = switchPanel;
         switchPanel = function(name) {
             origSwitchPanel(name);
             if (name === 'analytics') renderAnalytics();
             if (name === 'navigation') renderNavigation();
+            if (name === 'github-settings') loadGitHubSettings();
         };
 
         // ============================================================
