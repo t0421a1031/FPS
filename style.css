@@ -3153,4 +3153,65 @@ h2,
   .column-cta-section {
     padding: 2rem 1.5rem;
   }
+
+  /* スマホでは手動改行を非表示にし、テキストを自然に折り返す */
+  .column-body br,
+  .column-hero-content br {
+    display: none;
+  }
+
+  .column-intro p,
+  .column-section p {
+    font-size: 0.88rem;
+    line-height: 1.9;
+  }
+
+  .column-highlight-box {
+    padding: 1rem;
+    gap: 0.75rem;
+  }
+
+  .column-highlight-box p {
+    font-size: 0.85rem;
+  }
+
+  .column-section {
+    margin-bottom: 2rem;
+  }
+
+  .column-comp-value {
+    font-size: 1rem;
+  }
+
+  .column-comp-card {
+    padding: 1rem;
+  }
+
+  .column-comp-card p {
+    font-size: 0.78rem !important;
+  }
+
+  .column-feature {
+    padding: 1.25rem;
+  }
+
+  .column-feature h4 {
+    font-size: 0.9rem;
+  }
+
+  .column-feature p {
+    font-size: 0.8rem !important;
+  }
+
+  .column-cta-title {
+    font-size: 1.15rem;
+  }
+
+  .column-cta-desc {
+    font-size: 0.85rem;
+  }
+
+  .column-cta-note {
+    font-size: 0.7rem;
+  }
 }
