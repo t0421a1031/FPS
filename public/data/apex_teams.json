@@ -1,0 +1,223 @@
+{
+    "teams": [
+        {
+            "id": "zeta",
+            "name": "ZETA DIVISION",
+            "region": "JP",
+            "players": [
+                { "name": "YukaF", "role": "IGL", "x": "IQ200YukaF", "youtube": "@IQ200YukaFFF" },
+                { "name": "satuki", "role": "Fragger", "x": "satuki_fps", "youtube": "" },
+                { "name": "ImMikeyyyz", "role": "Fragger", "x": "ImMikeyyyz", "youtube": "" }
+            ]
+        },
+        {
+            "id": "fnatic",
+            "name": "Fnatic",
+            "region": "JP",
+            "players": [
+                { "name": "EIN", "role": "IGL", "x": "EIN_fps", "youtube": "" },
+                { "name": "Kernel garcia", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "ILY", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "reject",
+            "name": "REJECT",
+            "region": "JP",
+            "players": [
+                { "name": "4rufa", "role": "IGL", "x": "4rufa_", "youtube": "" },
+                { "name": "Euriece", "role": "Fragger", "x": "Euriece", "youtube": "" },
+                { "name": "Axis", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "riddle",
+            "name": "RIDDLE",
+            "region": "JP",
+            "players": [
+                { "name": "Acca", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Meltstera", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "NefuDoll", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "grow",
+            "name": "GROW Gaming",
+            "region": "JP",
+            "players": [
+                { "name": "Lible_Ace", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Lykq", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "mo-mon", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "unlimit",
+            "name": "UNLIMIT",
+            "region": "JP",
+            "players": [
+                { "name": "Peace", "role": "IGL", "x": "Peace17_yt", "youtube": "@Peace3-yt" },
+                { "name": "xtsuvi", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "Yulariman", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "soten",
+            "name": "SOTEN",
+            "region": "JP",
+            "players": [
+                { "name": "7ne", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Gqzeln", "role": "Fragger", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "trinity",
+            "name": "TriniTY",
+            "region": "JP",
+            "players": [
+                { "name": "IGARASI", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Lully", "role": "Fragger", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "meteor",
+            "name": "Meteor",
+            "region": "JP",
+            "players": [
+                { "name": "983kuma", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Kuroton", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "Maron", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "snk",
+            "name": "SNK",
+            "region": "JP",
+            "players": [
+                { "name": "kanata", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "NevvtonX", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "SyanaMu", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "dory",
+            "name": "Dory",
+            "region": "JP",
+            "players": [
+                { "name": "KatsuKing", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Hiromune", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "sho", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "noezfoxx",
+            "name": "NOEZ FOXX",
+            "region": "JP",
+            "players": [
+                { "name": "gavomk", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "kakigoori7", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "Mia.K", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "o2",
+            "name": "O2 esports",
+            "region": "JP",
+            "players": [
+                { "name": "AochasoN", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "TANPOPO", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "watage", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "realize",
+            "name": "REALIZE",
+            "region": "JP",
+            "players": [
+                { "name": "inkya", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Simubo", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "SIZU", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "redrams",
+            "name": "RED Rams",
+            "region": "JP",
+            "players": [
+                { "name": "Datch", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Fia", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "Rye", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "reignite",
+            "name": "REIGNITE",
+            "region": "JP",
+            "players": [
+                { "name": "ReyzyGG", "role": "Fragger", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "blacksheeps",
+            "name": "BLACK Sheeps",
+            "region": "JP",
+            "players": [
+                { "name": "izzxxv", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Sumiyoshii", "role": "Fragger", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "sbi",
+            "name": "SBI e-Sports",
+            "region": "JP",
+            "players": [
+                { "name": "Egoist222", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "VOLzZ", "role": "Fragger", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "kinotrope",
+            "name": "KINOTROPE gaming",
+            "region": "JP",
+            "players": [
+                { "name": "Kanon", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "yukaPEROdator", "role": "Fragger", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "lawson",
+            "name": "LawsonTicketXone",
+            "region": "JP",
+            "players": [
+                { "name": "5CG", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Right", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "wqtagashi", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "syrale",
+            "name": "SYRALE",
+            "region": "JP",
+            "players": [
+                { "name": "IeNaga", "role": "Fragger", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "tie",
+            "name": "TIE",
+            "region": "JP",
+            "players": [
+                { "name": "Ftyan", "role": "IGL", "x": "", "youtube": "" },
+                { "name": "Pinotr", "role": "Fragger", "x": "", "youtube": "" },
+                { "name": "UmichanLoveti", "role": "Support", "x": "", "youtube": "" }
+            ]
+        },
+        {
+            "id": "cr",
+            "name": "Crazy Raccoon",
+            "region": "JP",
+            "players": [
+                { "name": "Ras", "role": "Fragger", "x": "Ras9915", "youtube": "" }
+            ]
+        }
+    ]
+}

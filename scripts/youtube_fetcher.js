@@ -29,7 +29,8 @@ const API_KEY = process.env.YOUTUBE_API_KEY;
 function detectTag(title) {
     const lower = title.toLowerCase();
     if (/キル集|montage|highlight/i.test(title)) return 'キル集';
-    if (/ハイライト|クラッチ|ビクロイ|優勝|1位|決勝/i.test(title)) return 'ハイライト';
+    if (/大会|ALGS|FNCS|VCT|EWC|ディビジョン|予選|決勝|世界大会|championship/i.test(title)) return '大会';
+    if (/ハイライト|クラッチ|ビクロイ|優勝|1位/i.test(title)) return 'ハイライト';
     if (/デバイス|マウス|キーボード|モニター|ヘッドセット|デスク|手元/i.test(title)) return 'デバイス紹介';
     if (/設定|感度|解説|コーチング|立ち回り|練習/i.test(title)) return '解説';
     return '解説';
