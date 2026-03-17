@@ -1341,6 +1341,51 @@
             "tag": "解説",
             "platform": "x",
             "url": "https://x.com/Buyuriru"
+        },
+        {
+            "id": "v_sns_yukaf",
+            "title": "YukaF: ZETA DIVISION APEX部門の最新情報",
+            "pro": "YukaF (ZETA DIVISION)",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/IQ200YukaF"
+        },
+        {
+            "id": "v_sns_peace",
+            "title": "Peace: APEXプロシーンの最新情報＆日常",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/Peace17_yt"
+        },
+        {
+            "id": "v_sns_cheeky",
+            "title": "cheeky: APEXトッププレイヤーの日常",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/tttcheekyttt"
+        },
+        {
+            "id": "v_sns_1tappy",
+            "title": "1tappy: APEXプロの最新情報＆配信告知",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/1TAPPYTHEWORLD"
+        },
+        {
+            "id": "v_sns_obly",
+            "title": "obly: APEX競技シーンの情報発信",
+            "pro": "obly",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/obly99"
         }
     ]
 }

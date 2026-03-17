@@ -107,6 +107,51 @@
             "channelId": "meiy_vl",
             "url": "https://www.twitch.tv/meiy_vl",
             "icon": "💜"
+        },
+        {
+            "name": "Peace",
+            "team": "",
+            "game": "apex",
+            "platform": "youtube",
+            "channelId": "Peace3-yt",
+            "url": "https://www.youtube.com/@Peace3-yt",
+            "icon": "🎯"
+        },
+        {
+            "name": "cheeky",
+            "team": "",
+            "game": "apex",
+            "platform": "youtube",
+            "channelId": "tttcheekyttt",
+            "url": "https://www.youtube.com/@tttcheekyttt",
+            "icon": "🎯"
+        },
+        {
+            "name": "1tappy",
+            "team": "",
+            "game": "apex",
+            "platform": "youtube",
+            "channelId": "1TAPPYTHEWORLD",
+            "url": "https://www.youtube.com/@1TAPPYTHEWORLD",
+            "icon": "🎯"
+        },
+        {
+            "name": "obly",
+            "team": "",
+            "game": "apex",
+            "platform": "youtube",
+            "channelId": "obly99",
+            "url": "https://www.youtube.com/@obly99",
+            "icon": "🎯"
+        },
+        {
+            "name": "ぶゅりる",
+            "team": "DetonatioN FocusMe",
+            "game": "fortnite",
+            "platform": "youtube",
+            "channelId": "Buyuriru",
+            "url": "https://www.youtube.com/@Buyuriru",
+            "icon": "🔫"
         }
     ]
 }
