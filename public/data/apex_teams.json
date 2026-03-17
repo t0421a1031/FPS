@@ -5,9 +5,33 @@
             "name": "ZETA DIVISION",
             "region": "JP",
             "players": [
-                { "name": "YukaF", "role": "IGL", "x": "IQ200YukaF", "youtube": "@IQ200YukaFFF" },
-                { "name": "satuki", "role": "Fragger", "x": "satuki_fps", "youtube": "" },
-                { "name": "ImMikeyyyz", "role": "Fragger", "x": "ImMikeyyyz", "youtube": "" }
+                {
+                    "name": "YukaF", "role": "IGL", "x": "IQ200YukaF", "youtube": "@IQ200YukaFFF",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2c",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "SONY INZONE M10S",
+                        "headset": ""
+                    }
+                },
+                {
+                    "name": "satuki", "role": "Fragger", "x": "satuki_fps", "youtube": "",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "BenQ ZOWIE XL2546K",
+                        "headset": ""
+                    }
+                },
+                {
+                    "name": "ImMikeyyyz", "role": "Fragger", "x": "ImMikeyyyz", "youtube": "",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "BenQ ZOWIE XL2546K",
+                        "headset": ""
+                    }
+                }
             ]
         },
         {
@@ -15,9 +39,33 @@
             "name": "Fnatic",
             "region": "JP",
             "players": [
-                { "name": "EIN", "role": "IGL", "x": "EIN_fps", "youtube": "" },
-                { "name": "Kernel garcia", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "ILY", "role": "Support", "x": "", "youtube": "" }
+                {
+                    "name": "EIN", "role": "IGL", "x": "EIN_fps", "youtube": "",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "SONY INZONE M10S",
+                        "headset": ""
+                    }
+                },
+                {
+                    "name": "Kernel garcia", "role": "Fragger", "x": "", "youtube": "",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "SONY INZONE M10S",
+                        "headset": ""
+                    }
+                },
+                {
+                    "name": "ILY", "role": "Support", "x": "", "youtube": "",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "SONY INZONE M10S",
+                        "headset": ""
+                    }
+                }
             ]
         },
         {
@@ -25,9 +73,28 @@
             "name": "REJECT",
             "region": "JP",
             "players": [
-                { "name": "4rufa", "role": "IGL", "x": "4rufa_", "youtube": "" },
-                { "name": "Euriece", "role": "Fragger", "x": "Euriece", "youtube": "" },
-                { "name": "Axis", "role": "Support", "x": "", "youtube": "" }
+                {
+                    "name": "4rufa", "role": "IGL", "x": "4rufa_", "youtube": "",
+                    "devices": {
+                        "mouse": "",
+                        "controller": "DualSense Edge",
+                        "monitor": "BenQ ZOWIE XL2546K",
+                        "headset": ""
+                    }
+                },
+                {
+                    "name": "Euriece", "role": "Fragger", "x": "Euriece", "youtube": "",
+                    "devices": {
+                        "mouse": "",
+                        "controller": "DualSense Edge",
+                        "monitor": "BenQ ZOWIE XL2546K",
+                        "headset": ""
+                    }
+                },
+                {
+                    "name": "Axis", "role": "Support", "x": "", "youtube": "",
+                    "devices": {}
+                }
             ]
         },
         {
@@ -35,9 +102,9 @@
             "name": "RIDDLE",
             "region": "JP",
             "players": [
-                { "name": "Acca", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Meltstera", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "NefuDoll", "role": "Support", "x": "", "youtube": "" }
+                { "name": "Acca", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "Meltstera", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "NefuDoll", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
@@ -45,9 +112,33 @@
             "name": "GROW Gaming",
             "region": "JP",
             "players": [
-                { "name": "Lible_Ace", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Lykq", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "mo-mon", "role": "Support", "x": "", "youtube": "" }
+                {
+                    "name": "Lible_Ace", "role": "IGL", "x": "", "youtube": "",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "BenQ ZOWIE XL2546K",
+                        "headset": ""
+                    }
+                },
+                {
+                    "name": "Lykq", "role": "Fragger", "x": "", "youtube": "",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "BenQ ZOWIE XL2546K",
+                        "headset": ""
+                    }
+                },
+                {
+                    "name": "mo-mon", "role": "Support", "x": "", "youtube": "",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "BenQ ZOWIE XL2546K",
+                        "headset": ""
+                    }
+                }
             ]
         },
         {
@@ -55,160 +146,136 @@
             "name": "UNLIMIT",
             "region": "JP",
             "players": [
-                { "name": "Peace", "role": "IGL", "x": "Peace17_yt", "youtube": "@Peace3-yt" },
-                { "name": "xtsuvi", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "Yulariman", "role": "Support", "x": "", "youtube": "" }
+                {
+                    "name": "Peace", "role": "IGL", "x": "Peace17_yt", "youtube": "@Peace3-yt",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "BenQ ZOWIE XL2546K",
+                        "headset": ""
+                    }
+                },
+                { "name": "xtsuvi", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "Yulariman", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "soten",
-            "name": "SOTEN",
-            "region": "JP",
+            "id": "soten", "name": "SOTEN", "region": "JP",
             "players": [
-                { "name": "7ne", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Gqzeln", "role": "Fragger", "x": "", "youtube": "" }
+                { "name": "7ne", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "Gqzeln", "role": "Fragger", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "trinity",
-            "name": "TriniTY",
-            "region": "JP",
+            "id": "trinity", "name": "TriniTY", "region": "JP",
             "players": [
-                { "name": "IGARASI", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Lully", "role": "Fragger", "x": "", "youtube": "" }
+                { "name": "IGARASI", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "Lully", "role": "Fragger", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "meteor",
-            "name": "Meteor",
-            "region": "JP",
+            "id": "meteor", "name": "Meteor", "region": "JP",
             "players": [
-                { "name": "983kuma", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Kuroton", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "Maron", "role": "Support", "x": "", "youtube": "" }
+                { "name": "983kuma", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "Kuroton", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "Maron", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "snk",
-            "name": "SNK",
-            "region": "JP",
+            "id": "snk", "name": "SNK", "region": "JP",
             "players": [
-                { "name": "kanata", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "NevvtonX", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "SyanaMu", "role": "Support", "x": "", "youtube": "" }
+                { "name": "kanata", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "NevvtonX", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "SyanaMu", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "dory",
-            "name": "Dory",
-            "region": "JP",
+            "id": "dory", "name": "Dory", "region": "JP",
             "players": [
-                { "name": "KatsuKing", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Hiromune", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "sho", "role": "Support", "x": "", "youtube": "" }
+                { "name": "KatsuKing", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "Hiromune", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "sho", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "noezfoxx",
-            "name": "NOEZ FOXX",
-            "region": "JP",
+            "id": "noezfoxx", "name": "NOEZ FOXX", "region": "JP",
             "players": [
-                { "name": "gavomk", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "kakigoori7", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "Mia.K", "role": "Support", "x": "", "youtube": "" }
+                { "name": "gavomk", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "kakigoori7", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "Mia.K", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "o2",
-            "name": "O2 esports",
-            "region": "JP",
+            "id": "o2", "name": "O2 esports", "region": "JP",
             "players": [
-                { "name": "AochasoN", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "TANPOPO", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "watage", "role": "Support", "x": "", "youtube": "" }
+                { "name": "AochasoN", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "TANPOPO", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "watage", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "realize",
-            "name": "REALIZE",
-            "region": "JP",
+            "id": "realize", "name": "REALIZE", "region": "JP",
             "players": [
-                { "name": "inkya", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Simubo", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "SIZU", "role": "Support", "x": "", "youtube": "" }
+                { "name": "inkya", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "Simubo", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "SIZU", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "redrams",
-            "name": "RED Rams",
-            "region": "JP",
+            "id": "redrams", "name": "RED Rams", "region": "JP",
             "players": [
-                { "name": "Datch", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Fia", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "Rye", "role": "Support", "x": "", "youtube": "" }
+                { "name": "Datch", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "Fia", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "Rye", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "reignite",
-            "name": "REIGNITE",
-            "region": "JP",
+            "id": "reignite", "name": "REIGNITE", "region": "JP",
             "players": [
-                { "name": "ReyzyGG", "role": "Fragger", "x": "", "youtube": "" }
+                { "name": "ReyzyGG", "role": "Fragger", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "blacksheeps",
-            "name": "BLACK Sheeps",
-            "region": "JP",
+            "id": "blacksheeps", "name": "BLACK Sheeps", "region": "JP",
             "players": [
-                { "name": "izzxxv", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Sumiyoshii", "role": "Fragger", "x": "", "youtube": "" }
+                { "name": "izzxxv", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "Sumiyoshii", "role": "Fragger", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "sbi",
-            "name": "SBI e-Sports",
-            "region": "JP",
+            "id": "sbi", "name": "SBI e-Sports", "region": "JP",
             "players": [
-                { "name": "Egoist222", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "VOLzZ", "role": "Fragger", "x": "", "youtube": "" }
+                { "name": "Egoist222", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "VOLzZ", "role": "Fragger", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "kinotrope",
-            "name": "KINOTROPE gaming",
-            "region": "JP",
+            "id": "kinotrope", "name": "KINOTROPE gaming", "region": "JP",
             "players": [
-                { "name": "Kanon", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "yukaPEROdator", "role": "Fragger", "x": "", "youtube": "" }
+                { "name": "Kanon", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "yukaPEROdator", "role": "Fragger", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "lawson",
-            "name": "LawsonTicketXone",
-            "region": "JP",
+            "id": "lawson", "name": "LawsonTicketXone", "region": "JP",
             "players": [
-                { "name": "5CG", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Right", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "wqtagashi", "role": "Support", "x": "", "youtube": "" }
+                { "name": "5CG", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "Right", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "wqtagashi", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "syrale",
-            "name": "SYRALE",
-            "region": "JP",
+            "id": "syrale", "name": "SYRALE", "region": "JP",
             "players": [
-                { "name": "IeNaga", "role": "Fragger", "x": "", "youtube": "" }
+                { "name": "IeNaga", "role": "Fragger", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
-            "id": "tie",
-            "name": "TIE",
-            "region": "JP",
+            "id": "tie", "name": "TIE", "region": "JP",
             "players": [
-                { "name": "Ftyan", "role": "IGL", "x": "", "youtube": "" },
-                { "name": "Pinotr", "role": "Fragger", "x": "", "youtube": "" },
-                { "name": "UmichanLoveti", "role": "Support", "x": "", "youtube": "" }
+                { "name": "Ftyan", "role": "IGL", "x": "", "youtube": "", "devices": {} },
+                { "name": "Pinotr", "role": "Fragger", "x": "", "youtube": "", "devices": {} },
+                { "name": "UmichanLoveti", "role": "Support", "x": "", "youtube": "", "devices": {} }
             ]
         },
         {
@@ -216,7 +283,15 @@
             "name": "Crazy Raccoon",
             "region": "JP",
             "players": [
-                { "name": "Ras", "role": "Fragger", "x": "Ras9915", "youtube": "" }
+                {
+                    "name": "Ras", "role": "Fragger", "x": "Ras9915", "youtube": "",
+                    "devices": {
+                        "mouse": "Logicool G PRO X SUPERLIGHT 2",
+                        "keyboard": "Wooting 60HE",
+                        "monitor": "BenQ ZOWIE XL2546K",
+                        "headset": ""
+                    }
+                }
             ]
         }
     ]

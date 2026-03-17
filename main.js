@@ -1660,6 +1660,43 @@ if (closeModalBtn) {
       html += '<p class="no-videos">この選手の動画はまだ登録されていません</p>';
     }
 
+    // Devices section
+    const devices = player.devices || {};
+    const deviceEntries = Object.entries(devices).filter(([k, v]) => v && v.length > 0);
+    
+    if (deviceEntries.length > 0) {
+      const deviceLabels = {
+        mouse: '🖱️ マウス',
+        keyboard: '⌨️ キーボード',
+        monitor: '🖥️ モニター',
+        headset: '🎧 ヘッドセット',
+        controller: '🎮 コントローラー',
+        mousepad: '🟫 マウスパッド'
+      };
+
+      html += `<h3>🎮 ${player.name} の使用デバイス</h3>`;
+      html += '<div class="apex-devices-grid">';
+      
+      deviceEntries.forEach(([key, value]) => {
+        const label = deviceLabels[key] || key;
+        const amazonUrl = `https://www.amazon.co.jp/s?k=${encodeURIComponent(value)}&tag=youraffid-22`;
+        const rakutenUrl = `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(value)}/`;
+        
+        html += `
+          <div class="apex-device-card">
+            <div class="device-category">${label}</div>
+            <div class="device-name">${value}</div>
+            <div class="device-buttons">
+              <a href="${amazonUrl}" target="_blank" class="device-btn device-btn-amazon">Amazon</a>
+              <a href="${rakutenUrl}" target="_blank" class="device-btn device-btn-rakuten">楽天</a>
+            </div>
+          </div>
+        `;
+      });
+      
+      html += '</div>';
+    }
+
     videosContainer.innerHTML = html;
   }
 
