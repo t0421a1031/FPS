@@ -161,6 +161,42 @@
             "channelId": "koyota0",
             "url": "https://www.youtube.com/@koyota0",
             "icon": "🔫"
+        },
+        {
+            "name": "まいぽり",
+            "team": "",
+            "game": "fortnite",
+            "platform": "youtube",
+            "channelId": "xMipoli",
+            "url": "https://www.youtube.com/@xMipoli",
+            "icon": "🔫"
+        },
+        {
+            "name": "Rise",
+            "team": "Riddle",
+            "game": "fortnite",
+            "platform": "youtube",
+            "channelId": "risegotgamer",
+            "url": "https://www.youtube.com/@risegotgamer",
+            "icon": "🔫"
+        },
+        {
+            "name": "Minipiyo",
+            "team": "",
+            "game": "fortnite",
+            "platform": "youtube",
+            "channelId": "Minipiyo",
+            "url": "https://www.youtube.com/@Minipiyo",
+            "icon": "🔫"
+        },
+        {
+            "name": "Rainy",
+            "team": "DetonatioN FocusMe",
+            "game": "fortnite",
+            "platform": "youtube",
+            "channelId": "DFMRainy",
+            "url": "https://www.youtube.com/@DFMRainy",
+            "icon": "🔫"
         }
     ]
 }
