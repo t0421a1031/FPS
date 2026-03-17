@@ -1479,3 +1479,209 @@ if (closeModalBtn) {
   });
 }
 
+// ============================================================
+// APEX TEAMS SECTION
+// ============================================================
+(function() {
+  let apexTeamsData = [];
+  let apexVideosData = [];
+  let currentTeam = null;
+
+  // Team emoji icons (based on team vibes)
+  const teamIcons = {
+    'zeta': '⚡', 'fnatic': '🔥', 'reject': '💀', 'riddle': '🎭',
+    'grow': '🌱', 'unlimit': '♾️', 'soten': '☀️', 'trinity': '🔱',
+    'meteor': '☄️', 'snk': '🐍', 'dory': '🐟', 'noezfoxx': '🦊',
+    'o2': '💨', 'realize': '💎', 'redrams': '🐏', 'reignite': '🔥',
+    'blacksheeps': '🖤', 'sbi': '🏦', 'kinotrope': '🎬', 'lawson': '🎫',
+    'syrale': '🌀', 'tie': '🎀', 'cr': '🦝'
+  };
+
+  // Fetch teams data
+  async function loadApexTeams() {
+    try {
+      const [teamsRes, videosRes] = await Promise.all([
+        fetch('./data/apex_teams.json'),
+        fetch('./data/videos.json')
+      ]);
+      const teamsJson = await teamsRes.json();
+      const videosJson = await videosRes.json();
+      apexTeamsData = teamsJson.teams || [];
+      apexVideosData = (videosJson.videos || []).filter(v => v.game === 'apex');
+      renderTeamsGrid();
+    } catch (err) {
+      console.error('APEX Teams data load error:', err);
+    }
+  }
+
+  // Render teams grid
+  function renderTeamsGrid() {
+    const grid = document.getElementById('apex-teams-grid');
+    if (!grid) return;
+
+    grid.innerHTML = apexTeamsData.map(team => {
+      const icon = teamIcons[team.id] || '🎮';
+      return `
+        <div class="apex-team-card" data-team-id="${team.id}">
+          <span class="team-icon">${icon}</span>
+          <div class="team-name">${team.name}</div>
+          <div class="team-player-count">${team.players.length} Players</div>
+        </div>
+      `;
+    }).join('');
+
+    // Add click handlers
+    grid.querySelectorAll('.apex-team-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const teamId = card.getAttribute('data-team-id');
+        showTeamDetail(teamId);
+      });
+    });
+  }
+
+  // Show team detail (players list)
+  function showTeamDetail(teamId) {
+    const team = apexTeamsData.find(t => t.id === teamId);
+    if (!team) return;
+    currentTeam = team;
+
+    const teamsGrid = document.getElementById('apex-teams-grid');
+    const teamDetail = document.getElementById('apex-team-detail');
+    const playerDetail = document.getElementById('apex-player-detail');
+
+    teamsGrid.style.display = 'none';
+    teamDetail.style.display = 'block';
+    playerDetail.style.display = 'none';
+
+    const icon = teamIcons[team.id] || '🎮';
+
+    // Team header
+    document.getElementById('apex-team-header').innerHTML = `
+      <span class="team-detail-icon">${icon}</span>
+      <div class="team-detail-name">${team.name}</div>
+      <div class="team-detail-region">${team.region === 'JP' ? '🇯🇵 Japan' : team.region}</div>
+    `;
+
+    // Players grid
+    const playersGrid = document.getElementById('apex-players-grid');
+    playersGrid.innerHTML = team.players.map((player, idx) => {
+      const initials = player.name.substring(0, 2).toUpperCase();
+      let linksHtml = '';
+      if (player.x) {
+        linksHtml += `<span class="player-link" onclick="event.stopPropagation(); window.open('https://x.com/${player.x}', '_blank')">𝕏</span>`;
+      }
+      if (player.youtube) {
+        linksHtml += `<span class="player-link" onclick="event.stopPropagation(); window.open('https://www.youtube.com/${player.youtube}', '_blank')">▶️ YT</span>`;
+      }
+
+      return `
+        <div class="apex-player-card" data-player-idx="${idx}">
+          <div class="player-avatar">${initials}</div>
+          <div class="player-name">${player.name}</div>
+          <div class="player-role">${player.role}</div>
+          <div class="player-links">${linksHtml}</div>
+        </div>
+      `;
+    }).join('');
+
+    // Player card click handlers
+    playersGrid.querySelectorAll('.apex-player-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const idx = parseInt(card.getAttribute('data-player-idx'));
+        showPlayerDetail(team, team.players[idx]);
+      });
+    });
+  }
+
+  // Show player detail (videos + devices)
+  function showPlayerDetail(team, player) {
+    const teamDetail = document.getElementById('apex-team-detail');
+    const playerDetail = document.getElementById('apex-player-detail');
+
+    teamDetail.style.display = 'none';
+    playerDetail.style.display = 'block';
+
+    const initials = player.name.substring(0, 2).toUpperCase();
+
+    // Social links
+    let socialHtml = '';
+    if (player.x) {
+      socialHtml += `<a href="https://x.com/${player.x}" target="_blank" class="player-social-btn">𝕏 @${player.x}</a>`;
+    }
+    if (player.youtube) {
+      socialHtml += `<a href="https://www.youtube.com/${player.youtube}" target="_blank" class="player-social-btn">▶️ YouTube</a>`;
+    }
+
+    // Player header
+    document.getElementById('apex-player-header').innerHTML = `
+      <div class="player-detail-avatar">${initials}</div>
+      <div class="player-detail-info">
+        <div class="player-detail-name">${player.name}</div>
+        <div class="player-detail-team">${team.name} / ${player.role}</div>
+        <div class="player-detail-links">${socialHtml}</div>
+      </div>
+    `;
+
+    // Find player videos
+    const playerVideos = apexVideosData.filter(v => {
+      const proName = (v.pro || '').toLowerCase();
+      const pName = player.name.toLowerCase();
+      return proName.includes(pName) || pName.includes(proName);
+    });
+
+    // Videos section
+    const videosContainer = document.getElementById('apex-player-videos');
+    let html = '<h3>🎬 最新動画</h3>';
+
+    if (playerVideos.length > 0) {
+      const ytVideos = playerVideos.filter(v => v.platform === 'youtube' && v.youtubeId);
+      if (ytVideos.length > 0) {
+        html += '<div class="apex-video-grid">';
+        ytVideos.slice(0, 6).forEach(v => {
+          const cleanTitle = v.title.replace(/^[^:]+:\s*/, '');
+          html += `
+            <div class="apex-video-card">
+              <div class="video-thumb">
+                <iframe src="https://www.youtube.com/embed/${v.youtubeId}" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen loading="lazy"></iframe>
+              </div>
+              <div class="video-info">
+                <div class="video-title">${cleanTitle}</div>
+              </div>
+            </div>
+          `;
+        });
+        html += '</div>';
+      } else {
+        html += '<p class="no-videos">YouTube動画はまだ登録されていません</p>';
+      }
+    } else {
+      html += '<p class="no-videos">この選手の動画はまだ登録されていません</p>';
+    }
+
+    videosContainer.innerHTML = html;
+  }
+
+  // Back to teams list
+  const backToTeamsBtn = document.getElementById('apex-back-to-teams');
+  if (backToTeamsBtn) {
+    backToTeamsBtn.addEventListener('click', () => {
+      document.getElementById('apex-teams-grid').style.display = '';
+      document.getElementById('apex-team-detail').style.display = 'none';
+      document.getElementById('apex-player-detail').style.display = 'none';
+    });
+  }
+
+  // Back to team detail
+  const backToTeamBtn = document.getElementById('apex-back-to-team');
+  if (backToTeamBtn) {
+    backToTeamBtn.addEventListener('click', () => {
+      document.getElementById('apex-team-detail').style.display = 'block';
+      document.getElementById('apex-player-detail').style.display = 'none';
+    });
+  }
+
+  // Initial load
+  loadApexTeams();
+})();
