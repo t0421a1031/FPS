@@ -152,6 +152,15 @@
             "channelId": "Buyuriru",
             "url": "https://www.youtube.com/@Buyuriru",
             "icon": "🔫"
+        },
+        {
+            "name": "こよた",
+            "team": "",
+            "game": "fortnite",
+            "platform": "youtube",
+            "channelId": "koyota0",
+            "url": "https://www.youtube.com/@koyota0",
+            "icon": "🔫"
         }
     ]
 }
