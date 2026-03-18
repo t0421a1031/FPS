@@ -3801,4 +3801,39 @@ h2,
 .guide-banner-ad img[width="300"] {
   border-radius: 4px;
 }
-
+
+/* PC Banner Section */
+.pc-banner-section {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: linear-gradient(145deg, rgba(20, 25, 40, 0.8), rgba(10, 12, 20, 0.9));
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.pc-banner-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.pc-banner-desc {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.pc-banner-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.pc-banner-grid .guide-banner-ad {
+  margin-top: 0;
+}
