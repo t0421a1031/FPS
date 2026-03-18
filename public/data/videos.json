@@ -1783,6 +1783,116 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=0v9Py149Xpg",
             "youtubeId": "0v9Py149Xpg"
+        },
+        {
+            "id": "v_auto_UnZm-PyfaZw",
+            "title": "Peace: 【解説】アビリティって「Q」じゃないの！？Peaceの特殊なキー配置や感度等を理由付きで全て公開【APEX/Peace/ピース/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=UnZm-PyfaZw",
+            "youtubeId": "UnZm-PyfaZw"
+        },
+        {
+            "id": "v_auto_YNkErJKuCOc",
+            "title": "Peace: 【たぴちきランク】1vs3クラッチ決めたのに反応が薄くもっと褒められたくなるPeace【APEX/Peace/ピース/1tappy/cheeky/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=YNkErJKuCOc",
+            "youtubeId": "YNkErJKuCOc"
+        },
+        {
+            "id": "v_auto_Fh-kws9yT-c",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Fh-kws9yT-c",
+            "youtubeId": "Fh-kws9yT-c"
+        },
+        {
+            "id": "v_auto_gFLSXGwmMDA",
+            "title": "1tappy: 【APEX】プレランク with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=gFLSXGwmMDA",
+            "youtubeId": "gFLSXGwmMDA"
+        },
+        {
+            "id": "v_auto_P329CliHHAw",
+            "title": "1tappy: 【1tappy視点】マイナビeカレ 〜esports全国大学選手権2026〜 Apex Legends 大学対抗部門 決勝大会 #PR",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=P329CliHHAw",
+            "youtubeId": "P329CliHHAw"
+        },
+        {
+            "id": "v_auto_6u0H-i2k_30",
+            "title": "1tappy: 元プロならファイトリソースが少ないキャラ構成でも勝てる!?【1tappy/cheeky/4rmy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6u0H-i2k_30",
+            "youtubeId": "6u0H-i2k_30"
+        },
+        {
+            "id": "v_auto_f1n5oBUfKIA",
+            "title": "ぶゅりる (DetonatioN FocusMe): あの超有名人がまさかの競技勢だった...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=f1n5oBUfKIA",
+            "youtubeId": "f1n5oBUfKIA"
+        },
+        {
+            "id": "v_auto_pYA3_SDM-rw",
+            "title": "Rise (Riddle): シーズン最後のフォトナ！【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=pYA3_SDM-rw",
+            "youtubeId": "pYA3_SDM-rw"
+        },
+        {
+            "id": "v_auto_BXJ1wUEHo30",
+            "title": "Rainy (DetonatioN FocusMe): FNCSのソロ生存が上手すぎる【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=BXJ1wUEHo30",
+            "youtubeId": "BXJ1wUEHo30"
+        },
+        {
+            "id": "v_auto_kkBS97m3UN0",
+            "title": "Rainy (DetonatioN FocusMe): 今シーズン最後のガチランク！【フォートナイト/Fortnite】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=kkBS97m3UN0",
+            "youtubeId": "kkBS97m3UN0"
+        },
+        {
+            "id": "v_auto_ayrMdypJpGM",
+            "title": "Rainy (DetonatioN FocusMe): 【ソロ大会】RIDDLE、ZETA、DFMでポイント勝負した結果面白すぎたｗｗ【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ayrMdypJpGM",
+            "youtubeId": "ayrMdypJpGM"
         }
     ]
 }
