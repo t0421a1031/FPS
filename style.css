@@ -632,6 +632,57 @@ h2,
   color: var(--secondary);
 }
 
+/* Amazon Time Sale Banner */
+.amazon-timesale-banner {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.amazon-timesale-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #ff9900 0%, #ff6600 50%, #ff4400 100%);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 153, 0, 0.3);
+  letter-spacing: 0.5px;
+}
+
+.amazon-timesale-link:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(255, 153, 0, 0.45);
+  background: linear-gradient(135deg, #ffaa00 0%, #ff7700 50%, #ff5500 100%);
+}
+
+.timesale-icon {
+  font-size: 1.4rem;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.2); }
+}
+
+.timesale-text {
+  font-size: 1rem;
+}
+
+.timesale-arrow {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.amazon-timesale-link:hover .timesale-arrow {
+  transform: translateX(4px);
+}
+
 /* Gadget Sub-Tabs (ランキング / プロ使用率 切替) */
 .gadget-sub-tabs {
   display: flex;
