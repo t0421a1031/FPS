@@ -271,9 +271,18 @@ function initVideoPlatformTabs() {
       const ytView = document.getElementById('video-sub-youtube');
       const snsView = document.getElementById('video-sub-sns');
       const liveView = document.getElementById('video-sub-live');
+      const apexTeamsView = document.getElementById('video-sub-apex-teams');
+      const filtersEl = document.querySelector('.filters');
+      const tagFiltersEl = document.querySelector('.tag-filters');
+
       ytView.style.display = 'none';
       snsView.style.display = 'none';
       liveView.style.display = 'none';
+      if (apexTeamsView) apexTeamsView.style.display = 'none';
+
+      // Show/hide filters based on platform
+      if (filtersEl) filtersEl.style.display = '';
+      if (tagFiltersEl) tagFiltersEl.style.display = '';
 
       if (currentVideoPlatform === 'youtube') {
         ytView.style.display = 'block';
@@ -282,6 +291,11 @@ function initVideoPlatformTabs() {
       } else if (currentVideoPlatform === 'live') {
         liveView.style.display = 'block';
         renderLiveStreamers();
+      } else if (currentVideoPlatform === 'apex-teams') {
+        if (apexTeamsView) apexTeamsView.style.display = 'block';
+        // Hide game/tag filters for apex teams view
+        if (filtersEl) filtersEl.style.display = 'none';
+        if (tagFiltersEl) tagFiltersEl.style.display = 'none';
       }
       renderVideos();
     });

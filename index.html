@@ -82,7 +82,7 @@
           <button class="nav-btn active" data-section="videos">プレイ動画</button>
           <button class="nav-btn" data-section="updates">アップデート情報</button>
           <button class="nav-btn" data-section="rankings">賞金ランキング</button>
-          <button class="nav-btn" data-section="apex-teams">🏆 APEXチーム</button>
+
           <button class="nav-btn" data-section="gadgets">ガジェット</button>
           <button class="nav-btn" data-section="guides">購入ガイド</button>
           <button class="nav-btn" data-section="sales">セール情報</button>
@@ -107,6 +107,7 @@
           <button class="video-platform-btn active" data-vplatform="youtube">▶️ YouTube動画</button>
           <button class="video-platform-btn" data-vplatform="sns">📱 SNS・配信</button>
           <button class="video-platform-btn" data-vplatform="live">🔴 LIVE配信</button>
+          <button class="video-platform-btn" data-vplatform="apex-teams" id="btn-apex-teams-inline">APEXチーム紹介</button>
         </div>
         <!-- Game & Tag Filters -->
         <div class="filters">
@@ -135,28 +136,27 @@
         <div id="video-sub-live" style="display:none;">
           <div class="live-grid" id="live-grid"></div>
         </div>
-      </section>
-
-      <!-- APEX Teams Section -->
-      <section id="section-apex-teams" class="content-section container hidden">
-        <h2 class="section-title">🏆 APEX LEGENDS プロチーム</h2>
-        <p class="section-subtitle">日本のAPEXプロチーム一覧 ― チームを選んで選手と動画をチェック</p>
-        
-        <!-- Teams Grid (default view) -->
-        <div id="apex-teams-grid" class="apex-teams-grid"></div>
-        
-        <!-- Team Detail View (shown when a team is clicked) -->
-        <div id="apex-team-detail" class="apex-team-detail" style="display:none;">
-          <button class="apex-back-btn" id="apex-back-to-teams">← チーム一覧に戻る</button>
-          <div class="apex-team-header" id="apex-team-header"></div>
-          <div class="apex-players-grid" id="apex-players-grid"></div>
-        </div>
-        
-        <!-- Player Detail View (shown when a player is clicked) -->
-        <div id="apex-player-detail" class="apex-player-detail" style="display:none;">
-          <button class="apex-back-btn" id="apex-back-to-team">← チームに戻る</button>
-          <div class="apex-player-header" id="apex-player-header"></div>
-          <div class="apex-player-videos" id="apex-player-videos"></div>
+        <!-- APEX Teams Inline View (inside video section) -->
+        <div id="video-sub-apex-teams" style="display:none;">
+          <h2 class="section-title">APEX LEGENDS プロチーム</h2>
+          <p class="section-subtitle">日本のAPEXプロチーム一覧 ― チームを選んで選手と動画をチェック</p>
+          
+          <!-- Teams Grid (default view) -->
+          <div id="apex-teams-grid" class="apex-teams-grid"></div>
+          
+          <!-- Team Detail View -->
+          <div id="apex-team-detail" class="apex-team-detail" style="display:none;">
+            <button class="apex-back-btn" id="apex-back-to-teams">← チーム一覧に戻る</button>
+            <div class="apex-team-header" id="apex-team-header"></div>
+            <div class="apex-players-grid" id="apex-players-grid"></div>
+          </div>
+          
+          <!-- Player Detail View -->
+          <div id="apex-player-detail" class="apex-player-detail" style="display:none;">
+            <button class="apex-back-btn" id="apex-back-to-team">← チームに戻る</button>
+            <div class="apex-player-header" id="apex-player-header"></div>
+            <div class="apex-player-videos" id="apex-player-videos"></div>
+          </div>
         </div>
       </section>
 
