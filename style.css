@@ -3748,4 +3748,31 @@ h2,
   .column-cta-note {
     font-size: 0.7rem;
   }
-}
+}
+
+/* Banner Ad Styling */
+.column-banner-ad {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+}
+
+.column-banner-ad a {
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.column-banner-ad a:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(0, 128, 255, 0.15);
+}
+
+.column-banner-ad img[width="300"] {
+  border-radius: 4px;
+}
+
