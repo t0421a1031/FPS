@@ -2772,43 +2772,72 @@ h2,
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(0, 255, 200, 0.05) 0%, transparent 70%);
+  background: radial-gradient(circle, var(--team-glow, rgba(0, 255, 200, 0.05)) 0%, transparent 70%);
   opacity: 0;
   transition: opacity 0.4s ease;
 }
 
 .apex-team-card:hover::before {
-  opacity: 1;
+  opacity: 0.3;
 }
 
 .apex-team-card:hover {
   transform: translateY(-8px) scale(1.03);
-  border-color: rgba(0, 255, 200, 0.5);
+  border-color: var(--team-accent, rgba(0, 255, 200, 0.5));
   box-shadow:
-    0 8px 30px rgba(0, 255, 200, 0.15),
-    0 0 60px rgba(0, 255, 200, 0.05),
-    inset 0 0 30px rgba(0, 255, 200, 0.03);
+    0 8px 30px var(--team-glow, rgba(0, 255, 200, 0.15)),
+    0 0 60px rgba(0, 0, 0, 0.2),
+    inset 0 0 30px var(--team-glow, rgba(0, 255, 200, 0.03));
 }
 
-.apex-team-card .team-icon {
-  font-size: 2.8rem;
+/* Text Logo */
+.apex-team-card .team-logo-text {
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 3px;
   margin-bottom: 12px;
-  display: block;
-  filter: drop-shadow(0 0 8px rgba(0, 255, 200, 0.4));
+  font-family: 'Outfit', 'Inter', sans-serif;
+  line-height: 1;
 }
 
 .apex-team-card .team-name {
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  color: #e0e0e0;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+  opacity: 0.85;
 }
 
 .apex-team-card .team-player-count {
-  font-size: 0.75rem;
-  color: rgba(0, 255, 200, 0.6);
-  margin-top: 8px;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 6px;
+}
+
+/* Video Badge */
+.team-video-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: rgba(0, 255, 200, 0.9);
+  background: rgba(0, 255, 200, 0.08);
+  border: 1px solid rgba(0, 255, 200, 0.2);
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Team Detail Logo */
+.apex-team-header .team-detail-logo {
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: 5px;
+  font-family: 'Outfit', 'Inter', sans-serif;
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 12px;
 }
 
 /* --- Back Button --- */
@@ -3169,11 +3198,11 @@ h2,
   .apex-team-card {
     padding: 20px 12px;
   }
-  .apex-team-card .team-icon {
-    font-size: 2.2rem;
+  .apex-team-card .team-logo-text {
+    font-size: 1.6rem;
   }
   .apex-team-card .team-name {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .apex-players-grid {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));

@@ -1487,15 +1487,43 @@ if (closeModalBtn) {
   let apexVideosData = [];
   let currentTeam = null;
 
-  // Team emoji icons (based on team vibes)
-  const teamIcons = {
-    'zeta': '⚡', 'fnatic': '🔥', 'reject': '💀', 'riddle': '🎭',
-    'grow': '🌱', 'unlimit': '♾️', 'soten': '☀️', 'trinity': '🔱',
-    'meteor': '☄️', 'snk': '🐍', 'dory': '🐟', 'noezfoxx': '🦊',
-    'o2': '💨', 'realize': '💎', 'redrams': '🐏', 'reignite': '🔥',
-    'blacksheeps': '🖤', 'sbi': '🏦', 'kinotrope': '🎬', 'lawson': '🎫',
-    'syrale': '🌀', 'tie': '🎀', 'cr': '🦝'
+  // Team brand colors and abbreviations
+  const teamBrands = {
+    'zeta':        { abbr: 'ZT', accent: '#00c8ff', text: '#ffffff', glow: 'rgba(0,200,255,0.4)' },
+    'fnatic':      { abbr: 'FNC', accent: '#ff5900', text: '#ff5900', glow: 'rgba(255,89,0,0.4)' },
+    'reject':      { abbr: 'RC', accent: '#e63946', text: '#e63946', glow: 'rgba(230,57,70,0.4)' },
+    'riddle':      { abbr: 'RDL', accent: '#a855f7', text: '#a855f7', glow: 'rgba(168,85,247,0.4)' },
+    'grow':        { abbr: 'GW', accent: '#22c55e', text: '#22c55e', glow: 'rgba(34,197,94,0.4)' },
+    'unlimit':     { abbr: 'UL', accent: '#06b6d4', text: '#06b6d4', glow: 'rgba(6,182,212,0.4)' },
+    'soten':       { abbr: 'ST', accent: '#f59e0b', text: '#f59e0b', glow: 'rgba(245,158,11,0.4)' },
+    'trinity':     { abbr: 'TY', accent: '#8b5cf6', text: '#8b5cf6', glow: 'rgba(139,92,246,0.4)' },
+    'meteor':      { abbr: 'MT', accent: '#ef4444', text: '#ef4444', glow: 'rgba(239,68,68,0.4)' },
+    'snk':         { abbr: 'SNK', accent: '#10b981', text: '#10b981', glow: 'rgba(16,185,129,0.4)' },
+    'dory':        { abbr: 'DRY', accent: '#3b82f6', text: '#3b82f6', glow: 'rgba(59,130,246,0.4)' },
+    'noezfoxx':    { abbr: 'NF', accent: '#f97316', text: '#f97316', glow: 'rgba(249,115,22,0.4)' },
+    'o2':          { abbr: 'O2', accent: '#60a5fa', text: '#60a5fa', glow: 'rgba(96,165,250,0.4)' },
+    'realize':     { abbr: 'RZ', accent: '#06b6d4', text: '#06b6d4', glow: 'rgba(6,182,212,0.4)' },
+    'redrams':     { abbr: 'RR', accent: '#dc2626', text: '#dc2626', glow: 'rgba(220,38,38,0.4)' },
+    'reignite':    { abbr: 'RI', accent: '#f97316', text: '#f97316', glow: 'rgba(249,115,22,0.4)' },
+    'blacksheeps': { abbr: 'BS', accent: '#a1a1aa', text: '#a1a1aa', glow: 'rgba(161,161,170,0.4)' },
+    'sbi':         { abbr: 'SBI', accent: '#2563eb', text: '#2563eb', glow: 'rgba(37,99,235,0.4)' },
+    'kinotrope':   { abbr: 'KT', accent: '#ec4899', text: '#ec4899', glow: 'rgba(236,72,153,0.4)' },
+    'lawson':      { abbr: 'LX', accent: '#14b8a6', text: '#14b8a6', glow: 'rgba(20,184,166,0.4)' },
+    'syrale':      { abbr: 'SY', accent: '#6366f1', text: '#6366f1', glow: 'rgba(99,102,241,0.4)' },
+    'tie':         { abbr: 'TIE', accent: '#f472b6', text: '#f472b6', glow: 'rgba(244,114,182,0.4)' },
+    'cr':          { abbr: 'CR', accent: '#facc15', text: '#facc15', glow: 'rgba(250,204,21,0.4)' }
   };
+
+  // Check if a team has videos
+  function teamHasVideos(team) {
+    return team.players.some(player => {
+      const pName = player.name.toLowerCase();
+      return apexVideosData.some(v => {
+        const proName = (v.pro || '').toLowerCase();
+        return proName.includes(pName) || pName.includes(proName);
+      });
+    });
+  }
 
   // Fetch teams data
   async function loadApexTeams() {
@@ -1520,12 +1548,19 @@ if (closeModalBtn) {
     if (!grid) return;
 
     grid.innerHTML = apexTeamsData.map(team => {
-      const icon = teamIcons[team.id] || '🎮';
+      const brand = teamBrands[team.id] || { abbr: team.name.substring(0,2).toUpperCase(), accent: '#00ffc8', text: '#fff', glow: 'rgba(0,255,200,0.4)' };
+      const hasVids = teamHasVideos(team);
+      const videoBadge = hasVids ? '<span class="team-video-badge">&#127916; Videos</span>' : '';
+
       return `
-        <div class="apex-team-card" data-team-id="${team.id}">
-          <span class="team-icon">${icon}</span>
-          <div class="team-name">${team.name}</div>
+        <div class="apex-team-card" data-team-id="${team.id}" 
+             style="--team-accent: ${brand.accent}; --team-glow: ${brand.glow};">
+          <div class="team-logo-text" style="color: ${brand.text}; text-shadow: 0 0 20px ${brand.glow};">
+            ${brand.abbr}
+          </div>
+          <div class="team-name" style="color: ${brand.text};">${team.name}</div>
           <div class="team-player-count">${team.players.length} Players</div>
+          ${videoBadge}
         </div>
       `;
     }).join('');
@@ -1553,12 +1588,14 @@ if (closeModalBtn) {
     teamDetail.style.display = 'block';
     playerDetail.style.display = 'none';
 
-    const icon = teamIcons[team.id] || '🎮';
+    const brand = teamBrands[team.id] || { abbr: 'TM', accent: '#00ffc8', text: '#fff', glow: 'rgba(0,255,200,0.4)' };
 
     // Team header
     document.getElementById('apex-team-header').innerHTML = `
-      <span class="team-detail-icon">${icon}</span>
-      <div class="team-detail-name">${team.name}</div>
+      <div class="team-detail-logo" style="color: ${brand.text}; text-shadow: 0 0 30px ${brand.glow}; border-color: ${brand.accent};">
+        ${brand.abbr}
+      </div>
+      <div class="team-detail-name" style="text-shadow: 0 0 20px ${brand.glow};">${team.name}</div>
       <div class="team-detail-region">${team.region === 'JP' ? '🇯🇵 Japan' : team.region}</div>
     `;
 
