@@ -3775,4 +3775,30 @@ h2,
 .column-banner-ad img[width="300"] {
   border-radius: 4px;
 }
+
+/* Guide Banner Ad */
+.guide-banner-ad {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+}
+
+.guide-banner-ad a {
+  display: inline-block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.guide-banner-ad a:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(255, 100, 0, 0.15);
+}
+
+.guide-banner-ad img[width="300"] {
+  border-radius: 4px;
+}
 
