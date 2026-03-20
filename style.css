@@ -2316,7 +2316,7 @@ h2,
 
   /* Content Section Padding */
   .content-section {
-    padding: 25px 0;
+    padding: 25px 1.5rem;
   }
 
   /* Live Status Summary */
@@ -2328,6 +2328,14 @@ h2,
 
 /* --- Small Mobile (max-width: 480px) --- */
 @media (max-width: 480px) {
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .content-section {
+    padding: 20px 1rem;
+  }
 
   .hero h1 {
     font-size: 1.6rem;
