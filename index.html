@@ -83,6 +83,7 @@
           <button class="nav-btn" data-section="updates">アップデート情報</button>
           <button class="nav-btn" data-section="rankings">賞金ランキング</button>
 
+          <button class="nav-btn" data-section="setup">セットアップ提案</button>
           <button class="nav-btn" data-section="gadgets">ガジェット</button>
           <button class="nav-btn" data-section="guides">購入ガイド</button>
           <button class="nav-btn" data-section="sales">セール情報</button>
@@ -246,6 +247,114 @@
           </div>
         </div>
       </section>
+
+      <!-- Setup Proposal Section -->
+      <section id="section-setup" class="content-section container hidden">
+        <div class="setup-header">
+          <h2 class="setup-main-title">Elite FPS Hub Japanが提案する、<span class="setup-accent">6つの理想郷</span></h2>
+          <p class="setup-subtitle">あなたのプレイスタイルと予算に合わせた、最高のゲーム環境を見つけよう。</p>
+        </div>
+        <div class="setup-grid">
+          <!-- Card 1 -->
+          <div class="setup-card" data-setup="pro-hub">
+            <div class="setup-card-visual setup-grad-1">
+              <span class="setup-card-number">01</span>
+              <div class="setup-card-icon">🏆</div>
+            </div>
+            <div class="setup-card-body">
+              <h3 class="setup-card-title">Pro-Hub Standard</h3>
+              <p class="setup-card-catch">人気NO.1で固めた『勝てる』環境</p>
+              <p class="setup-card-desc">プロプレイヤーの使用率上位デバイスだけで構成。迷ったらこれ。</p>
+              <button class="setup-card-btn" onclick="openSetupModal('Pro-Hub Standard')">デバイスを見る</button>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="setup-card" data-setup="arctic">
+            <div class="setup-card-visual setup-grad-2">
+              <span class="setup-card-number">02</span>
+              <div class="setup-card-icon">❄️</div>
+            </div>
+            <div class="setup-card-body">
+              <h3 class="setup-card-title">Arctic Elite</h3>
+              <p class="setup-card-catch">美しく洗練された、トレンドの白</p>
+              <p class="setup-card-desc">ホワイトカラーで統一された、映えるデスク環境。</p>
+              <button class="setup-card-btn" onclick="openSetupModal('Arctic Elite')">デバイスを見る</button>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="setup-card" data-setup="value">
+            <div class="setup-card-visual setup-grad-3">
+              <span class="setup-card-number">03</span>
+              <div class="setup-card-icon">💰</div>
+            </div>
+            <div class="setup-card-body">
+              <h3 class="setup-card-title">Value Clutch</h3>
+              <p class="setup-card-catch">限られた予算で、最大パフォーマンス</p>
+              <p class="setup-card-desc">コスパ最強のデバイスを厳選。初めてのゲーミング環境に。</p>
+              <button class="setup-card-btn" onclick="openSetupModal('Value Clutch')">デバイスを見る</button>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="setup-card" data-setup="broadcaster">
+            <div class="setup-card-visual setup-grad-4">
+              <span class="setup-card-number">04</span>
+              <div class="setup-card-icon">🎙️</div>
+            </div>
+            <div class="setup-card-body">
+              <h3 class="setup-card-title">Broadcaster</h3>
+              <p class="setup-card-catch">ゲーム＋配信、憧れのライフスタイル</p>
+              <p class="setup-card-desc">マイク・カメラ・キャプボまで。配信者に必要な全てを網羅。</p>
+              <button class="setup-card-btn" onclick="openSetupModal('Broadcaster')">デバイスを見る</button>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="setup-card" data-setup="neon">
+            <div class="setup-card-visual setup-grad-5">
+              <span class="setup-card-number">05</span>
+              <div class="setup-card-icon">💡</div>
+            </div>
+            <div class="setup-card-body">
+              <h3 class="setup-card-title">Neon Pulse</h3>
+              <p class="setup-card-catch">光に溺れる、圧倒的没入感</p>
+              <p class="setup-card-desc">RGB全開。部屋ごとゲームの世界に没入するセットアップ。</p>
+              <button class="setup-card-btn" onclick="openSetupModal('Neon Pulse')">デバイスを見る</button>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="setup-card" data-setup="minimal">
+            <div class="setup-card-visual setup-grad-6">
+              <span class="setup-card-number">06</span>
+              <div class="setup-card-icon">🎯</div>
+            </div>
+            <div class="setup-card-body">
+              <h3 class="setup-card-title">Minimalist Zero</h3>
+              <p class="setup-card-catch">無駄を削ぎ落とし、エイムに集中</p>
+              <p class="setup-card-desc">シンプルイズベスト。軽量・ワイヤレスで究極のクリーンデスク。</p>
+              <button class="setup-card-btn" onclick="openSetupModal('Minimalist Zero')">デバイスを見る</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Setup Modal -->
+      <div id="setup-modal" class="setup-modal-overlay" style="display:none;">
+        <div class="setup-modal">
+          <button class="setup-modal-close" onclick="closeSetupModal()">&times;</button>
+          <h3 class="setup-modal-title" id="setup-modal-title"></h3>
+          <div class="setup-modal-body">
+            <p class="setup-modal-info">ここに具体的なデバイス（マウス、キーボード、モニター、PCなど）のAmazon / A8.netリンクが表示されます。</p>
+            <div class="setup-modal-devices">
+              <div class="setup-modal-device"><span>🖱️</span> マウス</div>
+              <div class="setup-modal-device"><span>⌨️</span> キーボード</div>
+              <div class="setup-modal-device"><span>🖥️</span> モニター</div>
+              <div class="setup-modal-device"><span>🎧</span> ヘッドセット</div>
+              <div class="setup-modal-device"><span>🎙️</span> マイク</div>
+              <div class="setup-modal-device"><span>💻</span> ゲーミングPC</div>
+            </div>
+            <p class="setup-modal-note">※ 各デバイスのアフィリエイトリンクは今後追加予定です</p>
+          </div>
+        </div>
+      </div>
 
 
       <!-- Gadgets Section (ガジェット + プロ使用率 + スペック比較 統合) -->

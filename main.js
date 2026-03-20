@@ -1363,6 +1363,43 @@ if (ytSearchInput) {
 }
 
 // ============================================================
+// SETUP MODAL
+// ============================================================
+function openSetupModal(title) {
+  const modal = document.getElementById('setup-modal');
+  const titleEl = document.getElementById('setup-modal-title');
+  if (modal && titleEl) {
+    titleEl.textContent = title + ' のデバイス構成';
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
+}
+
+function closeSetupModal() {
+  const modal = document.getElementById('setup-modal');
+  if (modal) {
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+}
+
+// Close on overlay click
+document.addEventListener('click', (e) => {
+  if (e.target && e.target.classList.contains('setup-modal-overlay')) {
+    closeSetupModal();
+  }
+});
+
+// Close on Escape
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeSetupModal();
+});
+
+// Make functions global
+window.openSetupModal = openSetupModal;
+window.closeSetupModal = closeSetupModal;
+
+// ============================================================
 // INITIALIZATION
 // ============================================================
 async function init() {

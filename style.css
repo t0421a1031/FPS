@@ -3900,3 +3900,257 @@ h2,
 .pc-banner-grid .guide-banner-ad {
   margin-top: 0;
 }
+
+/* ============================================================
+   SETUP PROPOSAL SECTION
+   ============================================================ */
+.setup-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.setup-main-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.setup-accent {
+  background: linear-gradient(90deg, #00f0ff, #00ff66);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.setup-subtitle {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.45);
+  margin-top: 10px;
+}
+
+/* Grid */
+.setup-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* Card */
+.setup-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: default;
+}
+
+.setup-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 0 30px rgba(0, 240, 255, 0.12), 0 0 60px rgba(0, 255, 102, 0.06);
+}
+
+/* Card Visual (gradient top) */
+.setup-card-visual {
+  height: 160px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.setup-grad-1 { background: linear-gradient(135deg, #0a1628, #1a3a5c, #00f0ff22); }
+.setup-grad-2 { background: linear-gradient(135deg, #1a1a2e, #e0e0e0, #ffffff22); }
+.setup-grad-3 { background: linear-gradient(135deg, #0a1a0a, #1a4a1a, #00ff6622); }
+.setup-grad-4 { background: linear-gradient(135deg, #1a0a2e, #5a1a8a, #ff00ff22); }
+.setup-grad-5 { background: linear-gradient(135deg, #1a0528, #ff006622, #00f0ff22); }
+.setup-grad-6 { background: linear-gradient(135deg, #0a0a0a, #1a1a1a, #ffffff08); }
+
+.setup-card-number {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.25);
+  letter-spacing: 2px;
+}
+
+.setup-card-icon {
+  font-size: 3.5rem;
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.15));
+  transition: transform 0.4s ease;
+}
+
+.setup-card:hover .setup-card-icon {
+  transform: scale(1.15);
+}
+
+/* Card Body */
+.setup-card-body {
+  padding: 1.2rem 1.4rem 1.5rem;
+}
+
+.setup-card-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+.setup-card-catch {
+  font-size: 0.85rem;
+  color: #00f0ff;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.setup-card-desc {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Card Button */
+.setup-card-btn {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  border-radius: 8px;
+  color: #00f0ff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.setup-card-btn:hover {
+  background: linear-gradient(135deg, #00f0ff, #00ff66);
+  color: #0a0a0a;
+  border-color: transparent;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.2);
+}
+
+/* Setup Modal */
+.setup-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease;
+}
+
+.setup-modal {
+  background: linear-gradient(145deg, #141428, #0a0a1a);
+  border: 1px solid rgba(0, 240, 255, 0.15);
+  border-radius: 20px;
+  max-width: 520px;
+  width: 90%;
+  padding: 2rem;
+  position: relative;
+  animation: slideUp 0.4s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.setup-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.setup-modal-close:hover {
+  color: #00f0ff;
+}
+
+.setup-modal-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1rem;
+  padding-right: 30px;
+}
+
+.setup-modal-info {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.setup-modal-devices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.setup-modal-device {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease;
+}
+
+.setup-modal-device span {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.setup-modal-device:hover {
+  border-color: rgba(0, 240, 255, 0.3);
+  background: rgba(0, 240, 255, 0.05);
+}
+
+.setup-modal-note {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .setup-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .setup-grid {
+    grid-template-columns: 1fr;
+  }
+  .setup-main-title {
+    font-size: 1.2rem;
+  }
+  .setup-modal-devices {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
