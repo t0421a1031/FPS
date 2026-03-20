@@ -3946,6 +3946,8 @@ h2,
   overflow: hidden;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   cursor: default;
+  display: flex;
+  flex-direction: column;
 }
 
 .setup-card:hover {
@@ -3999,6 +4001,9 @@ h2,
 /* Card Body */
 .setup-card-body {
   padding: 1.2rem 1.4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .setup-card-title {
@@ -4025,6 +4030,7 @@ h2,
 
 /* Card Button */
 .setup-card-btn {
+  margin-top: auto;
   width: 100%;
   padding: 10px;
   background: transparent;
