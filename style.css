@@ -459,19 +459,20 @@ h2,
 /* Nav Tabs */
 .nav-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .nav-btn {
   background: none;
   border: none;
   color: var(--text-muted);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
   padding: 0.5rem 0;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
+  white-space: nowrap;
 }
 
 .nav-btn:hover,
