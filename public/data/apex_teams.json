@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "name": "satuki", "role": "Fragger", "x": "satuki_fps", "youtube": "",
+                    "name": "satuki", "role": "Fragger", "x": "satuki_fps", "youtube": "@satuki",
                     "devices": {
                         "mouse": "Logicool G PRO X SUPERLIGHT 2",
                         "keyboard": "Wooting 60HE",
