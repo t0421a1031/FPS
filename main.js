@@ -55,6 +55,14 @@
     }
   }
 
+  // Skip tracking for admin users
+  const isAdmin = localStorage.getItem('prohub_is_admin') === 'true';
+  if (isAdmin) {
+    // Expose empty nav logger so calls don't throw
+    window.prohubTrackNav = function() {};
+    return;
+  }
+
   // Record page access
   const sessionId = getSessionId();
   const deviceInfo = getDeviceInfo();
