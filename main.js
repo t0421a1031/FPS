@@ -146,6 +146,9 @@ function getPlatformSmallIcon(platform) {
   return `<svg width="16" height="16" viewBox="0 0 24 24" fill="#aaa"><path d="M14.3 2h2.1L11 8.5 17 16h-4.3l-3.3-4.3L5.9 16H3.8l5-5.6L3.5 2h4.4l3 4L14.3 2zm-.8 12.6h1.2L7.6 3.3H6.3l7.2 11.3z"/></svg>`;
 }
 
+let ytDisplayCount = 12;
+let ytSearchQuery = '';
+
 function renderYouTubeVideos() {
   const grid = document.getElementById('youtube-grid');
   if (!grid) return;
@@ -158,13 +161,23 @@ function renderYouTubeVideos() {
   if (currentVideoTag !== 'all') {
     filtered = filtered.filter(v => v.tag === currentVideoTag);
   }
+  if (ytSearchQuery) {
+    const q = ytSearchQuery.toLowerCase();
+    filtered = filtered.filter(v =>
+      v.pro.toLowerCase().includes(q) ||
+      v.title.toLowerCase().includes(q)
+    );
+  }
 
   if (filtered.length === 0) {
     grid.innerHTML = '<p class="no-results">該当するYouTube動画が見つかりません。</p>';
     return;
   }
 
-  filtered.forEach((video, index) => {
+  const totalCount = filtered.length;
+  const displayVideos = filtered.slice(0, ytDisplayCount);
+
+  displayVideos.forEach((video, index) => {
     const card = document.createElement('div');
     card.className = 'youtube-card';
     card.style.animationDelay = `${index * 0.08}s`;
@@ -195,6 +208,26 @@ function renderYouTubeVideos() {
     card.addEventListener('click', () => window.open(video.url, '_blank'));
     grid.appendChild(card);
   });
+
+  // Show count + Load More button
+  if (totalCount > ytDisplayCount) {
+    const loadMoreWrap = document.createElement('div');
+    loadMoreWrap.className = 'load-more-wrap';
+    loadMoreWrap.innerHTML = `
+      <span class="video-count-label">${ytDisplayCount} / ${totalCount} 件表示中</span>
+      <button class="load-more-btn" id="yt-load-more">もっと見る (+12件)</button>
+    `;
+    grid.appendChild(loadMoreWrap);
+    document.getElementById('yt-load-more').addEventListener('click', () => {
+      ytDisplayCount += 12;
+      renderYouTubeVideos();
+    });
+  } else {
+    const countLabel = document.createElement('div');
+    countLabel.className = 'load-more-wrap';
+    countLabel.innerHTML = `<span class="video-count-label">全 ${totalCount} 件を表示中</span>`;
+    grid.appendChild(countLabel);
+  }
 }
 
 function renderSNSVideos() {
@@ -1301,6 +1334,7 @@ filterButtons.forEach(btn => {
     filterButtons.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     currentVideoFilter = btn.getAttribute('data-filter');
+    ytDisplayCount = 12;
     renderVideos();
   });
 });
@@ -1312,10 +1346,21 @@ tagButtons.forEach(btn => {
     tagButtons.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     currentVideoTag = btn.getAttribute('data-tag');
+    ytDisplayCount = 12;
     renderVideos();
   });
 });
 
+
+// YouTube Search Box
+const ytSearchInput = document.getElementById('yt-search-input');
+if (ytSearchInput) {
+  ytSearchInput.addEventListener('input', (e) => {
+    ytSearchQuery = e.target.value.trim();
+    ytDisplayCount = 12;
+    renderVideos();
+  });
+}
 
 // ============================================================
 // INITIALIZATION

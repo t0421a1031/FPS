@@ -1412,6 +1412,69 @@ h2,
 /* ============================================================
    YOUTUBE EMBED GRID
    ============================================================ */
+/* Video Search Box */
+.video-search-box {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.yt-search-input {
+  width: 100%;
+  max-width: 480px;
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 30px;
+  color: #fff;
+  font-size: 0.9rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.yt-search-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 12px rgba(0, 200, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.yt-search-input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+/* Load More */
+.load-more-wrap {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.video-count-label {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.load-more-btn {
+  padding: 12px 32px;
+  background: linear-gradient(135deg, var(--primary), #0066cc);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.load-more-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 128, 255, 0.3);
+}
+
 .youtube-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
