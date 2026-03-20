@@ -4180,10 +4180,21 @@ h2,
     grid-template-columns: 1fr;
   }
   .setup-main-title {
-    font-size: 1.3rem; /* slightly larger for readability */
+    font-size: 1.3rem;
   }
   .setup-subtitle {
     font-size: 0.85rem;
+  }
+  .setup-card-title {
+    font-size: 1rem;
+  }
+  .setup-card-catch {
+    font-size: 0.8rem;
+  }
+  .setup-card-desc {
+    font-size: 0.75rem;
+    word-break: normal;
+    overflow-wrap: normal;
   }
   .setup-modal-devices {
     grid-template-columns: repeat(2, 1fr);

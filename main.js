@@ -1287,7 +1287,9 @@ window.switchSection = function(section, saveHistory = true) {
   if (section === 'rankings') renderRankings();
   if (section === 'guides') renderGuides();
   if (section === 'sales') renderSales();
-  // Call other generic renders if needed
+
+  // Scroll to top when switching sections
+  window.scrollTo(0, 0);
 
   // Update URL history
   if (saveHistory) {
