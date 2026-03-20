@@ -3952,14 +3952,25 @@ h2,
   box-shadow: 0 0 30px rgba(0, 240, 255, 0.12), 0 0 60px rgba(0, 255, 102, 0.06);
 }
 
-/* Card Visual (gradient top) */
+/* Card Visual (image top) */
 .setup-card-visual {
-  height: 160px;
+  height: 200px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+
+.setup-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.setup-card:hover .setup-card-img {
+  transform: scale(1.08);
 }
 
 .setup-grad-1 { background: linear-gradient(135deg, #0a1628, #1a3a5c, #00f0ff22); }
@@ -3971,22 +3982,17 @@ h2,
 
 .setup-card-number {
   position: absolute;
-  top: 12px;
-  left: 16px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.25);
+  top: 10px;
+  left: 12px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  padding: 3px 8px;
+  border-radius: 6px;
   letter-spacing: 2px;
-}
-
-.setup-card-icon {
-  font-size: 3.5rem;
-  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.15));
-  transition: transform 0.4s ease;
-}
-
-.setup-card:hover .setup-card-icon {
-  transform: scale(1.15);
+  z-index: 2;
 }
 
 /* Card Body */
