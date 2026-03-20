@@ -1256,35 +1256,57 @@ if (menuToggle && navLinksEl) {
 // SECTION SWITCHING
 // ============================================================
 const navButtons = document.querySelectorAll('.nav-btn');
-let currentActiveSection = 'videos'; // track current section for analytics
+let currentActiveSection = ''; // track current section for analytics
+
+window.switchSection = function(section, saveHistory = true) {
+  if (!section) return;
+  const btn = document.querySelector(`.nav-btn[data-section="${section}"]`);
+  if (!btn) return;
+
+  // Track navigation
+  if (window.prohubTrackNav && section !== currentActiveSection && currentActiveSection !== '') {
+    window.prohubTrackNav(currentActiveSection, section);
+  }
+  currentActiveSection = section;
+
+  navButtons.forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  document.querySelectorAll('.content-section').forEach(s => s.classList.add('hidden'));
+  const targetSection = document.getElementById(`section-${section}`);
+  if (targetSection) targetSection.classList.remove('hidden');
+
+  // Close mobile menu after selection
+  if (typeof menuToggle !== 'undefined' && typeof navLinksEl !== 'undefined' && menuToggle && navLinksEl) {
+    menuToggle.classList.remove('active');
+    navLinksEl.classList.remove('open');
+  }
+
+  if (section === 'videos') renderVideos();
+  if (section === 'gadgets') renderGadgets();
+  if (section === 'rankings') renderRankings();
+  if (section === 'guides') renderGuides();
+  if (section === 'sales') renderSales();
+  // Call other generic renders if needed
+
+  // Update URL history
+  if (saveHistory) {
+    history.pushState({ section: section }, '', `#${section}`);
+  }
+};
+
 navButtons.forEach(btn => {
   btn.addEventListener('click', () => {
     const section = btn.getAttribute('data-section');
-
-    // Track navigation
-    if (window.prohubTrackNav && section !== currentActiveSection) {
-      window.prohubTrackNav(currentActiveSection, section);
-    }
-    currentActiveSection = section;
-
-    navButtons.forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-
-    document.querySelectorAll('.content-section').forEach(s => s.classList.add('hidden'));
-    document.getElementById(`section-${section}`).classList.remove('hidden');
-
-    // Close mobile menu after selection
-    if (menuToggle && navLinksEl) {
-      menuToggle.classList.remove('active');
-      navLinksEl.classList.remove('open');
-    }
-
-    if (section === 'videos') renderVideos();
-    if (section === 'gadgets') renderGadgets();
-    if (section === 'rankings') renderRankings();
-    if (section === 'guides') renderGuides();
-    if (section === 'sales') renderSales();
+    window.switchSection(section, true);
   });
+});
+
+// Handle browser back/forward buttons
+window.addEventListener('popstate', (event) => {
+  const hash = window.location.hash.replace('#', '');
+  const section = (event.state && event.state.section) ? event.state.section : (hash || 'videos');
+  window.switchSection(section, false);
 });
 
 const siteLogo = document.getElementById('site-logo');
@@ -1450,7 +1472,10 @@ async function init() {
 
   // Initial renders
   initVideoPlatformTabs();
-  renderVideos();
+  
+  // Set initial section based on URL hash or default to videos
+  const initialSection = window.location.hash ? window.location.hash.replace('#', '') : 'videos';
+  window.switchSection(initialSection, false);
 
   // バックグラウンドでLIVE配信チェック（タブにインジケーターを表示するため）
   backgroundLiveCheck();
