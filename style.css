@@ -1915,9 +1915,9 @@ h2,
 /* --- Tablet (max-width: 768px) --- */
 @media (max-width: 768px) {
 
-  /* Container */
+  /* Container - increased side margins for better mobile readability */
   .container {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 
   /* Header & Nav */
@@ -3916,6 +3916,8 @@ h2,
   color: #fff;
   letter-spacing: 1px;
   line-height: 1.5;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .setup-accent {
@@ -3929,7 +3931,12 @@ h2,
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.45);
   margin-top: 10px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
+
+/* SP Line Break */
+.sp-br { display: none; }
 
 /* Grid */
 .setup-grid {
@@ -4019,13 +4026,17 @@ h2,
   color: #00f0ff;
   font-weight: 600;
   margin-bottom: 8px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .setup-card-desc {
-  font-size: 0.78rem;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.5;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 /* Card Button */
@@ -4161,9 +4172,13 @@ h2,
     grid-template-columns: 1fr;
   }
   .setup-main-title {
-    font-size: 1.2rem;
+    font-size: 1.3rem; /* slightly larger for readability */
+  }
+  .setup-subtitle {
+    font-size: 0.85rem;
   }
   .setup-modal-devices {
     grid-template-columns: repeat(2, 1fr);
   }
+  .sp-br { display: block; }
 }
