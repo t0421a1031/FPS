@@ -705,12 +705,13 @@ function renderGadgetItems() {
     card.className = 'gadget-card';
     card.style.animationDelay = `${index * 0.1}s`;
 
-    const medalColors = ['#FFD700', '#C0C0C0', '#CD7F32'];
-    const medalLabel = ['1st', '2nd', '3rd'];
+    const medalColors = ['#FFD700', '#C0C0C0', '#CD7F32', '#9ca3af', '#9ca3af'];
+    const medalLabel = ['1st', '2nd', '3rd', '4th', '5th'];
+    const medalIcons = ['🥇', '🥈', '🥉', '4', '5'];
 
     card.innerHTML = `
       <div class="gadget-medal" style="color: ${medalColors[g.rank - 1]}">
-        <span class="medal-icon">${g.rank === 1 ? '🥇' : g.rank === 2 ? '🥈' : '🥉'}</span>
+        <span class="medal-icon">${medalIcons[g.rank - 1]}</span>
         <span class="medal-label">${medalLabel[g.rank - 1]}</span>
       </div>
       <img src="${g.img}" alt="${g.name}" class="gadget-img" loading="lazy">
