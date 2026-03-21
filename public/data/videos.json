@@ -1,2108 +1,2268 @@
 {
-  "videos": [
-    {
-      "id": "v1",
-      "title": "まうふぃん: フォートナイト×夜に駆ける キル集",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Ghot3aZzbrE",
-      "youtubeId": "Ghot3aZzbrE"
-    },
-    {
-      "id": "v2",
-      "title": "ネフライト: ソロ決勝0撃破でも賞金獲得!? 立ち回り解説",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=NrlaQk5jvfE",
-      "youtubeId": "NrlaQk5jvfE"
-    },
-    {
-      "id": "v3",
-      "title": "ぼぶくん: あの夢をなぞって キル集 Highlight",
-      "pro": "ぼぶくん",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=DwEsUZ6XYZQ",
-      "youtubeId": "DwEsUZ6XYZQ"
-    },
-    {
-      "id": "v5",
-      "title": "まうふぃん×ネフライト: あのデュオが戻ってきた",
-      "pro": "まうふぃん / ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Qc7X-wL-Ig0",
-      "youtubeId": "Qc7X-wL-Ig0"
-    },
-    {
-      "id": "v6",
-      "title": "Ras (CR): アジア1位のレイス キル集 | Apex Legends",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=AKtkIqRbVy4",
-      "youtubeId": "AKtkIqRbVy4"
-    },
-    {
-      "id": "v7",
-      "title": "YukaF: Wingman Only チャレンジ | 神エイム",
-      "pro": "YukaF (Fnatic)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "twitch",
-      "url": "https://www.twitch.tv/iq200yukaf"
-    },
-    {
-      "id": "v8",
-      "title": "Selly: THE BEST AIM OF APEX LEGENDS | Best of Selly",
-      "pro": "Selly",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=CdOXCkZUs68",
-      "youtubeId": "CdOXCkZUs68"
-    },
-    {
-      "id": "v9",
-      "title": "ありさか: 7時間以上Apexやって適正ランクに気づいた",
-      "pro": "ありさか",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=0UnpxCdrFtU",
-      "youtubeId": "0UnpxCdrFtU"
-    },
-    {
-      "id": "v10",
-      "title": "CR Cup ハイライト: Apex Legends 最強決定戦",
-      "pro": "Crazy Raccoon",
-      "game": "apex",
-      "tag": "ハイライト",
-      "platform": "twitch",
-      "url": "https://www.twitch.tv/crazyraccoon406"
-    },
-    {
-      "id": "v_auto_ugheK6sLw5Y",
-      "title": "まうふぃん (Riddle): 【ASMR】SteelSeries Apex Pro TKL Gen 3 キーボード打鍵音 #27😴Fortnite Reload🏆Satisfying Keyboard Fortnite",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ugheK6sLw5Y",
-      "youtubeId": "ugheK6sLw5Y"
-    },
-    {
-      "id": "v_auto_STHC71D4z5Y",
-      "title": "ネフライト: 【ベテランの意地】ネフライトさんのIGLとポルスの対面が覚醒!!まだまだ現役でやっていくでぃ【フォートナイト】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=STHC71D4z5Y",
-      "youtubeId": "STHC71D4z5Y"
-    },
-    {
-      "id": "v_auto_nNivENFDb9w",
-      "title": "ぼぶくん: 【キル集】三原色 / Bob｜Highlight【フォートナイト/Fortnite】",
-      "pro": "ぼぶくん",
-      "game": "fortnite",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=nNivENFDb9w",
-      "youtubeId": "nNivENFDb9w"
-    },
-    {
-      "id": "v_auto_6kGGtN9HIU8",
-      "title": "ぼぶくん: 【キル集】アトラクトライト / Bob｜Highlight【フォートナイト/Fortnite】",
-      "pro": "ぼぶくん",
-      "game": "fortnite",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=6kGGtN9HIU8",
-      "youtubeId": "6kGGtN9HIU8"
-    },
-    {
-      "id": "v_auto_bUGfmicYLXs",
-      "title": "ネフライト: 2025年最強？ロジクールさんの最新ゲーミングデバイスを徹底調査！！【フォートナイト/Fortnite】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=bUGfmicYLXs",
-      "youtubeId": "bUGfmicYLXs"
-    },
-    {
-      "id": "v_auto_Aksa8Px20Wk",
-      "title": "Ras (Crazy Raccoon): 【キル集】Peace Highlights #13【APEX/Peace/ピース/peace/MnK】",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Aksa8Px20Wk",
-      "youtubeId": "Aksa8Px20Wk"
-    },
-    {
-      "id": "v_auto_4IeBA7ii7O8",
-      "title": "ありさか: 【切り抜き】ありさかに夢中 #shorts #ととみっくす",
-      "pro": "ありさか",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=4IeBA7ii7O8",
-      "youtubeId": "4IeBA7ii7O8"
-    },
-    {
-      "id": "v_auto_hEYzj1PqlUA",
-      "title": "Selly: 「PADが大嫌い」なSellyに関する雑学【APEX】",
-      "pro": "Selly",
-      "game": "apex",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=hEYzj1PqlUA",
-      "youtubeId": "hEYzj1PqlUA"
-    },
-    {
-      "id": "v_auto_AiPK_ik3sJg",
-      "title": "Laz (ZETA DIVISION): 【プレミア部】スカーミッシュと雑談で過去一盛り上がる2C【VALORANT】",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=AiPK_ik3sJg",
-      "youtubeId": "AiPK_ik3sJg"
-    },
-    {
-      "id": "v_auto_tPVYVPvqecY",
-      "title": "Dep (ZETA DIVISION): 【神の子】日本の歴史を進めた天才、ZETA Dep集【VCT 2022 - 2025:ZETA Dep】",
-      "pro": "Dep (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=tPVYVPvqecY",
-      "youtubeId": "tPVYVPvqecY"
-    },
-    {
-      "id": "v_auto_7Qp2jLX-BiA",
-      "title": "Laz (ZETA DIVISION): 【VALORANT】デバイス好きGON選手のお気に入りデバイスとは⁉️",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=7Qp2jLX-BiA",
-      "youtubeId": "7Qp2jLX-BiA"
-    },
-    {
-      "id": "v_auto_Yf1QFmkPbCk",
-      "title": "まうふぃん (Riddle): ストリーマー最強の手元付きPAD ASMR /ソロ30キルビクロイ【PAD最強感度】【フォートナイト/Fortnite】",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Yf1QFmkPbCk",
-      "youtubeId": "Yf1QFmkPbCk"
-    },
-    {
-      "id": "v_auto_LPmH0aQXyIw",
-      "title": "まうふぃん (Riddle): 1人かと思ったら２人いてビックリ！ #フォートナイト #live #fortnite #フォトナ #エンジョイ #ショート #チャンネル登録お願いします #crazyzone #チャンネル登録",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=LPmH0aQXyIw",
-      "youtubeId": "LPmH0aQXyIw"
-    },
-    {
-      "id": "v_auto_5xA_YshcEM4",
-      "title": "まうふぃん (Riddle): 【ASMR】新発売のラピットトリガーマウスを使って手元動画 #22 😴Fortnite Reload🏆Satisfying Keyboard Fortnite",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=5xA_YshcEM4",
-      "youtubeId": "5xA_YshcEM4"
-    },
-    {
-      "id": "v_auto_m_L6Y_aMEfk",
-      "title": "まうふぃん (Riddle): リロードでミシック出ると興奮しちゃう👄 #フォートナイト #fortnite #live #エンジョイ #フォトナ #ショート #リロード #スピカ #ロクデナシ #スナイパーキル #shorts",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=m_L6Y_aMEfk",
-      "youtubeId": "m_L6Y_aMEfk"
-    },
-    {
-      "id": "v_auto_kqejUL2gxUQ",
-      "title": "まうふぃん (Riddle): フォトナ最近ラグい💦 #フォートナイト #fortnite #フォトナ #live #ショート #エンジョイ #shortvideo #ragis #フォートナイトキル集 #スピカ #ロクデナシ",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=kqejUL2gxUQ",
-      "youtubeId": "kqejUL2gxUQ"
-    },
-    {
-      "id": "v_auto_EV4oZ3JsAFc",
-      "title": "まうふぃん (Riddle): スクワッド大会で1vs4してしまう #フォートナイト #fortnite #shorts",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=EV4oZ3JsAFc",
-      "youtubeId": "EV4oZ3JsAFc"
-    },
-    {
-      "id": "v_auto_5uXAr0ubPvg",
-      "title": "まうふぃん (Riddle): 最近のフォトナ事情について話すまうふぃん【フォートナイト/Fortnite】",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=5uXAr0ubPvg",
-      "youtubeId": "5uXAr0ubPvg"
-    },
-    {
-      "id": "v_auto_HsWZa5prPpo",
-      "title": "まうふぃん (Riddle): やばいトリックショット当てた🤯 #fortnite #フォートナイト #shorts",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=HsWZa5prPpo",
-      "youtubeId": "HsWZa5prPpo"
-    },
-    {
-      "id": "v_auto_xIL6KlJaWFU",
-      "title": "まうふぃん (Riddle): まうふぃん競技引退。4人のレジェンドに幕...【フォートナイト/Fortnite】",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=xIL6KlJaWFU",
-      "youtubeId": "xIL6KlJaWFU"
-    },
-    {
-      "id": "v_auto__YbRj8R-DrU",
-      "title": "まうふぃん (Riddle): Rainyさんからプロ認定された男のキル集 #shorts",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=_YbRj8R-DrU",
-      "youtubeId": "_YbRj8R-DrU"
-    },
-    {
-      "id": "v_auto_iVU6kyygmHM",
-      "title": "まうふぃん (Riddle): フォートナイトの全盛期は戻ってこないのかな。【フォートナイト / Fortnite】#フォートナイト #shorts",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=iVU6kyygmHM",
-      "youtubeId": "iVU6kyygmHM"
-    },
-    {
-      "id": "v_auto_KQ2muke6VcI",
-      "title": "まうふぃん (Riddle): 無料入手方法教えます！新スキンももらえるよ！#Fortnite  #フォートナイト  #セルビ　携帯アプリからアイテム購入で無料バックパックまだもらえたよ🍌",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=KQ2muke6VcI",
-      "youtubeId": "KQ2muke6VcI"
-    },
-    {
-      "id": "v_auto_ggcmyk4P7v4",
-      "title": "まうふぃん (Riddle): やばいトリックショット当てた🤯 #fortnite #フォートナイト #鬼滅の刃",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ggcmyk4P7v4",
-      "youtubeId": "ggcmyk4P7v4"
-    },
-    {
-      "id": "v_auto_WkdW5fVXjkA",
-      "title": "まうふぃん (Riddle): #フォートナイト #shorts  #トリックショット",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=WkdW5fVXjkA",
-      "youtubeId": "WkdW5fVXjkA"
-    },
-    {
-      "id": "v_auto_22lwZWUhuQw",
-      "title": "まうふぃん (Riddle): スクワット大会マッチングしなかった😅 #フォートナイト #live #fortnite #フォトナ #epic #ショート #エンジョイ #ランクマッチ #スクワット #鬼滅の刃 #Lisa",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=22lwZWUhuQw",
-      "youtubeId": "22lwZWUhuQw"
-    },
-    {
-      "id": "v_auto__kXb9KKVtAs",
-      "title": "まうふぃん (Riddle): 初心者がアジア1位&quot;まうふぃん選手&quot;の設定を7日間全て真似して練習し続けた結果【フォートナイト/Fortnite】",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=_kXb9KKVtAs",
-      "youtubeId": "_kXb9KKVtAs"
-    },
-    {
-      "id": "v_auto_N9MnOXw0zxI",
-      "title": "まうふぃん (Riddle): あと少し打つの早ければ、ワンちゃん勝てた！   #shorts",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=N9MnOXw0zxI",
-      "youtubeId": "N9MnOXw0zxI"
-    },
-    {
-      "id": "v_auto_xz-iHfypTm0",
-      "title": "まうふぃん (Riddle): 私のクリップ、何点ですか？ #フォートナイト #fortnite #フォトナ #game #ゲーム実況 #切り抜き #shorts #キル集 #キルクリップ",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=xz-iHfypTm0",
-      "youtubeId": "xz-iHfypTm0"
-    },
-    {
-      "id": "v_auto_3wLpaY8gCUo",
-      "title": "まうふぃん (Riddle): イカゲームマップどこに降りてる？ #フォートナイト #live #fortnite #epic #フォトナ #エンジョイ #ショート #ランクマッチ #リロード #リロードランク #shorts",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=3wLpaY8gCUo",
-      "youtubeId": "3wLpaY8gCUo"
-    },
-    {
-      "id": "v_auto_AnmpvspRSNo",
-      "title": "まうふぃん (Riddle): 〇〇した人のトリックショット！【フォートナイト】#shorts #フォートナイト",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=AnmpvspRSNo",
-      "youtubeId": "AnmpvspRSNo"
-    },
-    {
-      "id": "v_auto_qXBzjMsVGwc",
-      "title": "まうふぃん (Riddle): 【最新】無料で全スキンを入手する方法がやばい！【フォートナイト】#shorts #フォートナイト",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=qXBzjMsVGwc",
-      "youtubeId": "qXBzjMsVGwc"
-    },
-    {
-      "id": "v_auto_CDpa4z9HDCU",
-      "title": "まうふぃん (Riddle): 〇〇した人のスキン！【フォートナイト】#shorts #フォートナイト",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=CDpa4z9HDCU",
-      "youtubeId": "CDpa4z9HDCU"
-    },
-    {
-      "id": "v_auto_BylxtPA8wSk",
-      "title": "まうふぃん (Riddle): 〇〇した人が貰えるギフト！【フォートナイト】#shorts #フォートナイト",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=BylxtPA8wSk",
-      "youtubeId": "BylxtPA8wSk"
-    },
-    {
-      "id": "v_auto_Hva_wvRIviU",
-      "title": "まうふぃん (Riddle): 〇〇した人のトリックショット！【フォートナイト】#shorts #フォートナイト",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Hva_wvRIviU",
-      "youtubeId": "Hva_wvRIviU"
-    },
-    {
-      "id": "v_auto_E4lPNF6OHLQ",
-      "title": "Ras (Crazy Raccoon): エイムとキャラコンを極めたレイダーのキル集【ARC Raiders】",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=E4lPNF6OHLQ",
-      "youtubeId": "E4lPNF6OHLQ"
-    },
-    {
-      "id": "v_auto_ADd8CUIh1NA",
-      "title": "Laz (ZETA DIVISION): [Laz切り抜き] [要保存]Laz愛用のNP-01sWLの持ち方` [2023/8/27配信] #shorts #valorant #laz #zeta #zetadivision",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ADd8CUIh1NA",
-      "youtubeId": "ADd8CUIh1NA"
-    },
-    {
-      "id": "v_auto_MwTh6rp_1WM",
-      "title": "Laz (ZETA DIVISION): [Laz切り抜き]チクチクLaz [2023/8/21配信] #shorts #valorant #laz #zeta #zetadivision",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=MwTh6rp_1WM",
-      "youtubeId": "MwTh6rp_1WM"
-    },
-    {
-      "id": "v_auto_HJ6uL6apC3E",
-      "title": "Laz (ZETA DIVISION): 【VCT 2023 Pacific】Laz選手が使用したデバイス一覧【VALORANT】",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=HJ6uL6apC3E",
-      "youtubeId": "HJ6uL6apC3E"
-    },
-    {
-      "id": "v_auto_6pWm4jU0L9Y",
-      "title": "Laz (ZETA DIVISION): Laz選手の最新デバイス紹介！#valorant #ヴァロラント #laz #Lazvell #zeta #zetadivision #デバイス #デバイス紹介",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=6pWm4jU0L9Y",
-      "youtubeId": "6pWm4jU0L9Y"
-    },
-    {
-      "id": "v_auto_1-L6c888960",
-      "title": "Laz (ZETA DIVISION): キーボードを斜めにする理由 #YTApp",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=1-L6c888960",
-      "youtubeId": "1-L6c888960"
-    },
-    {
-      "id": "v_auto_n9JO_ZlRDjg",
-      "title": "Laz (ZETA DIVISION): ZETA Laz選手の最新デバイス紹介！#valorant #ヴァロラント #laz #ラズ #zeta #zetadivision #デバイス紹介",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=n9JO_ZlRDjg",
-      "youtubeId": "n9JO_ZlRDjg"
-    },
-    {
-      "id": "v_sns_d1",
-      "title": "Ras: 新しいマウスに変えました！最高すぎる",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "デバイス紹介",
-      "platform": "x",
-      "url": "https://x.com/Ras9915"
-    },
-    {
-      "id": "v_sns_d2",
-      "title": "Laz: ZETAのゲーミング環境を公開！デスク周り全部見せます",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/@lazvell"
-    },
-    {
-      "id": "v_sns_d3",
-      "title": "まうふぃん: 新デバイス導入！マウスとキーボードを変えた結果",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "x",
-      "url": "https://x.com/Maufinfn"
-    },
-    {
-      "id": "v_sns_d5",
-      "title": "Selly: おすすめゲーミングマウス紹介配信",
-      "pro": "Selly",
-      "game": "apex",
-      "tag": "デバイス紹介",
-      "platform": "twitch",
-      "url": "https://www.twitch.tv/selly55"
-    },
-    {
-      "id": "v_sns_d6",
-      "title": "ぼぶくん: 最新ゲーミングデバイス開封＆レビュー",
-      "pro": "ぼぶくん",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "x",
-      "url": "https://x.com/Bob_FN_"
-    },
-    {
-      "id": "v_auto_nGBHuXX2MFY",
-      "title": "Laz (ZETA DIVISION): 【超人】トロント同様、生き残りを懸けたリベンジマッチ。実況を泣かせる化け物じみた個人技【Masters Santiago 2026  Swiss Stage Day4 - G2 vs XLG】",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=nGBHuXX2MFY",
-      "youtubeId": "nGBHuXX2MFY"
-    },
-    {
-      "id": "v_auto_V53n8oZtBLo",
-      "title": "Dep (ZETA DIVISION): 매일 노력하는 Dep #1",
-      "pro": "Dep (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=V53n8oZtBLo",
-      "youtubeId": "V53n8oZtBLo"
-    },
-    {
-      "id": "v_auto_sD_VK7tgGs0",
-      "title": "ネフライト: 【必見】ポルスさんも驚くネフライトの驚異の立ち回りがこちら【フォートナイト/Fortnite】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=sD_VK7tgGs0",
-      "youtubeId": "sD_VK7tgGs0"
-    },
-    {
-      "id": "v_auto_TsDmODW9fvU",
-      "title": "ネフライト: 現役プロゲーマーのデスク周り/デバイス紹介 #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=TsDmODW9fvU",
-      "youtubeId": "TsDmODW9fvU"
-    },
-    {
-      "id": "v_auto_pMV-O6x9hvk",
-      "title": "ネフライト: 現役プロゲーマーのデスク周り/デバイス紹介",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=pMV-O6x9hvk",
-      "youtubeId": "pMV-O6x9hvk"
-    },
-    {
-      "id": "v_auto_sEt62wEDGNE",
-      "title": "ネフライト: YouTubeの王ヒカキンさんが使ってるデバイスは？　#hikakin #ゲーミングパソコン   #ゲーミングpc  #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=sEt62wEDGNE",
-      "youtubeId": "sEt62wEDGNE"
-    },
-    {
-      "id": "v_auto_uhX6MwsOjtM",
-      "title": "ネフライト: 勝利と配信だけを考えた「ネフライトのゲーム実況部屋」を初公開!!!!!!【ゲーム部屋】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=uhX6MwsOjtM",
-      "youtubeId": "uhX6MwsOjtM"
-    },
-    {
-      "id": "v_auto_2K7nEKO-GOc",
-      "title": "ネフライト: 謎の箱がネフライトさんから届いたので開封…【誕プレ】 #Shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=2K7nEKO-GOc",
-      "youtubeId": "2K7nEKO-GOc"
-    },
-    {
-      "id": "v_auto_ExaEAzgSmOQ",
-      "title": "ネフライト: 元プロゲーマーのデスク回り紹介【デバイス】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ExaEAzgSmOQ",
-      "youtubeId": "ExaEAzgSmOQ"
-    },
-    {
-      "id": "v_auto_ThikHmGmWP0",
-      "title": "ネフライト: 【もはやデバイスチート級】ネフライトさんも愛用するこのゲーミングヘッドセットが最強すぎて他プレイヤーと圧倒的な差がついてしまう...｜EPOS・ゼンハイザー GSP600",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ThikHmGmWP0",
-      "youtubeId": "ThikHmGmWP0"
-    },
-    {
-      "id": "v_auto_moRSiM-DsAU",
-      "title": "ネフライト: 【初公開】登録者70万人のプロゲーマー ネフライトのデスク紹介！【フォートナイト/Fortnite】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=moRSiM-DsAU",
-      "youtubeId": "moRSiM-DsAU"
-    },
-    {
-      "id": "v_auto_au0oiWQC8kQ",
-      "title": "ネフライト: 【激安】ドンキの *ゲーミングデバイス* でプロは目指せる...？【FORTNITE/フォトナ】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=au0oiWQC8kQ",
-      "youtubeId": "au0oiWQC8kQ"
-    },
-    {
-      "id": "v_auto_qj4l5htsjcY",
-      "title": "まうふぃん (Riddle): FNCSディビジョン1でざごう＆まうふぃんと遭遇する #shorts",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=qj4l5htsjcY",
-      "youtubeId": "qj4l5htsjcY"
-    },
-    {
-      "id": "v_auto_A8avTr-7qyA",
-      "title": "Ras (Crazy Raccoon): キーマウプレデターのR99最強キル集【APEX LEGENDS】",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=A8avTr-7qyA",
-      "youtubeId": "A8avTr-7qyA"
-    },
-    {
-      "id": "v_auto_0mkwFAcX2rQ",
-      "title": "Ras (Crazy Raccoon): まつのキル集 [Apex Legends]",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=0mkwFAcX2rQ",
-      "youtubeId": "0mkwFAcX2rQ"
-    },
-    {
-      "id": "v_auto_aUXMxqlKRvY",
-      "title": "Ras (Crazy Raccoon): 【APEX】ほぼ全部R99の最強S25キル集",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=aUXMxqlKRvY",
-      "youtubeId": "aUXMxqlKRvY"
-    },
-    {
-      "id": "v_auto_xWZqSQID54A",
-      "title": "Ras (Crazy Raccoon): 世界で１番 汚いキル集【APEX】",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=xWZqSQID54A",
-      "youtubeId": "xWZqSQID54A"
-    },
-    {
-      "id": "v_auto_lCtAc_IZGe4",
-      "title": "Ras (Crazy Raccoon): 【APEX】彼らは彼を人間AIMBOTと呼んでい「Ras」 | エーペックス モンタージュ",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=lCtAc_IZGe4",
-      "youtubeId": "lCtAc_IZGe4"
-    },
-    {
-      "id": "v_auto_RFscPntDAYk",
-      "title": "Ras (Crazy Raccoon): 実戦で使えるキャラコン満載のYukaFキル集を見るVerhulst【YukaF/Verhulst】",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=RFscPntDAYk",
-      "youtubeId": "RFscPntDAYk"
-    },
-    {
-      "id": "v_auto_JY_Zd-Gi6M4",
-      "title": "Ras (Crazy Raccoon): 【APEX】『脳がバグる』キル集 / MONTAGE",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=JY_Zd-Gi6M4",
-      "youtubeId": "JY_Zd-Gi6M4"
-    },
-    {
-      "id": "v_auto_hhgCno47iyo",
-      "title": "Ras (Crazy Raccoon): Rasのキャラコンにビビる釈迦",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=hhgCno47iyo",
-      "youtubeId": "hhgCno47iyo"
-    },
-    {
-      "id": "v_auto_MiMzw_V-Id8",
-      "title": "Ras (Crazy Raccoon): 「上手すぎるって!」キャラコンや立ち回りで相手を翻弄するRasを見たGenの反応!!【クリップ集】【日本語字幕】【Apex】",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=MiMzw_V-Id8",
-      "youtubeId": "MiMzw_V-Id8"
-    },
-    {
-      "id": "v_auto_ZvWgLOuZptw",
-      "title": "Ras (Crazy Raccoon): Apex 爽快キル集(Player:Kawatin)#apex #キル集 #shorts #montage",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ZvWgLOuZptw",
-      "youtubeId": "ZvWgLOuZptw"
-    },
-    {
-      "id": "v_auto_0NV3OEC89lw",
-      "title": "Ras (Crazy Raccoon): BEST OF &quot;SELLY&quot; KOREAN TRACKING GOD - APEX LEGENDS MONTAGE",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=0NV3OEC89lw",
-      "youtubeId": "0NV3OEC89lw"
-    },
-    {
-      "id": "v_auto_0OmDdhXaXyY",
-      "title": "Ras (Crazy Raccoon): 【APEX】ビーストエイマー‼︎なおひろ21の厳選キル集|Best of naohiro21",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=0OmDdhXaXyY",
-      "youtubeId": "0OmDdhXaXyY"
-    },
-    {
-      "id": "v_auto_YihwFTE-b-4",
-      "title": "Ras (Crazy Raccoon): 【Apex】Ras、Sellyに並ぶアジア最強プレイヤーobly　無双キル集",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=YihwFTE-b-4",
-      "youtubeId": "YihwFTE-b-4"
-    },
-    {
-      "id": "v_auto_gmmJN9CtzAA",
-      "title": "Ras (Crazy Raccoon): 【Apex】人力チートSelly 最強すぎるキル集",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=gmmJN9CtzAA",
-      "youtubeId": "gmmJN9CtzAA"
-    },
-    {
-      "id": "v_auto_IFc2mi_JMZ4",
-      "title": "Ras (Crazy Raccoon): 【Apex】Ras、Sellyも認める怪物プレイヤーobly　最強すぎるキル集",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=IFc2mi_JMZ4",
-      "youtubeId": "IFc2mi_JMZ4"
-    },
-    {
-      "id": "v_auto_GCzwDdiY8FY",
-      "title": "Ras (Crazy Raccoon): 【Highlight】Ras本人が選んだ力作のハイライト【APEX】",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=GCzwDdiY8FY",
-      "youtubeId": "GCzwDdiY8FY"
-    },
-    {
-      "id": "v_auto_4Q0MU6EDiNs",
-      "title": "Ras (Crazy Raccoon): 【APEXキル集】元日本2位のプロのMontage【Ak1to/あきと】",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=4Q0MU6EDiNs",
-      "youtubeId": "4Q0MU6EDiNs"
-    },
-    {
-      "id": "v_auto_sVDtWNhqlMA",
-      "title": "Ras (Crazy Raccoon): 【APEX】世界クラスのファイト力！CR_Rasの厳選キル集|Best of Ras",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=sVDtWNhqlMA",
-      "youtubeId": "sVDtWNhqlMA"
-    },
-    {
-      "id": "v_auto_ty7nS8IzkkU",
-      "title": "Ras (Crazy Raccoon): 【#Shorts】これがRasのR-99【APEX】",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ty7nS8IzkkU",
-      "youtubeId": "ty7nS8IzkkU"
-    },
-    {
-      "id": "v_auto_N6yVyJEk39I",
-      "title": "Ras (Crazy Raccoon): Apex Montage#2（キル集#2）",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=N6yVyJEk39I",
-      "youtubeId": "N6yVyJEk39I"
-    },
-    {
-      "id": "v_auto_efcz5C39oz0",
-      "title": "Ras (Crazy Raccoon): プレデターレイスによるキル集 predator wraith montage#26",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=efcz5C39oz0",
-      "youtubeId": "efcz5C39oz0"
-    },
-    {
-      "id": "v_auto_jnVDd6WSraw",
-      "title": "Ras (Crazy Raccoon): プレデターレイスの無双キル集 predator wraith montage",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=jnVDd6WSraw",
-      "youtubeId": "jnVDd6WSraw"
-    },
-    {
-      "id": "v_auto_jjvBKtLLNO0",
-      "title": "Ras (Crazy Raccoon): 【APEXキル集】montageもどき",
-      "pro": "Ras (Crazy Raccoon)",
-      "game": "apex",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=jjvBKtLLNO0",
-      "youtubeId": "jjvBKtLLNO0"
-    },
-    {
-      "id": "v_auto_LTl462RXl50",
-      "title": "まうふぃん (Riddle): マクロで稼いでるドブカスより100倍上手い建築編集【Fortnite】",
-      "pro": "まうふぃん (Riddle)",
-      "game": "fortnite",
-      "tag": "キル集",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=LTl462RXl50",
-      "youtubeId": "LTl462RXl50"
-    },
-    {
-      "id": "v_auto_kAZDbZQQIF8",
-      "title": "Selly: 【APEX】最強と言ったらこの人,Sellyの感度,デバイスをご紹介!【キル集あり】",
-      "pro": "Selly",
-      "game": "apex",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=kAZDbZQQIF8",
-      "youtubeId": "kAZDbZQQIF8"
-    },
-    {
-      "id": "v_auto_6mODzdMCzw4",
-      "title": "Selly: 【1分で分かる】ImperialHalの使用デバイス紹介！【APEX LEGENDS】",
-      "pro": "Selly",
-      "game": "apex",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=6mODzdMCzw4",
-      "youtubeId": "6mODzdMCzw4"
-    },
-    {
-      "id": "v_auto_g9_xF9AW1ro",
-      "title": "Selly: 【Selly切り抜き】Sellyが考える大事なデバイスとは...？【APEX】",
-      "pro": "Selly",
-      "game": "apex",
-      "tag": "デバイス紹介",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=g9_xF9AW1ro",
-      "youtubeId": "g9_xF9AW1ro"
-    },
-    {
-      "id": "v_auto_6LF6BMcvUTY",
-      "title": "Laz (ZETA DIVISION): 久しぶりのトリオで開幕ACEを叩き出すLaz【VALORANT】",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=6LF6BMcvUTY",
-      "youtubeId": "6LF6BMcvUTY"
-    },
-    {
-      "id": "v_auto_ogwv6hsKG_A",
-      "title": "ぼぶくん: colors🌈　highlights#22",
-      "pro": "ぼぶくん",
-      "game": "fortnite",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ogwv6hsKG_A",
-      "youtubeId": "ogwv6hsKG_A"
-    },
-    {
-      "id": "v_auto_VifLd_K3mEY",
-      "title": "ぼぶくん: 【団体戦】BOXバトルトーナメント~ハイライト~【神試合】",
-      "pro": "ぼぶくん",
-      "game": "fortnite",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=VifLd_K3mEY",
-      "youtubeId": "VifLd_K3mEY"
-    },
-    {
-      "id": "v_auto_-PE4xOo2-KI",
-      "title": "Laz (ZETA DIVISION): 【伝統の一戦】Masters最後の一枠。圧を跳ね除け、覚醒する中国の英雄【VCT 2026 China Kickoffs Lower Final - BLG vs EDG】",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=-PE4xOo2-KI",
-      "youtubeId": "-PE4xOo2-KI"
-    },
-    {
-      "id": "v_auto_vIVkvYPn4zw",
-      "title": "Laz (ZETA DIVISION): 【閃光】この難問の解答を見出せるか。マジレス軍団G2vs暴走するDambiネオン【Masters Santiago 2026  Playoffs Day9 - G2 vs NS】",
-      "pro": "Laz (ZETA DIVISION)",
-      "game": "valorant",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=vIVkvYPn4zw",
-      "youtubeId": "vIVkvYPn4zw"
-    },
-    {
-      "id": "v_auto_W5X4mvtBk90",
-      "title": "ネフライト: 【フォートナイト解説】新シーズン開幕！！あれこいつ強くね？アイアンポンプショットガン #fortnite #ゆっくり実況 #フォートナイト #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=W5X4mvtBk90",
-      "youtubeId": "W5X4mvtBk90"
-    },
-    {
-      "id": "v_auto_vqx3EGhXPLM",
-      "title": "ネフライト: ネフライトさんとのDUO大会で...#shorts  #fortnite  #ポルス",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=vqx3EGhXPLM",
-      "youtubeId": "vqx3EGhXPLM"
-    },
-    {
-      "id": "v_auto_v6doEqkqpwg",
-      "title": "ネフライト: おいネフライト、どうしたんだよ。",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=v6doEqkqpwg",
-      "youtubeId": "v6doEqkqpwg"
-    },
-    {
-      "id": "v_auto_k6MShccQfAo",
-      "title": "ネフライト: 【ビクロイ‼】新シーズン初の大会でネフライトさんと最高の立ち回りをかましました【フォートナイト】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=k6MShccQfAo",
-      "youtubeId": "k6MShccQfAo"
-    },
-    {
-      "id": "v_auto_eaQQo9s1WTc",
-      "title": "ネフライト: 【フォートナイト解説】圧倒的連射力！！ストライカーアサルトライフル #fortnite #フォートナイト #ゆっくり実況 #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=eaQQo9s1WTc",
-      "youtubeId": "eaQQo9s1WTc"
-    },
-    {
-      "id": "v_auto_n4sscWTDT1w",
-      "title": "ネフライト: ネフライトさんに倒された!?#shorts #フォートナイト #fortnite #fortniteclips #fortniteshorts #フォトナ #らぶゆーれん #リロード #fncs",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=n4sscWTDT1w",
-      "youtubeId": "n4sscWTDT1w"
-    },
-    {
-      "id": "v_auto_BwSJw3zw2BY",
-      "title": "ネフライト: 【フォートナイト解説】まじで誰だよファルコンアイスナイパーライフル #fortnite #ゆっくり実況 #フォートナイト #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=BwSJw3zw2BY",
-      "youtubeId": "BwSJw3zw2BY"
-    },
-    {
-      "id": "v_auto_6djBAAqWP5o",
-      "title": "ネフライト: 【フォートナイト解説】チャプター3の覇権アサルト！MKセブンアサルト #fortnite #ゆっくり実況 #フォートナイト #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=6djBAAqWP5o",
-      "youtubeId": "6djBAAqWP5o"
-    },
-    {
-      "id": "v_auto_KCwMvSaQaOM",
-      "title": "ネフライト: 最強の男「ネフライト」の軌跡【フォートナイト/Fortnite】#フォートナイト #fortnite  #フォトナ #ゲーム実況 #switch  #shorts #ネフライト",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=KCwMvSaQaOM",
-      "youtubeId": "KCwMvSaQaOM"
-    },
-    {
-      "id": "v_auto_GJCZ6d3dPVw",
-      "title": "ネフライト: 【フォートナイト解説】アサルト界の王君臨！！ホロツイスターアサルトライフル #ゆっくり実況 #fortnite #フォートナイト #shorts s",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=GJCZ6d3dPVw",
-      "youtubeId": "GJCZ6d3dPVw"
-    },
-    {
-      "id": "v_auto_xvkqZYxSvJM",
-      "title": "ネフライト: 【フォートナイト解説】現代版ミニガン！？？レッドスピッター3000#ゆっくり実況 #fortnite #フォートナイト #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=xvkqZYxSvJM",
-      "youtubeId": "xvkqZYxSvJM"
-    },
-    {
-      "id": "v_auto_UYO_ui1RrPE",
-      "title": "ネフライト: ネフライトさんの歴史 #フォートナイト #フォートナイト解説 #fortnite",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=UYO_ui1RrPE",
-      "youtubeId": "UYO_ui1RrPE"
-    },
-    {
-      "id": "v_auto_vl4ZnoR-UIY",
-      "title": "ネフライト: 【フォートナイト解説】爆破武器でワンパン？！！スウォームストライク #ゆっくり実況 #fortnite #フォートナイト #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=vl4ZnoR-UIY",
-      "youtubeId": "vl4ZnoR-UIY"
-    },
-    {
-      "id": "v_auto_AhFwYW5GQK8",
-      "title": "ネフライト: 【フォートナイト解説】コンバットの再来？！！レッカーリボルバー #ゆっくり実況 #フォートナイト #fortnite #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=AhFwYW5GQK8",
-      "youtubeId": "AhFwYW5GQK8"
-    },
-    {
-      "id": "v_auto_WNwYi4mlIJ0",
-      "title": "ネフライト: 【フォートナイト解説】最強のポンポン？！！ストームビーストのポンポン #fortnite #ゆっくり実況 #フォートナイト #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=WNwYi4mlIJ0",
-      "youtubeId": "WNwYi4mlIJ0"
-    },
-    {
-      "id": "v_auto_l5Gelc4IFUA",
-      "title": "ネフライト: 【フォートナイト解説】あ、あの最◯サブマシンガンが帰ってきた！！サージファイヤSMG #fortnite #ゆっくり実況 #フォートナイト #shorts",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=l5Gelc4IFUA",
-      "youtubeId": "l5Gelc4IFUA"
-    },
-    {
-      "id": "v_auto_DqBTxOzD9hQ",
-      "title": "ネフライト: スイッチ2でフォートナイトをプレイ！驚きの進化に注目！【フォートナイト/Fortnite】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=DqBTxOzD9hQ",
-      "youtubeId": "DqBTxOzD9hQ"
-    },
-    {
-      "id": "v_auto_vGHbNxnSjw4",
-      "title": "ネフライト: 【ガチ謝罪】ネフライトさんやわらさんごめんなさい。【フォートナイト/Fortnite】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=vGHbNxnSjw4",
-      "youtubeId": "vGHbNxnSjw4"
-    },
-    {
-      "id": "v_auto_6DN3euyt9PY",
-      "title": "ネフライト: 最新モデルの超ハイスペックパソコンでフォートナイトをやってみると…?【G TUNE】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=6DN3euyt9PY",
-      "youtubeId": "6DN3euyt9PY"
-    },
-    {
-      "id": "v_auto_CpjmFxF57Ms",
-      "title": "ネフライト: 【解説】今しかできない『究極トラップ』の作り方教えます！【フォートナイト/Fortnite】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=CpjmFxF57Ms",
-      "youtubeId": "CpjmFxF57Ms"
-    },
-    {
-      "id": "v_auto_v7F1k7q6Z14",
-      "title": "ネフライト: 【フォートナイト解説】最強のスナ！？？スコープはいらぬ　ハンティングライフル！！ #ゆっくり茶番劇 #fortnite  #フォートナイト解説",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=v7F1k7q6Z14",
-      "youtubeId": "v7F1k7q6Z14"
-    },
-    {
-      "id": "v_auto_vennS9z4rwI",
-      "title": "ネフライト: 【Fortnite】時代を感じたネフライトの滑舌 #fortnite #ネフライト",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=vennS9z4rwI",
-      "youtubeId": "vennS9z4rwI"
-    },
-    {
-      "id": "v_auto_dL3Y1iY4Kg4",
-      "title": "ネフライト: 【最強】もし開けられたら強すぎる『秘密の保管庫』の開け方を解説！【フォートナイト/Fortnite】",
-      "pro": "ネフライト",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=dL3Y1iY4Kg4",
-      "youtubeId": "dL3Y1iY4Kg4"
-    },
-    {
-      "id": "v_auto_xJUuwSx9Bmk",
-      "title": "ぶゅりる (DFM): 星街すいせいスキンがキタ！先行プレイしてみた【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=xJUuwSx9Bmk",
-      "youtubeId": "xJUuwSx9Bmk"
-    },
-    {
-      "id": "v_auto_5tSWHVCyO_U",
-      "title": "ぶゅりる (DFM): プロで流行ってる\"最強のサブ武器\"を紹介します。【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=5tSWHVCyO_U",
-      "youtubeId": "5tSWHVCyO_U"
-    },
-    {
-      "id": "v_auto_qDzYQiwIHe4",
-      "title": "ぶゅりる (DFM): バトロワに過去武器が復活!!最強ポンプが帰ってきたぞ【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=qDzYQiwIHe4",
-      "youtubeId": "qDzYQiwIHe4"
-    },
-    {
-      "id": "v_auto_nYWxY76PXsU",
-      "title": "ぶゅりる (DFM): 【緊急】1時間限定で使えた新武器が強すぎたｗｗ【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=nYWxY76PXsU",
-      "youtubeId": "nYWxY76PXsU"
-    },
-    {
-      "id": "v_auto_EXxCMWQlGuM",
-      "title": "ぶゅりる (DFM): 金の自販機でしか入手できない最強武器知ってる？【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=EXxCMWQlGuM",
-      "youtubeId": "EXxCMWQlGuM"
-    },
-    {
-      "id": "v_auto_bUotKQO9y-k",
-      "title": "ぶゅりる (DFM): 深夜にリロード埋めるランクやったら誰くる...?【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=bUotKQO9y-k",
-      "youtubeId": "bUotKQO9y-k"
-    },
-    {
-      "id": "v_auto_ZYY14limyXo",
-      "title": "ぶゅりる (DFM): シンプル編集をガチで練習してみた結果...【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ZYY14limyXo",
-      "youtubeId": "ZYY14limyXo"
-    },
-    {
-      "id": "v_auto_L7iJLmpg_ao",
-      "title": "ぶゅりる (DFM): 誰も持ってない『ホロラッシュSMG』を救いたい...【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=L7iJLmpg_ao",
-      "youtubeId": "L7iJLmpg_ao"
-    },
-    {
-      "id": "v_auto_ND0f-A0myho",
-      "title": "ぶゅりる (DFM): 全人類の疑問『階段要らない説』を検証します【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ND0f-A0myho",
-      "youtubeId": "ND0f-A0myho"
-    },
-    {
-      "id": "v_auto_T07SqCVqvfI",
-      "title": "ぶゅりる (DFM): 競技復活したzagouから招待がきた...【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=T07SqCVqvfI",
-      "youtubeId": "T07SqCVqvfI"
-    },
-    {
-      "id": "v_sns_buyuriru",
-      "title": "ぶゅりる: FNCS優勝プロの日常＆最新情報",
-      "pro": "ぶゅりる (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "x",
-      "url": "https://x.com/Buyuriru"
-    },
-    {
-      "id": "v_sns_yukaf",
-      "title": "YukaF: ZETA DIVISION APEX部門の最新情報",
-      "pro": "YukaF (ZETA DIVISION)",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "x",
-      "url": "https://x.com/IQ200YukaF"
-    },
-    {
-      "id": "v_sns_peace",
-      "title": "Peace: APEXプロシーンの最新情報＆日常",
-      "pro": "Peace",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "x",
-      "url": "https://x.com/Peace17_yt"
-    },
-    {
-      "id": "v_sns_cheeky",
-      "title": "cheeky: APEXトッププレイヤーの日常",
-      "pro": "cheeky",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "x",
-      "url": "https://x.com/tttcheekyttt"
-    },
-    {
-      "id": "v_sns_1tappy",
-      "title": "1tappy: APEXプロの最新情報＆配信告知",
-      "pro": "1tappy",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "x",
-      "url": "https://x.com/1TAPPYTHEWORLD"
-    },
-    {
-      "id": "v_auto_RAXzydBSV0I",
-      "title": "まいぽり: FNCSディビジョン1 決勝2位獲得！($1000)【フォートナイト/Fortnite】",
-      "pro": "まいぽり",
-      "game": "fortnite",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=RAXzydBSV0I",
-      "youtubeId": "RAXzydBSV0I"
-    },
-    {
-      "id": "v_auto_QSyLWFcfV1A",
-      "title": "まいぽり: 実はデュオ解散してました【フォートナイト/Fortnite】",
-      "pro": "まいぽり",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=QSyLWFcfV1A",
-      "youtubeId": "QSyLWFcfV1A"
-    },
-    {
-      "id": "v_auto_Ufxwxu6KW_g",
-      "title": "まいぽり: 絶望の40分遅れから奇跡のビクロイでディビジョン1予選突破！！【フォートナイト/Fortnite】",
-      "pro": "まいぽり",
-      "game": "fortnite",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Ufxwxu6KW_g",
-      "youtubeId": "Ufxwxu6KW_g"
-    },
-    {
-      "id": "v_sns_mipoli",
-      "title": "まいぽり: フォートナイト競技プロの日常",
-      "pro": "まいぽり",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "x",
-      "url": "https://x.com/xMipoli"
-    },
-    {
-      "id": "v_auto_5BlRFmc6qIg",
-      "title": "Rise (Riddle): デュオ決勝大事な試合の時にハプニング【フォートナイト/Fortnite】",
-      "pro": "Rise (Riddle)",
-      "game": "fortnite",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=5BlRFmc6qIg",
-      "youtubeId": "5BlRFmc6qIg"
-    },
-    {
-      "id": "v_auto_l28lYatbTi0",
-      "title": "Rise (Riddle): ソロランクでゴースティングしてきたチーターと本気で対面してみた",
-      "pro": "Rise (Riddle)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=l28lYatbTi0",
-      "youtubeId": "l28lYatbTi0"
-    },
-    {
-      "id": "v_auto_LDmYFhDW5Cc",
-      "title": "Rise (Riddle): 新年初デュオ大会。勝てばアジア1位＆賞金の試合で…【フォートナイト/Fortnite】",
-      "pro": "Rise (Riddle)",
-      "game": "fortnite",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=LDmYFhDW5Cc",
-      "youtubeId": "LDmYFhDW5Cc"
-    },
-    {
-      "id": "v_sns_rise",
-      "title": "Rise: Riddle所属フォートナイトプロの最新情報",
-      "pro": "Rise (Riddle)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "x",
-      "url": "https://x.com/RiseGotGamer"
-    },
-    {
-      "id": "v_auto_-2cBgTuYgXM",
-      "title": "Minipiyo: 視聴者コーチングで無双しました！！【FORTNITE/フォートナイト】",
-      "pro": "Minipiyo",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=-2cBgTuYgXM",
-      "youtubeId": "-2cBgTuYgXM"
-    },
-    {
-      "id": "v_auto_pA3ex8tAZ5c",
-      "title": "Minipiyo: FNCSデビジョン1で終盤神クラッチしてビクロイ獲得！！【FORTNITE/フォートナイト】",
-      "pro": "Minipiyo",
-      "game": "fortnite",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=pA3ex8tAZ5c",
-      "youtubeId": "pA3ex8tAZ5c"
-    },
-    {
-      "id": "v_sns_minipiyo",
-      "title": "Minipiyo: フォートナイト人気クリエイターの日常",
-      "pro": "Minipiyo",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "x",
-      "url": "https://x.com/MinipiyoFN"
-    },
-    {
-      "id": "v_auto_R_3rfjDDPlY",
-      "title": "Rainy (DFM): DFMフォトナ部門に起きてる事を話します...【フォートナイト/FORTNITE】",
-      "pro": "Rainy (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=R_3rfjDDPlY",
-      "youtubeId": "R_3rfjDDPlY"
-    },
-    {
-      "id": "v_auto_J3ibpgHJ6NQ",
-      "title": "Rainy (DFM): リロードに神アプデ!!大量の新武器が追加されたぞ！【フォートナイト/FORTNITE】",
-      "pro": "Rainy (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=J3ibpgHJ6NQ",
-      "youtubeId": "J3ibpgHJ6NQ"
-    },
-    {
-      "id": "v_auto_tcgt1QlCt44",
-      "title": "Rainy (DFM): 【世界大会予選】危機的状況から神業グレポンで決勝戦進出しました！【フォートナイト/FORTNITE】",
-      "pro": "Rainy (DFM)",
-      "game": "fortnite",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=tcgt1QlCt44",
-      "youtubeId": "tcgt1QlCt44"
-    },
-    {
-      "id": "v_sns_rainy",
-      "title": "Rainy: DFM所属フォートナイトプロの最新情報",
-      "pro": "Rainy (DFM)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "x",
-      "url": "https://x.com/R4InyFN"
-    },
-    {
-      "id": "v_auto_uiny97XY-uw",
-      "title": "Peace: 【ALGS OPEN#3 Day2ミラー】YukaFバンガの活躍に大興奮するPeace【APEX/Peace/ピース/UNLIMIT】",
-      "pro": "Peace",
-      "game": "apex",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=uiny97XY-uw",
-      "youtubeId": "uiny97XY-uw"
-    },
-    {
-      "id": "v_auto_QCdiTe0zjjQ",
-      "title": "Peace: 【チムラン】ゆらりまんホンマに寝てくれ！生活習慣が完全崩壊したゆらりをさすがに休ませようとするPeaceとXtsuvi【APEX/Peace/ピース/Xtsuvi/ゆらりまん/UNLIMIT】",
-      "pro": "Peace",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=QCdiTe0zjjQ",
-      "youtubeId": "QCdiTe0zjjQ"
-    },
-    {
-      "id": "v_auto_KFC_qjdjN-g",
-      "title": "Peace: 【スクリム】中入り練習中のUNL待望の減り遅めスクリムが全然嬉しくない理由で訪れてしまう【APEX/Peace/ピース/Xtsuvi/ゆらりまん/UNLIMIT】",
-      "pro": "Peace",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=KFC_qjdjN-g",
-      "youtubeId": "KFC_qjdjN-g"
-    },
-    {
-      "id": "v_auto_dtauN9WzHt8",
-      "title": "cheeky: プレデターランク w/ Peaceさん、たぴさん 【Apex Legends】",
-      "pro": "cheeky",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=dtauN9WzHt8",
-      "youtubeId": "dtauN9WzHt8"
-    },
-    {
-      "id": "v_auto_hbFpmUptc8s",
-      "title": "cheeky: 【検証】プレデターなら使用率最下位のレジェンドでも勝てる説【APEX】",
-      "pro": "cheeky",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=hbFpmUptc8s",
-      "youtubeId": "hbFpmUptc8s"
-    },
-    {
-      "id": "v_auto_xdY5-EDjUic",
-      "title": "cheeky: プレデターランク w/ 海沼流星さん、たぴさん 【Apex Legends】",
-      "pro": "cheeky",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=xdY5-EDjUic",
-      "youtubeId": "xdY5-EDjUic"
-    },
-    {
-      "id": "v_auto_1k_Uan9ds_g",
-      "title": "1tappy: 【APEX】ぷれらんく with cheeky3 peace3【エーペックスレジェンズ】",
-      "pro": "1tappy",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=1k_Uan9ds_g",
-      "youtubeId": "1k_Uan9ds_g"
-    },
-    {
-      "id": "v_auto_cRZyd70wv1o",
-      "title": "1tappy: 今では日本トッププロだが、1tappyのプロ時代に元バ〇凸代表格だった選手とは？【1tappy/cheeky/4rmy/REJECT/APEX】",
-      "pro": "1tappy",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=cRZyd70wv1o",
-      "youtubeId": "cRZyd70wv1o"
-    },
-    {
-      "id": "v_auto_-Mvjzi1kphc",
-      "title": "1tappy: 【APEX】ランクを楽しんでいく with cheeky3 海沼流星3【エーペックスレジェンズ】",
-      "pro": "1tappy",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=-Mvjzi1kphc",
-      "youtubeId": "-Mvjzi1kphc"
-    },
-    {
-      "id": "v_auto_ZL2JfsMb70U",
-      "title": "ぶゅりる (DetonatioN FocusMe): バトロワのプロ、APEXでも無双できる説を検証【Apex Legends】",
-      "pro": "ぶゅりる (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=ZL2JfsMb70U",
-      "youtubeId": "ZL2JfsMb70U"
-    },
-    {
-      "id": "v_auto_jV7uiIFwYcU",
-      "title": "ぶゅりる (DetonatioN FocusMe): フォロナのバトロワ実況者っていなくね...?【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=jV7uiIFwYcU",
-      "youtubeId": "jV7uiIFwYcU"
-    },
-    {
-      "id": "v_auto_Mcv7mqW8-mo",
-      "title": "ぶゅりる (DetonatioN FocusMe): 14歳で世界大会出場の２人がヤバ過ぎる...【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Mcv7mqW8-mo",
-      "youtubeId": "Mcv7mqW8-mo"
-    },
-    {
-      "id": "v_auto_Y6LmDWGjcEc",
-      "title": "こよた: ランク配信!【Fortnite/フォートナイト】",
-      "pro": "こよた",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Y6LmDWGjcEc",
-      "youtubeId": "Y6LmDWGjcEc"
-    },
-    {
-      "id": "v_auto_UjO348uby_I",
-      "title": "こよた: 懐かしのメンバーと2v2!!【フォートナイト】",
-      "pro": "こよた",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=UjO348uby_I",
-      "youtubeId": "UjO348uby_I"
-    },
-    {
-      "id": "v_auto_Rc1WCzYSSMs",
-      "title": "こよた: アプデ後フォートナイト！【Fortnite/フォートナイト】",
-      "pro": "こよた",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Rc1WCzYSSMs",
-      "youtubeId": "Rc1WCzYSSMs"
-    },
-    {
-      "id": "v_auto_nNSl5x0vtJc",
-      "title": "Rise (Riddle): フォトナやる！【フォートナイト/Fortnite】",
-      "pro": "Rise (Riddle)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=nNSl5x0vtJc",
-      "youtubeId": "nNSl5x0vtJc"
-    },
-    {
-      "id": "v_auto_oPfL8CEzzhY",
-      "title": "Rise (Riddle): フォトナランクかなんかする【フォートナイト/Fortnite】",
-      "pro": "Rise (Riddle)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=oPfL8CEzzhY",
-      "youtubeId": "oPfL8CEzzhY"
-    },
-    {
-      "id": "v_auto_emkJhd8HFSU",
-      "title": "Minipiyo: ソロビクトリーキャッシュ決勝！【FORTNITE/フォートナイト】",
-      "pro": "Minipiyo",
-      "game": "fortnite",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=emkJhd8HFSU",
-      "youtubeId": "emkJhd8HFSU"
-    },
-    {
-      "id": "v_auto_jMfmF2Ry6xA",
-      "title": "Minipiyo: ソロビクトリーキャッシュ！【FORTNITE/フォートナイト】",
-      "pro": "Minipiyo",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=jMfmF2Ry6xA",
-      "youtubeId": "jMfmF2Ry6xA"
-    },
-    {
-      "id": "v_auto_dcv7Znpt4fI",
-      "title": "Minipiyo: 空中から完璧なワンパンをするみにぴよ【FORTNITE/フォートナイト】",
-      "pro": "Minipiyo",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=dcv7Znpt4fI",
-      "youtubeId": "dcv7Znpt4fI"
-    },
-    {
-      "id": "v_auto_JiCsbr4R9gM",
-      "title": "Rainy (DetonatioN FocusMe): 大会終盤で拾ったグレポンで最高のビクロイ！【フォートナイト/FORTNITE】",
-      "pro": "Rainy (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=JiCsbr4R9gM",
-      "youtubeId": "JiCsbr4R9gM"
-    },
-    {
-      "id": "v_auto_E7mIbFf49KU",
-      "title": "Rainy (DetonatioN FocusMe): ざごうとの回復勝負の結果は..【フォートナイト/FORTNITE】",
-      "pro": "Rainy (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=E7mIbFf49KU",
-      "youtubeId": "E7mIbFf49KU"
-    },
-    {
-      "id": "v_auto_0v9Py149Xpg",
-      "title": "Rainy (DetonatioN FocusMe): PAD感度100％のソロ終盤が最強すぎたｗ【フォートナイト/FORTNITE】",
-      "pro": "Rainy (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=0v9Py149Xpg",
-      "youtubeId": "0v9Py149Xpg"
-    },
-    {
-      "id": "satuki1",
-      "title": "【チーキーカップ】大会で5000ダメを出してしまうきんぐ。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=56Vz-d7N4to",
-      "youtubeId": "56Vz-d7N4to"
-    },
-    {
-      "id": "satuki2",
-      "title": "【合計12丁】全員モザンビーク縛りでチャンピオン挑戦してみた。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Yh330ZzXckY",
-      "youtubeId": "Yh330ZzXckY"
-    },
-    {
-      "id": "satuki3",
-      "title": "【2年振りのRas】脳筋ヴァルキリー凸でプレマスを蹂躙する3人。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=TioLpG8lMnE",
-      "youtubeId": "TioLpG8lMnE"
-    },
-    {
-      "id": "satuki4",
-      "title": "【NOEZ脱退】今後について話すきんぐ。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=M47K1qZeMXI",
-      "youtubeId": "M47K1qZeMXI"
-    },
-    {
-      "id": "satuki5",
-      "title": "【クリップ鑑賞】昔のクリップを見て、最強プレイに驚愕するきんぐ。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=RThbsApg4Tg",
-      "youtubeId": "RThbsApg4Tg"
-    },
-    {
-      "id": "satuki6",
-      "title": "【ALGS】完璧な試合運びでRF前総合日韓１位通過を達成するNOEZ FOXX。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=kC30udOWrvQ",
-      "youtubeId": "kC30udOWrvQ"
-    },
-    {
-      "id": "satuki7",
-      "title": "【ALGS】雰囲気が良すぎるVCで今週もチャンピオンを獲るNOEZ FOXX。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=Jqxk3qXcelU",
-      "youtubeId": "Jqxk3qXcelU"
-    },
-    {
-      "id": "satuki8",
-      "title": "【ALGS】圧倒的なパフォーマンスで総合１位に輝くNOEZ FOXX。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=nJdyU4SB_ug",
-      "youtubeId": "nJdyU4SB_ug"
-    },
-    {
-      "id": "satuki9",
-      "title": "【APEX】WORLD'S EDGEランクの必勝法を見つける3人。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=rVrnq4gf_-Y",
-      "youtubeId": "rVrnq4gf_-Y"
-    },
-    {
-      "id": "satuki10",
-      "title": "【ALGS OPEN】世界大会本番で初日総合3位を獲得するNOEZ。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=91TZSOCDojQ",
-      "youtubeId": "91TZSOCDojQ"
-    },
-    {
-      "id": "satuki11",
-      "title": "【ALGS】苦しんだweek1を糧に大躍進を遂げるNOEZ。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=5YvmyJWj8Ms",
-      "youtubeId": "5YvmyJWj8Ms"
-    },
-    {
-      "id": "satuki12",
-      "title": "【APEX】最近プロの間で流行っている引き伸ばし設定の利点を語るきんぐ。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=mJ6V3l-fEdg",
-      "youtubeId": "mJ6V3l-fEdg"
-    },
-    {
-      "id": "satuki13",
-      "title": "【APEX】オルターを使った最強の戦術に大興奮するきんぐ。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=VIv8c-XoTMY",
-      "youtubeId": "VIv8c-XoTMY"
-    },
-    {
-      "id": "satuki14",
-      "title": "【APEX】スクリムの緊迫した場面で奈落に落ちる3人。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "ハイライト",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=aY4GhqvPoKA",
-      "youtubeId": "aY4GhqvPoKA"
-    },
-    {
-      "id": "satuki15",
-      "title": "【APEX】初スクリム配信で抜群の仕上がりを見せる新生NOEZ。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=iyLr26gQyeo",
-      "youtubeId": "iyLr26gQyeo"
-    },
-    {
-      "id": "satuki16",
-      "title": "【APEX】強者が揃うIGLMastersで神IGLを発揮しチームを勝利へ導くきんぐ。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=uMVEhZfHtDY",
-      "youtubeId": "uMVEhZfHtDY"
-    },
-    {
-      "id": "satuki17",
-      "title": "待ちに待ったYear5 新ロースターを発表するきんぐ。",
-      "pro": "satuki",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=7ebYUEnKwks",
-      "youtubeId": "7ebYUEnKwks"
-    },
-    {
-      "id": "v_auto_OhzDps30AWw",
-      "title": "Peace: 【スクリム】バンガ＆マドマギ解禁！外構成で大量キルを連発するPeace達【APEX/Peace/ピース/Xtsuvi/ゆらりまん/UNLIMIT】",
-      "pro": "Peace",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=OhzDps30AWw",
-      "youtubeId": "OhzDps30AWw"
-    },
-    {
-      "id": "v_auto_lGnyHzGcTcQ",
-      "title": "Peace: 【スクリム】ゆらりまん恒例の早口で白熱する反省会！中入りで勝てない悲しい理由に気付いてしまうPeace達【APEX/Peace/ピース/Xtsuvi/ゆらりまん/UNLIMIT】",
-      "pro": "Peace",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=lGnyHzGcTcQ",
-      "youtubeId": "lGnyHzGcTcQ"
-    },
-    {
-      "id": "v_auto_U9CvQlh_KZY",
-      "title": "Peace: 【再投稿】おてて爪痕を獲得するぴのたと1万盛りを達成するPeace【APEX/Peace/ピース/Axis/ぴのた/UNLIMIT】",
-      "pro": "Peace",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=U9CvQlh_KZY",
-      "youtubeId": "U9CvQlh_KZY"
-    },
-    {
-      "id": "v_auto_uUGVWDCfJ7g",
-      "title": "cheeky: プレデターランク 【Apex Legends】",
-      "pro": "cheeky",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=uUGVWDCfJ7g",
-      "youtubeId": "uUGVWDCfJ7g"
-    },
-    {
-      "id": "v_auto_17W7M8p5rpU",
-      "title": "cheeky: ビリは坊主!?Peaceの罰ゲーム回避を懸けたランクで爆盛りするCHEEKY【APEX】",
-      "pro": "cheeky",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=17W7M8p5rpU",
-      "youtubeId": "17W7M8p5rpU"
-    },
-    {
-      "id": "v_auto_IxYMx8Alg8o",
-      "title": "cheeky: プレデターランク 【Apex Legends】",
-      "pro": "cheeky",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=IxYMx8Alg8o",
-      "youtubeId": "IxYMx8Alg8o"
-    },
-    {
-      "id": "v_auto_6HBCg9v-5rM",
-      "title": "1tappy: 【APEX】ラダーチャンピオンになりたい with cheeky3 4rmy3【エーペックスレジェンズ】",
-      "pro": "1tappy",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=6HBCg9v-5rM",
-      "youtubeId": "6HBCg9v-5rM"
-    },
-    {
-      "id": "v_auto_NWlSaFmY6N0",
-      "title": "1tappy: 【VCJ】SP1 main stage DAY2 REJECT vs CGZ ウォチパ【VALORANT】",
-      "pro": "1tappy",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=NWlSaFmY6N0",
-      "youtubeId": "NWlSaFmY6N0"
-    },
-    {
-      "id": "v_auto_3dAmgMz8HgM",
-      "title": "1tappy: 〇〇は可動域が悪くなるためFPSは姿勢が重要!?小さな事でもエイムが変わるかも…【1tappy/cheeky/Peace/REJECT/APEX】",
-      "pro": "1tappy",
-      "game": "apex",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=3dAmgMz8HgM",
-      "youtubeId": "3dAmgMz8HgM"
-    },
-    {
-      "id": "v_auto_GJe1-R88AtI",
-      "title": "ぶゅりる (DetonatioN FocusMe): 新シーズンきた！新武器が強すぎるwww【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=GJe1-R88AtI",
-      "youtubeId": "GJe1-R88AtI"
-    },
-    {
-      "id": "v_auto_wetk0oz41XQ",
-      "title": "ぶゅりる (DetonatioN FocusMe): 建築でもエイムでもない今\"超重要\"なテクニックとは..?【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=wetk0oz41XQ",
-      "youtubeId": "wetk0oz41XQ"
-    },
-    {
-      "id": "v_auto_zKks4DEPS74",
-      "title": "ぶゅりる (DetonatioN FocusMe): 世界大会進出を決めた14歳がヤバい#shorts 【フォートナイト/Fortnite】",
-      "pro": "ぶゅりる (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=zKks4DEPS74",
-      "youtubeId": "zKks4DEPS74"
-    },
-    {
-      "id": "v_auto_J3-mXRM0wnA",
-      "title": "こよた: 新シーズン！【Fortnite/フォートナイト】",
-      "pro": "こよた",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=J3-mXRM0wnA",
-      "youtubeId": "J3-mXRM0wnA"
-    },
-    {
-      "id": "v_auto_cdHZcv7-Cdo",
-      "title": "Rise (Riddle): 軽くソロ大会やる",
-      "pro": "Rise (Riddle)",
-      "game": "fortnite",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=cdHZcv7-Cdo",
-      "youtubeId": "cdHZcv7-Cdo"
-    },
-    {
-      "id": "v_auto_pYA3_SDM-rw",
-      "title": "Rise (Riddle): シーズン最後のフォトナ！【フォートナイト/Fortnite】",
-      "pro": "Rise (Riddle)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=pYA3_SDM-rw",
-      "youtubeId": "pYA3_SDM-rw"
-    },
-    {
-      "id": "v_auto_AdhVof1jpVc",
-      "title": "Rainy (DetonatioN FocusMe): 新シーズン初のスキン大会！【フォートナイト/Fortnite】",
-      "pro": "Rainy (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "大会",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=AdhVof1jpVc",
-      "youtubeId": "AdhVof1jpVc"
-    },
-    {
-      "id": "v_auto_4EGV-29VlUM",
-      "title": "Rainy (DetonatioN FocusMe): PAD感度100％の相方が生存力ゴキブリすぎるｗ【フォートナイト/FORTNITE】",
-      "pro": "Rainy (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=4EGV-29VlUM",
-      "youtubeId": "4EGV-29VlUM"
-    },
-    {
-      "id": "v_auto_-0JLaNfPbqM",
-      "title": "Rainy (DetonatioN FocusMe): 雑談しながら全員ヘッドで倒し続ける男【フォートナイト/FORTNITE】",
-      "pro": "Rainy (DetonatioN FocusMe)",
-      "game": "fortnite",
-      "tag": "解説",
-      "platform": "youtube",
-      "url": "https://www.youtube.com/watch?v=-0JLaNfPbqM",
-      "youtubeId": "-0JLaNfPbqM"
-    }
-  ]
+    "videos": [
+        {
+            "id": "v1",
+            "title": "まうふぃん: フォートナイト×夜に駆ける キル集",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Ghot3aZzbrE",
+            "youtubeId": "Ghot3aZzbrE"
+        },
+        {
+            "id": "v2",
+            "title": "ネフライト: ソロ決勝0撃破でも賞金獲得!? 立ち回り解説",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=NrlaQk5jvfE",
+            "youtubeId": "NrlaQk5jvfE"
+        },
+        {
+            "id": "v3",
+            "title": "ぼぶくん: あの夢をなぞって キル集 Highlight",
+            "pro": "ぼぶくん",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=DwEsUZ6XYZQ",
+            "youtubeId": "DwEsUZ6XYZQ"
+        },
+        {
+            "id": "v5",
+            "title": "まうふぃん×ネフライト: あのデュオが戻ってきた",
+            "pro": "まうふぃん / ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Qc7X-wL-Ig0",
+            "youtubeId": "Qc7X-wL-Ig0"
+        },
+        {
+            "id": "v6",
+            "title": "Ras (CR): アジア1位のレイス キル集 | Apex Legends",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AKtkIqRbVy4",
+            "youtubeId": "AKtkIqRbVy4"
+        },
+        {
+            "id": "v7",
+            "title": "YukaF: Wingman Only チャレンジ | 神エイム",
+            "pro": "YukaF (Fnatic)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "twitch",
+            "url": "https://www.twitch.tv/iq200yukaf"
+        },
+        {
+            "id": "v8",
+            "title": "Selly: THE BEST AIM OF APEX LEGENDS | Best of Selly",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=CdOXCkZUs68",
+            "youtubeId": "CdOXCkZUs68"
+        },
+        {
+            "id": "v9",
+            "title": "ありさか: 7時間以上Apexやって適正ランクに気づいた",
+            "pro": "ありさか",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=0UnpxCdrFtU",
+            "youtubeId": "0UnpxCdrFtU"
+        },
+        {
+            "id": "v10",
+            "title": "CR Cup ハイライト: Apex Legends 最強決定戦",
+            "pro": "Crazy Raccoon",
+            "game": "apex",
+            "tag": "ハイライト",
+            "platform": "twitch",
+            "url": "https://www.twitch.tv/crazyraccoon406"
+        },
+        {
+            "id": "v_auto_ugheK6sLw5Y",
+            "title": "まうふぃん (Riddle): 【ASMR】SteelSeries Apex Pro TKL Gen 3 キーボード打鍵音 #27😴Fortnite Reload🏆Satisfying Keyboard Fortnite",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ugheK6sLw5Y",
+            "youtubeId": "ugheK6sLw5Y"
+        },
+        {
+            "id": "v_auto_STHC71D4z5Y",
+            "title": "ネフライト: 【ベテランの意地】ネフライトさんのIGLとポルスの対面が覚醒!!まだまだ現役でやっていくでぃ【フォートナイト】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=STHC71D4z5Y",
+            "youtubeId": "STHC71D4z5Y"
+        },
+        {
+            "id": "v_auto_nNivENFDb9w",
+            "title": "ぼぶくん: 【キル集】三原色 / Bob｜Highlight【フォートナイト/Fortnite】",
+            "pro": "ぼぶくん",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=nNivENFDb9w",
+            "youtubeId": "nNivENFDb9w"
+        },
+        {
+            "id": "v_auto_6kGGtN9HIU8",
+            "title": "ぼぶくん: 【キル集】アトラクトライト / Bob｜Highlight【フォートナイト/Fortnite】",
+            "pro": "ぼぶくん",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6kGGtN9HIU8",
+            "youtubeId": "6kGGtN9HIU8"
+        },
+        {
+            "id": "v_auto_bUGfmicYLXs",
+            "title": "ネフライト: 2025年最強？ロジクールさんの最新ゲーミングデバイスを徹底調査！！【フォートナイト/Fortnite】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=bUGfmicYLXs",
+            "youtubeId": "bUGfmicYLXs"
+        },
+        {
+            "id": "v_auto_Aksa8Px20Wk",
+            "title": "Ras (Crazy Raccoon): 【キル集】Peace Highlights #13【APEX/Peace/ピース/peace/MnK】",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Aksa8Px20Wk",
+            "youtubeId": "Aksa8Px20Wk"
+        },
+        {
+            "id": "v_auto_4IeBA7ii7O8",
+            "title": "ありさか: 【切り抜き】ありさかに夢中 #shorts #ととみっくす",
+            "pro": "ありさか",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=4IeBA7ii7O8",
+            "youtubeId": "4IeBA7ii7O8"
+        },
+        {
+            "id": "v_auto_hEYzj1PqlUA",
+            "title": "Selly: 「PADが大嫌い」なSellyに関する雑学【APEX】",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=hEYzj1PqlUA",
+            "youtubeId": "hEYzj1PqlUA"
+        },
+        {
+            "id": "v_auto_AiPK_ik3sJg",
+            "title": "Laz (ZETA DIVISION): 【プレミア部】スカーミッシュと雑談で過去一盛り上がる2C【VALORANT】",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AiPK_ik3sJg",
+            "youtubeId": "AiPK_ik3sJg"
+        },
+        {
+            "id": "v_auto_tPVYVPvqecY",
+            "title": "Dep (ZETA DIVISION): 【神の子】日本の歴史を進めた天才、ZETA Dep集【VCT 2022 - 2025:ZETA Dep】",
+            "pro": "Dep (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=tPVYVPvqecY",
+            "youtubeId": "tPVYVPvqecY"
+        },
+        {
+            "id": "v_auto_7Qp2jLX-BiA",
+            "title": "Laz (ZETA DIVISION): 【VALORANT】デバイス好きGON選手のお気に入りデバイスとは⁉️",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=7Qp2jLX-BiA",
+            "youtubeId": "7Qp2jLX-BiA"
+        },
+        {
+            "id": "v_auto_Yf1QFmkPbCk",
+            "title": "まうふぃん (Riddle): ストリーマー最強の手元付きPAD ASMR /ソロ30キルビクロイ【PAD最強感度】【フォートナイト/Fortnite】",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Yf1QFmkPbCk",
+            "youtubeId": "Yf1QFmkPbCk"
+        },
+        {
+            "id": "v_auto_LPmH0aQXyIw",
+            "title": "まうふぃん (Riddle): 1人かと思ったら２人いてビックリ！ #フォートナイト #live #fortnite #フォトナ #エンジョイ #ショート #チャンネル登録お願いします #crazyzone #チャンネル登録",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=LPmH0aQXyIw",
+            "youtubeId": "LPmH0aQXyIw"
+        },
+        {
+            "id": "v_auto_5xA_YshcEM4",
+            "title": "まうふぃん (Riddle): 【ASMR】新発売のラピットトリガーマウスを使って手元動画 #22 😴Fortnite Reload🏆Satisfying Keyboard Fortnite",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5xA_YshcEM4",
+            "youtubeId": "5xA_YshcEM4"
+        },
+        {
+            "id": "v_auto_m_L6Y_aMEfk",
+            "title": "まうふぃん (Riddle): リロードでミシック出ると興奮しちゃう👄 #フォートナイト #fortnite #live #エンジョイ #フォトナ #ショート #リロード #スピカ #ロクデナシ #スナイパーキル #shorts",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=m_L6Y_aMEfk",
+            "youtubeId": "m_L6Y_aMEfk"
+        },
+        {
+            "id": "v_auto_kqejUL2gxUQ",
+            "title": "まうふぃん (Riddle): フォトナ最近ラグい💦 #フォートナイト #fortnite #フォトナ #live #ショート #エンジョイ #shortvideo #ragis #フォートナイトキル集 #スピカ #ロクデナシ",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=kqejUL2gxUQ",
+            "youtubeId": "kqejUL2gxUQ"
+        },
+        {
+            "id": "v_auto_EV4oZ3JsAFc",
+            "title": "まうふぃん (Riddle): スクワッド大会で1vs4してしまう #フォートナイト #fortnite #shorts",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=EV4oZ3JsAFc",
+            "youtubeId": "EV4oZ3JsAFc"
+        },
+        {
+            "id": "v_auto_5uXAr0ubPvg",
+            "title": "まうふぃん (Riddle): 最近のフォトナ事情について話すまうふぃん【フォートナイト/Fortnite】",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5uXAr0ubPvg",
+            "youtubeId": "5uXAr0ubPvg"
+        },
+        {
+            "id": "v_auto_HsWZa5prPpo",
+            "title": "まうふぃん (Riddle): やばいトリックショット当てた🤯 #fortnite #フォートナイト #shorts",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=HsWZa5prPpo",
+            "youtubeId": "HsWZa5prPpo"
+        },
+        {
+            "id": "v_auto_xIL6KlJaWFU",
+            "title": "まうふぃん (Riddle): まうふぃん競技引退。4人のレジェンドに幕...【フォートナイト/Fortnite】",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=xIL6KlJaWFU",
+            "youtubeId": "xIL6KlJaWFU"
+        },
+        {
+            "id": "v_auto__YbRj8R-DrU",
+            "title": "まうふぃん (Riddle): Rainyさんからプロ認定された男のキル集 #shorts",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=_YbRj8R-DrU",
+            "youtubeId": "_YbRj8R-DrU"
+        },
+        {
+            "id": "v_auto_iVU6kyygmHM",
+            "title": "まうふぃん (Riddle): フォートナイトの全盛期は戻ってこないのかな。【フォートナイト / Fortnite】#フォートナイト #shorts",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=iVU6kyygmHM",
+            "youtubeId": "iVU6kyygmHM"
+        },
+        {
+            "id": "v_auto_KQ2muke6VcI",
+            "title": "まうふぃん (Riddle): 無料入手方法教えます！新スキンももらえるよ！#Fortnite  #フォートナイト  #セルビ　携帯アプリからアイテム購入で無料バックパックまだもらえたよ🍌",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=KQ2muke6VcI",
+            "youtubeId": "KQ2muke6VcI"
+        },
+        {
+            "id": "v_auto_ggcmyk4P7v4",
+            "title": "まうふぃん (Riddle): やばいトリックショット当てた🤯 #fortnite #フォートナイト #鬼滅の刃",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ggcmyk4P7v4",
+            "youtubeId": "ggcmyk4P7v4"
+        },
+        {
+            "id": "v_auto_WkdW5fVXjkA",
+            "title": "まうふぃん (Riddle): #フォートナイト #shorts  #トリックショット",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=WkdW5fVXjkA",
+            "youtubeId": "WkdW5fVXjkA"
+        },
+        {
+            "id": "v_auto_22lwZWUhuQw",
+            "title": "まうふぃん (Riddle): スクワット大会マッチングしなかった😅 #フォートナイト #live #fortnite #フォトナ #epic #ショート #エンジョイ #ランクマッチ #スクワット #鬼滅の刃 #Lisa",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=22lwZWUhuQw",
+            "youtubeId": "22lwZWUhuQw"
+        },
+        {
+            "id": "v_auto__kXb9KKVtAs",
+            "title": "まうふぃん (Riddle): 初心者がアジア1位&quot;まうふぃん選手&quot;の設定を7日間全て真似して練習し続けた結果【フォートナイト/Fortnite】",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=_kXb9KKVtAs",
+            "youtubeId": "_kXb9KKVtAs"
+        },
+        {
+            "id": "v_auto_N9MnOXw0zxI",
+            "title": "まうふぃん (Riddle): あと少し打つの早ければ、ワンちゃん勝てた！   #shorts",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=N9MnOXw0zxI",
+            "youtubeId": "N9MnOXw0zxI"
+        },
+        {
+            "id": "v_auto_xz-iHfypTm0",
+            "title": "まうふぃん (Riddle): 私のクリップ、何点ですか？ #フォートナイト #fortnite #フォトナ #game #ゲーム実況 #切り抜き #shorts #キル集 #キルクリップ",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=xz-iHfypTm0",
+            "youtubeId": "xz-iHfypTm0"
+        },
+        {
+            "id": "v_auto_3wLpaY8gCUo",
+            "title": "まうふぃん (Riddle): イカゲームマップどこに降りてる？ #フォートナイト #live #fortnite #epic #フォトナ #エンジョイ #ショート #ランクマッチ #リロード #リロードランク #shorts",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=3wLpaY8gCUo",
+            "youtubeId": "3wLpaY8gCUo"
+        },
+        {
+            "id": "v_auto_AnmpvspRSNo",
+            "title": "まうふぃん (Riddle): 〇〇した人のトリックショット！【フォートナイト】#shorts #フォートナイト",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AnmpvspRSNo",
+            "youtubeId": "AnmpvspRSNo"
+        },
+        {
+            "id": "v_auto_qXBzjMsVGwc",
+            "title": "まうふぃん (Riddle): 【最新】無料で全スキンを入手する方法がやばい！【フォートナイト】#shorts #フォートナイト",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=qXBzjMsVGwc",
+            "youtubeId": "qXBzjMsVGwc"
+        },
+        {
+            "id": "v_auto_CDpa4z9HDCU",
+            "title": "まうふぃん (Riddle): 〇〇した人のスキン！【フォートナイト】#shorts #フォートナイト",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=CDpa4z9HDCU",
+            "youtubeId": "CDpa4z9HDCU"
+        },
+        {
+            "id": "v_auto_BylxtPA8wSk",
+            "title": "まうふぃん (Riddle): 〇〇した人が貰えるギフト！【フォートナイト】#shorts #フォートナイト",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=BylxtPA8wSk",
+            "youtubeId": "BylxtPA8wSk"
+        },
+        {
+            "id": "v_auto_Hva_wvRIviU",
+            "title": "まうふぃん (Riddle): 〇〇した人のトリックショット！【フォートナイト】#shorts #フォートナイト",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Hva_wvRIviU",
+            "youtubeId": "Hva_wvRIviU"
+        },
+        {
+            "id": "v_auto_E4lPNF6OHLQ",
+            "title": "Ras (Crazy Raccoon): エイムとキャラコンを極めたレイダーのキル集【ARC Raiders】",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=E4lPNF6OHLQ",
+            "youtubeId": "E4lPNF6OHLQ"
+        },
+        {
+            "id": "v_auto_ADd8CUIh1NA",
+            "title": "Laz (ZETA DIVISION): [Laz切り抜き] [要保存]Laz愛用のNP-01sWLの持ち方` [2023/8/27配信] #shorts #valorant #laz #zeta #zetadivision",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ADd8CUIh1NA",
+            "youtubeId": "ADd8CUIh1NA"
+        },
+        {
+            "id": "v_auto_MwTh6rp_1WM",
+            "title": "Laz (ZETA DIVISION): [Laz切り抜き]チクチクLaz [2023/8/21配信] #shorts #valorant #laz #zeta #zetadivision",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=MwTh6rp_1WM",
+            "youtubeId": "MwTh6rp_1WM"
+        },
+        {
+            "id": "v_auto_HJ6uL6apC3E",
+            "title": "Laz (ZETA DIVISION): 【VCT 2023 Pacific】Laz選手が使用したデバイス一覧【VALORANT】",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=HJ6uL6apC3E",
+            "youtubeId": "HJ6uL6apC3E"
+        },
+        {
+            "id": "v_auto_6pWm4jU0L9Y",
+            "title": "Laz (ZETA DIVISION): Laz選手の最新デバイス紹介！#valorant #ヴァロラント #laz #Lazvell #zeta #zetadivision #デバイス #デバイス紹介",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6pWm4jU0L9Y",
+            "youtubeId": "6pWm4jU0L9Y"
+        },
+        {
+            "id": "v_auto_1-L6c888960",
+            "title": "Laz (ZETA DIVISION): キーボードを斜めにする理由 #YTApp",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=1-L6c888960",
+            "youtubeId": "1-L6c888960"
+        },
+        {
+            "id": "v_auto_n9JO_ZlRDjg",
+            "title": "Laz (ZETA DIVISION): ZETA Laz選手の最新デバイス紹介！#valorant #ヴァロラント #laz #ラズ #zeta #zetadivision #デバイス紹介",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=n9JO_ZlRDjg",
+            "youtubeId": "n9JO_ZlRDjg"
+        },
+        {
+            "id": "v_sns_d1",
+            "title": "Ras: 新しいマウスに変えました！最高すぎる",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "x",
+            "url": "https://x.com/Ras9915"
+        },
+        {
+            "id": "v_sns_d2",
+            "title": "Laz: ZETAのゲーミング環境を公開！デスク周り全部見せます",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/@lazvell"
+        },
+        {
+            "id": "v_sns_d3",
+            "title": "まうふぃん: 新デバイス導入！マウスとキーボードを変えた結果",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "x",
+            "url": "https://x.com/Maufinfn"
+        },
+        {
+            "id": "v_sns_d5",
+            "title": "Selly: おすすめゲーミングマウス紹介配信",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "twitch",
+            "url": "https://www.twitch.tv/selly55"
+        },
+        {
+            "id": "v_sns_d6",
+            "title": "ぼぶくん: 最新ゲーミングデバイス開封＆レビュー",
+            "pro": "ぼぶくん",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "x",
+            "url": "https://x.com/Bob_FN_"
+        },
+        {
+            "id": "v_auto_nGBHuXX2MFY",
+            "title": "Laz (ZETA DIVISION): 【超人】トロント同様、生き残りを懸けたリベンジマッチ。実況を泣かせる化け物じみた個人技【Masters Santiago 2026  Swiss Stage Day4 - G2 vs XLG】",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=nGBHuXX2MFY",
+            "youtubeId": "nGBHuXX2MFY"
+        },
+        {
+            "id": "v_auto_V53n8oZtBLo",
+            "title": "Dep (ZETA DIVISION): 매일 노력하는 Dep #1",
+            "pro": "Dep (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=V53n8oZtBLo",
+            "youtubeId": "V53n8oZtBLo"
+        },
+        {
+            "id": "v_auto_sD_VK7tgGs0",
+            "title": "ネフライト: 【必見】ポルスさんも驚くネフライトの驚異の立ち回りがこちら【フォートナイト/Fortnite】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=sD_VK7tgGs0",
+            "youtubeId": "sD_VK7tgGs0"
+        },
+        {
+            "id": "v_auto_TsDmODW9fvU",
+            "title": "ネフライト: 現役プロゲーマーのデスク周り/デバイス紹介 #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=TsDmODW9fvU",
+            "youtubeId": "TsDmODW9fvU"
+        },
+        {
+            "id": "v_auto_pMV-O6x9hvk",
+            "title": "ネフライト: 現役プロゲーマーのデスク周り/デバイス紹介",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=pMV-O6x9hvk",
+            "youtubeId": "pMV-O6x9hvk"
+        },
+        {
+            "id": "v_auto_sEt62wEDGNE",
+            "title": "ネフライト: YouTubeの王ヒカキンさんが使ってるデバイスは？　#hikakin #ゲーミングパソコン   #ゲーミングpc  #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=sEt62wEDGNE",
+            "youtubeId": "sEt62wEDGNE"
+        },
+        {
+            "id": "v_auto_uhX6MwsOjtM",
+            "title": "ネフライト: 勝利と配信だけを考えた「ネフライトのゲーム実況部屋」を初公開!!!!!!【ゲーム部屋】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=uhX6MwsOjtM",
+            "youtubeId": "uhX6MwsOjtM"
+        },
+        {
+            "id": "v_auto_2K7nEKO-GOc",
+            "title": "ネフライト: 謎の箱がネフライトさんから届いたので開封…【誕プレ】 #Shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=2K7nEKO-GOc",
+            "youtubeId": "2K7nEKO-GOc"
+        },
+        {
+            "id": "v_auto_ExaEAzgSmOQ",
+            "title": "ネフライト: 元プロゲーマーのデスク回り紹介【デバイス】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ExaEAzgSmOQ",
+            "youtubeId": "ExaEAzgSmOQ"
+        },
+        {
+            "id": "v_auto_ThikHmGmWP0",
+            "title": "ネフライト: 【もはやデバイスチート級】ネフライトさんも愛用するこのゲーミングヘッドセットが最強すぎて他プレイヤーと圧倒的な差がついてしまう...｜EPOS・ゼンハイザー GSP600",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ThikHmGmWP0",
+            "youtubeId": "ThikHmGmWP0"
+        },
+        {
+            "id": "v_auto_moRSiM-DsAU",
+            "title": "ネフライト: 【初公開】登録者70万人のプロゲーマー ネフライトのデスク紹介！【フォートナイト/Fortnite】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=moRSiM-DsAU",
+            "youtubeId": "moRSiM-DsAU"
+        },
+        {
+            "id": "v_auto_au0oiWQC8kQ",
+            "title": "ネフライト: 【激安】ドンキの *ゲーミングデバイス* でプロは目指せる...？【FORTNITE/フォトナ】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=au0oiWQC8kQ",
+            "youtubeId": "au0oiWQC8kQ"
+        },
+        {
+            "id": "v_auto_qj4l5htsjcY",
+            "title": "まうふぃん (Riddle): FNCSディビジョン1でざごう＆まうふぃんと遭遇する #shorts",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=qj4l5htsjcY",
+            "youtubeId": "qj4l5htsjcY"
+        },
+        {
+            "id": "v_auto_A8avTr-7qyA",
+            "title": "Ras (Crazy Raccoon): キーマウプレデターのR99最強キル集【APEX LEGENDS】",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=A8avTr-7qyA",
+            "youtubeId": "A8avTr-7qyA"
+        },
+        {
+            "id": "v_auto_0mkwFAcX2rQ",
+            "title": "Ras (Crazy Raccoon): まつのキル集 [Apex Legends]",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=0mkwFAcX2rQ",
+            "youtubeId": "0mkwFAcX2rQ"
+        },
+        {
+            "id": "v_auto_aUXMxqlKRvY",
+            "title": "Ras (Crazy Raccoon): 【APEX】ほぼ全部R99の最強S25キル集",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=aUXMxqlKRvY",
+            "youtubeId": "aUXMxqlKRvY"
+        },
+        {
+            "id": "v_auto_xWZqSQID54A",
+            "title": "Ras (Crazy Raccoon): 世界で１番 汚いキル集【APEX】",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=xWZqSQID54A",
+            "youtubeId": "xWZqSQID54A"
+        },
+        {
+            "id": "v_auto_lCtAc_IZGe4",
+            "title": "Ras (Crazy Raccoon): 【APEX】彼らは彼を人間AIMBOTと呼んでい「Ras」 | エーペックス モンタージュ",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=lCtAc_IZGe4",
+            "youtubeId": "lCtAc_IZGe4"
+        },
+        {
+            "id": "v_auto_RFscPntDAYk",
+            "title": "Ras (Crazy Raccoon): 実戦で使えるキャラコン満載のYukaFキル集を見るVerhulst【YukaF/Verhulst】",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=RFscPntDAYk",
+            "youtubeId": "RFscPntDAYk"
+        },
+        {
+            "id": "v_auto_JY_Zd-Gi6M4",
+            "title": "Ras (Crazy Raccoon): 【APEX】『脳がバグる』キル集 / MONTAGE",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=JY_Zd-Gi6M4",
+            "youtubeId": "JY_Zd-Gi6M4"
+        },
+        {
+            "id": "v_auto_hhgCno47iyo",
+            "title": "Ras (Crazy Raccoon): Rasのキャラコンにビビる釈迦",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=hhgCno47iyo",
+            "youtubeId": "hhgCno47iyo"
+        },
+        {
+            "id": "v_auto_MiMzw_V-Id8",
+            "title": "Ras (Crazy Raccoon): 「上手すぎるって!」キャラコンや立ち回りで相手を翻弄するRasを見たGenの反応!!【クリップ集】【日本語字幕】【Apex】",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=MiMzw_V-Id8",
+            "youtubeId": "MiMzw_V-Id8"
+        },
+        {
+            "id": "v_auto_ZvWgLOuZptw",
+            "title": "Ras (Crazy Raccoon): Apex 爽快キル集(Player:Kawatin)#apex #キル集 #shorts #montage",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ZvWgLOuZptw",
+            "youtubeId": "ZvWgLOuZptw"
+        },
+        {
+            "id": "v_auto_0NV3OEC89lw",
+            "title": "Ras (Crazy Raccoon): BEST OF &quot;SELLY&quot; KOREAN TRACKING GOD - APEX LEGENDS MONTAGE",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=0NV3OEC89lw",
+            "youtubeId": "0NV3OEC89lw"
+        },
+        {
+            "id": "v_auto_0OmDdhXaXyY",
+            "title": "Ras (Crazy Raccoon): 【APEX】ビーストエイマー‼︎なおひろ21の厳選キル集|Best of naohiro21",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=0OmDdhXaXyY",
+            "youtubeId": "0OmDdhXaXyY"
+        },
+        {
+            "id": "v_auto_YihwFTE-b-4",
+            "title": "Ras (Crazy Raccoon): 【Apex】Ras、Sellyに並ぶアジア最強プレイヤーobly　無双キル集",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=YihwFTE-b-4",
+            "youtubeId": "YihwFTE-b-4"
+        },
+        {
+            "id": "v_auto_gmmJN9CtzAA",
+            "title": "Ras (Crazy Raccoon): 【Apex】人力チートSelly 最強すぎるキル集",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=gmmJN9CtzAA",
+            "youtubeId": "gmmJN9CtzAA"
+        },
+        {
+            "id": "v_auto_IFc2mi_JMZ4",
+            "title": "Ras (Crazy Raccoon): 【Apex】Ras、Sellyも認める怪物プレイヤーobly　最強すぎるキル集",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=IFc2mi_JMZ4",
+            "youtubeId": "IFc2mi_JMZ4"
+        },
+        {
+            "id": "v_auto_GCzwDdiY8FY",
+            "title": "Ras (Crazy Raccoon): 【Highlight】Ras本人が選んだ力作のハイライト【APEX】",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=GCzwDdiY8FY",
+            "youtubeId": "GCzwDdiY8FY"
+        },
+        {
+            "id": "v_auto_4Q0MU6EDiNs",
+            "title": "Ras (Crazy Raccoon): 【APEXキル集】元日本2位のプロのMontage【Ak1to/あきと】",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=4Q0MU6EDiNs",
+            "youtubeId": "4Q0MU6EDiNs"
+        },
+        {
+            "id": "v_auto_sVDtWNhqlMA",
+            "title": "Ras (Crazy Raccoon): 【APEX】世界クラスのファイト力！CR_Rasの厳選キル集|Best of Ras",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=sVDtWNhqlMA",
+            "youtubeId": "sVDtWNhqlMA"
+        },
+        {
+            "id": "v_auto_ty7nS8IzkkU",
+            "title": "Ras (Crazy Raccoon): 【#Shorts】これがRasのR-99【APEX】",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ty7nS8IzkkU",
+            "youtubeId": "ty7nS8IzkkU"
+        },
+        {
+            "id": "v_auto_N6yVyJEk39I",
+            "title": "Ras (Crazy Raccoon): Apex Montage#2（キル集#2）",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=N6yVyJEk39I",
+            "youtubeId": "N6yVyJEk39I"
+        },
+        {
+            "id": "v_auto_efcz5C39oz0",
+            "title": "Ras (Crazy Raccoon): プレデターレイスによるキル集 predator wraith montage#26",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=efcz5C39oz0",
+            "youtubeId": "efcz5C39oz0"
+        },
+        {
+            "id": "v_auto_jnVDd6WSraw",
+            "title": "Ras (Crazy Raccoon): プレデターレイスの無双キル集 predator wraith montage",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=jnVDd6WSraw",
+            "youtubeId": "jnVDd6WSraw"
+        },
+        {
+            "id": "v_auto_jjvBKtLLNO0",
+            "title": "Ras (Crazy Raccoon): 【APEXキル集】montageもどき",
+            "pro": "Ras (Crazy Raccoon)",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=jjvBKtLLNO0",
+            "youtubeId": "jjvBKtLLNO0"
+        },
+        {
+            "id": "v_auto_LTl462RXl50",
+            "title": "まうふぃん (Riddle): マクロで稼いでるドブカスより100倍上手い建築編集【Fortnite】",
+            "pro": "まうふぃん (Riddle)",
+            "game": "fortnite",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=LTl462RXl50",
+            "youtubeId": "LTl462RXl50"
+        },
+        {
+            "id": "v_auto_kAZDbZQQIF8",
+            "title": "Selly: 【APEX】最強と言ったらこの人,Sellyの感度,デバイスをご紹介!【キル集あり】",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=kAZDbZQQIF8",
+            "youtubeId": "kAZDbZQQIF8"
+        },
+        {
+            "id": "v_auto_6mODzdMCzw4",
+            "title": "Selly: 【1分で分かる】ImperialHalの使用デバイス紹介！【APEX LEGENDS】",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6mODzdMCzw4",
+            "youtubeId": "6mODzdMCzw4"
+        },
+        {
+            "id": "v_auto_g9_xF9AW1ro",
+            "title": "Selly: 【Selly切り抜き】Sellyが考える大事なデバイスとは...？【APEX】",
+            "pro": "Selly",
+            "game": "apex",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=g9_xF9AW1ro",
+            "youtubeId": "g9_xF9AW1ro"
+        },
+        {
+            "id": "v_auto_6LF6BMcvUTY",
+            "title": "Laz (ZETA DIVISION): 久しぶりのトリオで開幕ACEを叩き出すLaz【VALORANT】",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6LF6BMcvUTY",
+            "youtubeId": "6LF6BMcvUTY"
+        },
+        {
+            "id": "v_auto_ogwv6hsKG_A",
+            "title": "ぼぶくん: colors🌈　highlights#22",
+            "pro": "ぼぶくん",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ogwv6hsKG_A",
+            "youtubeId": "ogwv6hsKG_A"
+        },
+        {
+            "id": "v_auto_VifLd_K3mEY",
+            "title": "ぼぶくん: 【団体戦】BOXバトルトーナメント~ハイライト~【神試合】",
+            "pro": "ぼぶくん",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=VifLd_K3mEY",
+            "youtubeId": "VifLd_K3mEY"
+        },
+        {
+            "id": "v_auto_-PE4xOo2-KI",
+            "title": "Laz (ZETA DIVISION): 【伝統の一戦】Masters最後の一枠。圧を跳ね除け、覚醒する中国の英雄【VCT 2026 China Kickoffs Lower Final - BLG vs EDG】",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=-PE4xOo2-KI",
+            "youtubeId": "-PE4xOo2-KI"
+        },
+        {
+            "id": "v_auto_vIVkvYPn4zw",
+            "title": "Laz (ZETA DIVISION): 【閃光】この難問の解答を見出せるか。マジレス軍団G2vs暴走するDambiネオン【Masters Santiago 2026  Playoffs Day9 - G2 vs NS】",
+            "pro": "Laz (ZETA DIVISION)",
+            "game": "valorant",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=vIVkvYPn4zw",
+            "youtubeId": "vIVkvYPn4zw"
+        },
+        {
+            "id": "v_auto_W5X4mvtBk90",
+            "title": "ネフライト: 【フォートナイト解説】新シーズン開幕！！あれこいつ強くね？アイアンポンプショットガン #fortnite #ゆっくり実況 #フォートナイト #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=W5X4mvtBk90",
+            "youtubeId": "W5X4mvtBk90"
+        },
+        {
+            "id": "v_auto_vqx3EGhXPLM",
+            "title": "ネフライト: ネフライトさんとのDUO大会で...#shorts  #fortnite  #ポルス",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=vqx3EGhXPLM",
+            "youtubeId": "vqx3EGhXPLM"
+        },
+        {
+            "id": "v_auto_v6doEqkqpwg",
+            "title": "ネフライト: おいネフライト、どうしたんだよ。",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=v6doEqkqpwg",
+            "youtubeId": "v6doEqkqpwg"
+        },
+        {
+            "id": "v_auto_k6MShccQfAo",
+            "title": "ネフライト: 【ビクロイ‼】新シーズン初の大会でネフライトさんと最高の立ち回りをかましました【フォートナイト】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=k6MShccQfAo",
+            "youtubeId": "k6MShccQfAo"
+        },
+        {
+            "id": "v_auto_eaQQo9s1WTc",
+            "title": "ネフライト: 【フォートナイト解説】圧倒的連射力！！ストライカーアサルトライフル #fortnite #フォートナイト #ゆっくり実況 #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=eaQQo9s1WTc",
+            "youtubeId": "eaQQo9s1WTc"
+        },
+        {
+            "id": "v_auto_n4sscWTDT1w",
+            "title": "ネフライト: ネフライトさんに倒された!?#shorts #フォートナイト #fortnite #fortniteclips #fortniteshorts #フォトナ #らぶゆーれん #リロード #fncs",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=n4sscWTDT1w",
+            "youtubeId": "n4sscWTDT1w"
+        },
+        {
+            "id": "v_auto_BwSJw3zw2BY",
+            "title": "ネフライト: 【フォートナイト解説】まじで誰だよファルコンアイスナイパーライフル #fortnite #ゆっくり実況 #フォートナイト #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=BwSJw3zw2BY",
+            "youtubeId": "BwSJw3zw2BY"
+        },
+        {
+            "id": "v_auto_6djBAAqWP5o",
+            "title": "ネフライト: 【フォートナイト解説】チャプター3の覇権アサルト！MKセブンアサルト #fortnite #ゆっくり実況 #フォートナイト #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6djBAAqWP5o",
+            "youtubeId": "6djBAAqWP5o"
+        },
+        {
+            "id": "v_auto_KCwMvSaQaOM",
+            "title": "ネフライト: 最強の男「ネフライト」の軌跡【フォートナイト/Fortnite】#フォートナイト #fortnite  #フォトナ #ゲーム実況 #switch  #shorts #ネフライト",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=KCwMvSaQaOM",
+            "youtubeId": "KCwMvSaQaOM"
+        },
+        {
+            "id": "v_auto_GJCZ6d3dPVw",
+            "title": "ネフライト: 【フォートナイト解説】アサルト界の王君臨！！ホロツイスターアサルトライフル #ゆっくり実況 #fortnite #フォートナイト #shorts s",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=GJCZ6d3dPVw",
+            "youtubeId": "GJCZ6d3dPVw"
+        },
+        {
+            "id": "v_auto_xvkqZYxSvJM",
+            "title": "ネフライト: 【フォートナイト解説】現代版ミニガン！？？レッドスピッター3000#ゆっくり実況 #fortnite #フォートナイト #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=xvkqZYxSvJM",
+            "youtubeId": "xvkqZYxSvJM"
+        },
+        {
+            "id": "v_auto_UYO_ui1RrPE",
+            "title": "ネフライト: ネフライトさんの歴史 #フォートナイト #フォートナイト解説 #fortnite",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=UYO_ui1RrPE",
+            "youtubeId": "UYO_ui1RrPE"
+        },
+        {
+            "id": "v_auto_vl4ZnoR-UIY",
+            "title": "ネフライト: 【フォートナイト解説】爆破武器でワンパン？！！スウォームストライク #ゆっくり実況 #fortnite #フォートナイト #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=vl4ZnoR-UIY",
+            "youtubeId": "vl4ZnoR-UIY"
+        },
+        {
+            "id": "v_auto_AhFwYW5GQK8",
+            "title": "ネフライト: 【フォートナイト解説】コンバットの再来？！！レッカーリボルバー #ゆっくり実況 #フォートナイト #fortnite #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AhFwYW5GQK8",
+            "youtubeId": "AhFwYW5GQK8"
+        },
+        {
+            "id": "v_auto_WNwYi4mlIJ0",
+            "title": "ネフライト: 【フォートナイト解説】最強のポンポン？！！ストームビーストのポンポン #fortnite #ゆっくり実況 #フォートナイト #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=WNwYi4mlIJ0",
+            "youtubeId": "WNwYi4mlIJ0"
+        },
+        {
+            "id": "v_auto_l5Gelc4IFUA",
+            "title": "ネフライト: 【フォートナイト解説】あ、あの最◯サブマシンガンが帰ってきた！！サージファイヤSMG #fortnite #ゆっくり実況 #フォートナイト #shorts",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=l5Gelc4IFUA",
+            "youtubeId": "l5Gelc4IFUA"
+        },
+        {
+            "id": "v_auto_DqBTxOzD9hQ",
+            "title": "ネフライト: スイッチ2でフォートナイトをプレイ！驚きの進化に注目！【フォートナイト/Fortnite】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=DqBTxOzD9hQ",
+            "youtubeId": "DqBTxOzD9hQ"
+        },
+        {
+            "id": "v_auto_vGHbNxnSjw4",
+            "title": "ネフライト: 【ガチ謝罪】ネフライトさんやわらさんごめんなさい。【フォートナイト/Fortnite】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=vGHbNxnSjw4",
+            "youtubeId": "vGHbNxnSjw4"
+        },
+        {
+            "id": "v_auto_6DN3euyt9PY",
+            "title": "ネフライト: 最新モデルの超ハイスペックパソコンでフォートナイトをやってみると…?【G TUNE】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6DN3euyt9PY",
+            "youtubeId": "6DN3euyt9PY"
+        },
+        {
+            "id": "v_auto_CpjmFxF57Ms",
+            "title": "ネフライト: 【解説】今しかできない『究極トラップ』の作り方教えます！【フォートナイト/Fortnite】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=CpjmFxF57Ms",
+            "youtubeId": "CpjmFxF57Ms"
+        },
+        {
+            "id": "v_auto_v7F1k7q6Z14",
+            "title": "ネフライト: 【フォートナイト解説】最強のスナ！？？スコープはいらぬ　ハンティングライフル！！ #ゆっくり茶番劇 #fortnite  #フォートナイト解説",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=v7F1k7q6Z14",
+            "youtubeId": "v7F1k7q6Z14"
+        },
+        {
+            "id": "v_auto_vennS9z4rwI",
+            "title": "ネフライト: 【Fortnite】時代を感じたネフライトの滑舌 #fortnite #ネフライト",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=vennS9z4rwI",
+            "youtubeId": "vennS9z4rwI"
+        },
+        {
+            "id": "v_auto_dL3Y1iY4Kg4",
+            "title": "ネフライト: 【最強】もし開けられたら強すぎる『秘密の保管庫』の開け方を解説！【フォートナイト/Fortnite】",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=dL3Y1iY4Kg4",
+            "youtubeId": "dL3Y1iY4Kg4"
+        },
+        {
+            "id": "v_auto_xJUuwSx9Bmk",
+            "title": "ぶゅりる (DFM): 星街すいせいスキンがキタ！先行プレイしてみた【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=xJUuwSx9Bmk",
+            "youtubeId": "xJUuwSx9Bmk"
+        },
+        {
+            "id": "v_auto_5tSWHVCyO_U",
+            "title": "ぶゅりる (DFM): プロで流行ってる\"最強のサブ武器\"を紹介します。【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5tSWHVCyO_U",
+            "youtubeId": "5tSWHVCyO_U"
+        },
+        {
+            "id": "v_auto_qDzYQiwIHe4",
+            "title": "ぶゅりる (DFM): バトロワに過去武器が復活!!最強ポンプが帰ってきたぞ【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=qDzYQiwIHe4",
+            "youtubeId": "qDzYQiwIHe4"
+        },
+        {
+            "id": "v_auto_nYWxY76PXsU",
+            "title": "ぶゅりる (DFM): 【緊急】1時間限定で使えた新武器が強すぎたｗｗ【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=nYWxY76PXsU",
+            "youtubeId": "nYWxY76PXsU"
+        },
+        {
+            "id": "v_auto_EXxCMWQlGuM",
+            "title": "ぶゅりる (DFM): 金の自販機でしか入手できない最強武器知ってる？【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=EXxCMWQlGuM",
+            "youtubeId": "EXxCMWQlGuM"
+        },
+        {
+            "id": "v_auto_bUotKQO9y-k",
+            "title": "ぶゅりる (DFM): 深夜にリロード埋めるランクやったら誰くる...?【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=bUotKQO9y-k",
+            "youtubeId": "bUotKQO9y-k"
+        },
+        {
+            "id": "v_auto_ZYY14limyXo",
+            "title": "ぶゅりる (DFM): シンプル編集をガチで練習してみた結果...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ZYY14limyXo",
+            "youtubeId": "ZYY14limyXo"
+        },
+        {
+            "id": "v_auto_L7iJLmpg_ao",
+            "title": "ぶゅりる (DFM): 誰も持ってない『ホロラッシュSMG』を救いたい...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=L7iJLmpg_ao",
+            "youtubeId": "L7iJLmpg_ao"
+        },
+        {
+            "id": "v_auto_ND0f-A0myho",
+            "title": "ぶゅりる (DFM): 全人類の疑問『階段要らない説』を検証します【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ND0f-A0myho",
+            "youtubeId": "ND0f-A0myho"
+        },
+        {
+            "id": "v_auto_T07SqCVqvfI",
+            "title": "ぶゅりる (DFM): 競技復活したzagouから招待がきた...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=T07SqCVqvfI",
+            "youtubeId": "T07SqCVqvfI"
+        },
+        {
+            "id": "v_sns_buyuriru",
+            "title": "ぶゅりる: FNCS優勝プロの日常＆最新情報",
+            "pro": "ぶゅりる (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/Buyuriru"
+        },
+        {
+            "id": "v_sns_yukaf",
+            "title": "YukaF: ZETA DIVISION APEX部門の最新情報",
+            "pro": "YukaF (ZETA DIVISION)",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/IQ200YukaF"
+        },
+        {
+            "id": "v_sns_peace",
+            "title": "Peace: APEXプロシーンの最新情報＆日常",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/Peace17_yt"
+        },
+        {
+            "id": "v_sns_cheeky",
+            "title": "cheeky: APEXトッププレイヤーの日常",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/tttcheekyttt"
+        },
+        {
+            "id": "v_sns_1tappy",
+            "title": "1tappy: APEXプロの最新情報＆配信告知",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/1TAPPYTHEWORLD"
+        },
+        {
+            "id": "v_auto_RAXzydBSV0I",
+            "title": "まいぽり: FNCSディビジョン1 決勝2位獲得！($1000)【フォートナイト/Fortnite】",
+            "pro": "まいぽり",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=RAXzydBSV0I",
+            "youtubeId": "RAXzydBSV0I"
+        },
+        {
+            "id": "v_auto_QSyLWFcfV1A",
+            "title": "まいぽり: 実はデュオ解散してました【フォートナイト/Fortnite】",
+            "pro": "まいぽり",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=QSyLWFcfV1A",
+            "youtubeId": "QSyLWFcfV1A"
+        },
+        {
+            "id": "v_auto_Ufxwxu6KW_g",
+            "title": "まいぽり: 絶望の40分遅れから奇跡のビクロイでディビジョン1予選突破！！【フォートナイト/Fortnite】",
+            "pro": "まいぽり",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Ufxwxu6KW_g",
+            "youtubeId": "Ufxwxu6KW_g"
+        },
+        {
+            "id": "v_sns_mipoli",
+            "title": "まいぽり: フォートナイト競技プロの日常",
+            "pro": "まいぽり",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/xMipoli"
+        },
+        {
+            "id": "v_auto_5BlRFmc6qIg",
+            "title": "Rise (Riddle): デュオ決勝大事な試合の時にハプニング【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5BlRFmc6qIg",
+            "youtubeId": "5BlRFmc6qIg"
+        },
+        {
+            "id": "v_auto_l28lYatbTi0",
+            "title": "Rise (Riddle): ソロランクでゴースティングしてきたチーターと本気で対面してみた",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=l28lYatbTi0",
+            "youtubeId": "l28lYatbTi0"
+        },
+        {
+            "id": "v_auto_LDmYFhDW5Cc",
+            "title": "Rise (Riddle): 新年初デュオ大会。勝てばアジア1位＆賞金の試合で…【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=LDmYFhDW5Cc",
+            "youtubeId": "LDmYFhDW5Cc"
+        },
+        {
+            "id": "v_sns_rise",
+            "title": "Rise: Riddle所属フォートナイトプロの最新情報",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/RiseGotGamer"
+        },
+        {
+            "id": "v_auto_-2cBgTuYgXM",
+            "title": "Minipiyo: 視聴者コーチングで無双しました！！【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=-2cBgTuYgXM",
+            "youtubeId": "-2cBgTuYgXM"
+        },
+        {
+            "id": "v_auto_pA3ex8tAZ5c",
+            "title": "Minipiyo: FNCSデビジョン1で終盤神クラッチしてビクロイ獲得！！【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=pA3ex8tAZ5c",
+            "youtubeId": "pA3ex8tAZ5c"
+        },
+        {
+            "id": "v_sns_minipiyo",
+            "title": "Minipiyo: フォートナイト人気クリエイターの日常",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/MinipiyoFN"
+        },
+        {
+            "id": "v_auto_R_3rfjDDPlY",
+            "title": "Rainy (DFM): DFMフォトナ部門に起きてる事を話します...【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=R_3rfjDDPlY",
+            "youtubeId": "R_3rfjDDPlY"
+        },
+        {
+            "id": "v_auto_J3ibpgHJ6NQ",
+            "title": "Rainy (DFM): リロードに神アプデ!!大量の新武器が追加されたぞ！【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=J3ibpgHJ6NQ",
+            "youtubeId": "J3ibpgHJ6NQ"
+        },
+        {
+            "id": "v_auto_tcgt1QlCt44",
+            "title": "Rainy (DFM): 【世界大会予選】危機的状況から神業グレポンで決勝戦進出しました！【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DFM)",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=tcgt1QlCt44",
+            "youtubeId": "tcgt1QlCt44"
+        },
+        {
+            "id": "v_sns_rainy",
+            "title": "Rainy: DFM所属フォートナイトプロの最新情報",
+            "pro": "Rainy (DFM)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "x",
+            "url": "https://x.com/R4InyFN"
+        },
+        {
+            "id": "v_auto_uiny97XY-uw",
+            "title": "Peace: 【ALGS OPEN#3 Day2ミラー】YukaFバンガの活躍に大興奮するPeace【APEX/Peace/ピース/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=uiny97XY-uw",
+            "youtubeId": "uiny97XY-uw"
+        },
+        {
+            "id": "v_auto_QCdiTe0zjjQ",
+            "title": "Peace: 【チムラン】ゆらりまんホンマに寝てくれ！生活習慣が完全崩壊したゆらりをさすがに休ませようとするPeaceとXtsuvi【APEX/Peace/ピース/Xtsuvi/ゆらりまん/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=QCdiTe0zjjQ",
+            "youtubeId": "QCdiTe0zjjQ"
+        },
+        {
+            "id": "v_auto_KFC_qjdjN-g",
+            "title": "Peace: 【スクリム】中入り練習中のUNL待望の減り遅めスクリムが全然嬉しくない理由で訪れてしまう【APEX/Peace/ピース/Xtsuvi/ゆらりまん/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=KFC_qjdjN-g",
+            "youtubeId": "KFC_qjdjN-g"
+        },
+        {
+            "id": "v_auto_dtauN9WzHt8",
+            "title": "cheeky: プレデターランク w/ Peaceさん、たぴさん 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=dtauN9WzHt8",
+            "youtubeId": "dtauN9WzHt8"
+        },
+        {
+            "id": "v_auto_hbFpmUptc8s",
+            "title": "cheeky: 【検証】プレデターなら使用率最下位のレジェンドでも勝てる説【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=hbFpmUptc8s",
+            "youtubeId": "hbFpmUptc8s"
+        },
+        {
+            "id": "v_auto_xdY5-EDjUic",
+            "title": "cheeky: プレデターランク w/ 海沼流星さん、たぴさん 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=xdY5-EDjUic",
+            "youtubeId": "xdY5-EDjUic"
+        },
+        {
+            "id": "v_auto_1k_Uan9ds_g",
+            "title": "1tappy: 【APEX】ぷれらんく with cheeky3 peace3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=1k_Uan9ds_g",
+            "youtubeId": "1k_Uan9ds_g"
+        },
+        {
+            "id": "v_auto_cRZyd70wv1o",
+            "title": "1tappy: 今では日本トッププロだが、1tappyのプロ時代に元バ〇凸代表格だった選手とは？【1tappy/cheeky/4rmy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=cRZyd70wv1o",
+            "youtubeId": "cRZyd70wv1o"
+        },
+        {
+            "id": "v_auto_-Mvjzi1kphc",
+            "title": "1tappy: 【APEX】ランクを楽しんでいく with cheeky3 海沼流星3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=-Mvjzi1kphc",
+            "youtubeId": "-Mvjzi1kphc"
+        },
+        {
+            "id": "v_auto_ZL2JfsMb70U",
+            "title": "ぶゅりる (DetonatioN FocusMe): バトロワのプロ、APEXでも無双できる説を検証【Apex Legends】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ZL2JfsMb70U",
+            "youtubeId": "ZL2JfsMb70U"
+        },
+        {
+            "id": "v_auto_jV7uiIFwYcU",
+            "title": "ぶゅりる (DetonatioN FocusMe): フォロナのバトロワ実況者っていなくね...?【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=jV7uiIFwYcU",
+            "youtubeId": "jV7uiIFwYcU"
+        },
+        {
+            "id": "v_auto_Mcv7mqW8-mo",
+            "title": "ぶゅりる (DetonatioN FocusMe): 14歳で世界大会出場の２人がヤバ過ぎる...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Mcv7mqW8-mo",
+            "youtubeId": "Mcv7mqW8-mo"
+        },
+        {
+            "id": "v_auto_Y6LmDWGjcEc",
+            "title": "こよた: ランク配信!【Fortnite/フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Y6LmDWGjcEc",
+            "youtubeId": "Y6LmDWGjcEc"
+        },
+        {
+            "id": "v_auto_UjO348uby_I",
+            "title": "こよた: 懐かしのメンバーと2v2!!【フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=UjO348uby_I",
+            "youtubeId": "UjO348uby_I"
+        },
+        {
+            "id": "v_auto_Rc1WCzYSSMs",
+            "title": "こよた: アプデ後フォートナイト！【Fortnite/フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Rc1WCzYSSMs",
+            "youtubeId": "Rc1WCzYSSMs"
+        },
+        {
+            "id": "v_auto_nNSl5x0vtJc",
+            "title": "Rise (Riddle): フォトナやる！【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=nNSl5x0vtJc",
+            "youtubeId": "nNSl5x0vtJc"
+        },
+        {
+            "id": "v_auto_oPfL8CEzzhY",
+            "title": "Rise (Riddle): フォトナランクかなんかする【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=oPfL8CEzzhY",
+            "youtubeId": "oPfL8CEzzhY"
+        },
+        {
+            "id": "v_auto_emkJhd8HFSU",
+            "title": "Minipiyo: ソロビクトリーキャッシュ決勝！【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=emkJhd8HFSU",
+            "youtubeId": "emkJhd8HFSU"
+        },
+        {
+            "id": "v_auto_jMfmF2Ry6xA",
+            "title": "Minipiyo: ソロビクトリーキャッシュ！【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=jMfmF2Ry6xA",
+            "youtubeId": "jMfmF2Ry6xA"
+        },
+        {
+            "id": "v_auto_dcv7Znpt4fI",
+            "title": "Minipiyo: 空中から完璧なワンパンをするみにぴよ【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=dcv7Znpt4fI",
+            "youtubeId": "dcv7Znpt4fI"
+        },
+        {
+            "id": "v_auto_JiCsbr4R9gM",
+            "title": "Rainy (DetonatioN FocusMe): 大会終盤で拾ったグレポンで最高のビクロイ！【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=JiCsbr4R9gM",
+            "youtubeId": "JiCsbr4R9gM"
+        },
+        {
+            "id": "v_auto_E7mIbFf49KU",
+            "title": "Rainy (DetonatioN FocusMe): ざごうとの回復勝負の結果は..【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=E7mIbFf49KU",
+            "youtubeId": "E7mIbFf49KU"
+        },
+        {
+            "id": "v_auto_0v9Py149Xpg",
+            "title": "Rainy (DetonatioN FocusMe): PAD感度100％のソロ終盤が最強すぎたｗ【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=0v9Py149Xpg",
+            "youtubeId": "0v9Py149Xpg"
+        },
+        {
+            "id": "satuki1",
+            "title": "【チーキーカップ】大会で5000ダメを出してしまうきんぐ。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=56Vz-d7N4to",
+            "youtubeId": "56Vz-d7N4to"
+        },
+        {
+            "id": "satuki2",
+            "title": "【合計12丁】全員モザンビーク縛りでチャンピオン挑戦してみた。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Yh330ZzXckY",
+            "youtubeId": "Yh330ZzXckY"
+        },
+        {
+            "id": "satuki3",
+            "title": "【2年振りのRas】脳筋ヴァルキリー凸でプレマスを蹂躙する3人。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=TioLpG8lMnE",
+            "youtubeId": "TioLpG8lMnE"
+        },
+        {
+            "id": "satuki4",
+            "title": "【NOEZ脱退】今後について話すきんぐ。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=M47K1qZeMXI",
+            "youtubeId": "M47K1qZeMXI"
+        },
+        {
+            "id": "satuki5",
+            "title": "【クリップ鑑賞】昔のクリップを見て、最強プレイに驚愕するきんぐ。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=RThbsApg4Tg",
+            "youtubeId": "RThbsApg4Tg"
+        },
+        {
+            "id": "satuki6",
+            "title": "【ALGS】完璧な試合運びでRF前総合日韓１位通過を達成するNOEZ FOXX。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=kC30udOWrvQ",
+            "youtubeId": "kC30udOWrvQ"
+        },
+        {
+            "id": "satuki7",
+            "title": "【ALGS】雰囲気が良すぎるVCで今週もチャンピオンを獲るNOEZ FOXX。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Jqxk3qXcelU",
+            "youtubeId": "Jqxk3qXcelU"
+        },
+        {
+            "id": "satuki8",
+            "title": "【ALGS】圧倒的なパフォーマンスで総合１位に輝くNOEZ FOXX。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=nJdyU4SB_ug",
+            "youtubeId": "nJdyU4SB_ug"
+        },
+        {
+            "id": "satuki9",
+            "title": "【APEX】WORLD'S EDGEランクの必勝法を見つける3人。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=rVrnq4gf_-Y",
+            "youtubeId": "rVrnq4gf_-Y"
+        },
+        {
+            "id": "satuki10",
+            "title": "【ALGS OPEN】世界大会本番で初日総合3位を獲得するNOEZ。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=91TZSOCDojQ",
+            "youtubeId": "91TZSOCDojQ"
+        },
+        {
+            "id": "satuki11",
+            "title": "【ALGS】苦しんだweek1を糧に大躍進を遂げるNOEZ。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5YvmyJWj8Ms",
+            "youtubeId": "5YvmyJWj8Ms"
+        },
+        {
+            "id": "satuki12",
+            "title": "【APEX】最近プロの間で流行っている引き伸ばし設定の利点を語るきんぐ。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=mJ6V3l-fEdg",
+            "youtubeId": "mJ6V3l-fEdg"
+        },
+        {
+            "id": "satuki13",
+            "title": "【APEX】オルターを使った最強の戦術に大興奮するきんぐ。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=VIv8c-XoTMY",
+            "youtubeId": "VIv8c-XoTMY"
+        },
+        {
+            "id": "satuki14",
+            "title": "【APEX】スクリムの緊迫した場面で奈落に落ちる3人。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=aY4GhqvPoKA",
+            "youtubeId": "aY4GhqvPoKA"
+        },
+        {
+            "id": "satuki15",
+            "title": "【APEX】初スクリム配信で抜群の仕上がりを見せる新生NOEZ。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=iyLr26gQyeo",
+            "youtubeId": "iyLr26gQyeo"
+        },
+        {
+            "id": "satuki16",
+            "title": "【APEX】強者が揃うIGLMastersで神IGLを発揮しチームを勝利へ導くきんぐ。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=uMVEhZfHtDY",
+            "youtubeId": "uMVEhZfHtDY"
+        },
+        {
+            "id": "satuki17",
+            "title": "待ちに待ったYear5 新ロースターを発表するきんぐ。",
+            "pro": "satuki",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=7ebYUEnKwks",
+            "youtubeId": "7ebYUEnKwks"
+        },
+        {
+            "id": "v_auto_OhzDps30AWw",
+            "title": "Peace: 【スクリム】バンガ＆マドマギ解禁！外構成で大量キルを連発するPeace達【APEX/Peace/ピース/Xtsuvi/ゆらりまん/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=OhzDps30AWw",
+            "youtubeId": "OhzDps30AWw"
+        },
+        {
+            "id": "v_auto_lGnyHzGcTcQ",
+            "title": "Peace: 【スクリム】ゆらりまん恒例の早口で白熱する反省会！中入りで勝てない悲しい理由に気付いてしまうPeace達【APEX/Peace/ピース/Xtsuvi/ゆらりまん/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=lGnyHzGcTcQ",
+            "youtubeId": "lGnyHzGcTcQ"
+        },
+        {
+            "id": "v_auto_U9CvQlh_KZY",
+            "title": "Peace: 【再投稿】おてて爪痕を獲得するぴのたと1万盛りを達成するPeace【APEX/Peace/ピース/Axis/ぴのた/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=U9CvQlh_KZY",
+            "youtubeId": "U9CvQlh_KZY"
+        },
+        {
+            "id": "v_auto_uUGVWDCfJ7g",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=uUGVWDCfJ7g",
+            "youtubeId": "uUGVWDCfJ7g"
+        },
+        {
+            "id": "v_auto_17W7M8p5rpU",
+            "title": "cheeky: ビリは坊主!?Peaceの罰ゲーム回避を懸けたランクで爆盛りするCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=17W7M8p5rpU",
+            "youtubeId": "17W7M8p5rpU"
+        },
+        {
+            "id": "v_auto_IxYMx8Alg8o",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=IxYMx8Alg8o",
+            "youtubeId": "IxYMx8Alg8o"
+        },
+        {
+            "id": "v_auto_6HBCg9v-5rM",
+            "title": "1tappy: 【APEX】ラダーチャンピオンになりたい with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6HBCg9v-5rM",
+            "youtubeId": "6HBCg9v-5rM"
+        },
+        {
+            "id": "v_auto_NWlSaFmY6N0",
+            "title": "1tappy: 【VCJ】SP1 main stage DAY2 REJECT vs CGZ ウォチパ【VALORANT】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=NWlSaFmY6N0",
+            "youtubeId": "NWlSaFmY6N0"
+        },
+        {
+            "id": "v_auto_3dAmgMz8HgM",
+            "title": "1tappy: 〇〇は可動域が悪くなるためFPSは姿勢が重要!?小さな事でもエイムが変わるかも…【1tappy/cheeky/Peace/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=3dAmgMz8HgM",
+            "youtubeId": "3dAmgMz8HgM"
+        },
+        {
+            "id": "v_auto_GJe1-R88AtI",
+            "title": "ぶゅりる (DetonatioN FocusMe): 新シーズンきた！新武器が強すぎるwww【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=GJe1-R88AtI",
+            "youtubeId": "GJe1-R88AtI"
+        },
+        {
+            "id": "v_auto_wetk0oz41XQ",
+            "title": "ぶゅりる (DetonatioN FocusMe): 建築でもエイムでもない今\"超重要\"なテクニックとは..?【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=wetk0oz41XQ",
+            "youtubeId": "wetk0oz41XQ"
+        },
+        {
+            "id": "v_auto_zKks4DEPS74",
+            "title": "ぶゅりる (DetonatioN FocusMe): 世界大会進出を決めた14歳がヤバい#shorts 【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=zKks4DEPS74",
+            "youtubeId": "zKks4DEPS74"
+        },
+        {
+            "id": "v_auto_J3-mXRM0wnA",
+            "title": "こよた: 新シーズン！【Fortnite/フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=J3-mXRM0wnA",
+            "youtubeId": "J3-mXRM0wnA"
+        },
+        {
+            "id": "v_auto_cdHZcv7-Cdo",
+            "title": "Rise (Riddle): 軽くソロ大会やる",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=cdHZcv7-Cdo",
+            "youtubeId": "cdHZcv7-Cdo"
+        },
+        {
+            "id": "v_auto_pYA3_SDM-rw",
+            "title": "Rise (Riddle): シーズン最後のフォトナ！【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=pYA3_SDM-rw",
+            "youtubeId": "pYA3_SDM-rw"
+        },
+        {
+            "id": "v_auto_AdhVof1jpVc",
+            "title": "Rainy (DetonatioN FocusMe): 新シーズン初のスキン大会！【フォートナイト/Fortnite】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AdhVof1jpVc",
+            "youtubeId": "AdhVof1jpVc"
+        },
+        {
+            "id": "v_auto_4EGV-29VlUM",
+            "title": "Rainy (DetonatioN FocusMe): PAD感度100％の相方が生存力ゴキブリすぎるｗ【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=4EGV-29VlUM",
+            "youtubeId": "4EGV-29VlUM"
+        },
+        {
+            "id": "v_auto_-0JLaNfPbqM",
+            "title": "Rainy (DetonatioN FocusMe): 雑談しながら全員ヘッドで倒し続ける男【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=-0JLaNfPbqM",
+            "youtubeId": "-0JLaNfPbqM"
+        },
+        {
+            "id": "v_auto_cgf6GBpprlQ",
+            "title": "Peace: 【スクリム】ゆらりまん...来ない！遅刻者が出てなぜかニコニコのPeaceとプロリ破壊宣言をするXtsuvi【APEX/Peace/ピース/Xtsuvi/ゆらりまん/Yona/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=cgf6GBpprlQ",
+            "youtubeId": "cgf6GBpprlQ"
+        },
+        {
+            "id": "v_auto_jUtEV9i32nM",
+            "title": "Peace: 【スクリム】初戦から15キルチャンピオンで久しぶりの総合１位を取るPeace達【APEX/Peace/ピース/Xtsuvi/ゆらりまん/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=jUtEV9i32nM",
+            "youtubeId": "jUtEV9i32nM"
+        },
+        {
+            "id": "v_auto__6zjYE-ukBY",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=_6zjYE-ukBY",
+            "youtubeId": "_6zjYE-ukBY"
+        },
+        {
+            "id": "v_auto_g-7W44xS0MM",
+            "title": "cheeky: オルターウルトで追いかけられた時の対処法【APEX】#Shorts",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=g-7W44xS0MM",
+            "youtubeId": "g-7W44xS0MM"
+        },
+        {
+            "id": "v_auto_M5EluKePcjk",
+            "title": "cheeky: オルターウルトに乗ったCHEEKYを追いかけるとこうなります。【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=M5EluKePcjk",
+            "youtubeId": "M5EluKePcjk"
+        },
+        {
+            "id": "v_auto_JSGRUQqCESM",
+            "title": "1tappy: ダイヤを抜け出したい視聴者へ、やるべき事をマジレスする1tappy【1tappy/cheeky/4rmy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=JSGRUQqCESM",
+            "youtubeId": "JSGRUQqCESM"
+        },
+        {
+            "id": "v_auto_DY3ncuuwZWY",
+            "title": "obly: BF6",
+            "pro": "obly",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=DY3ncuuwZWY",
+            "youtubeId": "DY3ncuuwZWY"
+        },
+        {
+            "id": "v_auto_AkNxck26qJs",
+            "title": "obly: BF6",
+            "pro": "obly",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AkNxck26qJs",
+            "youtubeId": "AkNxck26qJs"
+        },
+        {
+            "id": "v_auto_D8BHkC9FaF4",
+            "title": "ぶゅりる (DetonatioN FocusMe): やばすぎるメンツからいきなり招待が...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=D8BHkC9FaF4",
+            "youtubeId": "D8BHkC9FaF4"
+        },
+        {
+            "id": "v_auto_XrSHdK-pdGo",
+            "title": "こよた: 【2026最新版】アジア最強の設定動画！【フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=XrSHdK-pdGo",
+            "youtubeId": "XrSHdK-pdGo"
+        },
+        {
+            "id": "v_auto_6bemdha1U18",
+            "title": "Rise (Riddle): 急にまうふぃんさんから呼ばれたので入ったら…",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6bemdha1U18",
+            "youtubeId": "6bemdha1U18"
+        },
+        {
+            "id": "v_auto_QVM2Tyykh2Y",
+            "title": "Rise (Riddle): ダウンタイムやからバイオやる！",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=QVM2Tyykh2Y",
+            "youtubeId": "QVM2Tyykh2Y"
+        },
+        {
+            "id": "v_auto_5JZNNHfqoig",
+            "title": "Minipiyo: 中東ソロビクトリーキャッシュ決勝！【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5JZNNHfqoig",
+            "youtubeId": "5JZNNHfqoig"
+        },
+        {
+            "id": "v_auto_bXhpqXbzHFM",
+            "title": "Minipiyo: 中東ソロビクトリーキャッシュ！【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=bXhpqXbzHFM",
+            "youtubeId": "bXhpqXbzHFM"
+        },
+        {
+            "id": "v_auto_wQ278RIryPU",
+            "title": "Rainy (DetonatioN FocusMe): PAD感度100％のソロ終盤が異次元すぎるｗ【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=wQ278RIryPU",
+            "youtubeId": "wQ278RIryPU"
+        },
+        {
+            "id": "v_auto_ArX_aR6txy4",
+            "title": "Rainy (DetonatioN FocusMe): ソロ大会終盤1HPからの神クラッチ【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ArX_aR6txy4",
+            "youtubeId": "ArX_aR6txy4"
+        }
+    ]
 }
