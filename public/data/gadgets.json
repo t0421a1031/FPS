@@ -358,5 +358,77 @@
                 }
             }
         ]
+    },
+    "mousepad": {
+        "label": "マウスパッド",
+        "icon": "🟫",
+        "specLabels": [
+            "サイズ",
+            "厚さ",
+            "滑り",
+            "止め",
+            "表面の質感",
+            "ステッチ加工",
+            "ベース素材"
+        ],
+        "items": [
+            {
+                "rank": 1,
+                "name": "Artisan FX 零 XSOFT",
+                "desc": "<span>国内プロ使用率No.1。</span><span>滑りと止めの</span><span>究極のバランス。</span>",
+                "img": "./images/gadgets/mousepad_artisan_zero.png",
+                "price": "¥4,950",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=ARTISAN+%E9%9B%B6&tag=fpsprohub22-22",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FARTISAN%2B%25E9%259B%25B6%2F",
+                "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DARTISAN%2B%25E9%259B%25B6",
+                "specs": {
+                    "サイズ": "XL (490x420mm)",
+                    "厚さ": "4mm",
+                    "滑り": "コントロール",
+                    "止め": "強力",
+                    "表面の質感": "ザラザラ",
+                    "ステッチ加工": "あり",
+                    "ベース素材": "PORON"
+                }
+            },
+            {
+                "rank": 2,
+                "name": "Artisan FX 疾風乙 V2",
+                "desc": "<span>VALORANT・Apexで</span><span>大人気のスピード系パッド。</span><span>フリックAIMに最適。</span>",
+                "img": "./images/gadgets/mousepad_artisan_hayate.png",
+                "price": "¥4,950",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=ARTISAN+%E7%96%BE%E9%A2%A8%E4%B9%99&tag=fpsprohub22-22",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FARTISAN%2B%25E7%2596%25BE%25E9%25A2%25A8%25E4%25B9%2599%2F",
+                "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DARTISAN%2B%25E7%2596%25BE%25E9%25A2%25A8%25E4%25B9%2599",
+                "specs": {
+                    "サイズ": "XL (490x420mm)",
+                    "厚さ": "4mm",
+                    "滑り": "スピード",
+                    "止め": "普通",
+                    "表面の質感": "粗め",
+                    "ステッチ加工": "あり",
+                    "ベース素材": "PORON"
+                }
+            },
+            {
+                "rank": 3,
+                "name": "ZOWIE G-SR-SE II",
+                "desc": "<span>CS/VALORANTで</span><span>定番の布製マウスパッド。</span><span>安定した滑走と確実な止め。</span>",
+                "img": "./images/gadgets/mousepad_zowie_gsr.png",
+                "price": "¥5,480",
+                "amazonUrl": "https://www.amazon.co.jp/s?k=ZOWIE+G-SR-SE+II&tag=fpsprohub22-22",
+                "rakutenUrl": "https://hb.afl.rakuten.co.jp/hgc/51b08c41.5bdc8afd.51b08c42.6c1aba1e/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FZOWIE%2BG-SR-SE%2BII%2F",
+                "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DZOWIE%2BG-SR-SE%2BII",
+                "specs": {
+                    "サイズ": "大 (470x390mm)",
+                    "厚さ": "3.5mm",
+                    "滑り": "バランス",
+                    "止め": "強い",
+                    "表面の質感": "滑らか",
+                    "ステッチ加工": "なし",
+                    "ベース素材": "高密度ラバー"
+                }
+            }
+        ]
     }
 }

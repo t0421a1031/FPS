@@ -270,7 +270,7 @@
       "VALORANT": [
         {
           "name": "BenQ ZOWIE XL2546K",
-          "usageRate": 45,
+          "usageRate": 40,
           "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K",
           "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2546K/",
           "price": "¥59,800",
@@ -278,7 +278,7 @@
         },
         {
           "name": "BenQ ZOWIE XL2566K",
-          "usageRate": 20,
+          "usageRate": 22,
           "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2566K",
           "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2566K/",
           "price": "¥99,800",
@@ -291,12 +291,28 @@
           "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ASUS+ROG+Swift+PG27AQN/",
           "price": "¥148,000",
           "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DASUS%2BROG%2BSwift%2BPG27AQN"
+        },
+        {
+          "name": "Dell ALIENWARE AW2524HF",
+          "usageRate": 8,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=Dell+ALIENWARE+AW2524HF",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Dell+ALIENWARE+AW2524HF/",
+          "price": "¥58,000",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DDell%2BALIENWARE%2BAW2524HF"
+        },
+        {
+          "name": "ASUS VG259QM",
+          "usageRate": 5,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ASUS+VG259QM",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ASUS+VG259QM/",
+          "price": "¥42,000",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DASUS%2BVG259QM"
         }
       ],
       "Apex Legends": [
         {
           "name": "BenQ ZOWIE XL2546K",
-          "usageRate": 40,
+          "usageRate": 38,
           "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K",
           "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2546K/",
           "price": "¥59,800",
@@ -304,7 +320,7 @@
         },
         {
           "name": "BenQ ZOWIE XL2566K",
-          "usageRate": 30,
+          "usageRate": 28,
           "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2566K",
           "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2566K/",
           "price": "¥99,800",
@@ -312,7 +328,7 @@
         },
         {
           "name": "ASUS ROG Swift 360Hz PG259QN",
-          "usageRate": 15,
+          "usageRate": 12,
           "amazonUrl": "https://www.amazon.co.jp/s?k=ASUS+ROG+Swift+360Hz+PG259QN",
           "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ASUS+ROG+Swift+360Hz+PG259QN/",
           "price": "¥88,000",
@@ -325,12 +341,20 @@
           "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Dell+ALIENWARE+AW2524H/",
           "price": "¥118,000",
           "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DDell%2BALIENWARE%2BAW2524H"
+        },
+        {
+          "name": "Acer Predator XB253Q",
+          "usageRate": 5,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=Acer+Predator+XB253Q",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Acer+Predator+XB253Q/",
+          "price": "¥45,000",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DAcer%2BPredator%2BXB253Q"
         }
       ],
       "Fortnite": [
         {
           "name": "BenQ ZOWIE XL2546K",
-          "usageRate": 35,
+          "usageRate": 32,
           "amazonUrl": "https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K",
           "rakutenUrl": "https://search.rakuten.co.jp/search/mall/BenQ+ZOWIE+XL2546K/",
           "price": "¥59,800",
@@ -346,7 +370,7 @@
         },
         {
           "name": "ASUS ROG Swift PG27AQN",
-          "usageRate": 20,
+          "usageRate": 18,
           "amazonUrl": "https://www.amazon.co.jp/s?k=ASUS+ROG+Swift+PG27AQN",
           "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ASUS+ROG+Swift+PG27AQN/",
           "price": "¥148,000",
@@ -359,6 +383,146 @@
           "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Dell+ALIENWARE+AW2524H/",
           "price": "¥118,000",
           "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DDell%2BALIENWARE%2BAW2524H"
+        },
+        {
+          "name": "ASUS VG259QM",
+          "usageRate": 6,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ASUS+VG259QM",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ASUS+VG259QM/",
+          "price": "¥42,000",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DASUS%2BVG259QM"
+        }
+      ]
+    }
+  },
+  "mousepad": {
+    "label": "マウスパッド",
+    "icon": "🟫",
+    "games": {
+      "VALORANT": [
+        {
+          "name": "Artisan FX 零 XSOFT",
+          "usageRate": 26,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ARTISAN+%E9%9B%B6",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ARTISAN+%E9%9B%B6/",
+          "price": "¥4,950",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DARTISAN%2B%25E9%259B%25B6"
+        },
+        {
+          "name": "Artisan FX 疾風乙 V2",
+          "usageRate": 12,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ARTISAN+%E7%96%BE%E9%A2%A8%E4%B9%99",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ARTISAN+%E7%96%BE%E9%A2%A8%E4%B9%99/",
+          "price": "¥4,950",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DARTISAN%2B%25E7%2596%25BE%25E9%25A2%25A8%25E4%25B9%2599"
+        },
+        {
+          "name": "Artisan FX 九九式",
+          "usageRate": 9,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ARTISAN+99%E5%BC%8F",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ARTISAN+99%E5%BC%8F/",
+          "price": "¥4,950",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DARTISAN%2B99%25E5%25BC%258F"
+        },
+        {
+          "name": "ZOWIE G-SR-SE II",
+          "usageRate": 8,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ZOWIE+G-SR-SE+II",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ZOWIE+G-SR-SE+II/",
+          "price": "¥5,480",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DZOWIE%2BG-SR-SE%2BII"
+        },
+        {
+          "name": "LGG Saturn Pro",
+          "usageRate": 5,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=LGG+Saturn+Pro",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/LGG+Saturn+Pro/",
+          "price": "¥6,980",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DLGG%2BSaturn%2BPro"
+        }
+      ],
+      "Apex Legends": [
+        {
+          "name": "Artisan FX 零 XSOFT",
+          "usageRate": 22,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ARTISAN+%E9%9B%B6",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ARTISAN+%E9%9B%B6/",
+          "price": "¥4,950",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DARTISAN%2B%25E9%259B%25B6"
+        },
+        {
+          "name": "Logicool G640",
+          "usageRate": 18,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=Logicool+G640",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Logicool+G640/",
+          "price": "¥3,850",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DLogicool%2BG640"
+        },
+        {
+          "name": "Artisan FX 疾風乙 V2",
+          "usageRate": 15,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ARTISAN+%E7%96%BE%E9%A2%A8%E4%B9%99",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ARTISAN+%E7%96%BE%E9%A2%A8%E4%B9%99/",
+          "price": "¥4,950",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DARTISAN%2B%25E7%2596%25BE%25E9%25A2%25A8%25E4%25B9%2599"
+        },
+        {
+          "name": "ZOWIE G-SR-SE II",
+          "usageRate": 10,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ZOWIE+G-SR-SE+II",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ZOWIE+G-SR-SE+II/",
+          "price": "¥5,480",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DZOWIE%2BG-SR-SE%2BII"
+        },
+        {
+          "name": "Vaxee PD",
+          "usageRate": 6,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=Vaxee+PD",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Vaxee+PD/",
+          "price": "¥5,980",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DVaxee%2BPD"
+        }
+      ],
+      "Fortnite": [
+        {
+          "name": "Logicool G640",
+          "usageRate": 20,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=Logicool+G640",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/Logicool+G640/",
+          "price": "¥3,850",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DLogicool%2BG640"
+        },
+        {
+          "name": "Artisan FX 疾風乙 V2",
+          "usageRate": 18,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ARTISAN+%E7%96%BE%E9%A2%A8%E4%B9%99",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ARTISAN+%E7%96%BE%E9%A2%A8%E4%B9%99/",
+          "price": "¥4,950",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DARTISAN%2B%25E7%2596%25BE%25E9%25A2%25A8%25E4%25B9%2599"
+        },
+        {
+          "name": "Artisan FX 零 XSOFT",
+          "usageRate": 15,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ARTISAN+%E9%9B%B6",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ARTISAN+%E9%9B%B6/",
+          "price": "¥4,950",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DARTISAN%2B%25E9%259B%25B6"
+        },
+        {
+          "name": "Artisan FX 九九式",
+          "usageRate": 10,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=ARTISAN+99%E5%BC%8F",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/ARTISAN+99%E5%BC%8F/",
+          "price": "¥4,950",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DARTISAN%2B99%25E5%25BC%258F"
+        },
+        {
+          "name": "The Mousepad Company",
+          "usageRate": 4,
+          "amazonUrl": "https://www.amazon.co.jp/s?k=The+Mousepad+Company",
+          "rakutenUrl": "https://search.rakuten.co.jp/search/mall/The+Mousepad+Company/",
+          "price": "¥7,500",
+          "yahooUrl": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3765175&pid=892566746&vc_url=https%3A%2F%2Fshopping.yahoo.co.jp%2Fsearch%3Fp%3DThe%2BMousepad%2BCompany"
         }
       ]
     }
