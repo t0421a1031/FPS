@@ -290,6 +290,54 @@ function renderSNSVideos() {
   });
 }
 
+function renderUpdateVideos() {
+  const grid = document.getElementById('update-grid');
+  if (!grid) return;
+  grid.innerHTML = '';
+
+  let filtered = videos.filter(v => v.tag === 'アップデート');
+  if (currentVideoFilter !== 'all') {
+    filtered = filtered.filter(v => v.game === currentVideoFilter);
+  }
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '<p class="no-results">該当するアップデート動画が見つかりません。</p>';
+    return;
+  }
+
+  filtered.forEach((video, index) => {
+    const card = document.createElement('div');
+    card.className = 'youtube-card';
+    card.style.animationDelay = `${index * 0.08}s`;
+    card.style.cursor = 'pointer';
+
+    const gameLabel = video.game === 'fortnite' ? 'FORTNITE' : video.game === 'valorant' ? 'VALORANT' : 'APEX';
+    const thumbUrl = `https://img.youtube.com/vi/${video.youtubeId}/mqdefault.jpg`;
+
+    card.innerHTML = `
+      <div class="youtube-thumb-wrapper">
+        <img src="${thumbUrl}" alt="${video.title}" class="youtube-thumb-img" loading="lazy">
+        <div class="youtube-play-overlay">
+          <svg class="youtube-play-icon" viewBox="0 0 68 48">
+            <path d="M66.5 7.7c-.8-2.9-2.5-5.4-5.4-6.2C55.8.1 34 0 34 0S12.2.1 6.9 1.5C4 2.3 2.3 4.8 1.5 7.7.1 13 0 24 0 24s.1 11 1.5 16.3c.8 2.9 2.5 5.4 5.4 6.2C12.2 47.9 34 48 34 48s21.8-.1 27.1-1.5c2.9-.8 4.6-3.3 5.4-6.2C67.9 35 68 24 68 24s-.1-11-1.5-16.3z" fill="#FF0000"/>
+            <path d="M27 34V14l18 10-18 10z" fill="#fff"/>
+          </svg>
+        </div>
+      </div>
+      <div class="youtube-card-info">
+        <div class="youtube-card-badges">
+          <span class="channel-game-badge">${gameLabel}</span>
+          <span class="video-tag-badge">${video.tag}</span>
+        </div>
+        <div class="youtube-card-pro">${video.pro}</div>
+        <h3 class="youtube-card-title">${video.title}</h3>
+      </div>
+    `;
+    card.addEventListener('click', () => window.open(video.url, '_blank'));
+    grid.appendChild(card);
+  });
+}
+
 function renderVideos() {
   if (currentVideoPlatform === 'youtube') {
     renderYouTubeVideos();
@@ -297,6 +345,8 @@ function renderVideos() {
     renderSNSVideos();
   } else if (currentVideoPlatform === 'live') {
     renderLiveStreamers();
+  } else if (currentVideoPlatform === 'update') {
+    renderUpdateVideos();
   }
 }
 
@@ -312,6 +362,7 @@ function initVideoPlatformTabs() {
       const ytView = document.getElementById('video-sub-youtube');
       const snsView = document.getElementById('video-sub-sns');
       const liveView = document.getElementById('video-sub-live');
+      const updateView = document.getElementById('video-sub-update');
       const apexTeamsView = document.getElementById('video-sub-apex-teams');
       const filtersEl = document.querySelector('.filters');
       const tagFiltersEl = document.querySelector('.tag-filters');
@@ -319,6 +370,7 @@ function initVideoPlatformTabs() {
       ytView.style.display = 'none';
       snsView.style.display = 'none';
       liveView.style.display = 'none';
+      if (updateView) updateView.style.display = 'none';
       if (apexTeamsView) apexTeamsView.style.display = 'none';
 
       // Show/hide filters based on platform
@@ -332,6 +384,9 @@ function initVideoPlatformTabs() {
       } else if (currentVideoPlatform === 'live') {
         liveView.style.display = 'block';
         renderLiveStreamers();
+      } else if (currentVideoPlatform === 'update') {
+        if (updateView) updateView.style.display = 'block';
+        renderUpdateVideos();
       } else if (currentVideoPlatform === 'apex-teams') {
         if (apexTeamsView) apexTeamsView.style.display = 'block';
         // Hide game/tag filters for apex teams view
@@ -1437,14 +1492,15 @@ window.closeSetupModal = closeSetupModal;
 // ============================================================
 async function init() {
   try {
+    const t = new Date().getTime();
     const [videoRes, gadgetRes, rankingRes, usageRes, guidesRes, salesRes, streamerRes] = await Promise.all([
-      fetch('./data/videos.json'),
-      fetch('./data/gadgets.json'),
-      fetch('./data/rankings.json'),
-      fetch('./data/usage_rates.json'),
-      fetch('./data/guides.json'),
-      fetch('./data/sales.json'),
-      fetch('./data/streamers.json')
+      fetch(`./data/videos.json?t=${t}`),
+      fetch(`./data/gadgets.json?t=${t}`),
+      fetch(`./data/rankings.json?t=${t}`),
+      fetch(`./data/usage_rates.json?t=${t}`),
+      fetch(`./data/guides.json?t=${t}`),
+      fetch(`./data/sales.json?t=${t}`),
+      fetch(`./data/streamers.json?t=${t}`)
     ]);
 
     if (videoRes.ok) {

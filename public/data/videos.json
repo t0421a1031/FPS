@@ -2263,6 +2263,56 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=ArX_aR6txy4",
             "youtubeId": "ArX_aR6txy4"
+        },
+        {
+            "id": "v_update_1",
+            "title": "【フォートナイト】〇〇シーズン 最速アプデまとめ",
+            "pro": "一般動画",
+            "game": "fortnite",
+            "tag": "アップデート",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Ghot3aZzbrE",
+            "youtubeId": "Ghot3aZzbrE"
+        },
+        {
+            "id": "v_update_2",
+            "title": "APEX 新パッチノート解説！武器とレジェンドの調整",
+            "pro": "一般動画",
+            "game": "apex",
+            "tag": "アップデート",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AKtkIqRbVy4",
+            "youtubeId": "AKtkIqRbVy4"
+        },
+        {
+            "id": "v_update_3",
+            "title": "【VALORANT】最新パッチ解説 - マップ変更とキャラ調整",
+            "pro": "一般動画",
+            "game": "valorant",
+            "tag": "アップデート",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AiPK_ik3sJg",
+            "youtubeId": "AiPK_ik3sJg"
+        },
+        {
+            "id": "v_update_4",
+            "title": "【フォートナイト】アプデ後の最強武器構成はこれだ！",
+            "pro": "ネフライト",
+            "game": "fortnite",
+            "tag": "アップデート",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=NrlaQk5jvfE",
+            "youtubeId": "NrlaQk5jvfE"
+        },
+        {
+            "id": "v_update_5",
+            "title": "APEX 新シーズン開幕！最速プレイ動画と環境予測",
+            "pro": "ありさか",
+            "game": "apex",
+            "tag": "アップデート",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=0UnpxCdrFtU",
+            "youtubeId": "0UnpxCdrFtU"
         }
     ]
 }

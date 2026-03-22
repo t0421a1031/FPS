@@ -133,6 +133,7 @@ async function fetchYouTubeData() {
             .filter(v => v.youtubeId)
             .map(v => v.youtubeId)
     );
+    const deletedIds = new Set(existingData.deletedYoutubeIds || []);
 
     console.log(`   Existing videos: ${existingData.videos.length}`);
     let newCount = 0;
@@ -161,8 +162,8 @@ async function fetchYouTubeData() {
 
             for (const video of videos) {
                 // 重複チェック
-                if (existingIds.has(video.videoId)) {
-                    console.log(`   ⏭️  Skip (exists): ${video.title.substring(0, 50)}...`);
+                if (existingIds.has(video.videoId) || deletedIds.has(video.videoId)) {
+                    console.log(`   ⏭️  Skip (exists or deleted): ${video.title.substring(0, 50)}...`);
                     continue;
                 }
 

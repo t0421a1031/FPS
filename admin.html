@@ -860,9 +860,10 @@
         // ============================================================
         async function init() {
             const files = ['videos', 'gadgets', 'rankings', 'usage_rates', 'guides', 'sales'];
+            const t = new Date().getTime();
             for (const file of files) {
                 try {
-                    const res = await fetch(`/data/${file}.json`);
+                    const res = await fetch(`/data/${file}.json?t=${t}`);
                     if (res.ok) allData[file] = await res.json();
                 } catch (e) { console.warn(`Failed to load ${file}.json`); }
             }
@@ -947,6 +948,13 @@
         function editVideo(i) { openVideoModal(i); }
         function deleteVideo(i) {
             if (!confirm('この動画を削除しますか？')) return;
+            const deletedVid = allData.videos.videos[i];
+            if (deletedVid && deletedVid.youtubeId) {
+                if (!allData.videos.deletedYoutubeIds) allData.videos.deletedYoutubeIds = [];
+                if (!allData.videos.deletedYoutubeIds.includes(deletedVid.youtubeId)) {
+                    allData.videos.deletedYoutubeIds.push(deletedVid.youtubeId);
+                }
+            }
             allData.videos.videos.splice(i, 1);
             renderVideosTable(); renderDashboard();
             showToast('動画を削除しました', 'success');
