@@ -1453,11 +1453,101 @@ if (ytSearchInput) {
 // ============================================================
 // SETUP MODAL
 // ============================================================
+const setupData = {
+  'Pro-Hub Standard': {
+    mouse: { name: 'Logicool G PRO X SUPERLIGHT 2', url: 'https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2&tag=fpsprohub22-22' },
+    keyboard: { name: 'Wooting 60HE', url: 'https://www.amazon.co.jp/s?k=Wooting+n60he&tag=fpsprohub22-22' },
+    monitor: { name: 'BenQ ZOWIE XL2546K', url: 'https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K&tag=fpsprohub22-22' },
+    headset: { name: 'HyperX Cloud III Wireless', url: 'https://www.amazon.co.jp/s?k=HyperX+Cloud+III+Wireless&tag=fpsprohub22-22' },
+    mic: { name: 'Shure MV7+', url: 'https://www.amazon.co.jp/s?k=Shure+MV7+Plus&tag=fpsprohub22-22' },
+    pc: { name: 'GALLERIA ZA9C-R48H', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+BA1NCI+5G54+5YZ75' }
+  },
+  'Arctic Elite': {
+    mouse: { name: 'Razer DeathAdder V3 Pro (White)', url: 'https://www.amazon.co.jp/s?k=Razer+DeathAdder+V3+Pro+White&tag=fpsprohub22-22' },
+    keyboard: { name: 'Logicool G913 TKL (White)', url: 'https://www.amazon.co.jp/s?k=Logicool+G913+TKL+White&tag=fpsprohub22-22' },
+    monitor: { name: 'Alienware AW2524H (White)', url: 'https://www.amazon.co.jp/s?k=Alienware+AW2524H&tag=fpsprohub22-22' },
+    headset: { name: 'Logicool G733 (White)', url: 'https://www.amazon.co.jp/s?k=Logicool+G733+White&tag=fpsprohub22-22' },
+    mic: { name: 'Elgato Wave:3 (White)', url: 'https://www.amazon.co.jp/s?k=Elgato+Wave:3+White&tag=fpsprohub22-22' },
+    pc: { name: 'Storm White Edition', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+6IKT4I+3KX4+61Z81' }
+  },
+  'Value Clutch': {
+    mouse: { name: 'Logicool G304', url: 'https://www.amazon.co.jp/s?k=Logicool+G304&tag=fpsprohub22-22' },
+    keyboard: { name: 'Yuki Aim Polar 65', url: 'https://www.amazon.co.jp/s?k=Yuki+Aim+Polar+65&tag=fpsprohub22-22' },
+    monitor: { name: 'ASUS VG258QR', url: 'https://www.amazon.co.jp/s?k=ASUS+VG258QR&tag=fpsprohub22-22' },
+    headset: { name: 'Razer Kraken', url: 'https://www.amazon.co.jp/s?k=Razer+Kraken&tag=fpsprohub22-22' },
+    mic: { name: 'Fifine K669B', url: 'https://www.amazon.co.jp/s?k=Fifine+K669B&tag=fpsprohub22-22' },
+    pc: { name: 'GALLERIA RM5C-G60S', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+BA1NCI+5G54+5YZ75' }
+  },
+  'Broadcaster': {
+    mouse: { name: 'Logicool G PRO X SUPERLIGHT 2', url: 'https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2&tag=fpsprohub22-22' },
+    keyboard: { name: 'Corsair K70 RGB PRO', url: 'https://www.amazon.co.jp/s?k=Corsair+K70+RGB+PRO&tag=fpsprohub22-22' },
+    monitor: { name: 'ASUS ROG Swift 360Hz', url: 'https://www.amazon.co.jp/s?k=ASUS+ROG+Swift+360Hz&tag=fpsprohub22-22' },
+    headset: { name: 'SteelSeries Arctis Nova Pro', url: 'https://www.amazon.co.jp/s?k=SteelSeries+Arctis+Nova+Pro&tag=fpsprohub22-22' },
+    mic: { name: 'Shure SM7B', url: 'https://www.amazon.co.jp/s?k=Shure+SM7B&tag=fpsprohub22-22' },
+    pc: { name: 'GALLERIA CRA7C-R47T', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+BA1NCI+5G54+5YZ75' }
+  },
+  'Neon Pulse': {
+    mouse: { name: 'Razer Cobra Pro', url: 'https://www.amazon.co.jp/s?k=Razer+Cobra+Pro&tag=fpsprohub22-22' },
+    keyboard: { name: 'Razer Huntsman V3 Pro', url: 'https://www.amazon.co.jp/s?k=Razer+Huntsman+V3+Pro&tag=fpsprohub22-22' },
+    monitor: { name: 'LG UltraGear OLED', url: 'https://www.amazon.co.jp/s?k=LG+UltraGear+OLED&tag=fpsprohub22-22' },
+    headset: { name: 'Razer BlackShark V2 Pro', url: 'https://www.amazon.co.jp/s?k=Razer+BlackShark+V2+Pro&tag=fpsprohub22-22' },
+    mic: { name: 'Razer Seiren V3 Chroma', url: 'https://www.amazon.co.jp/s?k=Razer+Seiren+V3+Chroma&tag=fpsprohub22-22' },
+    pc: { name: 'FRONTIER RGB Custom', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+6IKT4I+3KX4+61Z81' }
+  },
+  'Minimalist Zero': {
+    mouse: { name: 'Pulsar Xlite V3', url: 'https://www.amazon.co.jp/s?k=Pulsar+Xlite+V3&tag=fpsprohub22-22' },
+    keyboard: { name: 'DrunkDeer A75', url: 'https://www.amazon.co.jp/s?k=DrunkDeer+A75&tag=fpsprohub22-22' },
+    monitor: { name: 'ZOWIE XL2566K', url: 'https://www.amazon.co.jp/s?k=ZOWIE+XL2566K&tag=fpsprohub22-22' },
+    headset: { name: 'IE 100 PRO', url: 'https://www.amazon.co.jp/s?k=Sennheiser+IE+100+PRO&tag=fpsprohub22-22' },
+    mic: { name: 'HyperX QuadCast S', url: 'https://www.amazon.co.jp/s?k=HyperX+QuadCast+S&tag=fpsprohub22-22' },
+    pc: { name: 'Storm SS Mini', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+6IKT4I+3KX4+61Z81' }
+  }
+};
+
 function openSetupModal(title) {
   const modal = document.getElementById('setup-modal');
   const titleEl = document.getElementById('setup-modal-title');
-  if (modal && titleEl) {
+  const devicesEl = document.querySelector('.setup-modal-devices');
+  const noteEl = document.querySelector('.setup-modal-note');
+  const infoEl = document.querySelector('.setup-modal-info');
+
+  if (modal && titleEl && devicesEl) {
     titleEl.textContent = title + ' のデバイス構成';
+    const data = setupData[title];
+
+    if (data) {
+      devicesEl.innerHTML = `
+        <a href="${data.mouse.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
+          <div><span>🖱️</span> マウス: <span style="font-weight: bold; margin-left:10px;">${data.mouse.name}</span></div>
+          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        </a>
+        <a href="${data.keyboard.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
+          <div><span>⌨️</span> キーボード: <span style="font-weight: bold; margin-left:10px;">${data.keyboard.name}</span></div>
+          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        </a>
+        <a href="${data.monitor.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
+          <div><span>🖥️</span> モニター: <span style="font-weight: bold; margin-left:10px;">${data.monitor.name}</span></div>
+          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        </a>
+        <a href="${data.headset.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
+          <div><span>🎧</span> ヘッドセット: <span style="font-weight: bold; margin-left:10px;">${data.headset.name}</span></div>
+          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        </a>
+        <a href="${data.mic.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
+          <div><span>🎙️</span> マイク: <span style="font-weight: bold; margin-left:10px;">${data.mic.name}</span></div>
+          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        </a>
+        <a href="${data.pc.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
+          <div><span>💻</span> ゲーミングPC: <span style="font-weight: bold; margin-left:10px;">${data.pc.name}</span></div>
+          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        </a>
+      `;
+      if (noteEl) noteEl.style.display = 'none';
+      if (infoEl) infoEl.textContent = '各デバイスのリンクから詳細なスペックや価格をご確認いただけます。';
+    } else {
+      devicesEl.innerHTML = '<p>デバイス情報が見つかりません</p>';
+    }
+
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
   }
