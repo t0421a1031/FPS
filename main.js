@@ -1455,52 +1455,52 @@ if (ytSearchInput) {
 // ============================================================
 const setupData = {
   'Pro-Hub Standard': {
-    mouse: { name: 'Logicool G PRO X SUPERLIGHT 2', url: 'https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2&tag=fpsprohub22-22' },
-    keyboard: { name: 'Wooting 60HE', url: 'https://www.amazon.co.jp/s?k=Wooting+n60he&tag=fpsprohub22-22' },
-    monitor: { name: 'BenQ ZOWIE XL2546K', url: 'https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K&tag=fpsprohub22-22' },
-    headset: { name: 'HyperX Cloud III Wireless', url: 'https://www.amazon.co.jp/s?k=HyperX+Cloud+III+Wireless&tag=fpsprohub22-22' },
-    mic: { name: 'Shure MV7+', url: 'https://www.amazon.co.jp/s?k=Shure+MV7+Plus&tag=fpsprohub22-22' },
-    pc: { name: 'GALLERIA ZA9C-R48H', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+BA1NCI+5G54+5YZ75' }
+    mouse: { name: 'Logicool G PRO X SUPERLIGHT 2', url: 'https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2&tag=fpsprohub22-22', price: '¥21,800' },
+    keyboard: { name: 'Wooting 60HE', url: 'https://www.amazon.co.jp/s?k=Wooting+n60he&tag=fpsprohub22-22', price: '¥28,000' },
+    monitor: { name: 'BenQ ZOWIE XL2546K', url: 'https://www.amazon.co.jp/s?k=BenQ+ZOWIE+XL2546K&tag=fpsprohub22-22', price: '¥59,800' },
+    headset: { name: 'HyperX Cloud III Wireless', url: 'https://www.amazon.co.jp/s?k=HyperX+Cloud+III+Wireless&tag=fpsprohub22-22', price: '¥21,980' },
+    mic: { name: 'Shure MV7+', url: 'https://www.amazon.co.jp/s?k=Shure+MV7+Plus&tag=fpsprohub22-22', price: '¥38,500' },
+    pc: { name: 'GALLERIA ZA9C-R48H', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+BA1NCI+5G54+5YZ75', price: '約¥359,800' }
   },
   'Arctic Elite': {
-    mouse: { name: 'Razer DeathAdder V3 Pro (White)', url: 'https://www.amazon.co.jp/s?k=Razer+DeathAdder+V3+Pro+White&tag=fpsprohub22-22' },
-    keyboard: { name: 'Logicool G913 TKL (White)', url: 'https://www.amazon.co.jp/s?k=Logicool+G913+TKL+White&tag=fpsprohub22-22' },
-    monitor: { name: 'Alienware AW2524H (White)', url: 'https://www.amazon.co.jp/s?k=Alienware+AW2524H&tag=fpsprohub22-22' },
-    headset: { name: 'Logicool G733 (White)', url: 'https://www.amazon.co.jp/s?k=Logicool+G733+White&tag=fpsprohub22-22' },
-    mic: { name: 'Elgato Wave:3 (White)', url: 'https://www.amazon.co.jp/s?k=Elgato+Wave:3+White&tag=fpsprohub22-22' },
-    pc: { name: 'Storm White Edition', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+6IKT4I+3KX4+61Z81' }
+    mouse: { name: 'Razer DeathAdder V3 Pro (White)', url: 'https://www.amazon.co.jp/s?k=Razer+DeathAdder+V3+Pro+White&tag=fpsprohub22-22', price: '¥22,800' },
+    keyboard: { name: 'Logicool G913 TKL (White)', url: 'https://www.amazon.co.jp/s?k=Logicool+G913+TKL+White&tag=fpsprohub22-22', price: '¥28,600' },
+    monitor: { name: 'Alienware AW2524H (White)', url: 'https://www.amazon.co.jp/s?k=Alienware+AW2524H&tag=fpsprohub22-22', price: '¥105,800' },
+    headset: { name: 'Logicool G733 (White)', url: 'https://www.amazon.co.jp/s?k=Logicool+G733+White&tag=fpsprohub22-22', price: '¥18,900' },
+    mic: { name: 'Elgato Wave:3 (White)', url: 'https://www.amazon.co.jp/s?k=Elgato+Wave:3+White&tag=fpsprohub22-22', price: '¥22,000' },
+    pc: { name: 'Storm White Edition', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+6IKT4I+3KX4+61Z81', price: '約¥288,000' }
   },
   'Value Clutch': {
-    mouse: { name: 'Logicool G304', url: 'https://www.amazon.co.jp/s?k=Logicool+G304&tag=fpsprohub22-22' },
-    keyboard: { name: 'Yuki Aim Polar 65', url: 'https://www.amazon.co.jp/s?k=Yuki+Aim+Polar+65&tag=fpsprohub22-22' },
-    monitor: { name: 'ASUS VG258QR', url: 'https://www.amazon.co.jp/s?k=ASUS+VG258QR&tag=fpsprohub22-22' },
-    headset: { name: 'Razer Kraken', url: 'https://www.amazon.co.jp/s?k=Razer+Kraken&tag=fpsprohub22-22' },
-    mic: { name: 'Fifine K669B', url: 'https://www.amazon.co.jp/s?k=Fifine+K669B&tag=fpsprohub22-22' },
-    pc: { name: 'GALLERIA RM5C-G60S', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+BA1NCI+5G54+5YZ75' }
+    mouse: { name: 'Logicool G304', url: 'https://www.amazon.co.jp/s?k=Logicool+G304&tag=fpsprohub22-22', price: '¥4,500' },
+    keyboard: { name: 'Yuki Aim Polar 65', url: 'https://www.amazon.co.jp/s?k=Yuki+Aim+Polar+65&tag=fpsprohub22-22', price: '¥13,800' },
+    monitor: { name: 'ASUS VG258QR', url: 'https://www.amazon.co.jp/s?k=ASUS+VG258QR&tag=fpsprohub22-22', price: '¥24,800' },
+    headset: { name: 'Razer Kraken', url: 'https://www.amazon.co.jp/s?k=Razer+Kraken&tag=fpsprohub22-22', price: '¥6,980' },
+    mic: { name: 'Fifine K669B', url: 'https://www.amazon.co.jp/s?k=Fifine+K669B&tag=fpsprohub22-22', price: '¥5,500' },
+    pc: { name: 'GALLERIA RM5C-G60S', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+BA1NCI+5G54+5YZ75', price: '約¥149,800' }
   },
   'Broadcaster': {
-    mouse: { name: 'Logicool G PRO X SUPERLIGHT 2', url: 'https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2&tag=fpsprohub22-22' },
-    keyboard: { name: 'Corsair K70 RGB PRO', url: 'https://www.amazon.co.jp/s?k=Corsair+K70+RGB+PRO&tag=fpsprohub22-22' },
-    monitor: { name: 'ASUS ROG Swift 360Hz', url: 'https://www.amazon.co.jp/s?k=ASUS+ROG+Swift+360Hz&tag=fpsprohub22-22' },
-    headset: { name: 'SteelSeries Arctis Nova Pro', url: 'https://www.amazon.co.jp/s?k=SteelSeries+Arctis+Nova+Pro&tag=fpsprohub22-22' },
-    mic: { name: 'Shure SM7B', url: 'https://www.amazon.co.jp/s?k=Shure+SM7B&tag=fpsprohub22-22' },
-    pc: { name: 'GALLERIA CRA7C-R47T', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+BA1NCI+5G54+5YZ75' }
+    mouse: { name: 'Logicool G PRO X SUPERLIGHT 2', url: 'https://www.amazon.co.jp/s?k=G+PRO+X+SUPERLIGHT+2&tag=fpsprohub22-22', price: '¥21,800' },
+    keyboard: { name: 'Corsair K70 RGB PRO', url: 'https://www.amazon.co.jp/s?k=Corsair+K70+RGB+PRO&tag=fpsprohub22-22', price: '¥22,500' },
+    monitor: { name: 'ASUS ROG Swift 360Hz', url: 'https://www.amazon.co.jp/s?k=ASUS+ROG+Swift+360Hz&tag=fpsprohub22-22', price: '¥98,000' },
+    headset: { name: 'SteelSeries Arctis Nova Pro', url: 'https://www.amazon.co.jp/s?k=SteelSeries+Arctis+Nova+Pro&tag=fpsprohub22-22', price: '¥38,800' },
+    mic: { name: 'Shure SM7B', url: 'https://www.amazon.co.jp/s?k=Shure+SM7B&tag=fpsprohub22-22', price: '¥56,800' },
+    pc: { name: 'GALLERIA CRA7C-R47T', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+BA1NCI+5G54+5YZ75', price: '約¥428,000' }
   },
   'Neon Pulse': {
-    mouse: { name: 'Razer Cobra Pro', url: 'https://www.amazon.co.jp/s?k=Razer+Cobra+Pro&tag=fpsprohub22-22' },
-    keyboard: { name: 'Razer Huntsman V3 Pro', url: 'https://www.amazon.co.jp/s?k=Razer+Huntsman+V3+Pro&tag=fpsprohub22-22' },
-    monitor: { name: 'LG UltraGear OLED', url: 'https://www.amazon.co.jp/s?k=LG+UltraGear+OLED&tag=fpsprohub22-22' },
-    headset: { name: 'Razer BlackShark V2 Pro', url: 'https://www.amazon.co.jp/s?k=Razer+BlackShark+V2+Pro&tag=fpsprohub22-22' },
-    mic: { name: 'Razer Seiren V3 Chroma', url: 'https://www.amazon.co.jp/s?k=Razer+Seiren+V3+Chroma&tag=fpsprohub22-22' },
-    pc: { name: 'FRONTIER RGB Custom', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+6IKT4I+3KX4+61Z81' }
+    mouse: { name: 'Razer Cobra Pro', url: 'https://www.amazon.co.jp/s?k=Razer+Cobra+Pro&tag=fpsprohub22-22', price: '¥19,800' },
+    keyboard: { name: 'Razer Huntsman V3 Pro', url: 'https://www.amazon.co.jp/s?k=Razer+Huntsman+V3+Pro&tag=fpsprohub22-22', price: '¥32,980' },
+    monitor: { name: 'LG UltraGear OLED', url: 'https://www.amazon.co.jp/s?k=LG+UltraGear+OLED&tag=fpsprohub22-22', price: '¥135,000' },
+    headset: { name: 'Razer BlackShark V2 Pro', url: 'https://www.amazon.co.jp/s?k=Razer+BlackShark+V2+Pro&tag=fpsprohub22-22', price: '¥25,800' },
+    mic: { name: 'Razer Seiren V3 Chroma', url: 'https://www.amazon.co.jp/s?k=Razer+Seiren+V3+Chroma&tag=fpsprohub22-22', price: '¥21,000' },
+    pc: { name: 'FRONTIER RGB Custom', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+6IKT4I+3KX4+61Z81', price: '約¥310,000' }
   },
   'Minimalist Zero': {
-    mouse: { name: 'Pulsar Xlite V3', url: 'https://www.amazon.co.jp/s?k=Pulsar+Xlite+V3&tag=fpsprohub22-22' },
-    keyboard: { name: 'DrunkDeer A75', url: 'https://www.amazon.co.jp/s?k=DrunkDeer+A75&tag=fpsprohub22-22' },
-    monitor: { name: 'ZOWIE XL2566K', url: 'https://www.amazon.co.jp/s?k=ZOWIE+XL2566K&tag=fpsprohub22-22' },
-    headset: { name: 'IE 100 PRO', url: 'https://www.amazon.co.jp/s?k=Sennheiser+IE+100+PRO&tag=fpsprohub22-22' },
-    mic: { name: 'HyperX QuadCast S', url: 'https://www.amazon.co.jp/s?k=HyperX+QuadCast+S&tag=fpsprohub22-22' },
-    pc: { name: 'Storm SS Mini', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+6IKT4I+3KX4+61Z81' }
+    mouse: { name: 'Pulsar Xlite V3', url: 'https://www.amazon.co.jp/s?k=Pulsar+Xlite+V3&tag=fpsprohub22-22', price: '¥13,800' },
+    keyboard: { name: 'DrunkDeer A75', url: 'https://www.amazon.co.jp/s?k=DrunkDeer+A75&tag=fpsprohub22-22', price: '¥18,500' },
+    monitor: { name: 'ZOWIE XL2566K', url: 'https://www.amazon.co.jp/s?k=ZOWIE+XL2566K&tag=fpsprohub22-22', price: '¥98,000' },
+    headset: { name: 'IE 100 PRO', url: 'https://www.amazon.co.jp/s?k=Sennheiser+IE+100+PRO&tag=fpsprohub22-22', price: '¥14,300' },
+    mic: { name: 'HyperX QuadCast S', url: 'https://www.amazon.co.jp/s?k=HyperX+QuadCast+S&tag=fpsprohub22-22', price: '¥21,500' },
+    pc: { name: 'Storm SS Mini', url: 'https://px.a8.net/svt/ejp?a8mat=4AZIOC+6IKT4I+3KX4+61Z81', price: '約¥248,000' }
   }
 };
 
@@ -1517,29 +1517,59 @@ function openSetupModal(title) {
 
     if (data) {
       devicesEl.innerHTML = `
-        <a href="${data.mouse.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
-          <div><span>🖱️</span> マウス: <span style="font-weight: bold; margin-left:10px;">${data.mouse.name}</span></div>
-          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        <a href="${data.mouse.url}" target="_blank" class="gadget-item-row">
+          <div class="gadget-icon">🖱️</div>
+          <div class="gadget-info">
+            <span class="gadget-type">マウス</span>
+            <span class="gadget-name">${data.mouse.name}</span>
+            <span class="gadget-price">${data.mouse.price}</span>
+          </div>
+          <span class="check-button">詳細を見る</span>
         </a>
-        <a href="${data.keyboard.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
-          <div><span>⌨️</span> キーボード: <span style="font-weight: bold; margin-left:10px;">${data.keyboard.name}</span></div>
-          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        <a href="${data.keyboard.url}" target="_blank" class="gadget-item-row">
+          <div class="gadget-icon">⌨️</div>
+          <div class="gadget-info">
+            <span class="gadget-type">キーボード</span>
+            <span class="gadget-name">${data.keyboard.name}</span>
+            <span class="gadget-price">${data.keyboard.price}</span>
+          </div>
+          <span class="check-button">詳細を見る</span>
         </a>
-        <a href="${data.monitor.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
-          <div><span>🖥️</span> モニター: <span style="font-weight: bold; margin-left:10px;">${data.monitor.name}</span></div>
-          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        <a href="${data.monitor.url}" target="_blank" class="gadget-item-row">
+          <div class="gadget-icon">🖥️</div>
+          <div class="gadget-info">
+            <span class="gadget-type">モニター</span>
+            <span class="gadget-name">${data.monitor.name}</span>
+            <span class="gadget-price">${data.monitor.price}</span>
+          </div>
+          <span class="check-button">詳細を見る</span>
         </a>
-        <a href="${data.headset.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
-          <div><span>🎧</span> ヘッドセット: <span style="font-weight: bold; margin-left:10px;">${data.headset.name}</span></div>
-          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        <a href="${data.headset.url}" target="_blank" class="gadget-item-row">
+          <div class="gadget-icon">🎧</div>
+          <div class="gadget-info">
+            <span class="gadget-type">ヘッドセット</span>
+            <span class="gadget-name">${data.headset.name}</span>
+            <span class="gadget-price">${data.headset.price}</span>
+          </div>
+          <span class="check-button">詳細を見る</span>
         </a>
-        <a href="${data.mic.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
-          <div><span>🎙️</span> マイク: <span style="font-weight: bold; margin-left:10px;">${data.mic.name}</span></div>
-          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        <a href="${data.mic.url}" target="_blank" class="gadget-item-row">
+          <div class="gadget-icon">🎙️</div>
+          <div class="gadget-info">
+            <span class="gadget-type">マイク</span>
+            <span class="gadget-name">${data.mic.name}</span>
+            <span class="gadget-price">${data.mic.price}</span>
+          </div>
+          <span class="check-button">詳細を見る</span>
         </a>
-        <a href="${data.pc.url}" target="_blank" class="setup-modal-device" style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: space-between;">
-          <div><span>💻</span> ゲーミングPC: <span style="font-weight: bold; margin-left:10px;">${data.pc.name}</span></div>
-          <span style="font-size: 0.8rem; background: var(--primary); color: white; padding: 2px 8px; border-radius: 4px;">チェック</span>
+        <a href="${data.pc.url}" target="_blank" class="gadget-item-row">
+          <div class="gadget-icon">💻</div>
+          <div class="gadget-info">
+            <span class="gadget-type">ゲーミングPC</span>
+            <span class="gadget-name">${data.pc.name}</span>
+            <span class="gadget-price">${data.pc.price}</span>
+          </div>
+          <span class="check-button">詳細を見る</span>
         </a>
       `;
       if (noteEl) noteEl.style.display = 'none';
