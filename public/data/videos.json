@@ -6093,6 +6093,76 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=43V-WV0aMsQ",
             "youtubeId": "43V-WV0aMsQ"
+        },
+        {
+            "id": "v_auto_lToqMc06oBI",
+            "title": "cheeky: プレデターランク【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=lToqMc06oBI",
+            "youtubeId": "lToqMc06oBI"
+        },
+        {
+            "id": "v_auto_Z_IUqKgZAsY",
+            "title": "cheeky: マップが数時間で変わると噂のサーバーへ移動するCHEEKYたち、ラグすぎて滅【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Z_IUqKgZAsY",
+            "youtubeId": "Z_IUqKgZAsY"
+        },
+        {
+            "id": "v_auto_AL19VR3OYp0",
+            "title": "1tappy: 【APEX】16:10お試しプレランク2 with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AL19VR3OYp0",
+            "youtubeId": "AL19VR3OYp0"
+        },
+        {
+            "id": "v_auto_hXaGDK89hzQ",
+            "title": "1tappy: 【結局ZETA】YukaFの凄さを見て、少し悔しくなってしまう1tappy【1tappy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=hXaGDK89hzQ",
+            "youtubeId": "hXaGDK89hzQ"
+        },
+        {
+            "id": "v_auto_1lUARip6O50",
+            "title": "こよた: これが競技勢です #shorts 【フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=1lUARip6O50",
+            "youtubeId": "1lUARip6O50"
+        },
+        {
+            "id": "v_auto_FAC4IHh18Z4",
+            "title": "Minipiyo: 世界大会確定。【FORTNITE/フォートナイト】#shorts",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=FAC4IHh18Z4",
+            "youtubeId": "FAC4IHh18Z4"
+        },
+        {
+            "id": "v_auto_iy20bOFC6Uw",
+            "title": "Minipiyo: 過去1のグランドファイナルです。【世界大会確定】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=iy20bOFC6Uw",
+            "youtubeId": "iy20bOFC6Uw"
         }
     ]
 }
