@@ -6523,6 +6523,86 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=svrsyv4waRM",
             "youtubeId": "svrsyv4waRM"
+        },
+        {
+            "id": "v_auto_yRnhtvSg344",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=yRnhtvSg344",
+            "youtubeId": "yRnhtvSg344"
+        },
+        {
+            "id": "v_auto__Eoj1uMgP0E",
+            "title": "cheeky: 巷で話題のPAD設定について触れるCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=_Eoj1uMgP0E",
+            "youtubeId": "_Eoj1uMgP0E"
+        },
+        {
+            "id": "v_auto_LEZSfrM5tGw",
+            "title": "1tappy: 【APEX】配信設定変えたプレランク with cheeky3 RAS3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=LEZSfrM5tGw",
+            "youtubeId": "LEZSfrM5tGw"
+        },
+        {
+            "id": "v_auto_J1vqIX0ZwxU",
+            "title": "1tappy: 【ダメトレ】上位帯が自然にやってるテクニック??強い人は皆このダメトレやってます【1tappy/cheeky/RAS/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=J1vqIX0ZwxU",
+            "youtubeId": "J1vqIX0ZwxU"
+        },
+        {
+            "id": "v_auto_1ibkUkG3zSA",
+            "title": "ぶゅりる (DetonatioN FocusMe): 大会で落下4して地獄の空気に...?【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=1ibkUkG3zSA",
+            "youtubeId": "1ibkUkG3zSA"
+        },
+        {
+            "id": "v_auto_Dl1u07sKnrs",
+            "title": "Rise (Riddle): こんにちはフォートナイト【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Dl1u07sKnrs",
+            "youtubeId": "Dl1u07sKnrs"
+        },
+        {
+            "id": "v_auto_ul0MhYDbfFc",
+            "title": "Rise (Riddle): おはようフォートナイト【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ul0MhYDbfFc",
+            "youtubeId": "ul0MhYDbfFc"
+        },
+        {
+            "id": "v_auto_yTc-LMwBqbQ",
+            "title": "Rainy (DetonatioN FocusMe): ぶゅりるとランクする！【フォートナイト/Fortnite】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=yTc-LMwBqbQ",
+            "youtubeId": "yTc-LMwBqbQ"
         }
     ]
 }
