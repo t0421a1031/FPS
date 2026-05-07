@@ -7023,6 +7023,116 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=BZLHOiSnKTA",
             "youtubeId": "BZLHOiSnKTA"
+        },
+        {
+            "id": "v_auto_CpZgYL_wMSc",
+            "title": "cheeky: 開幕ランク③ w/ Rasさん、たぴさん→obly、Cinap 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=CpZgYL_wMSc",
+            "youtubeId": "CpZgYL_wMSc"
+        },
+        {
+            "id": "v_auto_u5VMKeTLrS0",
+            "title": "cheeky: シーズン29開幕!!\"アクセル\"が猛威を振るう超高速環境がヤバすぎます【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=u5VMKeTLrS0",
+            "youtubeId": "u5VMKeTLrS0"
+        },
+        {
+            "id": "v_auto_vYAmxCfWN2k",
+            "title": "1tappy: 【APEX】開幕ランクpart3 with cheeky3 Ras3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=vYAmxCfWN2k",
+            "youtubeId": "vYAmxCfWN2k"
+        },
+        {
+            "id": "v_auto_aVEws6q3QWw",
+            "title": "1tappy: 【APEX】開幕ランクpart3 with cheeky3 Ras3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=aVEws6q3QWw",
+            "youtubeId": "aVEws6q3QWw"
+        },
+        {
+            "id": "v_auto_F0c-wv_eTw4",
+            "title": "1tappy: 【新シーズン】荒ぶるアクセル・ぶっ壊れのコンジ・結局強いオルター、そして1tappyはゴールド適正を卒業！【1tappy/cheeky/RAS/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=F0c-wv_eTw4",
+            "youtubeId": "F0c-wv_eTw4"
+        },
+        {
+            "id": "v_auto_5NfzL041eK0",
+            "title": "ぶゅりる (DetonatioN FocusMe): 大会でまさかのチャンピオンアックスに遭遇!?【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5NfzL041eK0",
+            "youtubeId": "5NfzL041eK0"
+        },
+        {
+            "id": "v_auto_TiUhRhTpRlw",
+            "title": "まいぽり: 日本一プロが集まるサーバー、ぱぱ鯖の休日に潜入してプロゲーマー達の練習を大公開！【フォートナイト/Fortnite】",
+            "pro": "まいぽり",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=TiUhRhTpRlw",
+            "youtubeId": "TiUhRhTpRlw"
+        },
+        {
+            "id": "v_auto_xRASlIEkJw0",
+            "title": "Rise (Riddle): 寝起き配信【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=xRASlIEkJw0",
+            "youtubeId": "xRASlIEkJw0"
+        },
+        {
+            "id": "v_auto_eCmZZA_jHuo",
+            "title": "Rise (Riddle): おはようございます【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=eCmZZA_jHuo",
+            "youtubeId": "eCmZZA_jHuo"
+        },
+        {
+            "id": "v_auto_GbJNNfw5l9g",
+            "title": "Rainy (DetonatioN FocusMe): 世界大会決めたあの人とランクします　【フォートナイト/Fortnite】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=GbJNNfw5l9g",
+            "youtubeId": "GbJNNfw5l9g"
+        },
+        {
+            "id": "v_auto_Gb4Eq099i5c",
+            "title": "Rainy (DetonatioN FocusMe): 絶対に交わることのない異色メンツでランクが面白すぎたww【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Gb4Eq099i5c",
+            "youtubeId": "Gb4Eq099i5c"
         }
     ]
 }
