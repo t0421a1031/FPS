@@ -8743,6 +8743,66 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=PmV36u-0nVA",
             "youtubeId": "PmV36u-0nVA"
+        },
+        {
+            "id": "v_auto_B5imU018DRA",
+            "title": "cheeky: アクセルで念願のダブハン!!ランクを完全に破壊するCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=B5imU018DRA",
+            "youtubeId": "B5imU018DRA"
+        },
+        {
+            "id": "v_auto_7FzTiNM9LyQ",
+            "title": "1tappy: 【APEX】こんばんはプレランク with cheeky3 Ras3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=7FzTiNM9LyQ",
+            "youtubeId": "7FzTiNM9LyQ"
+        },
+        {
+            "id": "v_auto_pV6hT-b7lIQ",
+            "title": "ぶゅりる (DetonatioN FocusMe): ぶゅりる世界大会行きます。【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=pV6hT-b7lIQ",
+            "youtubeId": "pV6hT-b7lIQ"
+        },
+        {
+            "id": "v_auto_RS44PVSYFz4",
+            "title": "ぶゅりる (DetonatioN FocusMe): ミシックゴールドフィッシュ×最強ストリーマー...#shorts 【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=RS44PVSYFz4",
+            "youtubeId": "RS44PVSYFz4"
+        },
+        {
+            "id": "v_auto_kWTpTJHi-OU",
+            "title": "Rise (Riddle): 毎日同じことの繰り返し【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=kWTpTJHi-OU",
+            "youtubeId": "kWTpTJHi-OU"
+        },
+        {
+            "id": "v_auto_bbBqCmPSVog",
+            "title": "Rise (Riddle): 10hpからのいつものクラッチ #フォートナイト  #fortnite",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "ハイライト",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=bbBqCmPSVog",
+            "youtubeId": "bbBqCmPSVog"
         }
     ]
 }
