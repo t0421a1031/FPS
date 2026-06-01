@@ -9323,6 +9323,46 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=dklWG-QcHRs",
             "youtubeId": "dklWG-QcHRs"
+        },
+        {
+            "id": "v_auto_GzR-o7X871s",
+            "title": "cheeky: 【即時or永続】どっちが破壊できる？コンジットのパーク選びに悩むCHEEKYたち【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=GzR-o7X871s",
+            "youtubeId": "GzR-o7X871s"
+        },
+        {
+            "id": "v_auto_fUxmOXhtL3Y",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=fUxmOXhtL3Y",
+            "youtubeId": "fUxmOXhtL3Y"
+        },
+        {
+            "id": "v_auto_ekZQ4A1sJRM",
+            "title": "cheeky: ALGSダメージランキングNo.1のロングボウ、その強さを実感するCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ekZQ4A1sJRM",
+            "youtubeId": "ekZQ4A1sJRM"
+        },
+        {
+            "id": "v_auto_jrYX1oForFc",
+            "title": "1tappy: 【APEX】毎日のプレランク with cheeky3 Ras3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=jrYX1oForFc",
+            "youtubeId": "jrYX1oForFc"
         }
     ]
 }
