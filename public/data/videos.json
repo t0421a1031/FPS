@@ -10203,6 +10203,106 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=ljHNz-PIjl4",
             "youtubeId": "ljHNz-PIjl4"
+        },
+        {
+            "id": "v_auto_eD1bmzbQFK8",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=eD1bmzbQFK8",
+            "youtubeId": "eD1bmzbQFK8"
+        },
+        {
+            "id": "v_auto_ToAVxywV6l0",
+            "title": "cheeky: 【ヴァルキリー涙目？】嫌われ者\"ヴァンテージ\"にハマるCHEEKYたち【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ToAVxywV6l0",
+            "youtubeId": "ToAVxywV6l0"
+        },
+        {
+            "id": "v_auto_Hc-C8Y7P8a8",
+            "title": "1tappy: 【APEX】もるぞプレランク with cheeky3 Ras3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Hc-C8Y7P8a8",
+            "youtubeId": "Hc-C8Y7P8a8"
+        },
+        {
+            "id": "v_auto_3WwmTMQtDak",
+            "title": "ぶゅりる (DetonatioN FocusMe): 新ミシックポンプが強すぎる！【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=3WwmTMQtDak",
+            "youtubeId": "3WwmTMQtDak"
+        },
+        {
+            "id": "v_auto_s54rWra1cV4",
+            "title": "こよた: ランク配信【Fortnite/フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=s54rWra1cV4",
+            "youtubeId": "s54rWra1cV4"
+        },
+        {
+            "id": "v_auto_41aFJxl7Dsc",
+            "title": "こよた: ランク配信【Fortnite/フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=41aFJxl7Dsc",
+            "youtubeId": "41aFJxl7Dsc"
+        },
+        {
+            "id": "v_auto_vqsgQOMdspY",
+            "title": "こよた: 対面最強のディビジョン１終盤＋対面集！【フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=vqsgQOMdspY",
+            "youtubeId": "vqsgQOMdspY"
+        },
+        {
+            "id": "v_auto_ydOM5W0iPIA",
+            "title": "Rise (Riddle): スキン大会！！！W/KEIKI MAUFIN【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ydOM5W0iPIA",
+            "youtubeId": "ydOM5W0iPIA"
+        },
+        {
+            "id": "v_auto_YG8dutLWd_I",
+            "title": "Minipiyo: トリオスキン大会！れいにーりーぱーさん【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=YG8dutLWd_I",
+            "youtubeId": "YG8dutLWd_I"
+        },
+        {
+            "id": "v_auto_orP2v5g8hnI",
+            "title": "Rainy (DetonatioN FocusMe): 顔出し配信！トリオ大会やる　【フォートナイト/Fortnite】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=orP2v5g8hnI",
+            "youtubeId": "orP2v5g8hnI"
         }
     ]
 }
