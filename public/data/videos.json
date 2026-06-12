@@ -10423,6 +10423,96 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=bxuoraHKXG4",
             "youtubeId": "bxuoraHKXG4"
+        },
+        {
+            "id": "v_auto_RON3MXcYMa4",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=RON3MXcYMa4",
+            "youtubeId": "RON3MXcYMa4"
+        },
+        {
+            "id": "v_auto_Zl_wNvEuhVY",
+            "title": "cheeky: シーズン29開幕から1ヶ月、構成がどんどんおかしくなっていくCHEEKYたち【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Zl_wNvEuhVY",
+            "youtubeId": "Zl_wNvEuhVY"
+        },
+        {
+            "id": "v_auto_-6BHcdBIPkk",
+            "title": "1tappy: 【APEX】MORUプレランク with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=-6BHcdBIPkk",
+            "youtubeId": "-6BHcdBIPkk"
+        },
+        {
+            "id": "v_auto_oMhWL06V76g",
+            "title": "1tappy: 【超重要】絶対負けないために必要なエリアの広げ方を徹底解説！！【1tappy/cheeky/RAS/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=oMhWL06V76g",
+            "youtubeId": "oMhWL06V76g"
+        },
+        {
+            "id": "v_auto_7jgtqgtj1_g",
+            "title": "ぶゅりる (DetonatioN FocusMe): スライディング\"がヤバ過ぎる...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=7jgtqgtj1_g",
+            "youtubeId": "7jgtqgtj1_g"
+        },
+        {
+            "id": "v_auto_3hPFIfWjhFQ",
+            "title": "こよた: 日本最強は新最高ランクまで何時間で行けるのか！？【フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=3hPFIfWjhFQ",
+            "youtubeId": "3hPFIfWjhFQ"
+        },
+        {
+            "id": "v_auto_u2bHVGOAjug",
+            "title": "Rise (Riddle): ewc予選！w/michael【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=u2bHVGOAjug",
+            "youtubeId": "u2bHVGOAjug"
+        },
+        {
+            "id": "v_auto_bW_wYGoyEJw",
+            "title": "Minipiyo: EWCリロード予選！ふーくん【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=bW_wYGoyEJw",
+            "youtubeId": "bW_wYGoyEJw"
+        },
+        {
+            "id": "v_auto_5CXBOtiCM7w",
+            "title": "Minipiyo: EWCリロード予選！ふーくん【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5CXBOtiCM7w",
+            "youtubeId": "5CXBOtiCM7w"
         }
     ]
 }
