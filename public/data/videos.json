@@ -10513,6 +10513,106 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=5CXBOtiCM7w",
             "youtubeId": "5CXBOtiCM7w"
+        },
+        {
+            "id": "v_auto__YYWeZ_-xgw",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=_YYWeZ_-xgw",
+            "youtubeId": "_YYWeZ_-xgw"
+        },
+        {
+            "id": "v_auto_Xn06hmvjLV8",
+            "title": "cheeky: 【ダブハン】R-99よりもRE-45が強い理由がこちらです【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Xn06hmvjLV8",
+            "youtubeId": "Xn06hmvjLV8"
+        },
+        {
+            "id": "v_auto_locWOT8fv-A",
+            "title": "1tappy: 【APEX】毎日のプレデターランク with cheeky3 Ras3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=locWOT8fv-A",
+            "youtubeId": "locWOT8fv-A"
+        },
+        {
+            "id": "v_auto_2B6ibpK-Ee0",
+            "title": "1tappy: 【勝てない人必見】最終局面で元プロが何を考えてプレイしてるのか徹底解説！【1tappy/cheeky/4rmy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=2B6ibpK-Ee0",
+            "youtubeId": "2B6ibpK-Ee0"
+        },
+        {
+            "id": "v_auto_Pvk9HG287tU",
+            "title": "ぶゅりる (DetonatioN FocusMe): 【無双】新シーズンは『ハンティングライフル』が最強です【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Pvk9HG287tU",
+            "youtubeId": "Pvk9HG287tU"
+        },
+        {
+            "id": "v_auto_AwFapL-kNRc",
+            "title": "まいぽり: 【奇跡】ぶゆりるとドイツデートしてたらやばい事になりました",
+            "pro": "まいぽり",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=AwFapL-kNRc",
+            "youtubeId": "AwFapL-kNRc"
+        },
+        {
+            "id": "v_auto_YQVQScpi3_g",
+            "title": "Rise (Riddle): 久々のソロ大会決勝！Q！！！l【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=YQVQScpi3_g",
+            "youtubeId": "YQVQScpi3_g"
+        },
+        {
+            "id": "v_auto_pbMOPfCMbL8",
+            "title": "Rise (Riddle): 久々のソロ大会決勝！Q！！！l【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=pbMOPfCMbL8",
+            "youtubeId": "pbMOPfCMbL8"
+        },
+        {
+            "id": "v_auto_NoAfCQpWt5k",
+            "title": "Rise (Riddle): 久々のソロ大会！！！l【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=NoAfCQpWt5k",
+            "youtubeId": "NoAfCQpWt5k"
+        },
+        {
+            "id": "v_auto_WBMzsaCQ1Uk",
+            "title": "Rainy (DetonatioN FocusMe): ぶゅりる絶対に許さない。【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=WBMzsaCQ1Uk",
+            "youtubeId": "WBMzsaCQ1Uk"
         }
     ]
 }
