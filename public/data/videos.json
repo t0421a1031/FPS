@@ -10613,6 +10613,66 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=WBMzsaCQ1Uk",
             "youtubeId": "WBMzsaCQ1Uk"
+        },
+        {
+            "id": "v_auto_7Os2zqBEgNk",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=7Os2zqBEgNk",
+            "youtubeId": "7Os2zqBEgNk"
+        },
+        {
+            "id": "v_auto_57vTtpO21ro",
+            "title": "cheeky: 【隠れ強武器？】珍しくCAR＆オルタネーターを使うCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=57vTtpO21ro",
+            "youtubeId": "57vTtpO21ro"
+        },
+        {
+            "id": "v_auto_aXQCHD2cWP4",
+            "title": "1tappy: 【APEX】とりあえずプレデターランク with cheeky3 satuki3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=aXQCHD2cWP4",
+            "youtubeId": "aXQCHD2cWP4"
+        },
+        {
+            "id": "v_auto_mVIhoX0fz0w",
+            "title": "1tappy: 【知らないと損】オルター使いなら絶対知っておきたい激強ULT教えます！【1tappy/cheeky/RAS/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=mVIhoX0fz0w",
+            "youtubeId": "mVIhoX0fz0w"
+        },
+        {
+            "id": "v_auto_O87knczdriw",
+            "title": "Rise (Riddle): トリオ大会でかっこよくソロクラッチ #フォートナイト #fortnite",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=O87knczdriw",
+            "youtubeId": "O87knczdriw"
+        },
+        {
+            "id": "v_auto_-yy1UGEq6BM",
+            "title": "Minipiyo: EWC予選DAY2リロード！ふーくん【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=-yy1UGEq6BM",
+            "youtubeId": "-yy1UGEq6BM"
         }
     ]
 }
