@@ -10673,6 +10673,76 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=-yy1UGEq6BM",
             "youtubeId": "-yy1UGEq6BM"
+        },
+        {
+            "id": "v_auto_m5N-52b0AJM",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=m5N-52b0AJM",
+            "youtubeId": "m5N-52b0AJM"
+        },
+        {
+            "id": "v_auto__Q9j0DIxlt0",
+            "title": "cheeky: すっかり見なくなったホライゾンを突然使い始めるCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=_Q9j0DIxlt0",
+            "youtubeId": "_Q9j0DIxlt0"
+        },
+        {
+            "id": "v_auto_jsrAzWS2EA8",
+            "title": "1tappy: 【APEX】エブリデイプレデターランク with cheeky3 Ras3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=jsrAzWS2EA8",
+            "youtubeId": "jsrAzWS2EA8"
+        },
+        {
+            "id": "v_auto_Y_Vd1i_Be_Q",
+            "title": "1tappy: 元プロが1vs3中に考えている・味方がやるべきことを徹底解説【1tappy/cheeky/Satuki/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Y_Vd1i_Be_Q",
+            "youtubeId": "Y_Vd1i_Be_Q"
+        },
+        {
+            "id": "v_auto_aTA3arhViWU",
+            "title": "ぶゅりる (DetonatioN FocusMe): プロになったたろうくんにインタビューしてみた！【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=aTA3arhViWU",
+            "youtubeId": "aTA3arhViWU"
+        },
+        {
+            "id": "v_auto_8-fTPiKfLss",
+            "title": "こよた: 対面最強による２度の１ｖ３！ #shorts  #fortnite #フォートナイト【フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=8-fTPiKfLss",
+            "youtubeId": "8-fTPiKfLss"
+        },
+        {
+            "id": "v_auto_HRT9BCqJKPU",
+            "title": "Rise (Riddle): div1 day1 w/michael【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=HRT9BCqJKPU",
+            "youtubeId": "HRT9BCqJKPU"
         }
     ]
 }
