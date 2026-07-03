@@ -12303,6 +12303,76 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=hRb2yuRM8OQ",
             "youtubeId": "hRb2yuRM8OQ"
+        },
+        {
+            "id": "v_auto_eJoWJ7SzZmE",
+            "title": "cheeky: 強制ソロプレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=eJoWJ7SzZmE",
+            "youtubeId": "eJoWJ7SzZmE"
+        },
+        {
+            "id": "v_auto_ExHxb-TRhRQ",
+            "title": "cheeky: 強制ソロランク開始!!たくさんのプレイヤーと出会いながら勝ち方を模索するCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ExHxb-TRhRQ",
+            "youtubeId": "ExHxb-TRhRQ"
+        },
+        {
+            "id": "v_auto_tIOwyCufDLc",
+            "title": "1tappy: 【APEX】ソロプレランク生活3日目【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=tIOwyCufDLc",
+            "youtubeId": "tIOwyCufDLc"
+        },
+        {
+            "id": "v_auto_e_2UPc4YohQ",
+            "title": "1tappy: 【超重要】ヴァル凸された時のソロランでもするべき正しい返し方を元プロが解説【1tappy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=e_2UPc4YohQ",
+            "youtubeId": "e_2UPc4YohQ"
+        },
+        {
+            "id": "v_auto_PPgeWRnaahQ",
+            "title": "こよた: ぼぶさんとランクする！【Fortnite/フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=PPgeWRnaahQ",
+            "youtubeId": "PPgeWRnaahQ"
+        },
+        {
+            "id": "v_auto_zWvNXynZekU",
+            "title": "Rise (Riddle): フォトなするかー【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=zWvNXynZekU",
+            "youtubeId": "zWvNXynZekU"
+        },
+        {
+            "id": "v_auto_vNMCLKx4MT4",
+            "title": "Rainy (DetonatioN FocusMe): 大会終盤マンモス無双するれいにー【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=vNMCLKx4MT4",
+            "youtubeId": "vNMCLKx4MT4"
         }
     ]
 }
