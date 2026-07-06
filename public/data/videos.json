@@ -12513,6 +12513,66 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=el1vNxiYyd0",
             "youtubeId": "el1vNxiYyd0"
+        },
+        {
+            "id": "v_auto_IhBWAMNfYMw",
+            "title": "cheeky: 強制ソロプレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=IhBWAMNfYMw",
+            "youtubeId": "IhBWAMNfYMw"
+        },
+        {
+            "id": "v_auto_PlskzGeVMJ8",
+            "title": "cheeky: 【奇跡】強制ソロランクで1tappyと立て続けにマッチングするCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=PlskzGeVMJ8",
+            "youtubeId": "PlskzGeVMJ8"
+        },
+        {
+            "id": "v_auto_POG38r26ODA",
+            "title": "1tappy: 【APEX】ソロプレランク生活6日目【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=POG38r26ODA",
+            "youtubeId": "POG38r26ODA"
+        },
+        {
+            "id": "v_auto_JoECqG8gd8M",
+            "title": "1tappy: 【意外と知らない⁈】初動でキャッシュが無くても焦らずこの動きしてください！【1tappy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=JoECqG8gd8M",
+            "youtubeId": "JoECqG8gd8M"
+        },
+        {
+            "id": "v_auto_gxC8dUKObuQ",
+            "title": "ぶゅりる (DetonatioN FocusMe): 『レア精霊4倍イベント』で何体のレア精霊を集められるのか!?【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=gxC8dUKObuQ",
+            "youtubeId": "gxC8dUKObuQ"
+        },
+        {
+            "id": "v_auto_o7myk1yB1rA",
+            "title": "Minipiyo: 暇すぎて精霊集め配信【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=o7myk1yB1rA",
+            "youtubeId": "o7myk1yB1rA"
         }
     ]
 }
