@@ -13123,6 +13123,76 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=T16kq2VCzXc",
             "youtubeId": "T16kq2VCzXc"
+        },
+        {
+            "id": "v_auto_1_6h_dlViXo",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=1_6h_dlViXo",
+            "youtubeId": "1_6h_dlViXo"
+        },
+        {
+            "id": "v_auto_GrqJAwlYSyQ",
+            "title": "cheeky: 【ソロランク】念願の1tappy討伐に成功するCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=GrqJAwlYSyQ",
+            "youtubeId": "GrqJAwlYSyQ"
+        },
+        {
+            "id": "v_auto_9ZpK-IUJy3s",
+            "title": "1tappy: 【APEX】帰ってきたフルパプレ【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=9ZpK-IUJy3s",
+            "youtubeId": "9ZpK-IUJy3s"
+        },
+        {
+            "id": "v_auto_2cDlw4VNl-8",
+            "title": "1tappy: 【超重要】最終円、ソロだからこそ”絶対やるべきこと”について徹底解説！【1tappy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=2cDlw4VNl-8",
+            "youtubeId": "2cDlw4VNl-8"
+        },
+        {
+            "id": "v_auto_ELiomf_Gr6Y",
+            "title": "ぶゅりる (DetonatioN FocusMe): 【コーチング】編集は◯◯を使え！Switch4年の猛者を指導！【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ELiomf_Gr6Y",
+            "youtubeId": "ELiomf_Gr6Y"
+        },
+        {
+            "id": "v_auto_xI_LRHbTjdA",
+            "title": "Rise (Riddle): あめにし w/3peace【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=xI_LRHbTjdA",
+            "youtubeId": "xI_LRHbTjdA"
+        },
+        {
+            "id": "v_auto_PKyBIvDpfMI",
+            "title": "Rainy (DetonatioN FocusMe): 最強メンバーでランクしてたら喧嘩になりました...【フォートナイト/FORTNITE】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=PKyBIvDpfMI",
+            "youtubeId": "PKyBIvDpfMI"
         }
     ]
 }
