@@ -13623,6 +13623,86 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=VaGRr8plTDA",
             "youtubeId": "VaGRr8plTDA"
+        },
+        {
+            "id": "v_auto_edDk2Fz6DSc",
+            "title": "Peace: 13歳エペプロ志望のリスナーにガチアドバイスをするPeace【APEX/Peace/ピース/CHEEKY/4rmy/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=edDk2Fz6DSc",
+            "youtubeId": "edDk2Fz6DSc"
+        },
+        {
+            "id": "v_auto_bbgjjY0Df1E",
+            "title": "cheeky: プレデターランク【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=bbgjjY0Df1E",
+            "youtubeId": "bbgjjY0Df1E"
+        },
+        {
+            "id": "v_auto_e6lYUhrGL3Q",
+            "title": "cheeky: 世界大会MVPのPeaceに渾身のトロールを見せつけられるCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=e6lYUhrGL3Q",
+            "youtubeId": "e6lYUhrGL3Q"
+        },
+        {
+            "id": "v_auto_BDaqcKxv64k",
+            "title": "1tappy: 【APEX】日課のプレデターランク with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=BDaqcKxv64k",
+            "youtubeId": "BDaqcKxv64k"
+        },
+        {
+            "id": "v_auto_uKArMb0W9CE",
+            "title": "1tappy: 【知らない人が多すぎる】絶対に成功するドラゴンジップのやり方を教えます！【1tappy/cheeky/4rmy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=uKArMb0W9CE",
+            "youtubeId": "uKArMb0W9CE"
+        },
+        {
+            "id": "v_auto_e6TSulODNH0",
+            "title": "ぶゅりる (DetonatioN FocusMe): リロードで全ての武器でキルチャレンジ！【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=e6TSulODNH0",
+            "youtubeId": "e6TSulODNH0"
+        },
+        {
+            "id": "v_auto_-K6Tj0-S6Yo",
+            "title": "こよた: ちゃんなぎさんとランク配信【Fortnite/フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=-K6Tj0-S6Yo",
+            "youtubeId": "-K6Tj0-S6Yo"
+        },
+        {
+            "id": "v_auto_OJ4q25SMyVM",
+            "title": "Rise (Riddle): 今日はたしなむ程度にフォトナする【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=OJ4q25SMyVM",
+            "youtubeId": "OJ4q25SMyVM"
         }
     ]
 }
