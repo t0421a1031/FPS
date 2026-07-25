@@ -14013,6 +14013,106 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=rqzYc_jrFQg",
             "youtubeId": "rqzYc_jrFQg"
+        },
+        {
+            "id": "v_auto_IdGmBuMKfXc",
+            "title": "Peace: フレンド全員誘ってみよ！視聴者の期待を裏切らない安定感のあるぼっち力を魅せてくれるPeace【APEX/Peace/ピース/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=IdGmBuMKfXc",
+            "youtubeId": "IdGmBuMKfXc"
+        },
+        {
+            "id": "v_auto_bI496hVPiUA",
+            "title": "cheeky: プレデターランク【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=bI496hVPiUA",
+            "youtubeId": "bI496hVPiUA"
+        },
+        {
+            "id": "v_auto_rX16yCqfqEA",
+            "title": "cheeky: 世界大会でも猛威を振るったレジェンドなら余裕で勝てます【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=rX16yCqfqEA",
+            "youtubeId": "rX16yCqfqEA"
+        },
+        {
+            "id": "v_auto_JW4WVjbzrVg",
+            "title": "1tappy: 【APEX】プレデターランクwith cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=JW4WVjbzrVg",
+            "youtubeId": "JW4WVjbzrVg"
+        },
+        {
+            "id": "v_auto__FU1_dCKGfc",
+            "title": "1tappy: 【漁夫を返すためには？】バトロワが上手い人ほど〇〇を優先！？その理由を徹底解説！【1tappy/cheeky/4rmy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=_FU1_dCKGfc",
+            "youtubeId": "_FU1_dCKGfc"
+        },
+        {
+            "id": "v_auto_RJ7WJSRlKEk",
+            "title": "ぶゅりる (DetonatioN FocusMe): 負けたら1万奢り対決！in 原宿【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=RJ7WJSRlKEk",
+            "youtubeId": "RJ7WJSRlKEk"
+        },
+        {
+            "id": "v_auto_3R01EK0w0-A",
+            "title": "Rise (Riddle): ソロ対赤井！【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=3R01EK0w0-A",
+            "youtubeId": "3R01EK0w0-A"
+        },
+        {
+            "id": "v_auto_A2FIZr7LeZE",
+            "title": "Rise (Riddle): ソロ決勝！【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=A2FIZr7LeZE",
+            "youtubeId": "A2FIZr7LeZE"
+        },
+        {
+            "id": "v_auto_JsCYxf_KmEA",
+            "title": "Minipiyo: ソロキャッシュカップ決勝！【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=JsCYxf_KmEA",
+            "youtubeId": "JsCYxf_KmEA"
+        },
+        {
+            "id": "v_auto_BOU7UjatlOI",
+            "title": "Minipiyo: 【第2弾】現役プロが選ぶラップスキンTier表！！【FORTNITE/フォートナイト】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=BOU7UjatlOI",
+            "youtubeId": "BOU7UjatlOI"
         }
     ]
 }
