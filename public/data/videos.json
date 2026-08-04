@@ -14973,6 +14973,76 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=OgPYPeAbKDQ",
             "youtubeId": "OgPYPeAbKDQ"
+        },
+        {
+            "id": "v_auto_XcC9NuP5_rA",
+            "title": "Peace: 【前編】ボドカ（黒電話）Peace（白電話）Biju（赤電話）による電話界隈ファン待望の神コラボランク【APEX/Peace/ピース/ボドカ/Biju/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=XcC9NuP5_rA",
+            "youtubeId": "XcC9NuP5_rA"
+        },
+        {
+            "id": "v_auto_ctl4JGxXqbU",
+            "title": "cheeky: 開幕ランク  【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ctl4JGxXqbU",
+            "youtubeId": "ctl4JGxXqbU"
+        },
+        {
+            "id": "v_auto_wvE3AmYYT44",
+            "title": "cheeky: Season29 Highlights【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=wvE3AmYYT44",
+            "youtubeId": "wvE3AmYYT44"
+        },
+        {
+            "id": "v_auto_PpcC9aIsksE",
+            "title": "1tappy: 【APEX】開幕ランク with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=PpcC9aIsksE",
+            "youtubeId": "PpcC9aIsksE"
+        },
+        {
+            "id": "v_auto_2-jdPGfqDk8",
+            "title": "ぶゅりる (DetonatioN FocusMe): 視聴者に即バレした没シーン集【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=2-jdPGfqDk8",
+            "youtubeId": "2-jdPGfqDk8"
+        },
+        {
+            "id": "v_auto__7UBkT-BoG0",
+            "title": "ぶゅりる (DetonatioN FocusMe): 撮影事故の瞬間#shorts 【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=_7UBkT-BoG0",
+            "youtubeId": "_7UBkT-BoG0"
+        },
+        {
+            "id": "v_auto_pQdTGxANpRo",
+            "title": "Rise (Riddle): 終電来るまで【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=pQdTGxANpRo",
+            "youtubeId": "pQdTGxANpRo"
         }
     ]
 }
