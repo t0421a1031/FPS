@@ -15163,6 +15163,56 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=5m5cPk98eys",
             "youtubeId": "5m5cPk98eys"
+        },
+        {
+            "id": "v_auto_Dkdywi6LONE",
+            "title": "Peace: 【キル集】Peace Highlights #16【APEX/Peace/ピース/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Dkdywi6LONE",
+            "youtubeId": "Dkdywi6LONE"
+        },
+        {
+            "id": "v_auto_ZIOAvN5Upa0",
+            "title": "cheeky: プレデターランク w/ あーもー、ぴのたさん→gavomさん 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ZIOAvN5Upa0",
+            "youtubeId": "ZIOAvN5Upa0"
+        },
+        {
+            "id": "v_auto_Zki4CesefPY",
+            "title": "1tappy: 【ぶいすぽカスタム】スクリム2連チャンピオンで破壊するも課題が見つかったチーム1tappy【紫宮るな/Kinako/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Zki4CesefPY",
+            "youtubeId": "Zki4CesefPY"
+        },
+        {
+            "id": "v_auto_bDebRednKfs",
+            "title": "ぶゅりる (DetonatioN FocusMe): バトロワで近接VC実装されたらしいｗｗ【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=bDebRednKfs",
+            "youtubeId": "bDebRednKfs"
+        },
+        {
+            "id": "v_auto_f4OpBQIJeAs",
+            "title": "Rise (Riddle): 終電まで配信【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=f4OpBQIJeAs",
+            "youtubeId": "f4OpBQIJeAs"
         }
     ]
 }
