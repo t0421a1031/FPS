@@ -16953,6 +16953,76 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=JFkW4YVBSmw",
             "youtubeId": "JFkW4YVBSmw"
+        },
+        {
+            "id": "v_auto_LytGifPo9CY",
+            "title": "Peace: 【ALGS Day5 AvsC】遂に初戦からチャンピオン獲得！完全復調のUNLIMIT【APEX/Peace/ピース/Xtsuvi/ゆらりまん/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=LytGifPo9CY",
+            "youtubeId": "LytGifPo9CY"
+        },
+        {
+            "id": "v_auto_8yFESRm349c",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=8yFESRm349c",
+            "youtubeId": "8yFESRm349c"
+        },
+        {
+            "id": "v_auto_I236V9QUjMs",
+            "title": "1tappy: 【APEX】プレデターランク with cheeky3 kiskq3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=I236V9QUjMs",
+            "youtubeId": "I236V9QUjMs"
+        },
+        {
+            "id": "v_auto_E-zL7XEdsxI",
+            "title": "1tappy: 【ALGS Day4 AvsB】安定感抜群のムーブで3年ぶりに1位を取ったSakuのプレイスメントポイントに驚く1tappy【REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=E-zL7XEdsxI",
+            "youtubeId": "E-zL7XEdsxI"
+        },
+        {
+            "id": "v_auto_TJSHXT_fcd8",
+            "title": "1tappy: 【APEX】プロリーグミラー配信【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=TJSHXT_fcd8",
+            "youtubeId": "TJSHXT_fcd8"
+        },
+        {
+            "id": "v_auto_kRpot2g4g0Q",
+            "title": "ぶゅりる (DetonatioN FocusMe): 【感動】日本人が世界大会で魅せた神プレイ【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=kRpot2g4g0Q",
+            "youtubeId": "kRpot2g4g0Q"
+        },
+        {
+            "id": "v_auto_3CN1BWasj68",
+            "title": "Rise (Riddle): 久々の手元【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=3CN1BWasj68",
+            "youtubeId": "3CN1BWasj68"
         }
     ]
 }
