@@ -17423,6 +17423,66 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=Uhm2zz8yqHY",
             "youtubeId": "Uhm2zz8yqHY"
+        },
+        {
+            "id": "v_auto_e-yRXXQTlHg",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=e-yRXXQTlHg",
+            "youtubeId": "e-yRXXQTlHg"
+        },
+        {
+            "id": "v_auto_ECr3DneoNqM",
+            "title": "cheeky: 一度使ったら使用禁止!!\"キャラBANチャレンジ\"に挑戦するCHEEKYたち【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ECr3DneoNqM",
+            "youtubeId": "ECr3DneoNqM"
+        },
+        {
+            "id": "v_auto_Xap3GTTYo6k",
+            "title": "1tappy: 【APEX】日課のプレランク with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Xap3GTTYo6k",
+            "youtubeId": "Xap3GTTYo6k"
+        },
+        {
+            "id": "v_auto_ouT4zyr4WtI",
+            "title": "ぶゅりる (DetonatioN FocusMe): アンリアル観戦の最強プレイヤーがまさかの\"あの人\"だった...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ouT4zyr4WtI",
+            "youtubeId": "ouT4zyr4WtI"
+        },
+        {
+            "id": "v_auto_H54J9LEWP8E",
+            "title": "Rise (Riddle): ハードコアリベンジ！",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=H54J9LEWP8E",
+            "youtubeId": "H54J9LEWP8E"
+        },
+        {
+            "id": "v_auto_Wv25ufUtCuo",
+            "title": "Rainy (DetonatioN FocusMe): アプデ後のランクする【フォートナイト/Fortnite】",
+            "pro": "Rainy (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Wv25ufUtCuo",
+            "youtubeId": "Wv25ufUtCuo"
         }
     ]
 }
