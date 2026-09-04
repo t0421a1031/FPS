@@ -17483,6 +17483,76 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=Wv25ufUtCuo",
             "youtubeId": "Wv25ufUtCuo"
+        },
+        {
+            "id": "v_auto_eKEOz754OPQ",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=eKEOz754OPQ",
+            "youtubeId": "eKEOz754OPQ"
+        },
+        {
+            "id": "v_auto_bkhf_1ppoCI",
+            "title": "cheeky: マスターとプレデターの間？APEXの新たなランク区分を考えるCHEEKYたち【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=bkhf_1ppoCI",
+            "youtubeId": "bkhf_1ppoCI"
+        },
+        {
+            "id": "v_auto_4GB-uG4E43o",
+            "title": "1tappy: 【APEX】プレデターランク with cheeky3 金星3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=4GB-uG4E43o",
+            "youtubeId": "4GB-uG4E43o"
+        },
+        {
+            "id": "v_auto_7Gd00bv5zFY",
+            "title": "1tappy: 【APEX】プロリーグミラー配信【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=7Gd00bv5zFY",
+            "youtubeId": "7Gd00bv5zFY"
+        },
+        {
+            "id": "v_auto_3lJBjpgiBLo",
+            "title": "1tappy: 【必見】「撃てる敵」をあえて撃たない理由を元プロが解説【1tappy/cheeky/4rmy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=3lJBjpgiBLo",
+            "youtubeId": "3lJBjpgiBLo"
+        },
+        {
+            "id": "v_auto_Cs6absOz0Nk",
+            "title": "ぶゅりる (DetonatioN FocusMe): リロードにアプデで新武器が大量追加！【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Cs6absOz0Nk",
+            "youtubeId": "Cs6absOz0Nk"
+        },
+        {
+            "id": "v_auto_uJun4-q5RZ4",
+            "title": "こよた: 世界大会終わりに質問答えました。【フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=uJun4-q5RZ4",
+            "youtubeId": "uJun4-q5RZ4"
         }
     ]
 }
