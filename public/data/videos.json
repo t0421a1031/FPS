@@ -17633,6 +17633,106 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=PtbSkRQV7kw",
             "youtubeId": "PtbSkRQV7kw"
+        },
+        {
+            "id": "v_auto_aNwJEYcEPwk",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=aNwJEYcEPwk",
+            "youtubeId": "aNwJEYcEPwk"
+        },
+        {
+            "id": "v_auto_TuYZ3HmOV2U",
+            "title": "cheeky: 猛者勢揃いのプレマス帯、異次元の火力を誇るあの人と激突するCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=TuYZ3HmOV2U",
+            "youtubeId": "TuYZ3HmOV2U"
+        },
+        {
+            "id": "v_auto_gPz-Fl5VpHk",
+            "title": "1tappy: 【APEX】プレデターランク with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=gPz-Fl5VpHk",
+            "youtubeId": "gPz-Fl5VpHk"
+        },
+        {
+            "id": "v_auto_hTRjc4asD2Y",
+            "title": "1tappy: 【APEX】プロリーグミラー配信【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=hTRjc4asD2Y",
+            "youtubeId": "hTRjc4asD2Y"
+        },
+        {
+            "id": "v_auto_5g1kcgYPtOI",
+            "title": "1tappy: 【ALGS】大量キルするWGRとそれを抑えて総合1位を獲得するRIDDLE ZEROに興奮する1tappy【REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5g1kcgYPtOI",
+            "youtubeId": "5g1kcgYPtOI"
+        },
+        {
+            "id": "v_auto_vHmVKkZfM5o",
+            "title": "ぶゅりる (DetonatioN FocusMe): 誰も使わない武器をソロランクで使ってみた結果...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=vHmVKkZfM5o",
+            "youtubeId": "vHmVKkZfM5o"
+        },
+        {
+            "id": "v_auto_-9lE5yKp4do",
+            "title": "Rise (Riddle): boxファイト大会【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=-9lE5yKp4do",
+            "youtubeId": "-9lE5yKp4do"
+        },
+        {
+            "id": "v_auto_8DJYQPUXiOQ",
+            "title": "Rise (Riddle): リロードゼロビルド w/keiki【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=8DJYQPUXiOQ",
+            "youtubeId": "8DJYQPUXiOQ"
+        },
+        {
+            "id": "v_auto_l-4L9Rhl-EA",
+            "title": "Minipiyo: EUリロードゼロビルドキャッシュ！ざごう【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=l-4L9Rhl-EA",
+            "youtubeId": "l-4L9Rhl-EA"
+        },
+        {
+            "id": "v_auto_pZCCHtHD6LY",
+            "title": "Minipiyo: アメリカリロードゼロビルドキャッシュ！ざごう【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=pZCCHtHD6LY",
+            "youtubeId": "pZCCHtHD6LY"
         }
     ]
 }
