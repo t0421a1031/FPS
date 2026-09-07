@@ -17733,6 +17733,66 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=pZCCHtHD6LY",
             "youtubeId": "pZCCHtHD6LY"
+        },
+        {
+            "id": "v_auto_o0Vk8UKv0qI",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=o0Vk8UKv0qI",
+            "youtubeId": "o0Vk8UKv0qI"
+        },
+        {
+            "id": "v_auto_Luo7VYOOwSE",
+            "title": "cheeky: ～APEXのすべての出会いに感謝～自身最高の瞬間について考えるCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Luo7VYOOwSE",
+            "youtubeId": "Luo7VYOOwSE"
+        },
+        {
+            "id": "v_auto_nxzkDpHVEQo",
+            "title": "1tappy: 【APEX】プレデターランク with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=nxzkDpHVEQo",
+            "youtubeId": "nxzkDpHVEQo"
+        },
+        {
+            "id": "v_auto_DDh0kvF0Ajw",
+            "title": "1tappy: 【ALGS】本日もまた1位を取るE36に驚きつつも、超新星REIGAに期待を寄せる1tappy【REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=DDh0kvF0Ajw",
+            "youtubeId": "DDh0kvF0Ajw"
+        },
+        {
+            "id": "v_auto_6ea3_FP6qQY",
+            "title": "Rise (Riddle): 予選通れました【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6ea3_FP6qQY",
+            "youtubeId": "6ea3_FP6qQY"
+        },
+        {
+            "id": "v_auto_XyWDB3YKAQM",
+            "title": "Minipiyo: FNCSディビジョン1！ふーくん【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=XyWDB3YKAQM",
+            "youtubeId": "XyWDB3YKAQM"
         }
     ]
 }
