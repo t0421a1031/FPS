@@ -18563,6 +18563,66 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=xEhQRNyBJCY",
             "youtubeId": "xEhQRNyBJCY"
+        },
+        {
+            "id": "v_auto_gvuBr8artYM",
+            "title": "cheeky: 開幕ランク② w/ たぴさん、あーもー 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=gvuBr8artYM",
+            "youtubeId": "gvuBr8artYM"
+        },
+        {
+            "id": "v_auto_HueuERgqhIA",
+            "title": "1tappy: 【APEX】開幕ランク2 with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=HueuERgqhIA",
+            "youtubeId": "HueuERgqhIA"
+        },
+        {
+            "id": "v_auto_X7s3_gcnUxM",
+            "title": "ぶゅりる (DetonatioN FocusMe): 海外勢プロの使ってる最強建築技を紹介します！【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=X7s3_gcnUxM",
+            "youtubeId": "X7s3_gcnUxM"
+        },
+        {
+            "id": "v_auto_KzCT-3mx2A0",
+            "title": "こよた: \"世界一レア\"なピッケルを使ったら何人観戦つくのか!?【フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=KzCT-3mx2A0",
+            "youtubeId": "KzCT-3mx2A0"
+        },
+        {
+            "id": "v_auto_dvkKwHFMrHw",
+            "title": "まいぽり: 【神回】奇跡の大逆転！！大寝坊から始まったプロのソロ大会がやばすぎるwww【フォートナイト/Fortnite】",
+            "pro": "まいぽり",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=dvkKwHFMrHw",
+            "youtubeId": "dvkKwHFMrHw"
+        },
+        {
+            "id": "v_auto_WzqJdFe5RsQ",
+            "title": "Rise (Riddle): 温泉に行ったため猛烈に眠たいです【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=WzqJdFe5RsQ",
+            "youtubeId": "WzqJdFe5RsQ"
         }
     ]
 }
