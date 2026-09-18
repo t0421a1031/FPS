@@ -18693,6 +18693,66 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=69LZ4rhuJyM",
             "youtubeId": "69LZ4rhuJyM"
+        },
+        {
+            "id": "v_auto_f00f_xlw0HE",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=f00f_xlw0HE",
+            "youtubeId": "f00f_xlw0HE"
+        },
+        {
+            "id": "v_auto_TdB3O6DGghc",
+            "title": "cheeky: 【シーズン30SP2】もしかして今シーズン何も環境変わっていない…？【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=TdB3O6DGghc",
+            "youtubeId": "TdB3O6DGghc"
+        },
+        {
+            "id": "v_auto_5Qj6QIEdenw",
+            "title": "1tappy: 【APEX】開幕プレランク with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5Qj6QIEdenw",
+            "youtubeId": "5Qj6QIEdenw"
+        },
+        {
+            "id": "v_auto_3zWyOqYsRAY",
+            "title": "1tappy: 【Xで話題？】PADの感度設定がキーマウの操作感に影響を与えてる説を実際に検証してみた【1tappy/cheeky/izzxxv/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=3zWyOqYsRAY",
+            "youtubeId": "3zWyOqYsRAY"
+        },
+        {
+            "id": "v_auto_V1vxcCg4LsQ",
+            "title": "ぶゅりる (DetonatioN FocusMe): キングダムハーツコラボがキタ！キーブレードが強すぎるｗｗ【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=V1vxcCg4LsQ",
+            "youtubeId": "V1vxcCg4LsQ"
+        },
+        {
+            "id": "v_auto_9HhVkQhc_Fk",
+            "title": "Rise (Riddle): ソロスキン大会わら【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=9HhVkQhc_Fk",
+            "youtubeId": "9HhVkQhc_Fk"
         }
     ]
 }
