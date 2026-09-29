@@ -19533,6 +19533,66 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=EnGsZkr2dMs",
             "youtubeId": "EnGsZkr2dMs"
+        },
+        {
+            "id": "v_auto_PF5p_Bw9Dvg",
+            "title": "Peace: 【フルパ（夢）】憧れのRas&Cptと透明突撃を決めて破壊するPeace【APEX/Peace/ピース/Ras/Cpt/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=PF5p_Bw9Dvg",
+            "youtubeId": "PF5p_Bw9Dvg"
+        },
+        {
+            "id": "v_auto_fOFgSZud_jQ",
+            "title": "cheeky: CHEEKY、CRカップに出場します【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=fOFgSZud_jQ",
+            "youtubeId": "fOFgSZud_jQ"
+        },
+        {
+            "id": "v_auto_-GuGuU7CJmY",
+            "title": "cheeky: CRカップについて→22時からランク w/ あーもー、小柳ロウさん【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=-GuGuU7CJmY",
+            "youtubeId": "-GuGuU7CJmY"
+        },
+        {
+            "id": "v_auto_Is416JvxvYk",
+            "title": "1tappy: 【今すぐチェックして】今更聞けないおすすめキー配置や感度設定、ゲーム設定を教えます！【1tappy/cheeky/4rmy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Is416JvxvYk",
+            "youtubeId": "Is416JvxvYk"
+        },
+        {
+            "id": "v_auto_27LyDJSt-DQ",
+            "title": "ぶゅりる (DetonatioN FocusMe): 観戦画面チャレンジで無敵チーターがいるドッキリｗｗ【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=27LyDJSt-DQ",
+            "youtubeId": "27LyDJSt-DQ"
+        },
+        {
+            "id": "v_auto_VgwA3qM2XzM",
+            "title": "Rise (Riddle): 予選突破しました【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=VgwA3qM2XzM",
+            "youtubeId": "VgwA3qM2XzM"
         }
     ]
 }
