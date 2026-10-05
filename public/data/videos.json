@@ -20063,6 +20063,76 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=OoeyDpKXJfw",
             "youtubeId": "OoeyDpKXJfw"
+        },
+        {
+            "id": "v_auto_ekIeRFVWZ8c",
+            "title": "Peace: 【CRカップ２次会】初見R.E.P.Oでミュート状態に気付かず1人で喋り続けるPeace【Peace/ピース/じゃすぱー/ローレンイロアス/Cpt/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=ekIeRFVWZ8c",
+            "youtubeId": "ekIeRFVWZ8c"
+        },
+        {
+            "id": "v_auto_juAyuBJ6HMM",
+            "title": "cheeky: CRカップを終え、激動の大会期間を振り返るCHEEKY【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=juAyuBJ6HMM",
+            "youtubeId": "juAyuBJ6HMM"
+        },
+        {
+            "id": "v_auto_I48_dMZLrGQ",
+            "title": "cheeky: プレデターランク w/ LEO様→Peaceさん、たぴさん【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=I48_dMZLrGQ",
+            "youtubeId": "I48_dMZLrGQ"
+        },
+        {
+            "id": "v_auto_FgmO13zAkkA",
+            "title": "cheeky: CRカップ本番、レオチキングTVの集大成【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=FgmO13zAkkA",
+            "youtubeId": "FgmO13zAkkA"
+        },
+        {
+            "id": "v_auto_uVucuw01PTM",
+            "title": "1tappy: 【APEX】そして日常ランクへ with cheeky3 LEO様【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=uVucuw01PTM",
+            "youtubeId": "uVucuw01PTM"
+        },
+        {
+            "id": "v_auto_NgDE5WBSu9s",
+            "title": "1tappy: 【CRカップ本番】惜しい試合が多く、悔しい結果になったが全力で挑んだチームわんちゃん【1tappy/胡桃のあ/樋口楓/REJECT/APEX/Lykq】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=NgDE5WBSu9s",
+            "youtubeId": "NgDE5WBSu9s"
+        },
+        {
+            "id": "v_auto_KNfB2Q0zapE",
+            "title": "Rise (Riddle): いろいろする！【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=KNfB2Q0zapE",
+            "youtubeId": "KNfB2Q0zapE"
         }
     ]
 }
