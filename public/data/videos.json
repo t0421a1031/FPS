@@ -20203,6 +20203,76 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=Wacvsff1G-U",
             "youtubeId": "Wacvsff1G-U"
+        },
+        {
+            "id": "v_auto_CfYSH-LTi5U",
+            "title": "Peace: 【キル集】Peace Highlights #17【APEX/Peace/ピース/UNLIMIT】",
+            "pro": "Peace",
+            "game": "apex",
+            "tag": "キル集",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=CfYSH-LTi5U",
+            "youtubeId": "CfYSH-LTi5U"
+        },
+        {
+            "id": "v_auto_5c6KaQEgl90",
+            "title": "cheeky: CHEEKY＆1tappy、なぜか世界最強の舎弟ができる【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5c6KaQEgl90",
+            "youtubeId": "5c6KaQEgl90"
+        },
+        {
+            "id": "v_auto_uoH46z8gMJ8",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=uoH46z8gMJ8",
+            "youtubeId": "uoH46z8gMJ8"
+        },
+        {
+            "id": "v_auto_HE7R2shotuw",
+            "title": "1tappy: 【APEX】ランクしますよと with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=HE7R2shotuw",
+            "youtubeId": "HE7R2shotuw"
+        },
+        {
+            "id": "v_auto_QcaYsJDEI3w",
+            "title": "1tappy: 【必見】ラグが酷くてプレイ出来ない人へ。今すぐこれ試してください！【1tappy/cheeky/ゆかぺろ/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=QcaYsJDEI3w",
+            "youtubeId": "QcaYsJDEI3w"
+        },
+        {
+            "id": "v_auto_BxrZPpSTyfc",
+            "title": "ぶゅりる (DetonatioN FocusMe): 『建築だけの人』と『撃つだけの人』でデュオ行ったら喧嘩になった...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=BxrZPpSTyfc",
+            "youtubeId": "BxrZPpSTyfc"
+        },
+        {
+            "id": "v_auto_aAdj_XoD0z0",
+            "title": "Rise (Riddle): maufin【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=aAdj_XoD0z0",
+            "youtubeId": "aAdj_XoD0z0"
         }
     ]
 }
