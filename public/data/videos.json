@@ -20363,6 +20363,86 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=0RC9RMd7-NM",
             "youtubeId": "0RC9RMd7-NM"
+        },
+        {
+            "id": "v_auto_V0YYeBsGCS0",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=V0YYeBsGCS0",
+            "youtubeId": "V0YYeBsGCS0"
+        },
+        {
+            "id": "v_auto_sInAGl3GaRg",
+            "title": "cheeky: プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=sInAGl3GaRg",
+            "youtubeId": "sInAGl3GaRg"
+        },
+        {
+            "id": "v_auto_zyIlsc6cqDk",
+            "title": "1tappy: 【APEX】今日もプレランク with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=zyIlsc6cqDk",
+            "youtubeId": "zyIlsc6cqDk"
+        },
+        {
+            "id": "v_auto_kkZkgGKidvQ",
+            "title": "1tappy: 元プロが実戦での”被弾しづらいピーク術”と“意識していること”【1tappy/cheeky/RAS/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=kkZkgGKidvQ",
+            "youtubeId": "kkZkgGKidvQ"
+        },
+        {
+            "id": "v_auto_HZj7sX-o9kg",
+            "title": "ぶゅりる (DetonatioN FocusMe): リロードにフォートナイトメアマップがキタ！【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=HZj7sX-o9kg",
+            "youtubeId": "HZj7sX-o9kg"
+        },
+        {
+            "id": "v_auto_sFgyhDVpkQI",
+            "title": "Rise (Riddle): リロード大会決勝！【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=sFgyhDVpkQI",
+            "youtubeId": "sFgyhDVpkQI"
+        },
+        {
+            "id": "v_auto_BIy5VjNbsqA",
+            "title": "Rise (Riddle): リロード大会！【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=BIy5VjNbsqA",
+            "youtubeId": "BIy5VjNbsqA"
+        },
+        {
+            "id": "v_auto_jpCZS32Gwo0",
+            "title": "Minipiyo: 英語で中東ゼロビルドスキン大会！【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=jpCZS32Gwo0",
+            "youtubeId": "jpCZS32Gwo0"
         }
     ]
 }
