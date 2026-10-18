@@ -21083,6 +21083,76 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=ztDTAJaPeyE",
             "youtubeId": "ztDTAJaPeyE"
+        },
+        {
+            "id": "v_auto_wyvjP0TV1rE",
+            "title": "cheeky: プレデターランク【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=wyvjP0TV1rE",
+            "youtubeId": "wyvjP0TV1rE"
+        },
+        {
+            "id": "v_auto_KhSoLZZ9GU0",
+            "title": "cheeky: 【子パンダ時代】出会った頃の印象について語るCHEEKYたち【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=KhSoLZZ9GU0",
+            "youtubeId": "KhSoLZZ9GU0"
+        },
+        {
+            "id": "v_auto_yjGJzXDI20Y",
+            "title": "1tappy: 【APEX】毎日ランクやりますよと with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=yjGJzXDI20Y",
+            "youtubeId": "yjGJzXDI20Y"
+        },
+        {
+            "id": "v_auto_lwvia95ldBo",
+            "title": "ぶゅりる (DetonatioN FocusMe): ぶゅプロ参加者も多数参加する『ソロFNCS』で最強プロ達のエイムがヤバすぎた…。【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=lwvia95ldBo",
+            "youtubeId": "lwvia95ldBo"
+        },
+        {
+            "id": "v_auto_rTltW-TZHRU",
+            "title": "Rise (Riddle): グラファ確定スキン大会【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=rTltW-TZHRU",
+            "youtubeId": "rTltW-TZHRU"
+        },
+        {
+            "id": "v_auto_IeIBqmF5DMc",
+            "title": "Minipiyo: 中東リロードデュオキャッシュ！【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=IeIBqmF5DMc",
+            "youtubeId": "IeIBqmF5DMc"
+        },
+        {
+            "id": "v_auto_NmDHg6jJakE",
+            "title": "Minipiyo: リロードデュオキャッシュ！【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=NmDHg6jJakE",
+            "youtubeId": "NmDHg6jJakE"
         }
     ]
 }
