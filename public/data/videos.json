@@ -21253,6 +21253,86 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=wKnpVuufQFA",
             "youtubeId": "wKnpVuufQFA"
+        },
+        {
+            "id": "v_auto_L1ENoPNaWxM",
+            "title": "cheeky: 一般パンダのCHEEKYさん、チーターと真正面から撃ち合うも勝ってしまう【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=L1ENoPNaWxM",
+            "youtubeId": "L1ENoPNaWxM"
+        },
+        {
+            "id": "v_auto_6O23IhSLhCM",
+            "title": "cheeky: プレデターランク【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6O23IhSLhCM",
+            "youtubeId": "6O23IhSLhCM"
+        },
+        {
+            "id": "v_auto_8b8UnjCZpLU",
+            "title": "1tappy: 【APEX】エブリデイ毎日ランク with cheeky3 4rmy3【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=8b8UnjCZpLU",
+            "youtubeId": "8b8UnjCZpLU"
+        },
+        {
+            "id": "v_auto_wEZta9AJI4o",
+            "title": "1tappy: 【迷ってる人見て‼︎】元プロがランクで”オーバーフロー”を最優先する理由は？【1tappy/cheeky/4rmy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=wEZta9AJI4o",
+            "youtubeId": "wEZta9AJI4o"
+        },
+        {
+            "id": "v_auto_zarlHNChLZg",
+            "title": "ぶゅりる (DetonatioN FocusMe): 最低ランク『ブロンズⅠ』から『アンリアル』まで何時間でいけるのか!?【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=zarlHNChLZg",
+            "youtubeId": "zarlHNChLZg"
+        },
+        {
+            "id": "v_auto_4yF4Yr3M8_o",
+            "title": "Rise (Riddle): 練習するぞー！【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=4yF4Yr3M8_o",
+            "youtubeId": "4yF4Yr3M8_o"
+        },
+        {
+            "id": "v_auto_tH1agX2vVWA",
+            "title": "Rise (Riddle): リロードスキン大会 w/ちゃちゃさん【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=tH1agX2vVWA",
+            "youtubeId": "tH1agX2vVWA"
+        },
+        {
+            "id": "v_auto_1GK6911A9h0",
+            "title": "Minipiyo: デュオスキン大会！むきぱ【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=1GK6911A9h0",
+            "youtubeId": "1GK6911A9h0"
         }
     ]
 }
