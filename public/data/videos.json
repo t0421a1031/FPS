@@ -21623,6 +21623,46 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=g7hwOBZ1eiY",
             "youtubeId": "g7hwOBZ1eiY"
+        },
+        {
+            "id": "v_auto_cGbZVTxP7b0",
+            "title": "cheeky: のんびり雑談後、プレデターランク 【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=cGbZVTxP7b0",
+            "youtubeId": "cGbZVTxP7b0"
+        },
+        {
+            "id": "v_auto_yaAaaz3DlJ0",
+            "title": "cheeky: 【トロールキング】うっかり味方を攻撃しちゃったCHEEKYくん、ブチ切れられる【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=yaAaaz3DlJ0",
+            "youtubeId": "yaAaaz3DlJ0"
+        },
+        {
+            "id": "v_auto_BmzY6y397IA",
+            "title": "1tappy: 【APEX】早めのソロランク…そのあとフルパ【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=BmzY6y397IA",
+            "youtubeId": "BmzY6y397IA"
+        },
+        {
+            "id": "v_auto_p80NwjBNQ7k",
+            "title": "ぶゅりる (DetonatioN FocusMe): zagouから突然の招待が...【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=p80NwjBNQ7k",
+            "youtubeId": "p80NwjBNQ7k"
         }
     ]
 }
