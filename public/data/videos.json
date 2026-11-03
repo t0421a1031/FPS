@@ -22313,6 +22313,56 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=LADYTBtIPrc",
             "youtubeId": "LADYTBtIPrc"
+        },
+        {
+            "id": "v_auto_yBkbSjX4raQ",
+            "title": "cheeky: 開幕ランク w/ たぴさん、Rasさん【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=yBkbSjX4raQ",
+            "youtubeId": "yBkbSjX4raQ"
+        },
+        {
+            "id": "v_auto_DwoCKrz0UWM",
+            "title": "1tappy: 【APEX】開幕ランクいくぞー【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=DwoCKrz0UWM",
+            "youtubeId": "DwoCKrz0UWM"
+        },
+        {
+            "id": "v_auto_nEBS9S99yk4",
+            "title": "1tappy: 【第1弾】ファイト中に”何をすればいいか分からない”VTuberを元プロがコーチング【1tappy/英リサ/CPT/cheeky/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=nEBS9S99yk4",
+            "youtubeId": "nEBS9S99yk4"
+        },
+        {
+            "id": "v_auto_g1KGp_h50Lw",
+            "title": "ぶゅりる (DetonatioN FocusMe): リロードアプデで新武器が追加！【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=g1KGp_h50Lw",
+            "youtubeId": "g1KGp_h50Lw"
+        },
+        {
+            "id": "v_auto_JSzTEyG47cA",
+            "title": "Rise (Riddle): 今日は手元配信で【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "デバイス紹介",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=JSzTEyG47cA",
+            "youtubeId": "JSzTEyG47cA"
         }
     ]
 }
