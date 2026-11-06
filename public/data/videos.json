@@ -22523,6 +22523,96 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=3ytGknEJols",
             "youtubeId": "3ytGknEJols"
+        },
+        {
+            "id": "v_auto_DMoEgHpW7Eo",
+            "title": "cheeky: 開幕プレデターランク【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=DMoEgHpW7Eo",
+            "youtubeId": "DMoEgHpW7Eo"
+        },
+        {
+            "id": "v_auto_HvudApVWvag",
+            "title": "1tappy: 【APEX】開幕ランクいくぞー４！【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=HvudApVWvag",
+            "youtubeId": "HvudApVWvag"
+        },
+        {
+            "id": "v_auto_PfKc_8b69ws",
+            "title": "1tappy: 【APEX】開幕ランクいくぞー４！【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=PfKc_8b69ws",
+            "youtubeId": "PfKc_8b69ws"
+        },
+        {
+            "id": "v_auto_Akl0wCS8lAk",
+            "title": "1tappy: RASとチーキーに裏切られる1tappy【APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=Akl0wCS8lAk",
+            "youtubeId": "Akl0wCS8lAk"
+        },
+        {
+            "id": "v_auto_l2C9PGU1JL0",
+            "title": "ぶゅりる (DetonatioN FocusMe): 大バズしている元相方『ていらー』に色々聞いてみた！【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=l2C9PGU1JL0",
+            "youtubeId": "l2C9PGU1JL0"
+        },
+        {
+            "id": "v_auto_5_q_7vHttj8",
+            "title": "こよた: 明日のトリオメンバーのランク上げ　【Fortnite/フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=5_q_7vHttj8",
+            "youtubeId": "5_q_7vHttj8"
+        },
+        {
+            "id": "v_auto_6DecVi9bRcQ",
+            "title": "こよた: 明日のトリオメンバーのランク上げ　【Fortnite/フォートナイト】",
+            "pro": "こよた",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=6DecVi9bRcQ",
+            "youtubeId": "6DecVi9bRcQ"
+        },
+        {
+            "id": "v_auto_JrHBXqgPU84",
+            "title": "Minipiyo: ゾロスキン大会！りーぱー【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=JrHBXqgPU84",
+            "youtubeId": "JrHBXqgPU84"
+        },
+        {
+            "id": "v_auto_U_Er_FCfddU",
+            "title": "Minipiyo: 中東ゼロビルドゾロスキン大会！ふーくん【フォートナイト/FORTNITE】",
+            "pro": "Minipiyo",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=U_Er_FCfddU",
+            "youtubeId": "U_Er_FCfddU"
         }
     ]
 }
