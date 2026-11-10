@@ -22883,6 +22883,66 @@
             "platform": "youtube",
             "url": "https://www.youtube.com/watch?v=OZ7UtzhLxfY",
             "youtubeId": "OZ7UtzhLxfY"
+        },
+        {
+            "id": "v_auto_CRMZMjcufuM",
+            "title": "cheeky: 【シーズン31】\"プレマス帯使用率1％のレジェンド\"が強すぎて存在を隠そうとするCHEEKYたち【APEX】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=CRMZMjcufuM",
+            "youtubeId": "CRMZMjcufuM"
+        },
+        {
+            "id": "v_auto_otYtpv99XeE",
+            "title": "cheeky: プレデターランク【Apex Legends】",
+            "pro": "cheeky",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=otYtpv99XeE",
+            "youtubeId": "otYtpv99XeE"
+        },
+        {
+            "id": "v_auto_S2D3VnThFq4",
+            "title": "1tappy: 【APEX】開幕プレランク盛るぞー【エーペックスレジェンズ】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=S2D3VnThFq4",
+            "youtubeId": "S2D3VnThFq4"
+        },
+        {
+            "id": "v_auto_BTvU0SeeRfY",
+            "title": "1tappy: 【上級者向け】強ポジを取った後の\"攻めの立ち回り\"を元プロが解説【1tappy/cheeky/4rmy/REJECT/APEX】",
+            "pro": "1tappy",
+            "game": "apex",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=BTvU0SeeRfY",
+            "youtubeId": "BTvU0SeeRfY"
+        },
+        {
+            "id": "v_auto_cCur9296T40",
+            "title": "ぶゅりる (DetonatioN FocusMe): おじさんトリオで大会出てみた！ｗ【フォートナイト/Fortnite】",
+            "pro": "ぶゅりる (DetonatioN FocusMe)",
+            "game": "fortnite",
+            "tag": "大会",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=cCur9296T40",
+            "youtubeId": "cCur9296T40"
+        },
+        {
+            "id": "v_auto_qn5kt8UmlpQ",
+            "title": "Rise (Riddle): 体がだるすぎるー！！！！！！【フォートナイト/Fortnite】",
+            "pro": "Rise (Riddle)",
+            "game": "fortnite",
+            "tag": "解説",
+            "platform": "youtube",
+            "url": "https://www.youtube.com/watch?v=qn5kt8UmlpQ",
+            "youtubeId": "qn5kt8UmlpQ"
         }
     ]
 }
